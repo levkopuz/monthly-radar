@@ -5,7 +5,7 @@
     "month": "Eylül 2026",
     "updated": "21 Eylül 2026",
     "checked_date": "2026-09-21",
-    "country_count": 18,
+    "country_count": 19,
     "signal_count": 10,
     "method": "10 sabit sinyal ailesi; ülkeye özgü güncel gelişme, etkisi ve yön göstergesi.",
     "potential_country_count": 5
@@ -2472,6 +2472,143 @@
             "name": "CBS",
             "url": "https://www.cbs.nl/en-gb/figures/detail/83474ENG?q=immigration+and+emigration",
             "date": "2026-08-31"
+          },
+          "checked_date": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "romania",
+      "name": "Romanya",
+      "flag": "🇷🇴",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Büyüme ve Ekonomi",
+          "development": "Romanya ekonomisi 2026'nın ikinci çeyreğinde çeyreklik bazda yatay kaldı, yıllık bazda %0,4 daraldı ve yılın ilk yarısında GSYH %0,8 geriledi.",
+          "impact": "Zayıf büyüme ve iç talepteki baskı, kısa vadede ekonomik dayanıklılığı sınırlıyor.",
+          "status": "negative",
+          "source": {
+            "name": "AGERPRES / INS",
+            "url": "https://agerpres.ro/english/2026/08/14/romania-s-gdp-remains-unchanged-in-q2-of-2026-and-falls-by-0-4-compared-with-q2-of-2025--1584826",
+            "date": "2026-08-14"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Dışa Bağımlılık",
+          "development": "Neptun Deep Karadeniz doğal gaz projesinde boru hattı inşası başladı ve 2027'de üretimin başlamasıyla ülkenin gaz üretiminin yaklaşık iki katına çıkması bekleniyor.",
+          "impact": "Yerli gaz kapasitesinin artması enerji ithalatına bağımlılığı ve dış arz şoklarına maruziyeti azaltabilir.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/pipeline-work-starts-romanias-biggest-black-sea-offshore-gas-project-2026-05-04/",
+            "date": "2026-05-04"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "İhracat ve Dış Ticaret",
+          "development": "Ocak-temmuz döneminde ihracat %3,1 ve ithalat %2,0 artarken ticaret açığı yıllık %1,1 azalarak 19,28 milyar euroya geriledi.",
+          "impact": "İhracatın daha hızlı büyümesi olumlu olsa da yüksek ticaret açığı dış denge üzerinde baskı yaratmaya devam ediyor.",
+          "status": "neutral",
+          "source": {
+            "name": "AGERPRES / INS",
+            "url": "https://agerpres.ro/economic/2026/09/09/deficitul-comercial-a-scazut-cu-1-1-la-19-28-miliarde-de-euro-in-primele-sapte-luni--1591871",
+            "date": "2026-09-09"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektörel Dönüşüm",
+          "development": "Dacia ve Ford ağustos ayında elektrik arzı sıkıntısı nedeniyle üretime geçici ara vererek ülkenin ihracat odaklı otomotiv üretimindeki enerji altyapısı riskini görünür hale getirdi.",
+          "impact": "Sanayi dönüşümünün hızlanabilmesi için üretim kapasitesinin enerji şebekesi ve arz güvenliğiyle birlikte güçlenmesi gerekiyor.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/romanian-carmakers-dacia-ford-stop-production-until-aug-19-power-crisis-looms-pm-2026-08-03/",
+            "date": "2026-08-03"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Yatırım ve Sermaye",
+          "development": "Romanya'ya doğrudan yabancı yatırımlar ocak-temmuz 2026'da 1,13 milyar euroya gerilerken aynı dönem 2025'te 4,92 milyar euro seviyesindeydi.",
+          "impact": "Sermaye girişindeki sert düşüş yeni kapasite yatırımları ve büyümenin finansmanı açısından zayıf bir sinyal veriyor.",
+          "status": "negative",
+          "source": {
+            "name": "AGERPRES / BNR",
+            "url": "https://agerpres.ro/economic/2026/09/15/contul-curent-al-balantei-de-plati-a-inregistrat-un-deficit-in-crestere-la-16-29-miliarde-euro-in-pr--1593637",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Kamu Maliyesi ve Altyapı",
+          "development": "Avrupa Komisyonu 2026 bütçe açığını GSYH'nin %6,2'si olarak öngörürken kamu yatırımlarının GSYH'nin yaklaşık %7'sine yükselmesini bekliyor.",
+          "impact": "Yüksek kamu yatırımı altyapıyı desteklerken büyük bütçe açığı mali hareket alanını sınırlıyor.",
+          "status": "neutral",
+          "source": {
+            "name": "European Commission",
+            "url": "https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages-including-country-reports/romania/economic-forecast-romania_en",
+            "date": "2026-05-21"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Yönetim ve Uygulama Gücü",
+          "development": "Avrupa Komisyonu haziranda aşırı açık düzeltmesinde etkili adımlar atıldığını belirtirken kamu yönetiminin güçlendirilmesini ve yatırımların uygulanma kapasitesinin artırılmasını öncelik olarak korudu.",
+          "impact": "Reform yönü olumlu olsa da uygulama kapasitesindeki yapısal açıklar dönüşüm hızını sınırlayabilir.",
+          "status": "neutral",
+          "source": {
+            "name": "European Commission",
+            "url": "https://reforms-investments.ec.europa.eu/european-semester-your-country/european-semester-documents-romania_en",
+            "date": "2026-06-03"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Nüfus ve İş Gücü",
+          "development": "Eurostat'a göre işsizlik temmuzda %6,4 olurken genç işsizliği için son mevcut oran haziranda %30,8 seviyesinde kaldı.",
+          "impact": "Genç işsizliğinin yüksek seyretmesi iş gücü eşleşmesi ve uzun vadeli yetenek havuzu açısından baskı yaratıyor.",
+          "status": "negative",
+          "source": {
+            "name": "Eurostat",
+            "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-01092026-bp",
+            "date": "2026-09-01"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Yaşam Maliyeti ve Konut",
+          "development": "Romanya'da yıllık enflasyon ağustosta %6,3 ile Avrupa Birliği'ndeki en yüksek oran olarak ölçüldü.",
+          "impact": "Yüksek fiyat artışları hane bütçesini ve ülkeye taşınmayı düşünenler için günlük yaşam maliyetini yukarı çekiyor.",
+          "status": "negative",
+          "source": {
+            "name": "Eurostat",
+            "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-17092026-ap",
+            "date": "2026-09-17"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
+          "development": "Romanya ağustosta yabancı çalışanların işe alım süreçlerini tek platformda dijitalleştiren WorkinRomania sistemini devreye aldı ve yüksek nitelikli çalışanlar için D/AM1 kanalını kullanıma sundu.",
+          "impact": "Daha dijital ve merkezi süreçler uluslararası yetenek erişimini kolaylaştırarak iş gücü açığını kapatma kapasitesini artırabilir.",
+          "status": "positive",
+          "source": {
+            "name": "Romania Ministry of Internal Affairs",
+            "url": "https://www.mai.gov.ro/romania-digitalizeaza-angajarea-lucratorilor-straini-a-fost-lansata-platforma-unica-workinromania-gov-ro/",
+            "date": "2026-08-06"
           },
           "checked_date": "2026-09-21"
         }
