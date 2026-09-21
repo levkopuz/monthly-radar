@@ -9,7 +9,7 @@
   <meta property="og:site_name" content="Country Radar">
   <meta property="og:url" content="https://monthly-radar.vercel.app/">
   <meta property="og:title" content="Country Radar">
-  <meta property="og:description" content="19 ülkeyi 10 ekonomik, kurumsal ve taşınma sinyali üzerinden aylık takip eden erken uyarı radarı.">
+  <meta property="og:description" content="20 ülkeyi 10 ekonomik, kurumsal ve taşınma sinyali üzerinden aylık takip eden erken uyarı radarı.">
   <meta property="og:image" content="https://monthly-radar.vercel.app/og-image.png?v=20260921">
   <meta property="og:image:secure_url" content="https://monthly-radar.vercel.app/og-image.png?v=20260921">
   <meta property="og:image:type" content="image/png">
@@ -18,7 +18,7 @@
   <meta property="og:image:alt" content="Country Radar aylık ülke sinyalleri önizleme görseli">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Country Radar">
-  <meta name="twitter:description" content="19 ülkeyi 10 ekonomik, kurumsal ve taşınma sinyali üzerinden aylık takip eden erken uyarı radarı.">
+  <meta name="twitter:description" content="20 ülkeyi 10 ekonomik, kurumsal ve taşınma sinyali üzerinden aylık takip eden erken uyarı radarı.">
   <meta name="twitter:image" content="https://monthly-radar.vercel.app/og-image.png?v=20260921">
   <title>Country Radar</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -595,7 +595,7 @@
       <p>Ülkelerde ekonomi, dışa bağımlılık, yönetim gücü ve yaşam koşullarının nasıl değiştiğini 10 temel göstergeyle her ay takip eden bir erken uyarı ekranı. Her ayın 15’inde otomatik güncellenir.</p>
     </div>
     <div class="meta">
-      <span class="pill" id="countryCount">19 takip edilen ülke</span>
+      <span class="pill" id="countryCount">20 takip edilen ülke</span>
       <span class="pill">10 sinyal</span>
     </div>
   </header>
@@ -733,7 +733,7 @@ function basliklariGuncelle(){
   const title=document.getElementById("overviewTitle"),text=document.getElementById("overviewText");
   if(mod==="potential"){
     title.textContent="Potansiyel Radar";
-    text.textContent="Bu ay ana listedeki 19 ülkenin dışında erken gelişim sinyallerinin kümelendiği 5 ülke. Liste her ay yeniden seçilir.";
+    text.textContent="Bu ay ana listedeki 20 ülkenin dışında erken gelişim sinyallerinin kümelendiği 5 ülke. Liste her ay yeniden seçilir.";
     document.getElementById("countryCount").textContent=`${(veri.potential_countries||[]).length} potansiyel ülke`;
   }else{
     title.textContent=mod==="relocation"?"Taşınma Genel Bakışı":"Küresel Genel Bakış";
