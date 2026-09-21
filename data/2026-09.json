@@ -5,7 +5,7 @@
     "month": "Eylül 2026",
     "updated": "21 Eylül 2026",
     "checked_date": "2026-09-21",
-    "country_count": 19,
+    "country_count": 20,
     "signal_count": 10,
     "method": "10 sabit sinyal ailesi; ülkeye özgü güncel gelişme, etkisi ve yön göstergesi.",
     "potential_country_count": 5
@@ -2609,6 +2609,143 @@
             "name": "Romania Ministry of Internal Affairs",
             "url": "https://www.mai.gov.ro/romania-digitalizeaza-angajarea-lucratorilor-straini-a-fost-lansata-platforma-unica-workinromania-gov-ro/",
             "date": "2026-08-06"
+          },
+          "checked_date": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "id": "canada",
+      "name": "Kanada",
+      "flag": "🇨🇦",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Büyüme ve Ekonomi",
+          "development": "Kanada ekonomisi 2026'nın ikinci çeyreğinde reel olarak %0,8 büyüdü; artışta ihracat, hane harcamaları ve işletme yatırımları etkili oldu.",
+          "impact": "Büyümenin yeniden hızlanması ekonomik dayanıklılığı destekliyor.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Canada",
+            "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260828/dq260828a-eng.htm",
+            "date": "2026-08-28"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Dışa Bağımlılık",
+          "development": "Temmuzda Kanada'nın ABD'ye mal ihracatı %6,6 düşse de ABD yaklaşık 50,5 milyar Kanada dolarıyla toplam mal ihracatının yaklaşık üçte ikisini oluşturdu.",
+          "impact": "ABD pazarına yüksek bağımlılık, ticaret gerilimlerinin Kanada büyümesine ve sanayisine hızlı yansımasına neden olabilir.",
+          "status": "negative",
+          "source": {
+            "name": "Statistics Canada",
+            "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260903/dq260903a-eng.htm",
+            "date": "2026-09-03"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "İhracat ve Dış Ticaret",
+          "development": "Temmuzda mal ihracatı %2,3 gerilerken ithalat %2,2 arttı ve mal ticaret fazlası 4,2 milyar Kanada dolarından 769 milyon dolara daraldı; ABD dışı ihracat ise rekor 25,6 milyar dolara çıktı.",
+          "impact": "Toplam dış ticaret ivmesi zayıflasa da pazar çeşitlenmesindeki ilerleme ABD kaynaklı riski kısmen dengeliyor.",
+          "status": "neutral",
+          "source": {
+            "name": "Statistics Canada",
+            "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260903/dq260903a-eng.htm",
+            "date": "2026-09-03"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektörel Dönüşüm",
+          "development": "Bell'in Saskatchewan'daki AI altyapı yatırımı 1,2 GW kapasiteye ve 52,5 milyar Kanada dolarına kadar toplam sermaye yatırımına ulaşabilecek şekilde genişletiliyor.",
+          "impact": "Büyük ölçekli yapay zeka ve veri merkezi yatırımları Kanada'nın enerji, hesaplama ve dijital altyapı ekseninde yeni bir stratejik sektör kapasitesi oluşturuyor.",
+          "status": "positive",
+          "source": {
+            "name": "Innovation, Science and Economic Development Canada",
+            "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/09/government-of-canada-welcomes-major-new-investment-in-sovereign-ai-infrastructure-in-saskatchewan.html",
+            "date": "2026-09-14"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Yatırım ve Sermaye",
+          "development": "Kanada'ya doğrudan yabancı yatırım ikinci çeyrekte 18,8 milyar Kanada dolarından 25,9 milyar dolara yükseldi ve girişlerin yarısından fazlası imalat ile finans-sigorta sektörlerine yöneldi.",
+          "impact": "Artan doğrudan yatırım, yeni kapasite ve üretkenlik yatırımları için sermaye tabanını güçlendiriyor.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Canada",
+            "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260827/dq260827a-eng.htm",
+            "date": "2026-08-27"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Kamu Maliyesi ve Altyapı",
+          "development": "Build Communities Strong Fund 2026-27'den başlayarak 10 yılda 51 milyar Kanada doları yeni kamu altyapı yatırımı sağlıyor.",
+          "impact": "Uzun vadeli altyapı finansmanı konut, ulaşım ve temel hizmet kapasitesini artırma potansiyeli taşıyor.",
+          "status": "positive",
+          "source": {
+            "name": "Housing, Infrastructure and Communities Canada",
+            "url": "https://housing-infrastructure.canada.ca/bcsf-fbcf/index-eng.html",
+            "date": null
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Yönetim ve Uygulama Gücü",
+          "development": "Major Projects Office kapsamında duyurulan 15 proje 125 milyar Kanada dolarının üzerinde sermaye yatırımını temsil ediyor ve federal inceleme süreçlerinin hızlandırılması hedefleniyor.",
+          "impact": "Proje onaylarını merkezileştiren yapı uygulama hızını artırabilir ancak etkinin kalıcı olması fiili teslimat performansına bağlı olacak.",
+          "status": "neutral",
+          "source": {
+            "name": "Department of Finance Canada",
+            "url": "https://budget.canada.ca/update-miseajour/2026/report-rapport/chap1-en.html",
+            "date": "2026-05-19"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Nüfus ve İş Gücü",
+          "development": "Ağustosta istihdam aylık %0,2 azalırken işsizlik oranı %6,4 seviyesinde kaldı.",
+          "impact": "İstihdamdaki zayıflama iş gücü piyasasının büyümeyi destekleme kapasitesinin sınırlı kaldığını gösteriyor.",
+          "status": "negative",
+          "source": {
+            "name": "Statistics Canada",
+            "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260904/dq260904a-eng.htm",
+            "date": "2026-09-04"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Yaşam Maliyeti ve Konut",
+          "development": "Ağustosta yıllık enflasyon %3,0 olurken kiralar ülke genelinde %2,8 arttı ve market fiyatları 2021'e göre %29 daha yüksek kaldı.",
+          "impact": "Fiyat ve kira baskısı hane bütçelerini ve Kanada'ya taşınmanın toplam yaşam maliyetini yüksek tutuyor.",
+          "status": "negative",
+          "source": {
+            "name": "Statistics Canada",
+            "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
+            "date": "2026-09-14"
+          },
+          "checked_date": "2026-09-21"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
+          "development": "2026-2028 göç planı kalıcı oturum hedefini yılda 380 binde tutarken 2026 geçici oturum giriş hedefini 385 bine indiriyor ve ekonomik göçün payını artırıyor.",
+          "impact": "Kanada nitelikli yetenek çekmeye devam ederken öğrenci ve geçici çalışan kanallarında daha sıkı bir kapasite yönetimine geçiyor.",
+          "status": "neutral",
+          "source": {
+            "name": "Immigration, Refugees and Citizenship Canada",
+            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/corporate-initiatives/levels/supplementary-immigration-levels-2026-2028.html",
+            "date": "2025-11-04"
           },
           "checked_date": "2026-09-21"
         }
