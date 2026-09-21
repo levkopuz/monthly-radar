@@ -262,6 +262,13 @@
     }
     .reason.show{display:block}.reason strong{font-weight:700;color:var(--ink)}
     .signal-table{position:relative;z-index:2;display:grid;gap:0;border-top:1px solid var(--line)}
+    .signal-dots{display:none}
+    .signal-dot{
+      width:6px;height:6px;border-radius:50%;
+      background:#c9c3ba;
+      transition:background .18s ease,transform .18s ease;
+    }
+    .signal-dot.active{background:var(--ink);transform:scale(1.35)}
     .signal-row{
       display:grid;
       grid-template-columns:minmax(170px,.85fr) minmax(280px,1.55fr) minmax(280px,1.45fr) 150px;
@@ -386,6 +393,13 @@
         -webkit-overflow-scrolling:touch;
       }
       .signal-table::-webkit-scrollbar{display:none}
+      .signal-dots{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:7px;
+        margin:2px 0 6px;
+      }
       .signal-row{
         flex:0 0 min(620px,78vw);
         grid-template-columns:1fr;
@@ -504,6 +518,13 @@
         -webkit-overflow-scrolling:touch;
       }
       .signal-table::-webkit-scrollbar{display:none}
+      .signal-dots{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:7px;
+        margin:2px 0 6px;
+      }
       .signal-row{
         flex:0 0 calc(100vw - 64px);
         grid-template-columns:1fr;
@@ -664,6 +685,7 @@
     </div>
     <div id="reason" class="reason"></div>
     <div id="signalTable" class="signal-table"><div class="loading">Radar verisi yükleniyor…</div></div>
+    <div id="signalDots" class="signal-dots" aria-hidden="true"></div>
 
     <div class="trend-section">
       <div class="trend-title">
@@ -766,6 +788,28 @@ function ulkeleriCiz(){
     root.appendChild(b);
   });
 }
+function sinyalNoktalariKur(){
+  const slider=document.getElementById("signalTable");
+  const dotsRoot=document.getElementById("signalDots");
+  const cards=[...slider.querySelectorAll(".signal-row")];
+  dotsRoot.innerHTML=cards.map((_,i)=>`<span class="signal-dot${i===0?" active":""}"></span>`).join("");
+  slider.scrollLeft=0;
+  let frame=null;
+  slider.onscroll=()=>{
+    if(frame)cancelAnimationFrame(frame);
+    frame=requestAnimationFrame(()=>{
+      const rootRect=slider.getBoundingClientRect();
+      const center=rootRect.left+rootRect.width/2;
+      let active=0,min=Infinity;
+      cards.forEach((card,i)=>{
+        const r=card.getBoundingClientRect();
+        const distance=Math.abs((r.left+r.width/2)-center);
+        if(distance<min){min=distance;active=i;}
+      });
+      [...dotsRoot.children].forEach((dot,i)=>dot.classList.toggle("active",i===active));
+    });
+  };
+}
 function detayiCiz(){
   const list=ayUlkeListesi(veri),c=list.find(x=>x.id===seciliUlke)||list[0];
   if(!c){
@@ -798,6 +842,7 @@ function detayiCiz(){
         ${degisimMetni(c.id,i)?`<span class="change">${degisimMetni(c.id,i)}</span>`:""}
       </div>
     </article>`).join("");
+  sinyalNoktalariKur();
   trendCiz(c);
 }
 async function tumArsiviYukle(){
