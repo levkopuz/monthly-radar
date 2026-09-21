@@ -18,7 +18,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "İş hizmetleri ve imalat ihracatında toparlanma görülürken tüketim ve inşaat zayıf kalıyor.",
           "impact": "Büyümenin birkaç sektöre yoğunlaşması toparlanmanın kırılgan kalmasına neden oluyor.",
           "status": "neutral",
@@ -31,7 +31,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Ağustos enflasyonu enerji ve akaryakıt maliyetleriyle %3,1'e yükseldi.",
           "impact": "Küresel enerji şokları hane bütçesi ve para politikası üzerinde yeniden baskı yaratıyor.",
           "status": "negative",
@@ -44,7 +44,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Mal ihracatı iyileşirken hizmet ihracatı normalin altında ve şirketler ABD tarifeleri ile Çin rekabetini risk olarak görüyor.",
           "impact": "Dış talep destek sağlıyor ancak ticaret rejimindeki değişimler ihracat modelinin riskini artırıyor.",
           "status": "neutral",
@@ -57,7 +57,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Şirket yatırımları otomasyon, AI, veri merkezi, enerji ve savunma altyapısına kayıyor.",
           "impact": "Sermayenin yeni teknoloji ve altyapıya yönelmesi ekonomik adaptasyon kapasitesini artırıyor.",
           "status": "positive",
@@ -70,7 +70,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "Yatırım niyetleri düşük bir tabandan hafif pozitife dönerken borçlanma maliyetleri hâlâ sınırlayıcı.",
           "impact": "Sermaye harcamalarının yeniden başlaması olumlu fakat henüz güçlü bir yatırım döngüsü oluşmuş değil.",
           "status": "neutral",
@@ -83,7 +83,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Hükümet altyapı projelerinin onayını kolaylaştırmak için uzun vadeli proje değerlendirme kurallarını gevşetti.",
           "impact": "Daha fazla altyapı projesinin ekonomik olarak uygulanabilir hale gelmesi kapasiteyi artırabilir.",
           "status": "positive",
@@ -96,7 +96,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "Planlama ve regülasyon kısıtları büyük altyapı ve inşaat projelerinin teslimini zorlaştırıyor.",
           "impact": "Sermaye mevcut olsa bile uygulama hızının düşük kalması dönüşümü geciktirebilir.",
           "status": "negative",
@@ -109,7 +109,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "İşe alım güçlükleri genel olarak azalsa da teknik ve uzman rollerde açıklar devam ediyor.",
           "impact": "İş gücü piyasasında genel gevşeme kısa vadede rahatlama sağlarken stratejik yetenek açığı sürüyor.",
           "status": "neutral",
@@ -122,7 +122,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Ortalama özel kira Ağustos'ta yıllık %3,8 artarak £1.400'e, Londra ortalaması £2.332'ye çıktı.",
           "impact": "Konut maliyetlerinin gelirler üzerindeki baskısı relocation cazibesini zayıflatıyor.",
           "status": "negative",
@@ -135,7 +135,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Work visa sayısı son yılda %18, Worker kategorisi ise %30 azaldı ve başvurulardaki düşüş politika değişikliklerinin ardından devam ediyor.",
           "impact": "Uluslararası nitelikli çalışan havuzunun daralması uzun vadeli yetenek erişimini zorlaştırabilir.",
           "status": "negative",
@@ -155,7 +155,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Uluslararası turist harcamaları Temmuz'da yıllık %10,9 artarak €18,2 milyara ulaştı.",
           "impact": "Hizmet ve turizm motorunun güçlü kalması ekonomik aktiviteyi destekliyor.",
           "status": "positive",
@@ -168,7 +168,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Ağustos ulusal enflasyonu %4,3'e, AB uyumlu enflasyon ise %4,6'ya çıktı.",
           "impact": "Enerji ve dış fiyat şoklarının yeniden yükselmesi reel gelir ve tüketimi baskılayabilir.",
           "status": "negative",
@@ -181,7 +181,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "İlk yedi ayda yabancı turist harcamaları yıllık %7,8 artarak €82 milyarı geçti.",
           "impact": "Güçlü uluslararası talep hizmet ihracatı ve istihdamı desteklemeye devam ediyor.",
           "status": "positive",
@@ -194,7 +194,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "İspanya elektrik şebekesi için 2030'a kadar planlanan yatırımı %30 artırarak €17 milyarın üzerine çıkardı.",
           "impact": "Elektrifikasyon ve yenilenebilir enerji kapasitesinin ölçeklenmesi enerji dayanıklılığını artırıyor.",
           "status": "positive",
@@ -207,7 +207,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "Hükümet yaklaşık €13 milyarlık havalimanı ve €1,2 milyarın üzerinde araştırma yatırımı açıkladı.",
           "impact": "Büyük ölçekli ulaştırma ve bilim yatırımları gelecekteki üretkenlik kapasitesini destekliyor.",
           "status": "positive",
@@ -220,7 +220,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "2027–2031 havalimanı yatırım programı yaklaşık €13 milyarlık yeni kapasite oluşturacak.",
           "impact": "Turizm ve uluslararası bağlantı altyapısının büyütülmesi mevcut ekonomik motoru güçlendiriyor.",
           "status": "positive",
@@ -233,7 +233,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "AB, İspanya'nın altıncı NextGenerationEU ödemesini kısmen onaylarken bazı hedeflerin değerlendirmesi sürüyor.",
           "impact": "Fonların büyük bölümü ilerlese de kalan kilometre taşları uygulama kapasitesinin izlenmesini gerektiriyor.",
           "status": "neutral",
@@ -246,7 +246,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "İspanya'nın nüfusu 1 Temmuz'da 49,80 milyona çıkarak bir yılda yaklaşık 444 bin arttı.",
           "impact": "Göç kaynaklı nüfus artışı yaşlanmaya karşı iş gücü tabanını genişletiyor.",
           "status": "positive",
@@ -259,7 +259,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Konut fiyatları ikinci çeyrekte yıllık %12,2, ikinci el konutlar ise %12,9 arttı.",
           "impact": "Ücretlerden hızlı konut artışı büyük şehirlerde affordability ve relocation maliyetini yükseltiyor.",
           "status": "negative",
@@ -272,7 +272,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Ceuta'daki büyük göç dalgası barınma kapasitesini zorladı ve göç politikasını yeniden toplumsal-siyasi gündemin merkezine taşıdı.",
           "impact": "Göç yönetimindeki gerilim gelecekte yabancı çalışanlara yönelik politika belirsizliğini artırabilir.",
           "status": "negative",
@@ -292,7 +292,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "GSYH ikinci çeyrekte %2,3 büyürken Temmuz sanayi üretimi %0,3 düştü ve hizmet üretimi %3 arttı.",
           "impact": "Hizmetler büyümeyi desteklese de sanayideki zayıflık dengeli bir büyüme görünümünü sınırlıyor.",
           "status": "neutral",
@@ -305,7 +305,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "TCMB yüksek ve oynak küresel enerji fiyatlarını enflasyon için belirgin yukarı yönlü risk olarak izliyor.",
           "impact": "Enerji ithalatına açık yapı enflasyon ve cari dengeyi dış jeopolitik şoklara duyarlı tutuyor.",
           "status": "negative",
@@ -318,7 +318,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Ağustos ihracatı %8,1 artarken ithalat %10,5 artarak ihracattan daha hızlı büyüdü.",
           "impact": "İhracat büyümesi olumlu olsa da ithalatın daha hızlı artması dış denge kazanımını sınırlıyor.",
           "status": "neutral",
@@ -331,7 +331,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Temmuz sanayi üretimi yıllık %0,3, inşaat üretimi ise %4,7 geriledi.",
           "impact": "Reel üretimdeki zayıflık yeni sanayi kapasitesi ve dönüşüm yatırımlarının hızını sınırlayabilir.",
           "status": "negative",
@@ -344,7 +344,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "Yatırım fonlarındaki likidite sıkışması 891 milyar TL'lik varlığı etkileyerek borsada sert satışa yol açtı.",
           "impact": "Finansal piyasa oynaklığı yerli ve yabancı sermayenin risk algısını artırabilir.",
           "status": "negative",
@@ -357,7 +357,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "İnşaat üretimi Temmuz'da yıllık %4,7 gerileyerek fiziki yatırım aktivitesinde zayıflamaya işaret etti.",
           "impact": "Altyapı ve yapı yatırımlarındaki zayıf tempo büyümenin sermaye tabanını sınırlayabilir.",
           "status": "negative",
@@ -370,7 +370,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "TCMB ve düzenleyiciler fon krizinde repo fonlamasını 300 milyar TL'ye çıkararak piyasaya hızlı likidite sağladı.",
           "impact": "Hızlı müdahale kısa vadeli sistemik yayılma riskini azaltmış görünüyor.",
           "status": "positive",
@@ -383,7 +383,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "İşsizlik %8,1 seviyesindeyken ücretli çalışan sayısı Temmuz'da yıllık %1,7 arttı.",
           "impact": "İstihdam artışı devam ediyor fakat iş gücü piyasasında güçlü bir hızlanma sinyali henüz yok.",
           "status": "neutral",
@@ -396,7 +396,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Ağustos TÜFE'si %31,51 olurken konut ve enerji grubundaki yıllık artış %39,77'ye ulaştı.",
           "impact": "Yüksek yaşam ve konut maliyetleri reel satın alma gücü ve relocation ekonomisini baskılıyor.",
           "status": "negative",
@@ -409,7 +409,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Eylül'deki LGBTQ+ operasyonları ve protestocu gözaltıları Avrupa kurumları ve insan hakları örgütlerinin eleştirilerine yol açtı.",
           "impact": "Hak ve yaşam tarzı konusundaki belirsizlik bazı uluslararası yetenekler açısından relocation cazibesini azaltabilir.",
           "status": "negative",
@@ -429,7 +429,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Fed ekonomik aktiviteyi sağlam, tüketimi dayanıklı, üretkenlik ve sermaye yatırımlarını güçlü olarak tanımladı.",
           "impact": "Ekonominin ana büyüme motorları yüksek faiz ortamına rağmen çalışmaya devam ediyor.",
           "status": "positive",
@@ -442,7 +442,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Ağustos CPI %3,4'e yükselirken enerji fiyatları aylık %2,1 ve benzin %3,9 arttı.",
           "impact": "Enerji kaynaklı yeni enflasyon baskısı faizlerin daha uzun süre yüksek kalması riskini artırıyor.",
           "status": "negative",
@@ -455,7 +455,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "ABD ve Çin, 24 Eylül zirvesi öncesinde kırılgan ticaret ateşkesini uzatmayı görüşüyor.",
           "impact": "Gerilimin kontrol altında kalması ticaret ve tedarik zinciri belirsizliğini azaltırken kalıcı çözüm henüz oluşmuş değil.",
           "status": "neutral",
@@ -468,7 +468,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "EV teşviklerinin geri çekilmesi sonrasında bazı batarya ve elektrikli araç yatırımları iptal edildi veya ertelendi.",
           "impact": "Otomotiv dönüşümündeki yavaşlama Çin'e karşı yeni nesil araç üretim kapasitesini zayıflatabilir.",
           "status": "negative",
@@ -481,7 +481,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "Fed sermaye yatırımını güçlü olarak tanımlarken teknoloji ve veri merkezi harcamaları yüksek kalıyor.",
           "impact": "Şirketlerin geleceğe yönelik yatırım iştahının korunması üretkenlik ve büyüme kapasitesini destekliyor.",
           "status": "positive",
@@ -494,7 +494,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "10 yıllık tahvil faizi %5 seviyesine yaklaşırken yüksek kamu borcu finansman maliyetini artıran faktörlerden biri haline geldi.",
           "impact": "Daha pahalı uzun vadeli finansman kamu ve özel altyapı yatırımlarının maliyetini artırıyor.",
           "status": "negative",
@@ -507,7 +507,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "Fed enflasyonun yüksek kalması üzerine politika faizini 25 baz puan artırarak %3,75–4 aralığına çıkardı.",
           "impact": "Para politikasının tepki kapasitesi güçlü olsa da daha yüksek faiz büyüme üzerinde karşı baskı yaratıyor.",
           "status": "neutral",
@@ -520,7 +520,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "Ağustos'ta 162 bin yeni istihdam yaratıldı ve işsizlik %4,1'de kaldı.",
           "impact": "İş gücü piyasası halen dayanıklı fakat büyüme hızı önceki dönemlere göre daha sınırlı.",
           "status": "positive",
@@ -533,7 +533,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Mortgage faizleri %6,76'ya çıkarken konut geliştirici güveni 12 aylık dip olan 32'ye düştü.",
           "impact": "Finansman maliyetleri konuta erişilebilirliği ve hane mobilitesini belirgin şekilde zorlaştırıyor.",
           "status": "negative",
@@ -546,7 +546,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Yeni H‑1B başvurularına yönelik 100 bin dolarlık ücret uygulaması bir yıl daha uzatıldı ve hukuki süreç devam ediyor.",
           "impact": "Nitelikli yabancı çalışan getirmenin pahalılaşması teknoloji şirketlerinin yetenek stratejilerini ülke dışına kaydırabilir.",
           "status": "negative",
@@ -566,7 +566,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Petrol dışı özel sektör PMI'ı Ağustos'ta 52,7'den 55,3'e yükseldi.",
           "impact": "Petrol dışı ekonominin hızlanması çeşitlendirilmiş büyüme modelini destekliyor.",
           "status": "positive",
@@ -579,7 +579,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Hürmüz Boğazı'ndaki gemi trafiği savaş nedeniyle normal seviyelerin çok altına düşmüş durumda.",
           "impact": "Enerji ve lojistik merkezinin kritik deniz geçişine maruziyeti halen önemli bir jeopolitik risk oluşturuyor.",
           "status": "negative",
@@ -592,7 +592,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Petrol dışı dış ticaret ilk yarıda %13,1 büyüyerek AED1,94 trilyona ulaştı.",
           "impact": "Ticaret ortakları ve petrol dışı ihracatın genişlemesi dış talep dayanıklılığını artırıyor.",
           "status": "positive",
@@ -605,7 +605,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Sermaye ve kamu stratejileri AI, ileri teknoloji, lojistik ve altyapıyı öncelikli sektörler olarak büyütüyor.",
           "impact": "Ekonomik büyümenin hidrokarbondan yüksek katma değerli sektörlere kayması yapısal çeşitlenmeyi destekliyor.",
           "status": "positive",
@@ -618,7 +618,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "BAE 2025'te AED177,3 milyar FDI çekerek üst üste dördüncü rekor yılını kaydetti.",
           "impact": "Güçlü yabancı sermaye akışı ülkenin uzun vadeli yatırım merkezi rolünü destekliyor.",
           "status": "positive",
@@ -631,7 +631,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Dubai yeni 80 km'lik ulaşım koridorunun ilk fazı için AED3,5 milyarlık yatırımı onayladı.",
           "impact": "Ulaşım kapasitesinin nüfus ve ekonomik büyümeyle birlikte ölçeklenmesi altyapı darboğazını azaltıyor.",
           "status": "positive",
@@ -644,7 +644,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "Fujairah limanını Abu Dhabi sanayi bölgesine bağlayan yeni demiryolu yük koridoru devreye alındı.",
           "impact": "Hürmüz riskine karşı alternatif lojistik ağlarının fiilen çalışması sistem adaptasyonunu güçlendiriyor.",
           "status": "positive",
@@ -657,7 +657,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "Hükümet eğitim, AI ve özel sektör kariyerlerini ulusal yetenek programlarıyla daha fazla eşleştirmeye odaklandı.",
           "impact": "Yerel nitelikli iş gücünün geliştirilmesi yabancı emeğe yapısal bağımlılığı uzun vadede azaltabilir.",
           "status": "positive",
@@ -670,7 +670,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Dubai'de Ağustos gayrimenkul işlem adedi yıllık %37, işlem değeri ise %44 geriledi.",
           "impact": "Piyasanın soğuması fiyat baskısını azaltabilir ancak henüz yaşam maliyetinde belirgin bir rahatlama kanıtlamıyor.",
           "status": "neutral",
@@ -683,7 +683,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Green, Golden ve virtual-work vize modelleri nitelikli çalışanlara ve uzaktan çalışanlara sponsorsuz uzun dönem oturum seçenekleri sunmaya devam ediyor.",
           "impact": "Uzun dönem oturum esnekliği uluslararası yetenek açısından relocation erişimini güçlü tutuyor.",
           "status": "positive",
@@ -703,7 +703,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Banque de France 2026 büyüme tahminini %0,5'ten %0,4'e indirirken ikinci çeyrek büyümesi sıfır oldu.",
           "impact": "İç talep ve yatırımın zayıflaması büyüme motorunun belirgin biçimde ivme kaybettiğini gösteriyor.",
           "status": "negative",
@@ -716,7 +716,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "İran savaşı kaynaklı petrol ve gaz fiyat artışları hükümeti G7 enerji müdahalesi görüşmelerine yöneltti.",
           "impact": "Enerji fiyatlarına maruziyet tüketim, sanayi ve kamu maliyesini aynı anda baskılıyor.",
           "status": "negative",
@@ -729,7 +729,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Banque de France zayıf iç talebe rağmen uluslararası ticaretin ihracatı desteklemeye devam ettiğini bildiriyor.",
           "impact": "İhracat ekonomideki iç talep zayıflığını kısmen tamponluyor.",
           "status": "positive",
@@ -742,7 +742,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Osez l'IA programı bir yılda 35 binden fazla şirkete ulaşarak 615 AI elçisi oluşturdu.",
           "impact": "AI adaptasyonunun KOBİ ve şirket tabanına yayılması orta vadeli üretkenlik kapasitesini güçlendirebilir.",
           "status": "positive",
@@ -755,7 +755,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "Merkez bankası yüksek faiz ve belirsizlik nedeniyle şirket yatırımlarının temkinli kaldığını bildiriyor.",
           "impact": "Özel yatırım iştahının düşük kalması gelecekteki kapasite ve verimlilik artışını sınırlıyor.",
           "status": "negative",
@@ -768,7 +768,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Maliye Bakanlığı kamu borcunun 2026'da GSYH'nin %119,3'üne ulaşmasını bekliyor.",
           "impact": "Artan borç ve faiz yükü altyapı ve dönüşüm harcamaları için mali hareket alanını daraltıyor.",
           "status": "negative",
@@ -781,7 +781,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "2027 bütçesinde €54 milyarlık tasarruf planının parçalı parlamentodan geçirilmesi konusunda belirsizlik devam ediyor.",
           "impact": "Reformların uygulanma hızındaki siyasi belirsizlik ekonomik müdahale kapasitesini düşürebilir.",
           "status": "negative",
@@ -794,7 +794,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "İşsizlik ikinci çeyrekte 0,2 puan artarak %8,3'e ve 2019 sonrası en yüksek seviyelerden birine çıktı.",
           "impact": "İş gücü talebindeki zayıflama ekonomik yavaşlamanın istihdama taşındığını gösteriyor.",
           "status": "negative",
@@ -807,7 +807,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Ağustos enflasyonu %2,4 olurken hane güveni 86 seviyesinde kaldı ve satın alma gücü baskı altında.",
           "impact": "Reel gelir baskısı günlük yaşam ekonomisini ve tüketici güvenini zayıflatıyor.",
           "status": "negative",
@@ -820,7 +820,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Bütçe ve yaşam maliyetleri nedeniyle Eylül'de enerji, ulaşım ve diğer sektörlerde geniş çaplı grevler gerçekleşti.",
           "impact": "Yoğun toplumsal pazarlık ve parlamenter bölünme kısa vadeli politika öngörülebilirliğini azaltıyor.",
           "status": "negative",
@@ -840,7 +840,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Ekonomi Nisan–Haziran döneminde %7,8 büyürken Moody's FY2027 tahminini %7'ye yükseltti.",
           "impact": "Yatırım ve imalat kaynaklı yüksek büyüme ekonomik motorun güçlü kaldığını gösteriyor.",
           "status": "positive",
@@ -853,7 +853,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Ağustos ham petrol ithalat faturası yıllık %25,8 artarak $16,69 milyara çıktı.",
           "impact": "Yüksek petrol fiyatları cari denge, rupi ve enflasyon üzerinde doğrudan baskı oluşturuyor.",
           "status": "negative",
@@ -866,7 +866,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Mal ve hizmet ihracatı Ağustos'ta yıllık %25,4 artarak $82,68 milyara ulaştı.",
           "impact": "Elektronik, mühendislik, otomotiv ve hizmet ihracatındaki genişleme dış talep tabanını güçlendiriyor.",
           "status": "positive",
@@ -879,7 +879,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Wipro AI uygulamalarıyla 20 bin çalışan eşdeğerinde kapasite açarken 100 binden fazla çalışanını ileri AI becerilerinde eğitti.",
           "impact": "Büyük IT sektörünün AI'a aktif geçişi mevcut hizmet modelinin teknolojik adaptasyonunu güçlendiriyor.",
           "status": "positive",
@@ -892,7 +892,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "Güçlü yatırımlar ve imalat faaliyeti ikinci çeyrekte %7,8'lik büyümenin ana kaynakları arasında yer aldı.",
           "impact": "Sermaye oluşumunun büyümeye katkısı uzun vadeli kapasite açısından destekleyici.",
           "status": "positive",
@@ -905,7 +905,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Moody's artan savunma ve altyapı harcamalarının mali konsolidasyonu yavaşlatabileceğini belirtiyor.",
           "impact": "Altyapı yatırımı büyümeyi desteklerken enerji ve savunma harcamaları bütçe alanını daraltabilir.",
           "status": "neutral",
@@ -918,7 +918,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "RBI fazla likiditeyi çekmek için tahvil satışlarını artırırken piyasalar olası faiz artışını fiyatlıyor.",
           "impact": "Politika tepkisi finansal istikrarı destekleyebilir ancak finansman koşullarını sıkılaştırıyor.",
           "status": "neutral",
@@ -931,7 +931,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "Ağustos işsizliği altı aylık dip olan %5'e inerken iş gücüne katılım %55,6'ya yükseldi.",
           "impact": "Daha fazla kişinin iş gücüne katılırken işsizliğin düşmesi çalışma piyasası açısından destekleyici.",
           "status": "positive",
@@ -944,7 +944,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Ağustos enflasyonu %4,82'ye yükselerek yeni serinin en yüksek seviyesine ulaştı.",
           "impact": "Enerji ve daha geniş fiyat artışları reel hane gelirleri üzerinde yeni baskı yaratıyor.",
           "status": "negative",
@@ -957,7 +957,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "ABD'nin H‑1B maliyet artışı Alphabet gibi büyük şirketlerin bazı operasyonlarını Hindistan'da büyütmesine yol açıyor.",
           "impact": "Küresel teknoloji işlerinin Hindistan'a kayması yüksek nitelikli çalışanlar için yerel fırsat havuzunu genişletebilir.",
           "status": "positive",
@@ -977,7 +977,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "BOT 2026 büyümesini %2,3, 2027'yi %1,8 beklerken ekonominin potansiyeline dönmesinin birkaç yıl sürebileceğini belirtiyor.",
           "impact": "Ekonomi büyümeye devam etse de ana büyüme motorunun yapısal olarak düşük hızda kalması risk oluşturuyor.",
           "status": "negative",
@@ -990,7 +990,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Q2 büyümesi yüksek enerji maliyetleri ve Orta Doğu kaynaklı seyahat aksaklıklarından doğrudan etkilendi.",
           "impact": "Enerji ithalatı ve uluslararası turizme bağımlılık dış jeopolitik şoklara hassasiyet yaratıyor.",
           "status": "negative",
@@ -1003,7 +1003,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Temmuz ihracatı küresel elektronik ve AI döngüsünün etkisiyle büyümeye devam etti.",
           "impact": "Teknoloji ihracatının güçlenmesi zayıf iç talebi dışarıdan destekliyor.",
           "status": "positive",
@@ -1016,7 +1016,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Elektrikli ve hibrit araçlar yılın ilk yedi ayında yeni araç pazarının %55'ine ulaştı.",
           "impact": "Tayland'ın geleneksel otomotiv üssünü EV dönemine taşıma kapasitesi belirgin biçimde güçleniyor.",
           "status": "positive",
@@ -1029,7 +1029,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "BOI'nin Eylül gündeminde yeni yüksek teknoloji yatırımları ve $3,66 milyarlık hızlandırılmış sanayi proje hattı bulunuyor.",
           "impact": "Yabancı ve yerli sermayenin teknoloji üretimine yönelmesi yeni büyüme motorları oluşturuyor.",
           "status": "positive",
@@ -1042,7 +1042,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Hükümet sanayi projelerini hızlandırırken kamu harcamaları Temmuz'da merkezi yönetim ve kamu şirketlerinde arttı.",
           "impact": "Kamu desteği ve altyapı yatırımları özel sektör dönüşümünü tamamlayıcı rol oynuyor.",
           "status": "positive",
@@ -1055,7 +1055,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "EV vergi sistemi yerel içerik, yatırım ve tedarikçi geliştirmeyi doğrudan teşvik edecek şekilde yeniden tasarlandı.",
           "impact": "Regülasyonun sektör dönüşümüne hızla uyarlanması üretim üssünün rekabet gücünü destekliyor.",
           "status": "positive",
@@ -1068,7 +1068,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "BOT iş gücü piyasasını genel olarak istikrarlı, imalat istihdamını ise yakından izlenmesi gereken alan olarak tanımlıyor.",
           "impact": "Bugünkü istihdam dengesi korunuyor ancak imalat dönüşümünün iş gücüne etkisi henüz netleşmiş değil.",
           "status": "neutral",
@@ -1081,7 +1081,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "BOT yüksek hane borcu ve artan yaşam maliyetlerinin iç tüketimi baskıladığını bildiriyor.",
           "impact": "Borçlu hanelerin yüksek maliyetlere duyarlılığı yaşam standardı ve iç talep için önemli kırılganlık oluşturuyor.",
           "status": "negative",
@@ -1094,7 +1094,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Tayland 93 ülke vatandaşına tanınan vizesiz turist kalış süresini 60 günden 30 güne düşürme kararı aldı.",
           "impact": "Düzenleme turist statüsünde uzun süreli kalış kolaylığını azaltırken diğer çalışma ve oturum yollarını doğrudan değiştirmiyor.",
           "status": "negative",
@@ -1114,7 +1114,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Ağustos sanayi üretimi %5,2 büyürken perakende satış artışı yalnızca %0,4'te kaldı.",
           "impact": "Üretim güçlü kalmasına rağmen zayıf tüketim ekonomik modeldeki iç talep dengesizliğini sürdürüyor.",
           "status": "neutral",
@@ -1127,7 +1127,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Zayıf tüketim ve gayrimenkul yatırımı ekonomiyi dış talep ve ihracata daha bağımlı hale getiriyor.",
           "impact": "Küresel ticaret geriliminin artması durumunda iç talebin ihracat kaybını telafi kapasitesi sınırlı kalabilir.",
           "status": "negative",
@@ -1140,7 +1140,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Ağustos ihracatı yıllık %18,6, toplam dış ticaret ise %19,8 büyüdü.",
           "impact": "Güçlü ihracat mevcut büyüme modelinin en önemli tamponlarından biri olmaya devam ediyor.",
           "status": "positive",
@@ -1153,7 +1153,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "High-tech imalat %16,7 büyürken batarya üretimi %57,2 ve endüstriyel robot üretimi %34,6 arttı.",
           "impact": "Yeni nesil sanayi kapasitesinin hızlı büyümesi teknoloji rekabetindeki pozisyonu güçlendiriyor.",
           "status": "positive",
@@ -1166,7 +1166,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "İlk sekiz ayda sabit sermaye yatırımı %7,2, özel yatırım %10,1 ve gayrimenkul yatırımı %19,9 geriledi.",
           "impact": "Özel sermaye iştahındaki geniş tabanlı zayıflık gelecekteki iç büyüme kapasitesini sınırlıyor.",
           "status": "negative",
@@ -1179,7 +1179,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Kamu desteklerine rağmen altyapı yatırımı ilk sekiz ayda yıllık %4 geriledi.",
           "impact": "Devlet desteğinin özel ve altyapı yatırımındaki düşüşü henüz tamamen tersine çevirememesi önemli bir erken sinyal.",
           "status": "negative",
@@ -1192,7 +1192,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "Düzenleyiciler humanoid robot şirketlerinin IPO süreçlerini aşırı değerleme ve ticarileşme endişeleri nedeniyle sıkılaştırdı.",
           "impact": "Müdahale spekülatif sermayeyi sınırlarken stratejik sektör finansmanında daha seçici bir döneme işaret ediyor.",
           "status": "neutral",
@@ -1205,7 +1205,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "16–24 yaş öğrenci dışı genç işsizliği Ağustos'ta %18,9 ile bir yıllık zirveye ulaştı.",
           "impact": "Genç yeteneğin iş piyasasına entegrasyonundaki sorun tüketim ve uzun vadeli insan sermayesi açısından baskı oluşturuyor.",
           "status": "negative",
@@ -1218,7 +1218,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Yeni konut fiyatları Ağustos'ta yıllık %3 düşerken gayrimenkul yatırımları %19,9 geriledi.",
           "impact": "Daha ucuz konut erişimi bazı alıcıları desteklese de servet etkisi ve tüketici güveni açısından emlak krizi baskın kalıyor.",
           "status": "negative",
@@ -1231,7 +1231,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Zayıf perakende talebine genç işsizliğinin %18,9'a yükselmesi eşlik ediyor.",
           "impact": "Genç iş gücü ile ekonomik fırsatlar arasındaki uyumsuzluğun devam etmesi toplumsal ve ekonomik baskıyı artırabilir.",
           "status": "negative",
@@ -1251,7 +1251,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "IW 2026 büyüme tahminini %0,4'ten %1,2'ye yükseltti ancak ikinci yarıda ivmenin azalmasını bekliyor.",
           "impact": "Kamu harcamaları ve ihracat toparlanma sağlasa da kalıcı özel sektör büyümesi henüz oluşmuş değil.",
           "status": "neutral",
@@ -1264,7 +1264,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Ağustos enflasyonu enerji fiyatlarının etkisiyle %2,9'a yükseldi.",
           "impact": "Enerji fiyatlarının yeniden ekonomik baskı yaratması Almanya'nın temel sanayi kırılganlığının devam ettiğini gösteriyor.",
           "status": "negative",
@@ -1277,7 +1277,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "IW ihracatın 2026'da %2,8 büyümesini beklerken Çin rekabeti ve korumacılığı temel riskler arasında gösteriyor.",
           "impact": "İhracat toparlanıyor fakat dış ticaret modeli yapısal olarak daha zor bir küresel ortamla karşılaşıyor.",
           "status": "neutral",
@@ -1290,7 +1290,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Volkswagen kâr beklentisini sert düşürürken Çin talebi, Asyalı rakipler ve EV geçişi yeniden yapılanmayı hızlandırıyor.",
           "impact": "Otomotiv sektöründeki dönüşüm baskısı Almanya'nın en kritik sanayi ekosistemini zorlamaya devam ediyor.",
           "status": "negative",
@@ -1303,7 +1303,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "IW özel yatırımların zayıf kaldığını ve yüksek enerji maliyetlerinin yatırım iştahını baskıladığını bildiriyor.",
           "impact": "Özel sermayenin güçlü biçimde geri dönmemesi yeni büyüme modelinin kurulmasını geciktiriyor.",
           "status": "negative",
@@ -1316,7 +1316,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "2026 büyümesindeki yukarı revizyonun önemli bölümü artan kamu harcamalarından geliyor.",
           "impact": "Mali genişlemenin ekonomiye aktarılması yıllarca süren yatırım eksikliğini azaltma kapasitesini artırıyor.",
           "status": "positive",
@@ -1329,7 +1329,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "Temmuz sanayi siparişleri %2,5 artarken büyük siparişler çıkarıldığında %1,4 geriledi ve üretim %1,1 düştü.",
           "impact": "Yeni talebin üretime geniş tabanlı şekilde dönüşmemesi adaptasyonun henüz tamamlanmadığını gösteriyor.",
           "status": "negative",
@@ -1342,7 +1342,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "Almanya'da hâlâ 157 meslekte nitelikli çalışan açığı bulunurken yabancı çalışanların payı 2014'ten beri ikiye katlandı.",
           "impact": "Göç iş gücü açığını azaltıyor fakat yaşlanan nüfus nedeniyle dış yeteneğe yapısal ihtiyaç büyüyor.",
           "status": "neutral",
@@ -1355,7 +1355,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Enerji kaynaklı enflasyon %2,9'a yükselirken konut maliyetleri özellikle Berlin gibi büyük şehirlerde temel ekonomik gündem olmaya devam ediyor.",
           "impact": "Konut ve enerji maliyetleri büyük şehirlerde yaşam maliyeti avantajını azaltıyor.",
           "status": "negative",
@@ -1368,7 +1368,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Eylül eyalet seçimleri ekonomik kaygılar, yaşam maliyetleri ve göç tartışmaları eşliğinde geleneksel merkez partilerden farklı partilere oy kaymasını gösterdi.",
           "impact": "Artan siyasi parçalanma büyük ekonomik reformlarda koalisyon ve uygulama süreçlerini daha karmaşık hale getirebilir.",
           "status": "negative",
@@ -1388,7 +1388,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Ağustos ihracatı yıllık %68,7 artarak 98,25 milyar dolara çıktı ve artışın ana kaynağı yarı iletkenler oldu.",
           "impact": "AI kaynaklı çip talebi büyüme motorunu güçlü tutuyor ancak ekonomiyi teknoloji döngüsüne daha bağımlı hale getiriyor.",
           "status": "positive",
@@ -1401,7 +1401,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Ocak-Ağustos döneminde yarı iletkenler toplam ihracatın yaklaşık %41'ini oluşturdu.",
           "impact": "İhracatın tek bir teknoloji döngüsünde yoğunlaşması küresel çip talebindeki olası düzeltmelere karşı kırılganlığı artırıyor.",
           "status": "negative",
@@ -1414,7 +1414,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Ocak-Ağustos ihracatı Çin'e %76, ABD'ye %57 arttı ve toplam ihracat geçen yılın tam yıl rekorunu şimdiden aştı.",
           "impact": "İki büyük pazardaki güçlü talep dış ticareti destekliyor fakat ABD-Çin gerilimi aynı anda iki ana pazarı etkileyebilecek bir risk oluşturuyor.",
           "status": "positive",
@@ -1427,7 +1427,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Hükümet 5 trilyon wonluk yarı iletken fonu ve büyük ölçekli çip kümeleri için su, enerji ve Ar-Ge altyapısı planlarını hızlandırdı.",
           "impact": "Üretim kapasitesinin AI ve ileri yarı iletkenlere kayması mevcut sanayi avantajının yeni teknoloji döngüsüne taşınmasını destekliyor.",
           "status": "positive",
@@ -1440,7 +1440,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "Güney Kore ile ABD arasında 350 milyar dolarlık ABD yatırım taahhüdünün ilk projeleri için görüşmeler ilerliyor.",
           "impact": "Küresel üretim ayak izinin genişlemesi pazar erişimini güçlendirebilir ancak sermayenin bir bölümünün ülke dışına yönelmesi iç yatırım açısından izlenmesi gereken bir denge yaratıyor.",
           "status": "neutral",
@@ -1453,7 +1453,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Çip kümeleri için 2030'a kadar günlük 650 bin ton su ve 2041'e kadar 14,7 GW elektrik kapasitesi planlanıyor.",
           "impact": "Kritik üretim altyapısının önceden ölçeklenmesi sanayi büyümesinin fiziksel darboğazlarını azaltıyor.",
           "status": "positive",
@@ -1466,7 +1466,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "Hükümet çip kümelerindeki izin ve altyapı süreçlerini hızlandırmak için özel bölge mevzuatı hazırlıyor.",
           "impact": "Kurumların stratejik sanayiye göre süreçleri sadeleştirmesi yatırımın uygulamaya dönüşme hızını artırabilir.",
           "status": "positive",
@@ -1479,7 +1479,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "Ağustos'ta istihdam yıllık 184 bin kişi arttı ancak gençlerin istihdam koşulları zayıf kalmaya devam etti.",
           "impact": "Toplam istihdam artışı dayanıklılık sağlarken genç iş gücünün ekonomiye entegrasyonundaki sorun uzun vadeli yetenek arzını sınırlayabilir.",
           "status": "neutral",
@@ -1492,7 +1492,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Konut erişilebilirliği ve sıkı kredi kuralları Eylül'de kamuoyundaki temel ekonomik memnuniyetsizlik başlıklarından biri oldu.",
           "impact": "Seul başta olmak üzere konut erişiminin zorlaşması yerleşim maliyeti ve hane hareketliliği üzerinde baskı oluşturuyor.",
           "status": "negative",
@@ -1505,7 +1505,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Konut politikaları ve yaşam maliyetine ilişkin memnuniyetsizlik kamuoyu baskısını artırırken nitelikli iş gücü açısından yeni büyük bir açılım veya kapanma sinyali görülmedi.",
           "impact": "Toplumsal baskı ekonomi politikalarının yönünü etkileyebilir ancak yetenek açıklığı açısından şimdilik belirgin bir rejim değişimi yok.",
           "status": "neutral",
@@ -1525,7 +1525,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Brezilya ekonomisi ikinci çeyrekte çeyreklik %0,5 ve yıllık %2,0 büyüdü ancak ilk çeyreğe göre belirgin şekilde yavaşladı.",
           "impact": "Büyümenin devam etmesi destekleyici olsa da yüksek faizlerin tüketim ve sanayi üzerindeki baskısı ivmeyi azaltıyor.",
           "status": "neutral",
@@ -1538,7 +1538,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Eylülün ilk iki haftasında madencilik ihracatı %70,5, ham petrol ihracatı ise yıllık %126,2 arttı.",
           "impact": "Emtia gelirlerindeki güç dış dengeyi desteklerken büyümenin emtia fiyatlarına duyarlılığını yüksek tutuyor.",
           "status": "neutral",
@@ -1551,7 +1551,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Eylülün ilk iki haftasında ihracat yıllık %28,5 artarken dış ticaret fazlası 3,36 milyar dolara ulaştı.",
           "impact": "Güçlü dış talep yavaşlayan iç ekonomiye önemli bir tampon sağlıyor.",
           "status": "positive",
@@ -1564,7 +1564,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "İkinci çeyrekte sanayi ve hizmetlerde momentum zayıflarken ihracatta imalat ürünleri Eylülün ilk iki haftasında %17 büyüdü.",
           "impact": "İmalat ihracatındaki artış olumlu olsa da iç sanayi ivmesinin zayıflığı dönüşüm kapasitesini sınırlıyor.",
           "status": "neutral",
@@ -1577,7 +1577,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "Yüksek borçlanma maliyetleri şirket ve hane harcamalarını baskılarken Temmuz ekonomik aktivitesi aylık %0,2 geriledi.",
           "impact": "Sermaye maliyetinin yüksek kalması özel yatırımın hızlanmasını zorlaştırıyor.",
           "status": "negative",
@@ -1590,7 +1590,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Yüksek faizlerle birlikte geniş kamu açığı borç servis maliyetlerini yüksek tutmaya devam ediyor.",
           "impact": "Mali alanın dar olması büyük altyapı ve dönüşüm harcamalarının finansmanını daha pahalı hale getiriyor.",
           "status": "negative",
@@ -1603,7 +1603,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "Enflasyonun Ağustos'ta %4,22'ye gerilemesi sonrasında merkez bankası sıkı para politikasını kademeli olarak gevşetmeye başladı.",
           "impact": "Enflasyonla mücadele ile büyüme arasındaki dengeyi kademeli kurma yaklaşımı kısa vadeli finansal istikrarı destekliyor.",
           "status": "neutral",
@@ -1616,7 +1616,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "İkinci çeyrekte işsizlik %5,4'e gerilerken nüfus 214,2 milyona ulaştı.",
           "impact": "Düşük işsizlik iç talep ve vergi tabanını destekliyor ancak ücret baskıları hizmet enflasyonunu canlı tutabilir.",
           "status": "positive",
@@ -1629,7 +1629,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Hane tüketimi ikinci çeyrekte %0,4 gerilerken yüksek kredi maliyetleri harcamaları sınırladı.",
           "impact": "Borçlanma maliyetinin yüksek kalması orta sınıf hanelerin tüketim ve konut erişimini baskılıyor.",
           "status": "negative",
@@ -1642,7 +1642,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Ekim seçimleri öncesinde maliye ve büyüme politikaları kamu gündeminin merkezinde kalırken nitelikli yabancı çalışan rejiminde büyük bir aylık değişiklik görülmedi.",
           "impact": "Seçim dönemi kısa vadeli politika belirsizliğini artırsa da yetenek erişiminde belirgin bir rejim değişimi sinyali yok.",
           "status": "neutral",
@@ -1662,7 +1662,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Resmi beklentiler 2026 büyümesini yaklaşık %1 civarında gösterirken savunma harcamaları ekonomide önemli bir destek olmaya devam ediyor.",
           "impact": "Devlet harcamaları kısa vadeli aktiviteyi korusa da sivil ekonomideki durgunluk büyümenin kalitesini zayıflatıyor.",
           "status": "negative",
@@ -1675,7 +1675,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "2026 petrol üretim tahmini savaşın etkileriyle 17 yılın en düşük seviyesine, yaklaşık 9,88 milyon varil/güne indirildi.",
           "impact": "Kamu gelirleri ve dış denge için kritik olan enerji üretiminin gerilemesi ekonomik tamponu zayıflatıyor.",
           "status": "negative",
@@ -1688,7 +1688,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "AB yasakları ve rafineri kesintileri Rus enerji akışını giderek Çin ve Hindistan gibi pazarlara yöneltiyor.",
           "impact": "Pazar çeşitliliğinin daralması fiyatlama gücünü ve dış ticaret esnekliğini azaltıyor.",
           "status": "negative",
@@ -1701,7 +1701,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Yaptırımlar ve teknoloji erişimindeki kısıtlar sivil üretim kapasitesi ve teknolojik rekabet gücü üzerinde uzun vadeli aşınma yaratıyor.",
           "impact": "Kritik teknoloji ve sermaye mallarına erişim zayıfladıkça yeni sanayi dönüşümünün maliyeti artıyor.",
           "status": "negative",
@@ -1714,7 +1714,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "Yüksek faizler, savaş kaynaklı belirsizlik ve güven kaybı özel yatırım iştahını zayıflatıyor.",
           "impact": "Sermayenin savunma ve devlet bağlantılı alanlarda yoğunlaşması sivil ekonominin gelecekteki kapasitesini sınırlıyor.",
           "status": "negative",
@@ -1727,7 +1727,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Bütçe açığı yaklaşık GSYH'nin %2,8'ine çıkarken rezerv fonları ve yüksek askeri harcamalar mali alanı daraltıyor.",
           "impact": "Artan savaş maliyeti altyapı ve sivil kamu harcamaları için kullanılabilecek kaynakları baskılıyor.",
           "status": "negative",
@@ -1740,7 +1740,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "Rafineri saldırıları ve yakıt açığı sonrasında hükümet benzin, dizel ve jet yakıtı ihracatına geçici kısıtlamalar getirdi.",
           "impact": "Hızlı arz yönetimi iç piyasayı kısa vadede koruyabilir ancak sorun üretim kapasitesindeki yapısal hasarı çözmüyor.",
           "status": "neutral",
@@ -1753,7 +1753,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "İşsizlik yaklaşık %2 seviyesinde kalırken şirketler savaş, göç ve demografik daralma nedeniyle nitelikli iş gücü bulmakta zorlanıyor.",
           "impact": "Çok düşük işsizlik sağlıklı bir fazladan çok iş gücü kıtlığına işaret ederek üretim kapasitesini sınırlıyor.",
           "status": "negative",
@@ -1766,7 +1766,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Enflasyon %6'nın üzerinde kalırken yakıt ve temel tüketim maliyetleri ile yüksek kredi faizleri hane harcamalarını baskılıyor.",
           "impact": "Reel yaşam maliyetindeki baskı tüketimi ve yerleşim cazibesini zayıflatıyor.",
           "status": "negative",
@@ -1779,7 +1779,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Savaş kaynaklı göç, yaptırımlar ve ekonomik izolasyon uluslararası yetenek ve sermaye hareketliliğini sınırlamaya devam ediyor.",
           "impact": "Yetenek havuzunun daralması ve uluslararası bağlantıların zayıflaması uzun vadeli inovasyon kapasitesini azaltıyor.",
           "status": "negative",
@@ -1799,7 +1799,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "IMF 2026 mali yılı büyümesini %4,6 olarak öngörürken bölgesel savaşın etkisinin 2026-27 döneminde daha belirginleşmesini bekliyor.",
           "impact": "Ekonomi kısa vadede dirençli kalıyor ancak bölgesel şoklar yeni büyüme dönemini yavaşlatabilir.",
           "status": "positive",
@@ -1812,7 +1812,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Orta Doğu çatışmaları enerji maliyetleri, turizm, lojistik ve dış finansman kanallarını aynı anda etkiliyor.",
           "impact": "Bölgesel jeopolitik riskin birden fazla gelir ve maliyet kanalına temas etmesi Mısır'ın dış şok duyarlılığını yüksek tutuyor.",
           "status": "negative",
@@ -1825,7 +1825,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Maersk ve Hapag-Lloyd Eylül'de dört ek konteyner hattını Süveyş Kanalı'na geri döndürme kararı aldı.",
           "impact": "Kanal trafiğinin kademeli geri dönmesi döviz gelirleri ve lojistik aktivite için olumlu bir normalleşme sinyali veriyor.",
           "status": "positive",
@@ -1838,7 +1838,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Hükümet devlet şirketlerindeki pay satışlarını ve özel sektörün ekonomideki rolünü artırma programını sürdürdüğünü açıkladı.",
           "impact": "Devlet ağırlığının azaltılması özel sektör yatırımı ve rekabet için alan açabilir ancak uygulama hızı belirleyici olacak.",
           "status": "neutral",
@@ -1851,7 +1851,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "IMF bölgesel savaşın 2026-27 döneminde daha zayıf yatırım ve daha yüksek finansman maliyeti yaratmasını bekliyor.",
           "impact": "Özel sermaye yatırımlarının yavaşlaması büyümenin daha kalıcı hale gelmesini zorlaştırabilir.",
           "status": "negative",
@@ -1864,7 +1864,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "IMF'nin yedinci incelemeyi tamamlaması yaklaşık 1,8 milyar dolarlık yeni finansmana erişim sağladı.",
           "impact": "Dış finansman ve mali disiplin kısa vadeli tampon yaratıyor ancak borç ve sübvansiyon reformu baskısı sürüyor.",
           "status": "neutral",
@@ -1877,7 +1877,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "IMF kur esnekliği, yakıt fiyat ayarlamaları ve harcama kontrolünü bölgesel şoka verilen hızlı politika tepkileri arasında gösterdi.",
           "impact": "Şoklara hızlı politika cevabı makro istikrarı destekliyor ancak reformların sosyal maliyeti ve sürekliliği izlenmeli.",
           "status": "positive",
@@ -1890,7 +1890,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "Nüfus artışı güçlü kalırken genç iş gücüne yeterli verimli istihdam yaratma ihtiyacı ekonominin temel yapısal baskılarından biri olmaya devam ediyor.",
           "impact": "Geniş iş gücü potansiyel bir avantaj olsa da istihdam üretimi büyümenin kapsayıcılığı açısından kritik kalıyor.",
           "status": "neutral",
@@ -1903,7 +1903,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Ağustos'ta yıllık kentsel enflasyon %14,5 olurken konut, su, elektrik, gaz ve yakıt grubundaki yıllık artış %33'e ulaştı.",
           "impact": "Yüksek temel yaşam maliyetleri hane bütçesini ve reel alım gücünü belirgin biçimde baskılıyor.",
           "status": "negative",
@@ -1916,7 +1916,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Turizmde 2026 için yaklaşık 20,2 milyon ziyaretçi ve daha yüksek gelir beklentisi uluslararası erişimin güçlü kalacağına işaret ediyor.",
           "impact": "Turizm ve hizmetlerde dışa açıklık istihdam ve döviz gelirini desteklerken nitelikli yetenek politikalarında belirgin bir aylık değişim görülmedi.",
           "status": "positive",
@@ -1936,7 +1936,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "İkinci çeyrek GSYH'si çeyreklik %0,2 büyüdü ve ISTAT 2026 büyümesini yaklaşık %0,8 seviyesinde öngörüyor.",
           "impact": "Büyüme pozitif ancak düşük hızda olduğu için dış şoklara karşı tampon sınırlı kalıyor.",
           "status": "neutral",
@@ -1949,7 +1949,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Ağustos enflasyonu enerji fiyatlarındaki güçlü artışla yıllık %3,3'e yükseldi.",
           "impact": "Enerji fiyatlarının yeniden belirleyici hale gelmesi sanayi ve hane bütçeleri açısından dış şok kırılganlığını artırıyor.",
           "status": "negative",
@@ -1962,7 +1962,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Küresel tedarik zinciri belirsizliği sürerken İtalya'nın büyümesi ikinci çeyrekte daha çok tüketim ve yatırım tarafından desteklendi.",
           "impact": "Dış talebe aşırı yüklenmeyen büyüme bileşimi kısa vadede tampon sağlasa da ihracatçı sanayi için küresel riskler sürüyor.",
           "status": "neutral",
@@ -1975,7 +1975,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Temmuz sanayi üretimi iki aylık düşüşün ardından aylık %0,7 arttı ve enerji dışındaki ana sanayi gruplarında toparlanma görüldü.",
           "impact": "Sanayi üretiminin yeniden artması dönüşüm kapasitesi için olumlu ancak tek aylık veri kalıcı trend teyidi vermiyor.",
           "status": "positive",
@@ -1988,7 +1988,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "İkinci çeyrek büyümesinde özel yatırımlar pozitif katkı sağladı.",
           "impact": "Yatırımın büyümeye katkı vermesi üretim kapasitesi açısından destekleyici bir sinyal oluşturuyor.",
           "status": "positive",
@@ -2001,7 +2001,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Kamu borcunun 2026'da GSYH'nin yaklaşık %139'una çıkması beklenirken borç servis maliyetleri hızla yükseliyor.",
           "impact": "Yüksek borç ve faiz yükü altyapı ve dönüşüm yatırımları için mali hareket alanını daraltıyor.",
           "status": "negative",
@@ -2014,7 +2014,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "Hükümet uzun süreli siyasi istikrar vurgusu yaparken kamu yönetimi, sağlık ve eğitim reformlarında ilerleme tartışmalı kalıyor.",
           "impact": "Siyasi süreklilik karar alma açısından avantaj sağlasa da yapısal reformların uygulama hızı temel takip konusu olmaya devam ediyor.",
           "status": "neutral",
@@ -2027,7 +2027,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "Temmuz işsizliği %5,8'e gerilerken istihdam artışının önemli bölümü 50-64 yaş grubunda yoğunlaşıyor.",
           "impact": "Düşük işsizlik olumlu fakat yaşlanan iş gücü uzun vadede demografik kapasiteyi sınırlıyor.",
           "status": "neutral",
@@ -2040,7 +2040,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Ağustos tüketici enflasyonu %3,3'e yükseldi ve artışın ana kaynağı enerji oldu.",
           "impact": "Enerji kaynaklı fiyat baskısı hanelerin reel gelirini ve yaşam maliyetini olumsuz etkiliyor.",
           "status": "negative",
@@ -2053,7 +2053,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Göç ve entegrasyon tartışmaları Eylül'de eğitim ve sınır politikaları üzerinden yeniden yoğunlaştı.",
           "impact": "Göç rejimindeki sıkılaşma tartışmaları yabancı çalışanlar için politika öngörülebilirliğini azaltabilir ancak nihai düzenlemeler henüz tamamlanmış değil.",
           "status": "neutral",
@@ -2073,7 +2073,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Haziran aylık ekonomik aktivitesi yıllık bazda %0,8 artarken 2027 bütçesi 2026 için yaklaşık %3 büyüme varsayıyor.",
           "impact": "Ekonomi büyümeye dönmüş olsa da sanayi ve iş gücü verileri toparlanmanın dengesiz kaldığını gösteriyor.",
           "status": "neutral",
@@ -2086,7 +2086,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Enerji ve tarım ihracatı dış denge için kritik kalırken Vaca Muerta'yı LNG ihracat merkezine dönüştürmeye yönelik 51 milyar dolarlık proje RIGI kapsamına başvurdu.",
           "impact": "Enerji ihracat kapasitesinin büyümesi dış döviz bağımlılığını azaltabilir ancak büyük proje uygulama riski yüksek kalıyor.",
           "status": "positive",
@@ -2099,7 +2099,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Ağustos'ta ihracat 8,88 milyar dolar, ithalat 6,70 milyar dolar oldu ve dış ticaret 33. ay üst üste fazla verdi.",
           "impact": "Sürekli dış ticaret fazlası rezerv birikimi ve döviz istikrarı için destekleyici.",
           "status": "positive",
@@ -2112,7 +2112,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Temmuz imalat sanayi üretimi yıllık %5 gerilerken LNG ve enerji altyapısı yeni büyüme ekseni olarak öne çıkıyor.",
           "impact": "Yeni enerji kapasitesi fırsat yaratırken imalattaki daralma ekonominin sektörler arası geçiş maliyetini artırıyor.",
           "status": "neutral",
@@ -2125,7 +2125,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "51 milyar dolarlık Argentina LNG projesinin RIGI yatırım teşvik rejimine başvurması büyük ölçekli yabancı sermaye çekme hedefini güçlendirdi.",
           "impact": "Projenin gerçekleşmesi halinde sermaye girişi ve ihracat kapasitesi belirgin şekilde artabilir ancak henüz yatırımın tamamı kesinleşmiş değil.",
           "status": "positive",
@@ -2138,7 +2138,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "2027 bütçe tasarısı mali disiplin çizgisini korurken 2026 enflasyonunu yaklaşık %29 ve büyümeyi %3 varsayıyor.",
           "impact": "Denk bütçe odağı mali istikrarı destekleyebilir ancak altyapı ve sosyal harcamalar için alanı sınırlı tutuyor.",
           "status": "neutral",
@@ -2151,7 +2151,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "Merkez bankası rezerv alım programını sürdürürken Eylül'de döviz alım hızını piyasa dengesini korumak için azalttı.",
           "impact": "Daha esnek rezerv yönetimi kur istikrarını korurken özel döviz talebine alan açıyor.",
           "status": "neutral",
@@ -2164,7 +2164,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "İkinci çeyrek işsizlik oranı %7,9 ve iş gücüne katılım %48,9 seviyesinde gerçekleşti.",
           "impact": "İş gücü piyasasındaki gevşeklik hane gelirlerini baskılarken işletmeler için iş gücü arzını geniş tutuyor.",
           "status": "negative",
@@ -2177,7 +2177,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Ağustos aylık tüketici enflasyonu %1,7'ye gerilemiş olsa da yıllık fiyat düzeyi ve gelir uyarlaması haneler için temel baskı olmaya devam ediyor.",
           "impact": "Aylık enflasyondaki yavaşlama yaşam maliyeti açısından iyileşme sinyali verse de satın alma gücü henüz tam normalleşmiş değil.",
           "status": "neutral",
@@ -2190,7 +2190,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Ekonomik reformların devamı ve 2027 seçim takvimi yatırım ve göç kararlarında politika sürekliliğinin yakından izlenmesine neden oluyor.",
           "impact": "Reformların kalıcılığı konusundaki belirsizlik uluslararası yetenek ve sermaye açısından kısa vadeli bekle-gör davranışı yaratabilir.",
           "status": "neutral",
@@ -2210,7 +2210,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "İkinci çeyrek GSYH'si çeyreklik %0,8 ve yıllık %2,5 büyüdü.",
           "impact": "Büyümenin Euro Bölgesi ortalamasının üzerinde kalması ekonomik motorun güçlü olduğunu gösteriyor.",
           "status": "positive",
@@ -2223,7 +2223,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Ağustos enflasyonu %3,3'e yükselirken enerji fiyatları yıllık %12,2 arttı.",
           "impact": "Enerji fiyatlarına duyarlılık hane tüketimi ve küçük işletme maliyetleri açısından önemli dış şok kanalı olmaya devam ediyor.",
           "status": "negative",
@@ -2236,7 +2236,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "İkinci çeyrek büyümesinde net dış talep pozitife döndü ve ihracat ithalattan daha hızlı arttı.",
           "impact": "İhracat ve hizmet talebindeki güç iç talep yavaşlamasını dengeleyen önemli bir tampon sağlıyor.",
           "status": "positive",
@@ -2249,7 +2249,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Temmuz hizmet cirosu yıllık %2,1 artarken yeni konut izinleri ve tamamlanan konut sayısı yükseldi.",
           "impact": "Hizmet ekonomisinin büyümesi ve konut arzının artmaya başlaması iki önemli yapısal ihtiyaca aynı anda destek veriyor.",
           "status": "positive",
@@ -2262,7 +2262,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "İkinci çeyrekte iç talebin büyümeye katkısı yatırımın yavaşlaması nedeniyle belirgin biçimde azaldı.",
           "impact": "Yatırım ivmesinin düşmesi AB fonları sonrası özel sermayenin büyümeyi devralıp devralamayacağı sorusunu güçlendiriyor.",
           "status": "negative",
@@ -2275,7 +2275,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Hükümet 2030'a kadar 150 bin uygun fiyatlı konut için yaklaşık 9 milyar avroluk AB destekli program yürütüyor.",
           "impact": "Büyük konut programı arz açığını azaltabilir ancak iş gücü ve uygulama kapasitesi programın hızını belirleyecek.",
           "status": "positive",
@@ -2288,7 +2288,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "Konut üretimini hızlandırmak için lisans süreçleri sadeleştirilirken inşaat sektöründe 80-120 bin kişilik iş gücü açığı tahmin ediliyor.",
           "impact": "Regülasyon sadeleşse bile insan kaynağı eksikliği uygulamanın gerçek hızını sınırlayabilir.",
           "status": "negative",
@@ -2301,7 +2301,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "İşsizlik Haziran'da %5,7 seviyesinde kalırken göç kısıtlarının inşaat gibi sektörlerde iş gücü açığını büyüttüğü bildiriliyor.",
           "impact": "Düşük işsizlik olumlu olsa da göç akışındaki düşüş hızlı büyüyen sektörlerde kapasite darboğazı yaratıyor.",
           "status": "neutral",
@@ -2314,7 +2314,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Portekiz'de konut açığı yaklaşık 300 bin birim olarak tahmin edilirken Lizbon'da yeni kiralar ortalama gelir üzerinde çok yüksek yük oluşturuyor.",
           "impact": "Konut arz açığı relocation açısından ülkenin en belirgin maliyet ve erişilebilirlik riski olmaya devam ediyor.",
           "status": "negative",
@@ -2327,7 +2327,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Göç kurallarındaki sıkılaşma net göçü azaltırken yabancı çalışanlara bağımlı sektörlerde personel açığı büyüyor.",
           "impact": "Daha sıkı göç rejimi uluslararası yetenek erişimini ve özellikle inşaat gibi sektörlerin kapasitesini azaltıyor.",
           "status": "negative",
@@ -2347,7 +2347,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Hollanda ekonomisi ikinci çeyrekte çeyreklik %0,4 ve yıllık %1,3 büyüdü; tüketim büyümeye en büyük katkıyı verdi.",
           "impact": "Ilımlı fakat dengeli büyüme ekonomik dayanıklılığı destekliyor.",
           "status": "positive",
@@ -2360,7 +2360,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Ağustos enflasyonu %3,3'e yükseldi ve küresel enerji ile ulaşım maliyetleri fiyat görünümü için risk oluşturmaya devam ediyor.",
           "impact": "Dış enerji ve ticaret şokları açık ekonomi üzerinden hane ve şirket maliyetlerine hızlı yansıyabilir.",
           "status": "negative",
@@ -2373,7 +2373,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "İkinci çeyrekte ihracat %1,2 artarken ithalat %1,4 arttı ve net ticaret katkısı hafif negatif oldu.",
           "impact": "İhracat büyümesi sürse de ithalatın daha hızlı artması dış ticaretin büyümeye katkısını sınırlıyor.",
           "status": "neutral",
@@ -2386,7 +2386,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Haziran imalat üretimi yıllık %4,6 artarken makine ve elektronik ihracatı büyüdü.",
           "impact": "Yüksek katma değerli üretimin ve elektronik sektörünün güçlü kalması teknolojik dönüşüm kapasitesini destekliyor.",
           "status": "positive",
@@ -2399,7 +2399,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "Haziran sabit varlık yatırımları yıllık %2,7, ikinci çeyrekte toplam yatırımlar çeyreklik %0,5 arttı.",
           "impact": "Yatırımın pozitif kalması şirketlerin gelecekteki kapasiteye güveninin sürdüğünü gösteriyor.",
           "status": "positive",
@@ -2412,7 +2412,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Kamu tüketimi ikinci çeyrekte %0,4 artarken büyümede sağlık ve kamu ücret harcamaları destekleyici oldu.",
           "impact": "Kamu harcamaları büyümeyi destekliyor ancak konut ve şebeke darboğazlarının çözümü altyapı yatırımlarının hızına bağlı kalıyor.",
           "status": "neutral",
@@ -2425,7 +2425,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "CBS iş çevrimi göstergesinde 13 göstergenin 9'u uzun dönem trendinin altında olsa da Ağustos'ta genel görünüm Temmuz'a göre iyileşti.",
           "impact": "Sistem geniş tabanlı bir hızlanma göstermese de kötüleşmenin durması politika ve şirket adaptasyonu için zaman kazandırıyor.",
           "status": "neutral",
@@ -2438,7 +2438,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "Ağustos işsizliği %4,0'da kalırken son üç ayda işsiz sayısı aylık ortalama 3 bin arttı.",
           "impact": "İş gücü piyasası halen sıkı ancak kademeli soğuma yetenek kıtlığını bir miktar azaltabilir.",
           "status": "neutral",
@@ -2451,7 +2451,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Mevcut konut fiyatları Temmuz'da yıllık %3,9 arttı ve konut piyasasındaki arz baskısı sürüyor.",
           "impact": "Fiyat artış hızının yavaşlaması olumlu olsa da yüksek konut maliyeti relocation açısından temel engellerden biri olmaya devam ediyor.",
           "status": "negative",
@@ -2464,7 +2464,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Temmuz'da göç 23.148 kişi olurken göç çıkışı 24.524 kişiye ulaşarak aylık net göç hafif negatife döndü.",
           "impact": "Net göçteki zayıflama nüfus ve iş gücü büyümesini sınırlayabilir ancak tek aylık veri kalıcı bir rejim değişimi göstermiyor.",
           "status": "neutral",
@@ -2487,7 +2487,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Polonya GSYH'si 2026 ikinci çeyreğinde yıllık %3,9 büyüdü.",
           "impact": "Euro Bölgesi çevresindeki zayıflığa rağmen iç ekonomik momentumun güçlü kalması ülkeyi yakın dönem büyüme açısından izlenmeye değer kılıyor.",
           "status": "positive",
@@ -2500,7 +2500,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Ağustos enflasyonu %3,4'e yükselirken ulaştırma fiyatları aylık %3,5 arttı ve hükümet petrol şirketlerine yeni windfall tax planladı.",
           "impact": "Küresel enerji şokları hanelere ve mali politikaya hızlı yansıdığı için enerji maliyeti temel kırılganlık olmaya devam ediyor.",
           "status": "negative",
@@ -2513,7 +2513,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Karpat Sekizlisi girişiminde bölgesel ticaret, enerji ve lojistik için 1 milyar avronun üzerinde 50'den fazla anlaşma imzalandı.",
           "impact": "Yeni bölgesel bağlantılar Polonya'nın Orta ve Doğu Avrupa ticaret koridorlarındaki rolünü güçlendirebilir.",
           "status": "positive",
@@ -2526,7 +2526,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Polonya'nın yerli ve Orta Avrupa kaynaklı savunma tedariki 2022'den beri yaklaşık dört katına çıkarak 30,4 milyar zloty'e ulaştı.",
           "impact": "Savunma harcamasının yerli üretime yönelmesi teknoloji transferi, üretim kapasitesi ve bölgesel tedarik zinciri oluşturuyor.",
           "status": "positive",
@@ -2539,7 +2539,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "Polonya Haziran'da Ulusal Toparlanma Planı kapsamında yaklaşık 31 milyar zloty yeni AB kaynağı aldı.",
           "impact": "Enerji, dijitalleşme, sağlık ve savunmaya yönelen AB sermayesi yatırım döngüsünü destekliyor.",
           "status": "positive",
@@ -2552,7 +2552,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Yeni AB fonları enerji altyapısı, temiz ulaşım, su yönetimi ve dijital dönüşüm projelerine tahsis ediliyor.",
           "impact": "Büyük ölçekli dış finansman altyapı modernizasyonu için mali alanı genişletiyor.",
           "status": "positive",
@@ -2565,7 +2565,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "Yakıt fiyatlarını hafifletmek için planlanan windfall tax daha önce cumhurbaşkanlığı vetosuna takıldı ve hukuki süreç devam ediyor.",
           "impact": "Ekonomik müdahale kapasitesi güçlü olsa da yürütme ile diğer kurumlar arasındaki sürtüşme uygulama hızını sınırlayabiliyor.",
           "status": "neutral",
@@ -2578,7 +2578,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "2026 ilk yarısında nüfus yıllık 159 bin azalırken net uluslararası göç pozitif kaldı; ikinci çeyrek LFS işsizliği %3,2 oldu.",
           "impact": "Çok düşük işsizlik avantaj sağlarken doğal nüfus kaybı uzun vadeli iş gücü arzını baskılıyor.",
           "status": "neutral",
@@ -2591,7 +2591,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Temmuzda reel şirket ücretleri yıllık %3,6 artarken Ocak-Temmuz'da tamamlanan konut sayısı %3,2 yükseldi.",
           "impact": "Reel ücret artışı ve yeni konut arzı yaşam maliyeti baskısını kısmen dengeliyor.",
           "status": "positive",
@@ -2604,7 +2604,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Nüfus küçülmesine rağmen 2026 ilk yarısında net uluslararası göç pozitif kaldı.",
           "impact": "Göçün iş gücü açığını kısmen telafi etmesi uluslararası yetenek açısından yapısal bir ihtiyaç ve fırsat alanı yaratıyor.",
           "status": "positive",
@@ -2625,7 +2625,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Ağustos sanayi üretimi yıllık %14,4 ve ilk sekiz ayda %11,9 arttı.",
           "impact": "Üretim ivmesinin geniş tabanlı olması ekonomik motorun güçlü çalıştığını gösteriyor.",
           "status": "positive",
@@ -2638,7 +2638,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "İlk sekiz ay ihracatının %80,1'i FDI şirketlerinden gelirken ABD en büyük ihracat, Çin en büyük ithalat pazarı oldu.",
           "impact": "Büyüme modelinin yabancı sermaye ve iki büyük dış pazara yoğunlaşması ticaret şoklarına hassasiyet yaratıyor.",
           "status": "negative",
@@ -2651,7 +2651,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "İlk sekiz ay toplam mal ticareti yıllık %28,7 artarak 770,14 milyar dolara ulaştı; ihracat %22,4 büyüdü.",
           "impact": "Küresel tedarik zincirindeki payın hızla genişlemesi dış talep motorunu güçlendiriyor.",
           "status": "positive",
@@ -2664,7 +2664,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "İmal edilmiş ürünler ilk sekiz ay ihracatının %90,2'sini oluştururken sanayi üretimi çift haneli büyüdü.",
           "impact": "Ekonominin daha yüksek katma değerli üretim merkezine dönüşmesi stratejik sektör kapasitesini artırıyor.",
           "status": "positive",
@@ -2677,7 +2677,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "Kayıtlı yabancı yatırım ilk sekiz ayda %55,4 artarak 40,63 milyar dolara, gerçekleşen FDI ise 17,25 milyar dolara çıktı.",
           "impact": "Güçlü sermaye girişi yeni üretim ve hizmet kapasitesinin öncü göstergesi.",
           "status": "positive",
@@ -2690,7 +2690,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Devlet bütçesinden gerçekleşen yatırım harcaması ilk sekiz ayda yıllık %18,5 arttı.",
           "impact": "Kamu yatırımlarının hızlanması lojistik ve üretim altyapısındaki darboğazları azaltabilir.",
           "status": "positive",
@@ -2703,7 +2703,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "Vietnam FTSE Russell gelişen piyasa endeksine alındı; MSCI erişimi için merkezi karşı taraf takas sistemi gibi reformlar sürüyor.",
           "impact": "Sermaye piyasası reformlarının somut sonuç vermesi uygulama kapasitesini güçlendirirken kalan piyasa erişim kısıtları izlenmeli.",
           "status": "positive",
@@ -2716,7 +2716,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "Sanayi işletmelerindeki çalışan sayısı 1 Ağustos itibarıyla yıllık %3,8 arttı.",
           "impact": "Sanayi büyümesinin istihdama dönüşmesi iş gücü talebinin güçlü olduğunu gösteriyor.",
           "status": "positive",
@@ -2729,7 +2729,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Ağustos TÜFE'si yıllık %4,89'a yükselirken hanelerin %96,5'i gelirinin geçen yıla göre aynı kaldığını veya arttığını bildirdi.",
           "impact": "Gelir görünümü dayanıklı olsa da hızlanan enflasyon yaşam maliyeti açısından yeni baskı oluşturuyor.",
           "status": "neutral",
@@ -2742,7 +2742,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "ABD ve Vietnam şirketleri enerji, teknoloji, havacılık ve finans alanlarında geniş bir yeni anlaşma paketi hazırlıyor.",
           "impact": "Uluslararası şirket entegrasyonunun derinleşmesi nitelikli iş ve teknoloji transferi için olumlu bir yetenek sinyali oluşturuyor.",
           "status": "positive",
@@ -2763,7 +2763,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Bank Indonesia iç talep ve mali teşviklerin büyümeyi desteklediğini, Temmuz reel perakende satışlarının yıllık %0,9 büyümesinin beklendiğini bildirdi.",
           "impact": "Büyük iç pazar dış şoklara karşı tampon sağlıyor ancak tüketim ivmesi henüz çok güçlü değil.",
           "status": "neutral",
@@ -2776,7 +2776,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Yüksek küresel petrol fiyatları yakıt sübvansiyon maliyetlerini artırırken rupiah küresel volatiliteye karşı baskı altında kalıyor.",
           "impact": "Enerji ithalatı ve kur hassasiyeti mali denge ile enflasyon için kritik dış bağımlılık oluşturuyor.",
           "status": "negative",
@@ -2789,7 +2789,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Ocak-Haziran döneminde ticaret dengesi 3,58 milyar dolar fazla verirken Haziran tek başına 0,45 milyar dolar açık verdi.",
           "impact": "Dış denge genel olarak destekleyici ancak aylık oynaklık emtia ve küresel talep bağımlılığını gösteriyor.",
           "status": "neutral",
@@ -2802,7 +2802,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Yeni nickel fiyat formülü düşük tenörlü cevheri HPAL batarya üreticileri için daha ekonomik hale getirdi.",
           "impact": "Düzenleme Endonezya'nın ham madde ihracatından EV batarya değer zincirine geçişini destekliyor.",
           "status": "positive",
@@ -2815,7 +2815,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "2026 üçüncü çeyreğinde 14 Ağustos'a kadar portföy yatırımlarında 1,8 milyar dolar net giriş kaydedildi.",
           "impact": "Yabancı sermaye girişinin sürmesi büyüme ve kur istikrarı için destekleyici, ancak politika güveni kritik kalıyor.",
           "status": "positive",
@@ -2828,7 +2828,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "Yeni maliye bakanı 2026 bütçe açığı hedefini GSYH'nin %2,85'inde ve yasal %3 tavanının altında tutacağını açıkladı.",
           "impact": "Mali disiplin taahhüdü büyük sosyal ve altyapı programlarına rağmen finansal dayanıklılığı destekliyor.",
           "status": "positive",
@@ -2841,7 +2841,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "İki yıldan kısa sürede üçüncü maliye bakanının göreve gelmesinin ardından yeni yönetim politika sürekliliği ve öngörülebilirlik sözü verdi.",
           "impact": "Teknokratik devamlılık güveni toparlayabilir ancak sık üst düzey değişiklik kurumsal öngörülebilirlik riskini canlı tutuyor.",
           "status": "neutral",
@@ -2854,7 +2854,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "Mayıs 2026'da iş gücü 155,41 milyona çıkarken işsizlik %4,65'e geriledi.",
           "impact": "Geniş ve büyüyen iş gücü üretim ve hizmet ölçeklenmesi için önemli bir yapısal avantaj sağlıyor.",
           "status": "positive",
@@ -2867,7 +2867,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "2026'da uygun konuta erişen hane oranı %68,4'ten %70,3'e yükselirken Ağustos enflasyonu %3,19 oldu.",
           "impact": "Konut erişimindeki iyileşme relocation açısından destekleyici olsa da bölgesel maliyet farkları önemini koruyor.",
           "status": "positive",
@@ -2880,7 +2880,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Yüksek nitelikli sanayi yatırımları artarken iş gücüne katılım %70,57'ye yükseldi.",
           "impact": "Geniş iş gücü ve yeni sanayi projeleri yetenek piyasasını büyütüyor ancak yönetişim güveni yabancı profesyoneller için izlenmeli.",
           "status": "neutral",
@@ -2901,7 +2901,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "IMF 2026'da petrol dışı büyümeyi %2,6 öngörürken S&P petrol dışı faaliyetlerin GSYH'nin yaklaşık %70'ine ulaştığını belirtiyor.",
           "impact": "Petrol dışı tabanın büyümesi ekonomik çeşitlenmenin somutlaştığını gösteriyor.",
           "status": "positive",
@@ -2914,7 +2914,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Houthi saldırıları East-West petrol boru hattını devre dışı bırakarak alternatif ihracat rotasının da kırılgan olduğunu gösterdi.",
           "impact": "Petrol ve lojistik altyapısının bölgesel güvenlik şoklarına maruziyeti ülkenin en kritik bağımlılığı olmaya devam ediyor.",
           "status": "negative",
@@ -2927,7 +2927,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Eylül'de Suudi petrol sevkiyatları alternatif transfer ve Hürmüz rotaları kullanılarak toparlanmaya başladı.",
           "impact": "İhracat akışının alternatif lojistik yöntemlerle korunabilmesi dış gelir dayanıklılığını artırıyor.",
           "status": "neutral",
@@ -2940,7 +2940,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "PIF turizm ve konut geliştirmek için Al-Khafji kıyısında yeni bir şirket kurdu; yatırımlar petrol dışı sektörlere yönelmeye devam ediyor.",
           "impact": "Turizm, konut ve hizmetlere sermaye aktarımı Vision 2030'un sektör çeşitlendirme eksenini güçlendiriyor.",
           "status": "positive",
@@ -2953,7 +2953,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "S&P Vision 2030 yatırımlarının daha seçici kalibrasyonunu ve özel sektörün büyüyen rolünü mali dayanıklılık açısından olumlu değerlendiriyor.",
           "impact": "Sermayenin daha seçici ve özel sektör ağırlıklı yönlendirilmesi yatırım verimliliğini artırabilir.",
           "status": "positive",
@@ -2966,7 +2966,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "S&P ülkenin A+ notunu korurken güçlü kamu varlıkları ve harcama kalibrasyonunu mali tampon olarak vurguladı.",
           "impact": "Yüksek kamu varlıkları büyük dönüşüm projelerini sürdürmek için önemli finansal kapasite sağlıyor.",
           "status": "positive",
@@ -2979,7 +2979,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "IMF savaş şokuna rağmen lojistik rotaların değiştirilmesi ve proje harcamalarının yeniden ayarlanmasını ekonomik çeviklik göstergesi olarak değerlendirdi.",
           "impact": "Şoklara hızlı operasyonel yanıt verme kapasitesi yüksek görünse de güvenlik ortamı uygulama maliyetini artırıyor.",
           "status": "positive",
@@ -2992,7 +2992,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "IMF Suudi işsizliğinin düşük seviyelerde kaldığını ve kadınların iş gücüne katılımındaki ilerlemeyi Vision 2030 kazanımları arasında saydı.",
           "impact": "İş gücü tabanının çeşitlenmesi petrol dışı sektörlerin yerel yetenek kapasitesini güçlendiriyor.",
           "status": "positive",
@@ -3005,7 +3005,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "Ağustos enflasyonu %1,8'de kalırken konut, su ve enerji grubu yıllık %3,9 arttı.",
           "impact": "Genel enflasyon düşük olsa da konut maliyetleri özellikle hızlı büyüyen kentlerde relocation maliyetini artırıyor.",
           "status": "neutral",
@@ -3018,7 +3018,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "Yeni kolektif konut düzenlemesi yaklaşık bir milyon yabancı çalışanı kapsayan 1.360 lisanslı tesisi standartlara bağladı.",
           "impact": "Yabancı çalışan yaşam koşullarının kurumsallaştırılması uluslararası iş gücü altyapısı açısından olumlu bir sinyal.",
           "status": "positive",
@@ -3039,7 +3039,7 @@
       "items": [
         {
           "signal_id": "economic_engine",
-          "signal": "Ekonomik Motor",
+          "signal": "Büyüme ve Ekonomi",
           "development": "Malezya ekonomisi 2026 ikinci çeyreğinde yıllık %6,0 büyüdü; imalat %7,5 ve hizmetler güçlü seyretti.",
           "impact": "Büyümenin hem hizmet hem üretim tabanında genişlemesi ekonomik motorun güçlü olduğunu gösteriyor.",
           "status": "positive",
@@ -3052,7 +3052,7 @@
         },
         {
           "signal_id": "critical_dependencies",
-          "signal": "Kritik Bağımlılıklar",
+          "signal": "Dışa Bağımlılık",
           "development": "Yüksek petrol fiyatları ringgit üzerinde baskı yaratırken elektronik ticaret fazlası enerji ithalat maliyetini kısmen dengeliyor.",
           "impact": "Enerji fiyatı ve dolar döngüsü temel dış kırılganlık, güçlü elektronik ihracatı ise önemli tampon oluşturuyor.",
           "status": "neutral",
@@ -3065,7 +3065,7 @@
         },
         {
           "signal_id": "external_demand_trade",
-          "signal": "Dış Talep ve Ticaret",
+          "signal": "İhracat ve Dış Ticaret",
           "development": "Haziran ihracatı yıllık %45,4 artarken elektronik ve AI bağlantılı ürünler büyümenin ana dış talep motoru oldu.",
           "impact": "Teknoloji ihracatındaki sıçrama Malezya'yı AI donanım tedarik zincirinde daha önemli hale getiriyor.",
           "status": "positive",
@@ -3078,7 +3078,7 @@
         },
         {
           "signal_id": "strategic_industry_transition",
-          "signal": "Stratejik Sektör Dönüşümü",
+          "signal": "Sektörel Dönüşüm",
           "development": "Nvidia destekli Firmus, Malezya'daki iki veri merkezinden OpenAI'a çok yıllı hesaplama kapasitesi sağlayacak anlaşma imzaladı.",
           "impact": "AI veri merkezi ekosisteminin gerçek müşteri talebiyle ölçeklenmesi stratejik teknoloji dönüşümünü güçlendiriyor.",
           "status": "positive",
@@ -3091,7 +3091,7 @@
         },
         {
           "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye Yönü",
+          "signal": "Yatırım ve Sermaye",
           "development": "İlk yarıda onaylanan yatırımlar %11,7 artarak 218,5 milyar ringgite çıktı; yabancı yatırım %18,5 büyüdü.",
           "impact": "Yüksek ve çeşitlenmiş sermaye girişi gelecekteki kapasite ve istihdam için güçlü öncü sinyal.",
           "status": "positive",
@@ -3104,7 +3104,7 @@
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Mali ve Altyapı Kapasitesi",
+          "signal": "Kamu Maliyesi ve Altyapı",
           "development": "İlk yarı yatırım projelerinin 99 binin üzerinde iş yaratması beklenirken Johor ve Selangor büyük yatırım merkezleri olarak öne çıktı.",
           "impact": "Yatırım kümelerinin altyapı ve şehir kapasitesini hızla büyütmesi fırsat yaratırken enerji ve şebeke planlamasını kritik hale getiriyor.",
           "status": "positive",
@@ -3117,7 +3117,7 @@
         },
         {
           "signal_id": "execution_adaptability",
-          "signal": "Uygulama ve Kurumsal Adaptasyon",
+          "signal": "Yönetim ve Uygulama Gücü",
           "development": "MIDA veri merkezi politikasını yalnız yatırım çekmekten yerel KOBİ ve tedarik zinciri değerine geçiş üzerine yeniden konumlandırıyor.",
           "impact": "Politikanın ikinci aşamaya geçmesi yatırımın yerel ekonomiye yayılması açısından adaptasyon kapasitesini gösteriyor.",
           "status": "positive",
@@ -3130,7 +3130,7 @@
         },
         {
           "signal_id": "demography_labour",
-          "signal": "Demografi ve İş Gücü",
+          "signal": "Nüfus ve İş Gücü",
           "development": "İkinci çeyrekte istihdam yıllık %1,1 arttı, işsizlik %3,0'da kaldı ve emek verimliliği saat başına %5,5 yükseldi.",
           "impact": "Düşük işsizlik ve yükselen verimlilik yeni yüksek katma değerli yatırımları destekliyor.",
           "status": "positive",
@@ -3143,7 +3143,7 @@
         },
         {
           "signal_id": "household_relocation",
-          "signal": "Hane Baskısı / Taşınma Ekonomisi",
+          "signal": "Yaşam Maliyeti ve Konut",
           "development": "İşsizlik %3,0'da ve enflasyon görece kontrollü kalırken hızlı veri merkezi ve yatırım büyümesi Johor gibi merkezlerde konut ve altyapı baskısı yaratabilir.",
           "impact": "Genel hane görünümü dengeli olsa da yatırım kümelerinde yaşam maliyeti ve kapasite baskısının yakından izlenmesi gerekiyor.",
           "status": "neutral",
@@ -3156,7 +3156,7 @@
         },
         {
           "signal_id": "social_political_talent",
-          "signal": "Toplumsal-Siyasi Geri Besleme ve Yetenek Açıklığı",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
           "development": "İlk yarıda onaylanan projelerin yaklaşık 99 bin yeni iş yaratması bekleniyor ve önemli bölümü yüksek nitelikli imalat/hizmet alanlarında yoğunlaşıyor.",
           "impact": "Yeni teknoloji yatırımları yerel ve uluslararası yetenek için fırsat havuzunu büyütüyor.",
           "status": "positive",
