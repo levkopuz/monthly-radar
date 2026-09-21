@@ -3,232 +3,228 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Country Radar — ülkelerin ekonomik, kurumsal ve relocation sinyallerini aylık izleyen erken uyarı dashboard'u.">
-  <title>Country Radar — Eylül 2026</title>
+  <meta name="description" content="Country Radar — ülkelerin ekonomik, kurumsal ve taşınma sinyallerini aylık izleyen erken uyarı panosu.">
+  <title>Country Radar</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
   <style>
     :root{
-      --bg:#f6f7f4; --panel:#ffffff; --ink:#111511; --muted:#6f766f; --line:#dde2da;
-      --positive:#0f8a4b; --negative:#d14343; --neutral:#8a8f88;
-      --chip:#edf0eb; --accent:#151a15; --shadow:0 8px 28px rgba(22,29,21,.07);
+      --bg:#f6f7f4;--panel:#fff;--ink:#111511;--muted:#6f766f;--line:#dde2da;
+      --positive:#0f8a4b;--negative:#d14343;--neutral:#8a8f88;--accent:#151a15;
+      --soft:#eef1ec;--shadow:0 8px 28px rgba(22,29,21,.07);
     }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
     body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,sans-serif}
-    a{color:inherit}
-    .shell{max-width:1440px;margin:0 auto;padding:28px 24px 72px}
+    a{color:inherit}.shell{max-width:1440px;margin:0 auto;padding:28px 24px 72px}
     header{display:flex;justify-content:space-between;gap:28px;align-items:flex-start;padding:8px 0 24px;border-bottom:1px solid var(--line)}
     .brand h1{font:600 clamp(34px,5vw,64px)/.96 "Space Grotesk",sans-serif;margin:0;letter-spacing:-.045em}
-    .brand p{margin:14px 0 0;color:var(--muted);max-width:680px;line-height:1.55}
+    .brand p{margin:14px 0 0;color:var(--muted);max-width:720px;line-height:1.55}
     .meta{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
-    .pill{background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:9px 12px;font-size:12px;font-weight:600}
+    .pill,.select{background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:9px 12px;font-size:12px;font-weight:600}
+    .select{padding-right:32px;cursor:pointer}
     .toolbar{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:18px 0;position:sticky;top:0;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(10px);z-index:10}
-    .tabs,.filters{display:flex;gap:8px;flex-wrap:wrap}
-    button,select{font:inherit}
-    .tab,.filter{border:1px solid var(--line);background:var(--panel);padding:9px 13px;border-radius:999px;cursor:pointer;font-weight:600;font-size:13px}
-    .tab.active,.filter.active{background:var(--accent);color:white;border-color:var(--accent)}
+    .tabs,.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+    button,select{font:inherit}.tab{border:1px solid var(--line);background:var(--panel);padding:9px 13px;border-radius:999px;cursor:pointer;font-weight:600;font-size:13px}
+    .tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
     .legend{display:flex;gap:14px;align-items:center;color:var(--muted);font-size:12px}
-    .legend span{display:flex;gap:6px;align-items:center}
-    .dot{width:9px;height:9px;border-radius:50%;display:inline-block;background:var(--neutral)}
-    .positive{background:var(--positive)} .negative{background:var(--negative)} .neutral{background:var(--neutral)}
-    .overview-title{display:flex;justify-content:space-between;align-items:end;margin:26px 0 12px}
-    .overview-title h2{font:600 24px/1.1 "Space Grotesk";margin:0}
-    .overview-title p{margin:0;color:var(--muted);font-size:13px}
-    .country-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
-    .country-card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:17px;cursor:pointer;transition:.18s;min-height:128px}
-    .country-card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
-    .country-head{display:flex;justify-content:space-between;gap:10px;align-items:center}
-    .country-name{font-weight:700;font-size:15px}
-    .flag{font-size:24px}
-    .signal-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:18px}
-    .signal-strip i{height:8px;border-radius:999px;background:var(--neutral)}
-    .country-card small{display:block;color:var(--muted);margin-top:12px}
-    .detail{margin-top:34px}
-    .detail-head{display:flex;justify-content:space-between;gap:16px;align-items:end;margin-bottom:14px}
-    .detail-head h2{font:600 32px/1 "Space Grotesk";margin:0}
-    .detail-head p{margin:7px 0 0;color:var(--muted);font-size:13px}
-    .signal-table{display:grid;gap:10px}
-    .signal-row{display:grid;grid-template-columns:minmax(190px,.9fr) minmax(280px,1.7fr) minmax(280px,1.7fr) 120px;gap:0;background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden}
-    .cell{padding:16px;border-right:1px solid var(--line);min-width:0}
-    .cell:last-child{border-right:0}
-    .signal-label{font-weight:700;font-size:13px;line-height:1.35}
-    .signal-number{display:block;color:var(--muted);font-size:11px;margin-bottom:7px}
-    .sentence{font-size:13px;line-height:1.55}
+    .legend span{display:flex;gap:6px;align-items:center}.dot{width:9px;height:9px;border-radius:50%;display:inline-block;background:var(--neutral)}
+    .positive{background:var(--positive)}.negative{background:var(--negative)}.neutral{background:var(--neutral)}
+    .overview-title{display:flex;justify-content:space-between;align-items:end;margin:26px 0 12px;gap:16px}
+    .overview-title h2{font:600 24px/1.1 "Space Grotesk";margin:0}.overview-title p{margin:6px 0 0;color:var(--muted);font-size:13px}
+    .country-grid{display:flex;flex-wrap:wrap;gap:8px}
+    .country-chip{display:inline-flex;align-items:center;gap:7px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:8px 11px;cursor:pointer;font-weight:600;font-size:13px;transition:.15s}
+    .country-chip:hover{transform:translateY(-1px);box-shadow:var(--shadow)}.country-chip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+    .country-chip .flag{font-size:17px;line-height:1}
+    .detail{margin-top:34px}.detail-head{display:flex;justify-content:space-between;gap:16px;align-items:end;margin-bottom:14px}
+    .detail-head h2{font:600 32px/1 "Space Grotesk";margin:0}.detail-head p{margin:7px 0 0;color:var(--muted);font-size:13px}
+    .signal-table{display:grid;gap:10px}.signal-row{display:grid;grid-template-columns:minmax(190px,.9fr) minmax(280px,1.55fr) minmax(280px,1.55fr) 150px;gap:0;background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+    .cell{padding:16px;border-right:1px solid var(--line);min-width:0}.cell:last-child{border-right:0}.signal-label{font-weight:700;font-size:13px;line-height:1.35}
+    .signal-number{display:block;color:var(--muted);font-size:11px;margin-bottom:7px}.sentence{font-size:13px;line-height:1.55}
     .source{display:inline-flex;margin-top:10px;color:var(--muted);font-size:11px;text-decoration:none;border-bottom:1px solid var(--line)}
-    .source:hover{color:var(--ink)}
-    .status-cell{display:flex;align-items:center;justify-content:center}
+    .source:hover{color:var(--ink)}.source-date{margin-top:6px;color:var(--muted);font-size:10px}
+    .status-cell{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:8px}
     .status-badge{display:inline-flex;gap:7px;align-items:center;border:1px solid var(--line);border-radius:999px;padding:8px 10px;font-size:12px;font-weight:700;white-space:nowrap}
-    .status-badge .dot{width:8px;height:8px}
-    .empty{padding:42px;background:var(--panel);border:1px dashed var(--line);border-radius:16px;color:var(--muted);text-align:center}
+    .status-badge .dot{width:8px;height:8px}.change{font-size:11px;color:var(--muted);background:var(--soft);border-radius:999px;padding:6px 8px}
+    .empty,.loading{padding:42px;background:var(--panel);border:1px dashed var(--line);border-radius:16px;color:var(--muted);text-align:center}
     .method{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 2fr;gap:28px}
-    .method h3{margin:0;font:600 22px/1.2 "Space Grotesk"}
-    .method p{margin:0;color:var(--muted);line-height:1.65;font-size:13px}
+    .method h3{margin:0;font:600 22px/1.2 "Space Grotesk"}.method p{margin:0;color:var(--muted);line-height:1.65;font-size:13px}
     footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
-    @media(max-width:1100px){
-      .country-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-      .signal-row{grid-template-columns:1fr 1fr}
-      .cell:nth-child(2){border-right:0}
-      .cell:nth-child(-n+2){border-bottom:1px solid var(--line)}
-      .status-cell{justify-content:flex-start}
-    }
+    .error{padding:16px;border:1px solid #e5b8b8;background:#fff5f5;border-radius:14px;color:#8a2f2f}
+    @media(max-width:1100px){.signal-row{grid-template-columns:1fr 1fr}.cell:nth-child(2){border-right:0}.cell:nth-child(-n+2){border-bottom:1px solid var(--line)}}
     @media(max-width:720px){
-      .shell{padding:18px 14px 50px}
-      header{display:block}
-      .meta{justify-content:flex-start;margin-top:20px}
-      .toolbar{align-items:flex-start;flex-direction:column}
-      .legend{display:none}
-      .country-grid{grid-template-columns:1fr}
-      .signal-row{grid-template-columns:1fr}
-      .cell{border-right:0;border-bottom:1px solid var(--line)!important}
-      .cell:last-child{border-bottom:0!important}
-      .method{grid-template-columns:1fr}
+      .shell{padding:18px 14px 50px}header{display:block}.meta{justify-content:flex-start;margin-top:20px}.toolbar{align-items:flex-start;flex-direction:column}
+      .legend{display:none}.signal-row{grid-template-columns:1fr}.cell{border-right:0;border-bottom:1px solid var(--line)!important}.cell:last-child{border-bottom:0!important}.method{grid-template-columns:1fr}
+      .overview-title{align-items:flex-start;flex-direction:column}.detail-head{align-items:flex-start;flex-direction:column}
     }
   </style>
 </head>
 <body>
-  <div class="shell">
-    <header>
-      <div class="brand">
-        <h1>Country Radar</h1>
-        <p>Ülkelerin ekonomik motorunu, kritik bağımlılıklarını, adaptasyon kapasitesini ve relocation koşullarını 10 sabit sinyal üzerinden aylık izleyen erken uyarı dashboard'u.</p>
-      </div>
-      <div class="meta">
-        <span class="pill" id="monthPill">Eylül 2026</span>
-        <span class="pill">10 ülke</span>
-        <span class="pill">10 sinyal</span>
-      </div>
-    </header>
-
-    <div class="toolbar">
-      <div class="tabs">
-        <button class="tab active" data-mode="all">Tüm Radar</button>
-        <button class="tab" data-mode="relocation">Relocation Layer</button>
-      </div>
-      <div class="legend">
-        <span><i class="dot positive"></i>Pozitif</span>
-        <span><i class="dot neutral"></i>Nötr</span>
-        <span><i class="dot negative"></i>Negatif</span>
-      </div>
+<div class="shell">
+  <header>
+    <div class="brand">
+      <h1>Country Radar</h1>
+      <p>Ülkelerin ekonomik motorunu, kritik bağımlılıklarını, kurumsal uyum kapasitesini ve taşınma koşullarını 10 sabit sinyal üzerinden aylık izleyen erken uyarı panosu.</p>
     </div>
+    <div class="meta">
+      <select class="select" id="monthSelect" aria-label="Ay seç"></select>
+      <span class="pill" id="countryCount">18 ülke</span>
+      <span class="pill">10 sinyal</span>
+    </div>
+  </header>
 
-    <section>
-      <div class="overview-title">
-        <div>
-          <h2>Global Overview</h2>
-          <p>Her nokta bir sinyal; toplam skor veya ülke sıralaması üretilmez.</p>
-        </div>
-      </div>
-      <div class="country-grid" id="countryGrid"></div>
-    </section>
-
-    <section class="detail" id="detail">
-      <div class="detail-head">
-        <div>
-          <h2 id="detailTitle">🇬🇧 İngiltere</h2>
-          <p id="detailSubtitle">Eylül 2026 · 10 sinyal</p>
-        </div>
-      </div>
-      <div id="signalTable" class="signal-table"></div>
-    </section>
-
-    <section class="method">
-      <h3>Framework</h3>
-      <p><strong>Country Early Warning = Exposure × Structural Vulnerability × External Trigger ÷ Response Capacity.</strong><br><br>
-      Radar tek bir olayı “tahmin etmeye” çalışmaz; bir ülkenin hangi şoklara açık olduğunu, kırılganlıkların birikip birikmediğini ve sistemin cevap verme kapasitesini izler. Relocation Layer görünümü; altyapı/uygulama kapasitesi, iş gücü, yaşam maliyeti ve uluslararası yetenek açıklığına odaklanır.</p>
-    </section>
-
-    <footer>
-      <span>Country Radar · Public dashboard prototype</span>
-      <span id="updated"></span>
-    </footer>
+  <div class="toolbar">
+    <div class="tabs">
+      <button class="tab active" data-mode="all">Tüm Radar</button>
+      <button class="tab" data-mode="relocation">Taşınma Katmanı</button>
+    </div>
+    <div class="legend">
+      <span><i class="dot positive"></i>Pozitif</span>
+      <span><i class="dot neutral"></i>Nötr</span>
+      <span><i class="dot negative"></i>Negatif</span>
+    </div>
   </div>
 
-  <script src="./data.js"></script>
-  <script>
-    const data = window.COUNTRY_RADAR_DATA;
-    let selected = data.countries[0].id;
-    let mode = "all";
-    const relocationSignals = new Set([
-      "Fiscal & Infrastructure Capacity",
-      "Execution & Institutional Adaptability",
-      "Demography & Labour Supply",
-      "Household Pressure / Relocation Economics",
-      "Social-Political Feedback & Talent Openness"
-    ]);
+  <section>
+    <div class="overview-title">
+      <div>
+        <h2>Küresel Genel Bakış</h2>
+        <p>Bir ülke seç. Renkler her sinyalin o ülkenin dayanıklılığı ve taşınma koşulları üzerindeki yönünü gösterir; toplam ülke puanı üretilmez.</p>
+      </div>
+    </div>
+    <div class="country-grid" id="countryGrid"></div>
+  </section>
 
-    const statusLabel = {positive:"Pozitif",neutral:"Nötr",negative:"Negatif"};
+  <section class="detail" id="detail">
+    <div class="detail-head">
+      <div>
+        <h2 id="detailTitle">Yükleniyor…</h2>
+        <p id="detailSubtitle"></p>
+      </div>
+    </div>
+    <div id="signalTable" class="signal-table"><div class="loading">Radar verisi yükleniyor…</div></div>
+  </section>
 
-    function visibleItems(country){
-      return mode === "relocation" ? country.items.filter(i => relocationSignals.has(i[0])) : country.items;
-    }
+  <section class="method">
+    <h3>Nasıl çalışıyor?</h3>
+    <p><strong>Erken Uyarı = Maruziyet × Yapısal Kırılganlık × Dış Tetikleyici ÷ Yanıt Kapasitesi.</strong><br><br>
+    Radar tek bir olayı tahmin etmeye çalışmaz. Bir ülkenin hangi şoklara açık olduğunu, kırılganlıkların birikip birikmediğini ve sistemin bu şoklara ne kadar hızlı cevap verebildiğini izler. Taşınma Katmanı; altyapı ve uygulama kapasitesi, iş gücü, yaşam maliyeti ve uluslararası yetenek açıklığına odaklanır.</p>
+  </section>
 
-    function renderOverview(){
-      const root = document.getElementById("countryGrid");
-      root.innerHTML = "";
-      data.countries.forEach(c => {
-        const card = document.createElement("article");
-        card.className = "country-card";
-        card.dataset.id = c.id;
-        const items = visibleItems(c);
-        card.innerHTML = `
-          <div class="country-head">
-            <div class="country-name">${c.name}</div>
-            <div class="flag">${c.flag}</div>
-          </div>
-          <div class="signal-strip">
-            ${items.map(i => `<i class="${i[3]}" title="${i[0]} · ${statusLabel[i[3]]}"></i>`).join("")}
-          </div>
-          <small>${mode === "relocation" ? "Relocation sinyalleri" : "10 sabit sinyal"}</small>`;
-        card.addEventListener("click", () => {
-          selected = c.id;
-          renderDetail();
-          document.getElementById("detail").scrollIntoView({behavior:"smooth",block:"start"});
-        });
-        root.appendChild(card);
-      });
-    }
+  <footer>
+    <span>Country Radar · Aylık erken uyarı panosu</span>
+    <span id="updated"></span>
+  </footer>
+</div>
 
-    function renderDetail(){
-      const c = data.countries.find(x => x.id === selected);
-      const items = visibleItems(c);
-      document.getElementById("detailTitle").textContent = `${c.flag} ${c.name}`;
-      document.getElementById("detailSubtitle").textContent = `${data.meta.month} · ${items.length} sinyal${mode === "relocation" ? " · Relocation Layer" : ""}`;
-      const table = document.getElementById("signalTable");
-      if(!items.length){ table.innerHTML = `<div class="empty">Bu görünüm için veri yok.</div>`; return; }
-      table.innerHTML = items.map((i, idx) => `
-        <article class="signal-row">
-          <div class="cell">
-            <span class="signal-number">${String(idx+1).padStart(2,"0")}</span>
-            <div class="signal-label">${i[0]}</div>
-          </div>
-          <div class="cell">
-            <div class="sentence">${i[1]}</div>
-            <a class="source" href="${i[5]}" target="_blank" rel="noopener noreferrer">${i[4]} ↗</a>
-          </div>
-          <div class="cell"><div class="sentence">${i[2]}</div></div>
-          <div class="cell status-cell">
-            <span class="status-badge"><i class="dot ${i[3]}"></i>${statusLabel[i[3]]}</span>
-          </div>
-        </article>
-      `).join("");
-    }
+<script>
+const durumEtiketi={positive:"Pozitif",neutral:"Nötr",negative:"Negatif"};
+const tasinmaSinyalleri=new Set([
+  "fiscal_infrastructure_capacity","execution_adaptability","demography_labour","household_relocation","social_political_talent"
+]);
 
-    document.querySelectorAll(".tab").forEach(btn => {
-      btn.addEventListener("click", () => {
-        document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
-        btn.classList.add("active");
-        mode = btn.dataset.mode;
-        renderOverview();
-        renderDetail();
-      });
+let aylikIndeks=null, veri=null, oncekiVeri=null, seciliUlke=null, mod="all";
+
+async function jsonGetir(url){
+  const r=await fetch(url,{cache:"no-store"});
+  if(!r.ok) throw new Error(`${url} yüklenemedi (${r.status})`);
+  return r.json();
+}
+
+function gorunenMaddeler(ulke){
+  return mod==="relocation" ? ulke.items.filter(x=>tasinmaSinyalleri.has(x.signal_id)) : ulke.items;
+}
+
+function oncekiDurum(countryId,signalId){
+  if(!oncekiVeri) return null;
+  const c=oncekiVeri.countries.find(x=>x.id===countryId);
+  const i=c?.items.find(x=>x.signal_id===signalId);
+  return i?.status||null;
+}
+
+function degisimMetni(countryId,item){
+  const prev=oncekiDurum(countryId,item.signal_id);
+  if(!prev) return "İlk kayıt";
+  if(prev===item.status) return "Önceki aya göre aynı";
+  return `${durumEtiketi[prev]} → ${durumEtiketi[item.status]}`;
+}
+
+function ulkeleriCiz(){
+  const root=document.getElementById("countryGrid");
+  root.innerHTML="";
+  veri.countries.forEach(c=>{
+    const b=document.createElement("button");
+    b.className="country-chip"+(c.id===seciliUlke?" active":"");
+    b.innerHTML=`<span class="flag">${c.flag}</span><span>${c.name}</span>`;
+    b.onclick=()=>{seciliUlke=c.id;ulkeleriCiz();detayiCiz();document.getElementById("detail").scrollIntoView({behavior:"smooth",block:"start"});};
+    root.appendChild(b);
+  });
+}
+
+function detayiCiz(){
+  const c=veri.countries.find(x=>x.id===seciliUlke)||veri.countries[0];
+  if(!c) return;
+  seciliUlke=c.id;
+  const items=gorunenMaddeler(c);
+  document.getElementById("detailTitle").textContent=`${c.flag} ${c.name}`;
+  document.getElementById("detailSubtitle").textContent=`${veri.meta.month} · ${items.length} sinyal${mod==="relocation"?" · Taşınma Katmanı":""}`;
+  const root=document.getElementById("signalTable");
+  root.innerHTML=items.map((i,idx)=>`
+    <article class="signal-row">
+      <div class="cell">
+        <span class="signal-number">${String(idx+1).padStart(2,"0")}</span>
+        <div class="signal-label">${i.signal}</div>
+      </div>
+      <div class="cell">
+        <div class="sentence">${i.development}</div>
+        <a class="source" href="${i.source.url}" target="_blank" rel="noopener noreferrer">${i.source.name} ↗</a>
+        <div class="source-date">${i.source.date?`Kaynak tarihi: ${i.source.date}`:"Kaynak tarihi belirtilmemiş"} · Kontrol: ${i.checked_date}</div>
+      </div>
+      <div class="cell"><div class="sentence">${i.impact}</div></div>
+      <div class="cell status-cell">
+        <span class="status-badge"><i class="dot ${i.status}"></i>${durumEtiketi[i.status]}</span>
+        <span class="change">${degisimMetni(c.id,i)}</span>
+      </div>
+    </article>`).join("");
+}
+
+async function ayiYukle(id){
+  const idx=aylikIndeks.months.findIndex(x=>x.id===id);
+  const m=aylikIndeks.months[idx];
+  veri=await jsonGetir(`./data/${m.file}`);
+  oncekiVeri=null;
+  if(idx>0){
+    const p=aylikIndeks.months[idx-1];
+    oncekiVeri=await jsonGetir(`./data/${p.file}`);
+  }
+  if(!seciliUlke || !veri.countries.some(c=>c.id===seciliUlke)) seciliUlke=veri.countries[0]?.id;
+  document.getElementById("countryCount").textContent=`${veri.meta.country_count} ülke`;
+  document.getElementById("updated").textContent=`Son güncelleme: ${veri.meta.updated}`;
+  document.title=`Country Radar — ${veri.meta.month}`;
+  ulkeleriCiz();detayiCiz();
+}
+
+async function baslat(){
+  try{
+    aylikIndeks=await jsonGetir("./data/index.json");
+    const sel=document.getElementById("monthSelect");
+    aylikIndeks.months.slice().reverse().forEach(m=>{
+      const o=document.createElement("option");o.value=m.id;o.textContent=m.label;sel.appendChild(o);
     });
-
-    document.getElementById("monthPill").textContent = data.meta.month;
-    document.getElementById("updated").textContent = `Son güncelleme: ${data.meta.updated}`;
-    renderOverview();
-    renderDetail();
-  </script>
+    sel.value=aylikIndeks.latest;
+    sel.onchange=()=>ayiYukle(sel.value);
+    await ayiYukle(aylikIndeks.latest);
+  }catch(e){
+    document.getElementById("signalTable").innerHTML=`<div class="error">Radar verisi yüklenemedi. ${e.message}</div>`;
+  }
+}
+document.querySelectorAll(".tab").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    document.querySelectorAll(".tab").forEach(b=>b.classList.remove("active"));
+    btn.classList.add("active");mod=btn.dataset.mode;detayiCiz();
+  });
+});
+baslat();
+</script>
 </body>
 </html>
