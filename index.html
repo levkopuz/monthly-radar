@@ -415,7 +415,7 @@
   <div class="toolbar">
     <div class="tabs">
       <button class="tab active" data-mode="all">Tüm Radar</button>
-      <button class="tab" data-mode="relocation">Taşınma Kriterleri</button>
+      <button class="tab" data-mode="relocation">Taşınma Radar’ı</button>
       <button class="tab" data-mode="potential">Potansiyel Radar</button>
     </div>
     <div class="controls">
@@ -498,7 +498,7 @@
 </div>
     <h3>Nasıl çalışıyor?</h3>
     <p><strong>Erken Uyarı = Maruziyet × Yapısal Kırılganlık × Dış Tetikleyici ÷ Yanıt Kapasitesi.</strong><br><br>
-    Radar tek bir olayı tahmin etmeye çalışmaz. Bir ülkenin hangi şoklara açık olduğunu, kırılganlıkların birikip birikmediğini ve sistemin bu şoklara ne kadar hızlı cevap verebildiğini izler. Taşınma Kriterleri; altyapı ve uygulama kapasitesi, iş gücü, yaşam maliyeti ve uluslararası yetenek açıklığına odaklanır. Potansiyel Radar ise her ay mevcut ana listenin dışından beş ülkeyi aynı sinyal ailesiyle tarayarak gözden kaçabilecek yeni dönüşüm alanlarını keşfetmeye çalışır.</p>
+    Radar tek bir olayı tahmin etmeye çalışmaz. Bir ülkenin hangi şoklara açık olduğunu, kırılganlıkların birikip birikmediğini ve sistemin bu şoklara ne kadar hızlı cevap verebildiğini izler. Taşınma Radar’ı; altyapı ve uygulama kapasitesi, iş gücü, yaşam maliyeti ve uluslararası yetenek açıklığına odaklanır. Potansiyel Radar ise her ay mevcut ana listenin dışından beş ülkeyi aynı sinyal ailesiyle tarayarak gözden kaçabilecek yeni dönüşüm alanlarını keşfetmeye çalışır.</p>
   </section>
 
   <footer>
@@ -577,7 +577,7 @@ function detayiCiz(){
   seciliUlke=c.id;
   const items=gorunenMaddeler(c);
   document.getElementById("detailTitle").textContent=`${c.flag} ${c.name}`;
-  const ek=mod==="relocation"?" · Taşınma Kriterleri":mod==="potential"?" · Potansiyel Radar":"";
+  const ek=mod==="relocation"?" · Taşınma Radar’ı":mod==="potential"?" · Potansiyel Radar":"";
   document.getElementById("detailSubtitle").textContent=`${veri.meta.month} · ${items.length} sinyal${ek}`;
   const reason=document.getElementById("reason");
   if(mod==="potential"&&c.selection_reason){
