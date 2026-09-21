@@ -10,13 +10,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root{
-      --paper:#f2eee7;
-      --paper-2:#e9e2d8;
-      --panel:#f9f6f0;
-      --panel-2:#eee8df;
+      --paper:#f7f4ee;
+      --paper-2:#eee9e1;
+      --panel:#fcfaf6;
+      --panel-2:#f3eee7;
       --ink:#11110f;
       --ink-2:#1a1a17;
-      --muted:#716d66;
+      --muted:#57524b;
       --line:rgba(25,23,19,.13);
       --line-dark:rgba(255,255,255,.13);
       --positive:#6f8b6a;
@@ -36,7 +36,7 @@
       margin:0;
       background:
         radial-gradient(circle at 4% 2%,rgba(255,255,255,.68),transparent 25%),
-        linear-gradient(180deg,#eee9e1 0%,var(--paper) 42%,#ece6dc 100%);
+        linear-gradient(180deg,#f5f1eb 0%,var(--paper) 42%,#f2eee7 100%);
       color:var(--ink);
       font-family:var(--sans);
       -webkit-font-smoothing:antialiased;
@@ -109,7 +109,18 @@
       letter-spacing:.01em;
       box-shadow:0 1px 0 rgba(255,255,255,.7) inset;
     }
-    .select{padding-right:34px;cursor:pointer}
+    .select{
+      cursor:pointer;
+      appearance:none;
+      -webkit-appearance:none;
+      min-width:118px;
+      text-align:center;
+      padding:10px 34px 10px 14px;
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M3 4.5 6 7.5 9 4.5' fill='none' stroke='%2311110f' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-repeat:no-repeat;
+      background-position:right 13px center;
+      background-size:12px 12px;
+    }
     .map-art{
       position:absolute;
       pointer-events:none;
@@ -151,9 +162,14 @@
     }
     .tab:hover{border-color:rgba(255,255,255,.36);transform:translateY(-1px)}
     .tab.active{background:#f3eee6;color:#11110f;border-color:#f3eee6}
-    .month-control{display:flex;align-items:center;gap:8px;color:#aaa39a;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
-    .toolbar .select{background:#1d1d1a;color:#f3eee6;border-color:rgba(255,255,255,.14)}
-    .legend{display:flex;gap:12px;align-items:center;color:#aaa39a;font-size:10px}
+    .month-control{display:flex;align-items:center;gap:8px;color:#c8c0b6;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+    .toolbar .select{
+      background-color:#1d1d1a;
+      color:#f3eee6;
+      border-color:rgba(255,255,255,.14);
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M3 4.5 6 7.5 9 4.5' fill='none' stroke='%23f3eee6' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    }
+    .legend{display:flex;gap:12px;align-items:center;color:#c8c0b6;font-size:10px}
     .legend span{display:flex;gap:6px;align-items:center}
     .dot{width:8px;height:8px;border-radius:50%;display:inline-block;background:var(--neutral)}
     .positive{background:var(--positive)}
@@ -236,15 +252,15 @@
     .cell:first-child{padding-left:2px}.cell:last-child{border-right:0}
     .signal-label{font-weight:700;font-size:11px;line-height:1.45}
     .signal-number{
-      display:block;color:#a29a90;font-size:9px;font-weight:700;letter-spacing:.16em;margin-bottom:8px
+      display:block;color:#6f685f;font-size:9px;font-weight:700;letter-spacing:.16em;margin-bottom:8px
     }
     .sentence{font-size:12px;line-height:1.65;color:#3f3c37}
     .source{
-      display:inline-flex;margin-top:11px;color:#69635c;font-size:9px;font-weight:700;letter-spacing:.04em;
+      display:inline-flex;margin-top:11px;color:#565049;font-size:9px;font-weight:700;letter-spacing:.04em;
       text-decoration:none;border-bottom:1px solid rgba(25,23,19,.23)
     }
     .source:hover{color:#11110f}
-    .source-date{margin-top:7px;color:#9a9288;font-size:9px}
+    .source-date{margin-top:7px;color:#746d64;font-size:9px}
     .status-cell{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:8px;padding-right:0}
     .status-badge{
       display:inline-flex;gap:7px;align-items:center;
@@ -255,7 +271,7 @@
       background:rgba(255,255,255,.42);
     }
     .status-badge .dot{width:7px;height:7px}
-    .change{font-size:9px;color:#7f776e;background:#ebe5dc;border-radius:999px;padding:6px 8px}
+    .change{font-size:9px;color:#5f5951;background:#eee9e1;border-radius:999px;padding:6px 8px}
     .trend-section{position:relative;z-index:2;margin-top:34px}
     .trend-title{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:12px}
     .trend-title h3{font-size:32px;line-height:1;margin:0}
@@ -275,7 +291,7 @@
       font-family:var(--serif);font-style:italic;font-size:22px;color:rgba(255,255,255,.08);pointer-events:none
     }
     .trend-grid{display:grid;align-items:center;gap:7px;min-width:max-content;position:relative;z-index:2}
-    .trend-head{font-size:9px;color:#979087;text-align:center;font-weight:700;padding:5px 6px;letter-spacing:.08em}
+    .trend-head{font-size:9px;color:#c2bab0;text-align:center;font-weight:700;padding:5px 6px;letter-spacing:.08em}
     .trend-axis{font-size:10px;font-weight:600;line-height:1.25;padding:8px 10px;color:#e4ddd4;max-width:210px}
     .trend-cell{width:54px;height:28px;border-radius:8px;background:#33332f;border:1px solid rgba(255,255,255,.07);display:flex;align-items:center;justify-content:center}
     .trend-cell.positive{background:#6f8b6a}
@@ -304,7 +320,7 @@
     footer{
       margin-top:32px;padding:18px 2px 0;
       border-top:1px solid var(--line);
-      color:#817a71;font-size:9px;font-weight:700;letter-spacing:.08em;
+      color:#625b53;font-size:9px;font-weight:700;letter-spacing:.08em;
       display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;text-transform:uppercase
     }
     .error{padding:16px;border:1px solid rgba(150,74,67,.28);background:#f4e7e2;border-radius:14px;color:#8a4941;font-size:11px}
@@ -505,7 +521,7 @@ function oncekiDurum(countryId,signalId){
 }
 function degisimMetni(countryId,item){
   const prev=oncekiDurum(countryId,item.signal_id);
-  if(!prev)return "İlk kayıt";
+  if(!prev)return "";
   if(prev===item.status)return "Önceki aya göre aynı";
   return `${durumEtiketi[prev]} → ${durumEtiketi[item.status]}`;
 }
@@ -565,7 +581,7 @@ function detayiCiz(){
       <div class="cell"><div class="sentence">${i.impact}</div></div>
       <div class="cell status-cell">
         <span class="status-badge"><i class="dot ${i.status}"></i>${durumEtiketi[i.status]}</span>
-        <span class="change">${degisimMetni(c.id,i)}</span>
+        ${degisimMetni(c.id,i)?`<span class="change">${degisimMetni(c.id,i)}</span>`:""}
       </div>
     </article>`).join("");
   trendCiz(c);
