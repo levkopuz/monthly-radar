@@ -114,7 +114,13 @@
       position:relative;z-index:3;
       display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end
     }
-    .pill,.select{
+    .meta-stat{
+      color:var(--ink);
+      font-size:13px;
+      font-weight:700;
+      letter-spacing:.01em;
+    }
+    .select{
       background:rgba(250,248,243,.82);
       color:var(--ink);
       border:1px solid var(--line);
@@ -413,7 +419,7 @@
       .brand h1{font-size:clamp(58px,17vw,74px);line-height:.84}
       .brand p{max-width:none;font-size:14px;line-height:1.65;margin-top:24px}
       .meta{justify-content:flex-start;margin-top:20px;gap:6px}
-      .pill{padding:8px 10px;font-size:12px}
+      .meta-stat{font-size:12px}
       .hero-map{width:470px;height:280px;right:-235px;top:46px;opacity:.07}
 
       .toolbar{
@@ -595,8 +601,8 @@
       <p>Ülkelerde ekonomi, dışa bağımlılık, yönetim gücü ve yaşam koşullarının nasıl değiştiğini 10 temel göstergeyle her ay takip eden bir erken uyarı ekranı. Her ayın 15’inde otomatik güncellenir.</p>
     </div>
     <div class="meta">
-      <span class="pill" id="countryCount">20 takip edilen ülke</span>
-      <span class="pill">10 sinyal</span>
+      <span class="meta-stat" id="countryCount">20 takip edilen ülke</span>
+      <span class="meta-stat">10 sinyal</span>
     </div>
   </header>
 
