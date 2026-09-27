@@ -1148,19 +1148,19 @@ function sinyalNoktalariKur(){
   };
 }
 function detayiCiz(){
-  const list=ayUlkeListesi(veri),c=list.find(x=>x.id===seciliUlke)||list[0];
+  const u=ui(),list=ayUlkeListesi(veri),c=list.find(x=>x.id===seciliUlke)||list[0];
   if(!c){
-    document.getElementById("signalTable").innerHTML='<div class="empty">Bu görünüm için ülke bulunamadı.</div>';
+    document.getElementById("signalTable").innerHTML=`<div class="empty">${u.noCountry}</div>`;
     return;
   }
   seciliUlke=c.id;
   const items=gorunenMaddeler(c);
   document.getElementById("detailTitle").textContent=`${c.flag} ${c.name}`;
-  const ek=mod==="relocation"?" · Taşınma Radar’ı":mod==="potential"?" · Potansiyel Radar":"";
-  document.getElementById("detailSubtitle").textContent=`${veri.meta.month} · ${items.length} sinyal${ek}`;
+  const ek=mod==="relocation"?` · ${u.modeSuffix.relocation}`:mod==="potential"?` · ${u.modeSuffix.potential}`:"";
+  document.getElementById("detailSubtitle").textContent=`${ayEtiketi(veri.meta.month_id)} · ${u.signals(items.length)}${ek}`;
   const reason=document.getElementById("reason");
   if(mod==="potential"&&c.selection_reason){
-    reason.className="reason show";reason.innerHTML=`<strong>Neden bu ay?</strong> ${c.selection_reason}`;
+    reason.className="reason show";reason.innerHTML=`<strong>${u.whyThisMonth}</strong> ${c.selection_reason}`;
   }else{reason.className="reason";reason.textContent="";}
   document.getElementById("signalTable").innerHTML=items.map((i,idx)=>`
     <article class="signal-row">
@@ -1171,11 +1171,11 @@ function detayiCiz(){
       <div class="cell">
         <div class="sentence">${i.development}</div>
         <a class="source" href="${i.source.url}" target="_blank" rel="noopener noreferrer">${i.source.name} ↗</a>
-        <div class="source-date">${i.source.date?`Kaynak tarihi: ${i.source.date}`:"Kaynak tarihi belirtilmemiş"} · Kontrol: ${i.checked_date}</div>
+        <div class="source-date">${i.source.date?`${u.sourceDate}: ${tarihFormatla(i.source.date)}`:u.sourceMissing} · ${u.checked}: ${tarihFormatla(i.checked_date)}</div>
       </div>
       <div class="cell"><div class="sentence">${i.impact}</div></div>
       <div class="cell status-cell">
-        <span class="status-badge"><i class="dot ${i.status}"></i>${durumEtiketi[i.status]}</span>
+        <span class="status-badge"><i class="dot ${i.status}"></i>${durumEtiketi(i.status)}</span>
         ${degisimMetni(c.id,i)?`<span class="change">${degisimMetni(c.id,i)}</span>`:""}
       </div>
     </article>`).join("");
