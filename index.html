@@ -1211,29 +1211,48 @@ async function trendCiz(c){
 }
 async function ayiYukle(id){
   const idx=aylikIndeks.months.findIndex(x=>x.id===id),m=aylikIndeks.months[idx];
-  veri=await jsonGetir(`./data/${m.file}`);arsivCache.set(m.id,veri);
+  if(!m)return;
+  veri=await ayVerisiGetir(m);arsivCache.set(arsivAnahtari(m.id),veri);
   oncekiVeri=null;
-  if(idx>0){const p=aylikIndeks.months[idx-1];oncekiVeri=await jsonGetir(`./data/${p.file}`);arsivCache.set(p.id,oncekiVeri);}
+  if(idx>0){
+    const p=aylikIndeks.months[idx-1];
+    oncekiVeri=await ayVerisiGetir(p);arsivCache.set(arsivAnahtari(p.id),oncekiVeri);
+  }
   const list=ayUlkeListesi(veri);
   if(!seciliUlke||!list.some(c=>c.id===seciliUlke))seciliUlke=list[0]?.id;
-  document.getElementById("updated").textContent=`Son güncelleme: ${veri.meta.updated}`;
-  document.title=`Country Radar — ${veri.meta.month}`;
+  statikMetinleriGuncelle();
+  document.getElementById("updated").textContent=`${ui().updated}: ${tarihFormatla(veri.meta.checked_date)}`;
+  document.title=`Country Radar — ${ayEtiketi(veri.meta.month_id)}`;
   ulkeleriCiz();detayiCiz();
 }
 async function baslat(){
   try{
+    const langSel=document.getElementById("languageSelect");
+    langSel.value=dil;
+    statikMetinleriGuncelle();
     aylikIndeks=await jsonGetir("./data/index.json");
+    aySecenekleriniGuncelle();
     const sel=document.getElementById("monthSelect");
-    aylikIndeks.months.slice().reverse().forEach(m=>{
-      const o=document.createElement("option");o.value=m.id;o.textContent=m.label;sel.appendChild(o);
-    });
     sel.value=aylikIndeks.latest;
     sel.onchange=()=>ayiYukle(sel.value);
     await ayiYukle(aylikIndeks.latest);
   }catch(e){
-    document.getElementById("signalTable").innerHTML=`<div class="error">Radar verisi yüklenemedi. ${e.message}</div>`;
+    document.getElementById("signalTable").innerHTML=`<div class="error">${ui().dataError} ${e.message}</div>`;
   }
 }
+document.getElementById("languageSelect").addEventListener("change",async e=>{
+  const yeni=e.target.value;
+  if(!["tr","en","de"].includes(yeni)||yeni===dil)return;
+  dil=yeni;
+  localStorage.setItem("countryRadarLanguage",dil);
+  const url=new URL(location.href);url.searchParams.set("lang",dil);history.replaceState(null,"",url);
+  arsivCache.clear();
+  statikMetinleriGuncelle();
+  aySecenekleriniGuncelle();
+  try{await ayiYukle(document.getElementById("monthSelect").value||aylikIndeks.latest);}
+  catch(err){document.getElementById("signalTable").innerHTML=`<div class="error">${ui().dataError} ${err.message}</div>`;}
+});
+
 document.getElementById("signalPrev").addEventListener("click",()=>sinyalKaydir(-1));
 document.getElementById("signalNext").addEventListener("click",()=>sinyalKaydir(1));
 
