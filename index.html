@@ -1020,7 +1020,7 @@ async function haritaVerisiniGetir(){
   if(haritaTopo)return haritaTopo;
   if(!haritaPromise){
     haritaPromise=fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
-      .then(r=>{if(!r.ok)throw new Error("Harita verisi yüklenemedi");return r.json();})
+      .then(r=>{if(!r.ok)throw new Error(ui().mapError);return r.json();})
       .then(v=>(haritaTopo=v));
   }
   return haritaPromise;
@@ -1029,7 +1029,7 @@ async function haritayiCiz(){
   const root=document.getElementById("mapPanel");
   if(gorunum!=="map"||!veri)return;
   const list=ayUlkeListesi(veri);
-  root.innerHTML='<div class="map-loading">Dünya haritası yükleniyor…</div>';
+  root.innerHTML=`<div class="map-loading">${ui().mapLoading}</div>`;
   try{
     const topo=await haritaVerisiniGetir();
     if(gorunum!=="map")return;
@@ -1040,7 +1040,7 @@ async function haritayiCiz(){
     const svg=d3.select(root).append("svg")
       .attr("viewBox","0 0 1000 500")
       .attr("role","img")
-      .attr("aria-label","Country Radar etkileşimli dünya haritası");
+      .attr("aria-label",ui().mapAria);
     const projection=d3.geoNaturalEarth1().fitExtent([[18,18],[982,482]],world);
     const path=d3.geoPath(projection);
     const features=world.features;
@@ -1088,7 +1088,7 @@ function gorunumuGuncelle(){
   panel.classList.toggle("show",mapMode);
   detail.classList.toggle("map-view-active",mapMode);
   toggle.innerHTML=mapMode?listeIkonu:haritaIkonu;
-  toggle.setAttribute("aria-label",mapMode?"Liste görünümüne dön":"Harita görünümüne geç");
+  toggle.setAttribute("aria-label",mapMode?ui().listView:ui().mapView);
   toggle.setAttribute("aria-pressed",mapMode?"true":"false");
   if(mapMode)haritayiCiz();
 }
