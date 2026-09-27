@@ -1184,29 +1184,30 @@ function detayiCiz(){
 }
 async function tumArsiviYukle(){
   await Promise.all(aylikIndeks.months.map(async m=>{
-    if(!arsivCache.has(m.id))arsivCache.set(m.id,await jsonGetir(`./data/${m.file}`));
+    const key=arsivAnahtari(m.id);
+    if(!arsivCache.has(key))arsivCache.set(key,await ayVerisiGetir(m));
   }));
 }
 async function trendCiz(c){
-  const root=document.getElementById("trendChart");
-  root.className="loading";root.textContent="Aylık geçmiş yükleniyor…";
+  const u=ui(),root=document.getElementById("trendChart");
+  root.className="loading";root.textContent=u.historyLoading;
   try{
     await tumArsiviYukle();
     const months=aylikIndeks.months;
     const items=gorunenMaddeler(c);
     const cols=`minmax(190px,220px) repeat(${months.length},54px)`;
-    let out=`<div class="trend-grid" style="grid-template-columns:${cols}"><div class="trend-head" style="text-align:left">Sinyal</div>`;
-    out+=months.map(m=>`<div class="trend-head">${m.label.replace(" 20"," '")}</div>`).join("");
+    let out=`<div class="trend-grid" style="grid-template-columns:${cols}"><div class="trend-head" style="text-align:left">${u.signalAxis}</div>`;
+    out+=months.map(m=>`<div class="trend-head">${ayEtiketi(m.id,true)}</div>`).join("");
     items.forEach(item=>{
       out+=`<div class="trend-axis">${item.signal}</div>`;
       months.forEach(m=>{
-        const mv=arsivCache.get(m.id),mc=arsivdeUlke(mv,c.id),mi=mc?.items.find(x=>x.signal_id===item.signal_id);
-        if(mi)out+=`<div class="trend-cell ${mi.status}" title="${m.label} · ${item.signal} · ${durumEtiketi[mi.status]}"><span>${durumKisa[mi.status]}</span></div>`;
-        else out+=`<div class="trend-cell empty" title="${m.label} · kayıt yok"><span>·</span></div>`;
+        const mv=arsivCache.get(arsivAnahtari(m.id)),mc=arsivdeUlke(mv,c.id),mi=mc?.items.find(x=>x.signal_id===item.signal_id);
+        if(mi)out+=`<div class="trend-cell ${mi.status}" title="${ayEtiketi(m.id)} · ${item.signal} · ${durumEtiketi(mi.status)}"><span>${durumKisa[mi.status]}</span></div>`;
+        else out+=`<div class="trend-cell empty" title="${ayEtiketi(m.id)} · ${u.noRecord}"><span>·</span></div>`;
       });
     });
     out+="</div>";root.className="";root.innerHTML=out;
-  }catch(e){root.className="error";root.textContent="Aylık geçmiş yüklenemedi: "+e.message;}
+  }catch(e){root.className="error";root.textContent=`${u.historyError}: ${e.message}`;}
 }
 async function ayiYukle(id){
   const idx=aylikIndeks.months.findIndex(x=>x.id===id),m=aylikIndeks.months[idx];
