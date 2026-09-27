@@ -821,14 +821,98 @@
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
 <script>
-const durumEtiketi={positive:"Pozitif",neutral:"Nötr",negative:"Negatif"};
+const UI={
+  tr:{
+    locale:"tr-TR",
+    eyebrow:"COUNTRY INTELLIGENCE · AYLIK ERKEN UYARI",
+    brandDescription:"Ülkelerde ekonomi, dışa bağımlılık, yönetim gücü ve yaşam koşullarının nasıl değiştiğini 10 temel göstergeyle her ay takip eden bir erken uyarı ekranı. Her ayın 1’inde otomatik güncellenir.",
+    metaDescription:"Country Radar — ülkelerin ekonomik, kurumsal ve taşınma sinyallerini aylık izleyen erken uyarı panosu.",
+    languageAria:"Dil seç",monthAria:"Ay seç",
+    tabs:{all:"Tüm Radar",relocation:"Taşınma Radarı",potential:"Potansiyel Radar"},
+    status:{positive:"Pozitif",neutral:"Nötr",negative:"Negatif"},
+    trackedCountries:n=>`${n} takip edilen ülke`,potentialCountries:n=>`${n} potansiyel ülke`,signals:n=>`${n} sinyal`,
+    overview:{allTitle:"Küresel Genel Bakış",relocationTitle:"Taşınma Genel Bakışı",potentialTitle:"Potansiyel Radar",
+      allText:"Bir ülke seç. Renkler her sinyalin o ülkenin dayanıklılığı üzerindeki yönünü gösterir; toplam ülke puanı üretilmez.",
+      relocationText:"İş gücü, yaşam maliyeti, altyapı, uygulama kapasitesi ve uluslararası yetenek açıklığına odaklanan taşınma görünümü.",
+      potentialText:(main,potential)=>`Bu ay ana listedeki ${main} ülkenin dışında erken gelişim sinyallerinin kümelendiği ${potential} ülke. Liste her ay yeniden seçilir.`},
+    mapView:"Harita görünümüne geç",listView:"Liste görünümüne dön",mapPanelAria:"Etkileşimli ülke haritası",
+    mapAria:"Country Radar etkileşimli dünya haritası",mapLoading:"Dünya haritası yükleniyor…",mapError:"Harita verisi yüklenemedi",
+    previousSame:"Önceki aya göre aynı",noCountry:"Bu görünüm için ülke bulunamadı.",
+    modeSuffix:{relocation:"Taşınma Radarı",potential:"Potansiyel Radar"},whyThisMonth:"Neden bu ay?",
+    sourceDate:"Kaynak tarihi",sourceMissing:"Kaynak tarihi belirtilmemiş",checked:"Kontrol",
+    trendTitle:"Aylık Sinyal Haritası",trendDescription:"Y ekseni sinyalleri, X ekseni ayları gösterir. Boş hücre, o ay için kayıt bulunmadığı anlamına gelir.",
+    signalAxis:"Sinyal",noRecord:"kayıt yok",historyLoading:"Aylık geçmiş yükleniyor…",historyError:"Aylık geçmiş yüklenemedi",
+    dataLoading:"Radar verisi yükleniyor…",dataError:"Radar verisi yüklenemedi.",loading:"Yükleniyor…",
+    updated:"Son güncelleme",footer:"Country Radar · Aylık erken uyarı panosu",
+    prevSignal:"Önceki sinyale git",nextSignal:"Sonraki sinyale git",
+    methodTitle:"Nasıl çalışıyor?",
+    methodHtml:"<strong>Erken Uyarı = Maruziyet × Yapısal Kırılganlık × Dış Tetikleyici ÷ Yanıt Kapasitesi.</strong><br><br>Radar tek bir olayı tahmin etmeye çalışmaz. Bir ülkenin hangi şoklara açık olduğunu, kırılganlıkların birikip birikmediğini ve sistemin bu şoklara ne kadar hızlı cevap verebildiğini izler. Taşınma Radarı; altyapı ve uygulama kapasitesi, iş gücü, yaşam maliyeti ve uluslararası yetenek açıklığına odaklanır. Potansiyel Radar ise her ay mevcut ana listenin dışından beş ülkeyi aynı sinyal ailesiyle tarayarak gözden kaçabilecek yeni dönüşüm alanlarını keşfetmeye çalışır."
+  },
+  en:{
+    locale:"en-GB",
+    eyebrow:"COUNTRY INTELLIGENCE · MONTHLY EARLY WARNING",
+    brandDescription:"A monthly early-warning view tracking how economies, external dependencies, governance strength and living conditions are changing across countries through 10 core indicators. Updated automatically on the 1st of every month.",
+    metaDescription:"Country Radar — a monthly early-warning dashboard for economic, institutional and relocation signals across countries.",
+    languageAria:"Select language",monthAria:"Select month",
+    tabs:{all:"Full Radar",relocation:"Relocation Radar",potential:"Potential Radar"},
+    status:{positive:"Positive",neutral:"Neutral",negative:"Negative"},
+    trackedCountries:n=>`${n} tracked countries`,potentialCountries:n=>`${n} potential countries`,signals:n=>`${n} signals`,
+    overview:{allTitle:"Global Overview",relocationTitle:"Relocation Overview",potentialTitle:"Potential Radar",
+      allText:"Select a country. Colors show the direction of each signal for that country's resilience; no overall country score is produced.",
+      relocationText:"A relocation view focused on labour, cost of living, infrastructure, execution capacity and openness to international talent.",
+      potentialText:(main,potential)=>`This month, ${potential} countries outside the main list of ${main} show clusters of early development signals. The list is reselected every month.`},
+    mapView:"Switch to map view",listView:"Return to list view",mapPanelAria:"Interactive country map",
+    mapAria:"Country Radar interactive world map",mapLoading:"Loading world map…",mapError:"Map data could not be loaded",
+    previousSame:"No change from previous month",noCountry:"No country is available for this view.",
+    modeSuffix:{relocation:"Relocation Radar",potential:"Potential Radar"},whyThisMonth:"Why this month?",
+    sourceDate:"Source date",sourceMissing:"Source date not provided",checked:"Checked",
+    trendTitle:"Monthly Signal Map",trendDescription:"The Y-axis shows signals and the X-axis shows months. An empty cell means no record is available for that month.",
+    signalAxis:"Signal",noRecord:"no record",historyLoading:"Loading monthly history…",historyError:"Monthly history could not be loaded",
+    dataLoading:"Loading radar data…",dataError:"Radar data could not be loaded.",loading:"Loading…",
+    updated:"Last updated",footer:"Country Radar · Monthly early-warning dashboard",
+    prevSignal:"Go to previous signal",nextSignal:"Go to next signal",
+    methodTitle:"How it works",
+    methodHtml:"<strong>Early Warning = Exposure × Structural Vulnerability × External Trigger ÷ Response Capacity.</strong><br><br>The radar does not try to predict a single event. It tracks which shocks a country is exposed to, whether vulnerabilities are accumulating, and how quickly the system can respond. The Relocation Radar focuses on infrastructure and execution capacity, labour, cost of living and openness to international talent. The Potential Radar scans five countries outside the main list each month using the same signal families to surface emerging areas of transformation that might otherwise be overlooked."
+  },
+  de:{
+    locale:"de-DE",
+    eyebrow:"COUNTRY INTELLIGENCE · MONATLICHE FRÜHWARNUNG",
+    brandDescription:"Eine monatliche Frühwarnansicht, die anhand von 10 Kernindikatoren verfolgt, wie sich Wirtschaft, externe Abhängigkeiten, staatliche Handlungsfähigkeit und Lebensbedingungen in Ländern verändern. Automatische Aktualisierung jeweils am 1. des Monats.",
+    metaDescription:"Country Radar — ein monatliches Frühwarn-Dashboard für wirtschaftliche, institutionelle und umzugsrelevante Signale von Ländern.",
+    languageAria:"Sprache wählen",monthAria:"Monat wählen",
+    tabs:{all:"Gesamtradar",relocation:"Umzugsradar",potential:"Potenzialradar"},
+    status:{positive:"Positiv",neutral:"Neutral",negative:"Negativ"},
+    trackedCountries:n=>`${n} beobachtete Länder`,potentialCountries:n=>`${n} Potenzialländer`,signals:n=>`${n} Signale`,
+    overview:{allTitle:"Globaler Überblick",relocationTitle:"Umzugsüberblick",potentialTitle:"Potenzialradar",
+      allText:"Wähle ein Land. Die Farben zeigen die Richtung jedes Signals für die Widerstandsfähigkeit des Landes; es wird kein Gesamtscore erstellt.",
+      relocationText:"Eine Umzugsansicht mit Fokus auf Arbeitsmarkt, Lebenshaltungskosten, Infrastruktur, Umsetzungskapazität und Offenheit für internationale Talente.",
+      potentialText:(main,potential)=>`In diesem Monat zeigen ${potential} Länder außerhalb der Hauptliste mit ${main} Ländern gebündelte frühe Entwicklungssignale. Die Liste wird jeden Monat neu ausgewählt.`},
+    mapView:"Zur Kartenansicht wechseln",listView:"Zur Listenansicht zurückkehren",mapPanelAria:"Interaktive Länderkarte",
+    mapAria:"Interaktive Country-Radar-Weltkarte",mapLoading:"Weltkarte wird geladen…",mapError:"Kartendaten konnten nicht geladen werden",
+    previousSame:"Keine Änderung zum Vormonat",noCountry:"Für diese Ansicht ist kein Land verfügbar.",
+    modeSuffix:{relocation:"Umzugsradar",potential:"Potenzialradar"},whyThisMonth:"Warum diesen Monat?",
+    sourceDate:"Quelldatum",sourceMissing:"Quelldatum nicht angegeben",checked:"Geprüft",
+    trendTitle:"Monatliche Signalkarte",trendDescription:"Die Y-Achse zeigt die Signale, die X-Achse die Monate. Eine leere Zelle bedeutet, dass für diesen Monat kein Eintrag vorliegt.",
+    signalAxis:"Signal",noRecord:"kein Eintrag",historyLoading:"Monatlicher Verlauf wird geladen…",historyError:"Monatlicher Verlauf konnte nicht geladen werden",
+    dataLoading:"Radar-Daten werden geladen…",dataError:"Radar-Daten konnten nicht geladen werden.",loading:"Wird geladen…",
+    updated:"Letzte Aktualisierung",footer:"Country Radar · Monatliches Frühwarn-Dashboard",
+    prevSignal:"Zum vorherigen Signal",nextSignal:"Zum nächsten Signal",
+    methodTitle:"So funktioniert es",
+    methodHtml:"<strong>Frühwarnung = Exposition × Strukturelle Verwundbarkeit × Externer Auslöser ÷ Reaktionsfähigkeit.</strong><br><br>Das Radar versucht nicht, ein einzelnes Ereignis vorherzusagen. Es verfolgt, welchen Schocks ein Land ausgesetzt ist, ob sich Verwundbarkeiten aufbauen und wie schnell das System reagieren kann. Das Umzugsradar konzentriert sich auf Infrastruktur und Umsetzungskapazität, Arbeitsmarkt, Lebenshaltungskosten und Offenheit für internationale Talente. Das Potenzialradar prüft jeden Monat fünf Länder außerhalb der Hauptliste anhand derselben Signalfamilien, um neue Transformationsfelder sichtbar zu machen, die sonst leicht übersehen werden."
+  }
+};
 const durumKisa={positive:"P",neutral:"N",negative:"−"};
 const tasinmaSinyalleri=new Set([
   "fiscal_infrastructure_capacity","execution_adaptability","demography_labour","household_relocation","social_political_talent"
 ]);
+const queryDil=new URLSearchParams(location.search).get("lang");
+const kayitliDil=localStorage.getItem("countryRadarLanguage");
+let dil=["tr","en","de"].includes(queryDil)?queryDil:(["tr","en","de"].includes(kayitliDil)?kayitliDil:"tr");
 let aylikIndeks=null,veri=null,oncekiVeri=null,seciliUlke=null,mod="all",gorunum="list";
 let haritaTopo=null,haritaPromise=null;
 const arsivCache=new Map();
+const ui=()=>UI[dil];
+const durumEtiketi=status=>ui().status[status];
 const haritaIkonu='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5 8.8 4l6.3 2.5 5.4-2.5v13.5L15.2 20l-6.3-2.5-5.4 2.5V6.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8.8 4v13.5M15.2 6.5V20" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
 const listeIkonu='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="4" cy="6" r="1.2" fill="currentColor"/><circle cx="4" cy="12" r="1.2" fill="currentColor"/><circle cx="4" cy="18" r="1.2" fill="currentColor"/></svg>';
 
