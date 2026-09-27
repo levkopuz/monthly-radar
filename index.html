@@ -87,7 +87,7 @@
     .brand{position:relative;z-index:2;max-width:720px;padding-top:88px}
     .brand:before{
       content:attr(data-eyebrow);
-      position:absolute;top:10px;left:0;
+      position:absolute;top:-16px;left:0;
       font-size:12px;font-weight:700;letter-spacing:.22em;color:var(--muted)
     }
     .brand h1{
@@ -430,6 +430,7 @@
       header{min-height:380px;padding:32px 30px 38px}
       header:after{inset:auto 30px 0 30px}
       .brand{max-width:64%;padding-top:64px}
+      .brand:before{top:-12px}
       .brand h1{font-size:clamp(68px,9vw,92px);line-height:.82}
       .brand p{max-width:520px;margin-top:28px;font-size:15px;line-height:1.7}
       .meta{top:20px;right:164px;max-width:none;height:42px}
@@ -500,8 +501,15 @@
         border-radius:22px 22px 0 0;
       }
       header:after{inset:auto 20px 0 20px}
-      .brand{max-width:none;padding-top:72px}
-      .brand:before{top:8px;max-width:170px;line-height:1.45}
+      .brand{max-width:none;padding-top:112px}
+      .brand:before{
+        top:-6px;
+        width:calc(100% - 150px);
+        max-width:none;
+        line-height:1.45;
+        overflow-wrap:normal;
+        word-break:normal;
+      }
       .brand h1{font-size:clamp(58px,17vw,74px);line-height:.84}
       .brand p{max-width:none;font-size:14px;line-height:1.65;margin-top:24px}
       .meta{position:relative;top:auto;right:auto;height:auto;justify-content:flex-start;margin-top:20px;gap:6px;white-space:normal}
