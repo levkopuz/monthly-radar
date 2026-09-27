@@ -965,7 +965,11 @@ function statikMetinleriGuncelle(){
   document.getElementById("signalNext").setAttribute("aria-label",u.nextSignal);
   document.getElementById("mapPanel").setAttribute("aria-label",u.mapPanelAria);
   const desc=document.querySelector('meta[name="description"]');if(desc)desc.setAttribute("content",u.metaDescription);
-  if(!veri)document.getElementById("detailTitle").textContent=u.loading;
+  if(!veri){
+    document.getElementById("detailTitle").textContent=u.loading;
+    const signalLoading=document.querySelector("#signalTable .loading");if(signalLoading)signalLoading.textContent=u.dataLoading;
+    const trendLoading=document.querySelector("#trendChart.loading");if(trendLoading)trendLoading.textContent=u.historyLoading;
+  }
 }
 function aySecenekleriniGuncelle(){
   if(!aylikIndeks)return;
