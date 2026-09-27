@@ -237,6 +237,56 @@
     .country-chip:hover{transform:translateY(-1px);box-shadow:0 5px 14px rgba(57,48,37,.07);background:#fffdf8}
     .country-chip.active{background:#121210;color:#f5f0e8;border-color:#121210}
     .country-chip .flag{font-size:17px;line-height:1}
+    .view-toggle{
+      position:relative;z-index:3;
+      width:44px;height:44px;flex:0 0 44px;
+      display:inline-flex;align-items:center;justify-content:center;
+      border:1px solid var(--line);
+      border-radius:50%;
+      background:rgba(249,246,240,.78);
+      color:var(--ink);
+      cursor:pointer;
+      transition:background .15s ease,transform .15s ease,border-color .15s ease;
+    }
+    .view-toggle:hover{background:#fffdf8;transform:translateY(-1px);border-color:rgba(25,23,19,.24)}
+    .view-toggle svg{width:20px;height:20px;display:block}
+    .map-panel{
+      display:none;
+      position:relative;z-index:2;
+      margin:0 18px 18px;
+      padding:16px;
+      min-height:390px;
+      background:rgba(249,246,240,.66);
+      border:1px solid var(--line);
+      border-radius:24px;
+      overflow:hidden;
+    }
+    .map-panel.show{display:block}
+    .map-panel svg{display:block;width:100%;height:auto;max-height:540px}
+    .map-loading{min-height:350px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px}
+    .country-map-path{vector-effect:non-scaling-stroke}
+    .country-map-path.tracked{cursor:pointer;transition:opacity .15s ease,filter .15s ease}
+    .country-map-path.tracked:hover{filter:brightness(.92)}
+    .country-map-marker{cursor:pointer;vector-effect:non-scaling-stroke;transition:r .15s ease,opacity .15s ease}
+    .detail.map-view-active .signal-table{
+      display:flex;gap:12px;overflow-x:auto;padding:2px 2px 10px;border-top:0;
+      scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch;
+    }
+    .detail.map-view-active .signal-table::-webkit-scrollbar{display:none}
+    .detail.map-view-active .signal-row{
+      flex:0 0 min(620px,78vw);
+      grid-template-columns:1fr;
+      background:rgba(255,255,255,.34);
+      border:1px solid var(--line);
+      border-radius:16px;
+      overflow:hidden;
+      scroll-snap-align:start;
+    }
+    .detail.map-view-active .cell{border-right:0;border-bottom:1px solid var(--line);padding-left:15px}
+    .detail.map-view-active .cell:last-child{border-bottom:0}
+    .detail.map-view-active .signal-dots{
+      display:flex;align-items:center;justify-content:center;gap:7px;margin:2px 0 6px;
+    }
     .detail{
       position:relative;
       overflow:hidden;
@@ -478,6 +528,10 @@
       .overview-title h2{font-size:38px}
       .overview-title p{font-size:13px;line-height:1.6}
       .overview-map{width:380px;height:200px;right:-140px;top:-18px}
+      .view-toggle{width:40px;height:40px;flex-basis:40px}
+      .map-panel{margin:0 8px 16px;padding:8px;min-height:250px;border-radius:18px}
+      .map-loading{min-height:235px}
+      .map-panel svg{max-height:340px}
 
       .country-grid{
         margin:0 8px;
@@ -655,8 +709,10 @@
         <h2 id="overviewTitle">Küresel Genel Bakış</h2>
         <p id="overviewText">Bir ülke seç. Renkler her sinyalin o ülkenin dayanıklılığı ve taşınma koşulları üzerindeki yönünü gösterir; toplam ülke puanı üretilmez.</p>
       </div>
+      <button class="view-toggle" id="viewToggle" type="button" aria-label="Harita görünümüne geç" aria-pressed="false"></button>
     </div>
     <div class="country-grid" id="countryGrid"></div>
+    <div class="map-panel" id="mapPanel" aria-label="Etkileşimli ülke haritası"></div>
   </section>
 
   <section class="detail" id="detail"><div class="map-art detail-map" aria-hidden="true">
@@ -727,14 +783,19 @@
   </footer>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
 <script>
 const durumEtiketi={positive:"Pozitif",neutral:"Nötr",negative:"Negatif"};
 const durumKisa={positive:"P",neutral:"N",negative:"−"};
 const tasinmaSinyalleri=new Set([
   "fiscal_infrastructure_capacity","execution_adaptability","demography_labour","household_relocation","social_political_talent"
 ]);
-let aylikIndeks=null,veri=null,oncekiVeri=null,seciliUlke=null,mod="all";
+let aylikIndeks=null,veri=null,oncekiVeri=null,seciliUlke=null,mod="all",gorunum="list";
+let haritaTopo=null,haritaPromise=null;
 const arsivCache=new Map();
+const haritaIkonu='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5 8.8 4l6.3 2.5 5.4-2.5v13.5L15.2 20l-6.3-2.5-5.4 2.5V6.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8.8 4v13.5M15.2 6.5V20" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
+const listeIkonu='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="4" cy="6" r="1.2" fill="currentColor"/><circle cx="4" cy="12" r="1.2" fill="currentColor"/><circle cx="4" cy="18" r="1.2" fill="currentColor"/></svg>';
 
 async function jsonGetir(url){
   const r=await fetch(url,{cache:"no-store"});
@@ -775,6 +836,112 @@ function basliklariGuncelle(){
     document.getElementById("countryCount").textContent=`${(veri.countries||[]).length} takip edilen ülke`;
   }
 }
+function ulkeSec(id){
+  seciliUlke=id;
+  ulkeleriCiz();
+  detayiCiz();
+  document.getElementById("detail").scrollIntoView({behavior:"smooth",block:"start"});
+}
+async function haritaVerisiniGetir(){
+  if(haritaTopo)return haritaTopo;
+  if(!haritaPromise){
+    haritaPromise=fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
+      .then(r=>{if(!r.ok)throw new Error("Harita verisi yüklenemedi");return r.json();})
+      .then(v=>(haritaTopo=v));
+  }
+  return haritaPromise;
+}
+async function haritayiCiz(){
+  const root=document.getElementById("mapPanel");
+  if(gorunum!=="map"||!veri)return;
+  const list=ayUlkeListesi(veri);
+  root.innerHTML='<div class="map-loading">Dünya haritası yükleniyor…</div>';
+  try{
+    const topo=await haritaVerisiniGetir();
+    if(gorunum!=="map")return;
+    const world=topojson.feature(topo,topo.objects.countries);
+    const byMapId=new Map(list.filter(c=>c.map_id).map(c=>[String(c.map_id).padStart(3,"0"),c]));
+    const palette=["#d87858","#6989a8","#d4aa45","#7e9b75","#9a78a9","#4d9b8a","#c36e88","#8f826c"];
+    root.innerHTML="";
+    const svg=d3.select(root).append("svg")
+      .attr("viewBox","0 0 1000 500")
+      .attr("role","img")
+      .attr("aria-label","Country Radar etkileşimli dünya haritası");
+    const projection=d3.geoNaturalEarth1().fitExtent([[18,18],[982,482]],world);
+    const path=d3.geoPath(projection);
+    const features=world.features;
+    const renk=new Map(list.map((c,i)=>[c.id,palette[i%palette.length]]));
+
+    svg.append("g").selectAll("path")
+      .data(features)
+      .join("path")
+      .attr("d",path)
+      .attr("class",d=>byMapId.has(String(d.id).padStart(3,"0"))?"country-map-path tracked":"country-map-path")
+      .attr("fill",d=>{
+        const c=byMapId.get(String(d.id).padStart(3,"0"));
+        if(!c)return "#e9e3da";
+        return c.id===seciliUlke?"#11110f":renk.get(c.id);
+      })
+      .attr("stroke",d=>byMapId.has(String(d.id).padStart(3,"0"))?"#f7f4ee":"#d7d0c6")
+      .attr("stroke-width",d=>byMapId.has(String(d.id).padStart(3,"0"))?1.1:.55)
+      .attr("opacity",d=>byMapId.has(String(d.id).padStart(3,"0"))?1:.48)
+      .attr("tabindex",d=>byMapId.has(String(d.id).padStart(3,"0"))?0:null)
+      .attr("role",d=>byMapId.has(String(d.id).padStart(3,"0"))?"button":null)
+      .attr("aria-label",d=>byMapId.get(String(d.id).padStart(3,"0"))?.name||null)
+      .on("click",(e,d)=>{
+        const c=byMapId.get(String(d.id).padStart(3,"0"));
+        if(c)ulkeSec(c.id);
+      })
+      .on("keydown",(e,d)=>{
+        if(e.key!=="Enter"&&e.key!==" ")return;
+        const c=byMapId.get(String(d.id).padStart(3,"0"));
+        if(c){e.preventDefault();ulkeSec(c.id);}
+      })
+      .append("title")
+      .text(d=>byMapId.get(String(d.id).padStart(3,"0"))?.name||"");
+
+    const tracked=features.filter(d=>byMapId.has(String(d.id).padStart(3,"0")));
+    svg.append("g").selectAll("circle")
+      .data(tracked)
+      .join("circle")
+      .attr("class","country-map-marker")
+      .attr("cx",d=>path.centroid(d)[0])
+      .attr("cy",d=>path.centroid(d)[1])
+      .attr("r",d=>{
+        const c=byMapId.get(String(d.id).padStart(3,"0"));
+        return c?.id===seciliUlke?5.5:3.8;
+      })
+      .attr("fill",d=>{
+        const c=byMapId.get(String(d.id).padStart(3,"0"));
+        return c?.id===seciliUlke?"#11110f":renk.get(c.id);
+      })
+      .attr("stroke","#fff")
+      .attr("stroke-width",1.5)
+      .on("click",(e,d)=>{
+        e.stopPropagation();
+        const c=byMapId.get(String(d.id).padStart(3,"0"));
+        if(c)ulkeSec(c.id);
+      })
+      .append("title")
+      .text(d=>byMapId.get(String(d.id).padStart(3,"0"))?.name||"");
+  }catch(e){
+    root.innerHTML=`<div class="map-loading">${e.message}</div>`;
+  }
+}
+function gorunumuGuncelle(){
+  const grid=document.getElementById("countryGrid");
+  const panel=document.getElementById("mapPanel");
+  const toggle=document.getElementById("viewToggle");
+  const detail=document.getElementById("detail");
+  const mapMode=gorunum==="map";
+  grid.style.display=mapMode?"none":"";
+  panel.classList.toggle("show",mapMode);
+  detail.classList.toggle("map-view-active",mapMode);
+  toggle.innerHTML=mapMode?listeIkonu:haritaIkonu;
+  toggle.setAttribute("aria-label",mapMode?"Liste görünümüne dön":"Harita görünümüne geç");
+  toggle.setAttribute("aria-pressed",mapMode?"true":"false");
+  if(mapMode)haritayiCiz();
+}
 function ulkeleriCiz(){
   basliklariGuncelle();
   const list=ayUlkeListesi(veri),root=document.getElementById("countryGrid");
@@ -784,9 +951,10 @@ function ulkeleriCiz(){
     const b=document.createElement("button");
     b.className="country-chip"+(c.id===seciliUlke?" active":"");
     b.innerHTML=`<span class="flag">${c.flag}</span><span>${c.name}</span>`;
-    b.onclick=()=>{seciliUlke=c.id;ulkeleriCiz();detayiCiz();document.getElementById("detail").scrollIntoView({behavior:"smooth",block:"start"});};
+    b.onclick=()=>ulkeSec(c.id);
     root.appendChild(b);
   });
+  gorunumuGuncelle();
 }
 function sinyalNoktalariKur(){
   const slider=document.getElementById("signalTable");
@@ -896,6 +1064,12 @@ async function baslat(){
     document.getElementById("signalTable").innerHTML=`<div class="error">Radar verisi yüklenemedi. ${e.message}</div>`;
   }
 }
+document.getElementById("viewToggle").addEventListener("click",()=>{
+  gorunum=gorunum==="list"?"map":"list";
+  gorunumuGuncelle();
+});
+gorunumuGuncelle();
+
 document.querySelectorAll(".tab").forEach(btn=>{
   btn.addEventListener("click",()=>{
     document.querySelectorAll(".tab").forEach(b=>b.classList.remove("active"));
