@@ -703,14 +703,14 @@
     },
     {
       "id": "france",
-      "name": "Fransa",
+      "name": "France",
       "flag": "🇫🇷",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Growth & Economy",
-          "development": "Banque de France 2026 büyüme tahminini %0,5'ten %0,4'e indirirken ikinci çeyrek büyümesi sıfır oldu.",
-          "impact": "İç talep ve yatırımın zayıflaması büyüme motorunun belirgin biçimde ivme kaybettiğini gösteriyor.",
+          "development": "Banque de France cut its 2026 growth forecast from 0.5% to 0.4%, while second-quarter growth was zero.",
+          "impact": "Weak domestic demand and investment show that the growth engine has lost clear momentum.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -722,8 +722,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "External Dependencies",
-          "development": "İran savaşı kaynaklı petrol ve gaz fiyat artışları hükümeti G7 enerji müdahalesi görüşmelerine yöneltti.",
-          "impact": "Enerji fiyatlarına maruziyet tüketim, sanayi ve kamu maliyesini aynı anda baskılıyor.",
+          "development": "Oil and gas price increases linked to the Iran war pushed the government into G7 discussions on energy intervention.",
+          "impact": "Exposure to energy prices is pressuring consumption, industry and public finances at the same time.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -735,8 +735,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Exports & Foreign Trade",
-          "development": "Banque de France zayıf iç talebe rağmen uluslararası ticaretin ihracatı desteklemeye devam ettiğini bildiriyor.",
-          "impact": "İhracat ekonomideki iç talep zayıflığını kısmen tamponluyor.",
+          "development": "Banque de France reports that international trade continues to support exports despite weak domestic demand.",
+          "impact": "Exports are partly offsetting weakness in domestic demand.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -748,8 +748,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sector Transformation",
-          "development": "Osez l'IA programı bir yılda 35 binden fazla şirkete ulaşarak 615 AI elçisi oluşturdu.",
-          "impact": "AI adaptasyonunun KOBİ ve şirket tabanına yayılması orta vadeli üretkenlik kapasitesini güçlendirebilir.",
+          "development": "The Osez l'IA programme reached more than 35,000 companies in one year and created 615 AI ambassadors.",
+          "impact": "Spreading AI adoption across SMEs and companies could strengthen medium-term productivity capacity.",
           "status": "positive",
           "source": {
             "name": "French Ministry of Economy",
@@ -761,8 +761,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investment & Capital",
-          "development": "Merkez bankası yüksek faiz ve belirsizlik nedeniyle şirket yatırımlarının temkinli kaldığını bildiriyor.",
-          "impact": "Özel yatırım iştahının düşük kalması gelecekteki kapasite ve verimlilik artışını sınırlıyor.",
+          "development": "The central bank says corporate investment remains cautious because of high rates and uncertainty.",
+          "impact": "Weak private-investment appetite limits future capacity and productivity growth.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -774,8 +774,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Public Finances & Infrastructure",
-          "development": "Maliye Bakanlığı kamu borcunun 2026'da GSYH'nin %119,3'üne ulaşmasını bekliyor.",
-          "impact": "Artan borç ve faiz yükü altyapı ve dönüşüm harcamaları için mali hareket alanını daraltıyor.",
+          "development": "The Finance Ministry expects public debt to reach 119.3% of GDP in 2026.",
+          "impact": "Rising debt and interest costs narrow fiscal space for infrastructure and transformation spending.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -787,8 +787,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Governance & Execution",
-          "development": "2027 bütçesinde €54 milyarlık tasarruf planının parçalı parlamentodan geçirilmesi konusunda belirsizlik devam ediyor.",
-          "impact": "Reformların uygulanma hızındaki siyasi belirsizlik ekonomik müdahale kapasitesini düşürebilir.",
+          "development": "Uncertainty continues over passing €54 billion of savings in the 2027 budget through a fragmented parliament.",
+          "impact": "Political uncertainty around implementation speed could reduce economic-response capacity.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -800,8 +800,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Population & Labor",
-          "development": "İşsizlik ikinci çeyrekte 0,2 puan artarak %8,3'e ve 2019 sonrası en yüksek seviyelerden birine çıktı.",
-          "impact": "İş gücü talebindeki zayıflama ekonomik yavaşlamanın istihdama taşındığını gösteriyor.",
+          "development": "Unemployment rose 0.2 percentage points to 8.3% in the second quarter, one of the highest levels since 2019.",
+          "impact": "Weaker labour demand shows the economic slowdown feeding into employment.",
           "status": "negative",
           "source": {
             "name": "INSEE",
@@ -813,8 +813,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Cost of Living & Housing",
-          "development": "Ağustos enflasyonu %2,4 olurken hane güveni 86 seviyesinde kaldı ve satın alma gücü baskı altında.",
-          "impact": "Reel gelir baskısı günlük yaşam ekonomisini ve tüketici güvenini zayıflatıyor.",
+          "development": "August inflation was 2.4%, while household confidence remained at 86 and purchasing power stayed under pressure.",
+          "impact": "Pressure on real incomes weakens day-to-day household economics and consumer confidence.",
           "status": "negative",
           "source": {
             "name": "INSEE",
@@ -826,8 +826,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Social Climate & Talent Attraction",
-          "development": "Bütçe ve yaşam maliyetleri nedeniyle Eylül'de enerji, ulaşım ve diğer sektörlerde geniş çaplı grevler gerçekleşti.",
-          "impact": "Yoğun toplumsal pazarlık ve parlamenter bölünme kısa vadeli politika öngörülebilirliğini azaltıyor.",
+          "development": "Broad strikes took place in energy, transport and other sectors in September over the budget and cost of living.",
+          "impact": "Intense social bargaining and parliamentary fragmentation reduce near-term policy predictability.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -841,14 +841,14 @@
     },
     {
       "id": "india",
-      "name": "Hindistan",
+      "name": "India",
       "flag": "🇮🇳",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Growth & Economy",
-          "development": "Ekonomi Nisan–Haziran döneminde %7,8 büyürken Moody's FY2027 tahminini %7'ye yükseltti.",
-          "impact": "Yatırım ve imalat kaynaklı yüksek büyüme ekonomik motorun güçlü kaldığını gösteriyor.",
+          "development": "The economy grew 7.8% in April–June, while Moody's raised its FY2027 forecast to 7%.",
+          "impact": "Investment- and manufacturing-led growth shows the economic engine remains strong.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -860,8 +860,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "External Dependencies",
-          "development": "Ağustos ham petrol ithalat faturası yıllık %25,8 artarak $16,69 milyara çıktı.",
-          "impact": "Yüksek petrol fiyatları cari denge, rupi ve enflasyon üzerinde doğrudan baskı oluşturuyor.",
+          "development": "The crude-oil import bill rose 25.8% year on year in August to $16.69 billion.",
+          "impact": "High oil prices directly pressure the current account, the rupee and inflation.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -873,8 +873,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Exports & Foreign Trade",
-          "development": "Mal ve hizmet ihracatı Ağustos'ta yıllık %25,4 artarak $82,68 milyara ulaştı.",
-          "impact": "Elektronik, mühendislik, otomotiv ve hizmet ihracatındaki genişleme dış talep tabanını güçlendiriyor.",
+          "development": "Goods and services exports rose 25.4% year on year in August to $82.68 billion.",
+          "impact": "Growth in electronics, engineering, automotive and services exports strengthens the external-demand base.",
           "status": "positive",
           "source": {
             "name": "India Ministry of Commerce",
@@ -886,8 +886,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sector Transformation",
-          "development": "Wipro AI uygulamalarıyla 20 bin çalışan eşdeğerinde kapasite açarken 100 binden fazla çalışanını ileri AI becerilerinde eğitti.",
-          "impact": "Büyük IT sektörünün AI'a aktif geçişi mevcut hizmet modelinin teknolojik adaptasyonunu güçlendiriyor.",
+          "development": "Wipro freed capacity equivalent to 20,000 employees through AI applications and trained more than 100,000 employees in advanced AI skills.",
+          "impact": "Active AI adoption in the large IT sector strengthens technological adaptation of the current services model.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -899,8 +899,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investment & Capital",
-          "development": "Güçlü yatırımlar ve imalat faaliyeti ikinci çeyrekte %7,8'lik büyümenin ana kaynakları arasında yer aldı.",
-          "impact": "Sermaye oluşumunun büyümeye katkısı uzun vadeli kapasite açısından destekleyici.",
+          "development": "Strong investment and manufacturing activity were among the main drivers of 7.8% growth in the second quarter.",
+          "impact": "Capital formation contributing to growth supports long-term capacity.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -912,8 +912,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Public Finances & Infrastructure",
-          "development": "Moody's artan savunma ve altyapı harcamalarının mali konsolidasyonu yavaşlatabileceğini belirtiyor.",
-          "impact": "Altyapı yatırımı büyümeyi desteklerken enerji ve savunma harcamaları bütçe alanını daraltabilir.",
+          "development": "Moody's says rising defence and infrastructure spending could slow fiscal consolidation.",
+          "impact": "Infrastructure spending supports growth, while energy and defence outlays can narrow budget room.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -925,8 +925,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Governance & Execution",
-          "development": "RBI fazla likiditeyi çekmek için tahvil satışlarını artırırken piyasalar olası faiz artışını fiyatlıyor.",
-          "impact": "Politika tepkisi finansal istikrarı destekleyebilir ancak finansman koşullarını sıkılaştırıyor.",
+          "development": "The RBI increased bond sales to absorb excess liquidity as markets priced in a possible rate increase.",
+          "impact": "The policy response may support financial stability but tightens financing conditions.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -938,8 +938,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Population & Labor",
-          "development": "Ağustos işsizliği altı aylık dip olan %5'e inerken iş gücüne katılım %55,6'ya yükseldi.",
-          "impact": "Daha fazla kişinin iş gücüne katılırken işsizliğin düşmesi çalışma piyasası açısından destekleyici.",
+          "development": "August unemployment fell to a six-month low of 5%, while labour-force participation rose to 55.6%.",
+          "impact": "Falling unemployment alongside higher participation is supportive for the labour market.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -951,8 +951,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Cost of Living & Housing",
-          "development": "Ağustos enflasyonu %4,82'ye yükselerek yeni serinin en yüksek seviyesine ulaştı.",
-          "impact": "Enerji ve daha geniş fiyat artışları reel hane gelirleri üzerinde yeni baskı yaratıyor.",
+          "development": "August inflation rose to 4.82%, the highest level in the new series.",
+          "impact": "Energy and broader price increases create renewed pressure on real household incomes.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -964,8 +964,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Social Climate & Talent Attraction",
-          "development": "ABD'nin H‑1B maliyet artışı Alphabet gibi büyük şirketlerin bazı operasyonlarını Hindistan'da büyütmesine yol açıyor.",
-          "impact": "Küresel teknoloji işlerinin Hindistan'a kayması yüksek nitelikli çalışanlar için yerel fırsat havuzunu genişletebilir.",
+          "development": "Higher US H-1B costs are leading major companies such as Alphabet to expand some operations in India.",
+          "impact": "A shift of global technology work toward India could broaden local opportunities for highly skilled workers.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -979,14 +979,14 @@
     },
     {
       "id": "thailand",
-      "name": "Tayland",
+      "name": "Thailand",
       "flag": "🇹🇭",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Growth & Economy",
-          "development": "BOT 2026 büyümesini %2,3, 2027'yi %1,8 beklerken ekonominin potansiyeline dönmesinin birkaç yıl sürebileceğini belirtiyor.",
-          "impact": "Ekonomi büyümeye devam etse de ana büyüme motorunun yapısal olarak düşük hızda kalması risk oluşturuyor.",
+          "development": "The BOT expects growth of 2.3% in 2026 and 1.8% in 2027, saying a return to potential could take several years.",
+          "impact": "The economy is still growing, but structurally low speed remains a risk for the main growth engine.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -998,8 +998,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "External Dependencies",
-          "development": "Q2 büyümesi yüksek enerji maliyetleri ve Orta Doğu kaynaklı seyahat aksaklıklarından doğrudan etkilendi.",
-          "impact": "Enerji ithalatı ve uluslararası turizme bağımlılık dış jeopolitik şoklara hassasiyet yaratıyor.",
+          "development": "Second-quarter growth was directly affected by high energy costs and travel disruptions linked to the Middle East.",
+          "impact": "Dependence on energy imports and international tourism creates sensitivity to external geopolitical shocks.",
           "status": "negative",
           "source": {
             "name": "Bank of Thailand",
@@ -1011,8 +1011,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Exports & Foreign Trade",
-          "development": "Temmuz ihracatı küresel elektronik ve AI döngüsünün etkisiyle büyümeye devam etti.",
-          "impact": "Teknoloji ihracatının güçlenmesi zayıf iç talebi dışarıdan destekliyor.",
+          "development": "July exports continued to grow, supported by the global electronics and AI cycle.",
+          "impact": "Stronger technology exports provide external support against weak domestic demand.",
           "status": "positive",
           "source": {
             "name": "Bank of Thailand",
@@ -1024,8 +1024,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sector Transformation",
-          "development": "Elektrikli ve hibrit araçlar yılın ilk yedi ayında yeni araç pazarının %55'ine ulaştı.",
-          "impact": "Tayland'ın geleneksel otomotiv üssünü EV dönemine taşıma kapasitesi belirgin biçimde güçleniyor.",
+          "development": "Electric and hybrid vehicles reached 55% of the new-car market in the first seven months of the year.",
+          "impact": "Thailand's ability to move its traditional automotive base into the EV era is strengthening materially.",
           "status": "positive",
           "source": {
             "name": "Thailand BOI",
@@ -1037,8 +1037,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investment & Capital",
-          "development": "BOI'nin Eylül gündeminde yeni yüksek teknoloji yatırımları ve $3,66 milyarlık hızlandırılmış sanayi proje hattı bulunuyor.",
-          "impact": "Yabancı ve yerli sermayenin teknoloji üretimine yönelmesi yeni büyüme motorları oluşturuyor.",
+          "development": "The BOI's September agenda includes new high-tech investments and a $3.66 billion fast-tracked industrial project pipeline.",
+          "impact": "Domestic and foreign capital moving into technology manufacturing is creating new growth engines.",
           "status": "positive",
           "source": {
             "name": "Thailand BOI",
@@ -1050,8 +1050,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Public Finances & Infrastructure",
-          "development": "Hükümet sanayi projelerini hızlandırırken kamu harcamaları Temmuz'da merkezi yönetim ve kamu şirketlerinde arttı.",
-          "impact": "Kamu desteği ve altyapı yatırımları özel sektör dönüşümünü tamamlayıcı rol oynuyor.",
+          "development": "Public spending by central government and state enterprises rose in July as the government accelerated industrial projects.",
+          "impact": "Public support and infrastructure investment complement private-sector transformation.",
           "status": "positive",
           "source": {
             "name": "Bank of Thailand",
@@ -1063,8 +1063,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Governance & Execution",
-          "development": "EV vergi sistemi yerel içerik, yatırım ve tedarikçi geliştirmeyi doğrudan teşvik edecek şekilde yeniden tasarlandı.",
-          "impact": "Regülasyonun sektör dönüşümüne hızla uyarlanması üretim üssünün rekabet gücünü destekliyor.",
+          "development": "The EV tax system was redesigned to directly encourage local content, investment and supplier development.",
+          "impact": "Rapid regulatory adaptation to sector transformation supports competitiveness of the manufacturing base.",
           "status": "positive",
           "source": {
             "name": "Thailand BOI",
@@ -1076,8 +1076,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Population & Labor",
-          "development": "BOT iş gücü piyasasını genel olarak istikrarlı, imalat istihdamını ise yakından izlenmesi gereken alan olarak tanımlıyor.",
-          "impact": "Bugünkü istihdam dengesi korunuyor ancak imalat dönüşümünün iş gücüne etkisi henüz netleşmiş değil.",
+          "development": "The BOT describes the labour market as broadly stable, while flagging manufacturing employment for close monitoring.",
+          "impact": "Today's employment balance is stable, but the labour impact of manufacturing transformation is not yet clear.",
           "status": "neutral",
           "source": {
             "name": "Bank of Thailand",
@@ -1089,8 +1089,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Cost of Living & Housing",
-          "development": "BOT yüksek hane borcu ve artan yaşam maliyetlerinin iç tüketimi baskıladığını bildiriyor.",
-          "impact": "Borçlu hanelerin yüksek maliyetlere duyarlılığı yaşam standardı ve iç talep için önemli kırılganlık oluşturuyor.",
+          "development": "The BOT says high household debt and rising living costs are weighing on domestic consumption.",
+          "impact": "Highly indebted households' sensitivity to costs is a major vulnerability for living standards and domestic demand.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1102,8 +1102,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Social Climate & Talent Attraction",
-          "development": "Tayland 93 ülke vatandaşına tanınan vizesiz turist kalış süresini 60 günden 30 güne düşürme kararı aldı.",
-          "impact": "Düzenleme turist statüsünde uzun süreli kalış kolaylığını azaltırken diğer çalışma ve oturum yollarını doğrudan değiştirmiyor.",
+          "development": "Thailand decided to reduce visa-free tourist stays for citizens of 93 countries from 60 to 30 days.",
+          "impact": "The change reduces ease of longer stays under tourist status, while not directly altering other work and residence routes.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1117,14 +1117,14 @@
     },
     {
       "id": "china",
-      "name": "Çin",
+      "name": "China",
       "flag": "🇨🇳",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Growth & Economy",
-          "development": "Ağustos sanayi üretimi %5,2 büyürken perakende satış artışı yalnızca %0,4'te kaldı.",
-          "impact": "Üretim güçlü kalmasına rağmen zayıf tüketim ekonomik modeldeki iç talep dengesizliğini sürdürüyor.",
+          "development": "Industrial production grew 5.2% in August, while retail-sales growth was only 0.4%.",
+          "impact": "Strong production alongside weak consumption keeps the domestic-demand imbalance in the economic model in place.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1136,8 +1136,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "External Dependencies",
-          "development": "Zayıf tüketim ve gayrimenkul yatırımı ekonomiyi dış talep ve ihracata daha bağımlı hale getiriyor.",
-          "impact": "Küresel ticaret geriliminin artması durumunda iç talebin ihracat kaybını telafi kapasitesi sınırlı kalabilir.",
+          "development": "Weak consumption and property investment are making the economy more dependent on external demand and exports.",
+          "impact": "If global trade tensions rise, domestic demand may have limited capacity to offset export losses.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1149,8 +1149,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Exports & Foreign Trade",
-          "development": "Ağustos ihracatı yıllık %18,6, toplam dış ticaret ise %19,8 büyüdü.",
-          "impact": "Güçlü ihracat mevcut büyüme modelinin en önemli tamponlarından biri olmaya devam ediyor.",
+          "development": "Exports rose 18.6% year on year in August and total foreign trade grew 19.8%.",
+          "impact": "Strong exports remain one of the most important buffers in the current growth model.",
           "status": "positive",
           "source": {
             "name": "NBS China",
@@ -1162,8 +1162,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sector Transformation",
-          "development": "High-tech imalat %16,7 büyürken batarya üretimi %57,2 ve endüstriyel robot üretimi %34,6 arttı.",
-          "impact": "Yeni nesil sanayi kapasitesinin hızlı büyümesi teknoloji rekabetindeki pozisyonu güçlendiriyor.",
+          "development": "High-tech manufacturing grew 16.7%, battery output 57.2% and industrial-robot output 34.6%.",
+          "impact": "Rapid expansion of next-generation industrial capacity strengthens China's position in technology competition.",
           "status": "positive",
           "source": {
             "name": "NBS China",
@@ -1175,8 +1175,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investment & Capital",
-          "development": "İlk sekiz ayda sabit sermaye yatırımı %7,2, özel yatırım %10,1 ve gayrimenkul yatırımı %19,9 geriledi.",
-          "impact": "Özel sermaye iştahındaki geniş tabanlı zayıflık gelecekteki iç büyüme kapasitesini sınırlıyor.",
+          "development": "Fixed-asset investment fell 7.2% in the first eight months, private investment 10.1% and property investment 19.9%.",
+          "impact": "Broad weakness in private-capital appetite constrains future domestic growth capacity.",
           "status": "negative",
           "source": {
             "name": "NBS China",
@@ -1188,8 +1188,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Public Finances & Infrastructure",
-          "development": "Kamu desteklerine rağmen altyapı yatırımı ilk sekiz ayda yıllık %4 geriledi.",
-          "impact": "Devlet desteğinin özel ve altyapı yatırımındaki düşüşü henüz tamamen tersine çevirememesi önemli bir erken sinyal.",
+          "development": "Infrastructure investment fell 4% year on year in the first eight months despite public support.",
+          "impact": "The fact that state support has not yet fully reversed declines in private and infrastructure investment is an important early signal.",
           "status": "negative",
           "source": {
             "name": "NBS China",
@@ -1201,8 +1201,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Governance & Execution",
-          "development": "Düzenleyiciler humanoid robot şirketlerinin IPO süreçlerini aşırı değerleme ve ticarileşme endişeleri nedeniyle sıkılaştırdı.",
-          "impact": "Müdahale spekülatif sermayeyi sınırlarken stratejik sektör finansmanında daha seçici bir döneme işaret ediyor.",
+          "development": "Regulators tightened IPO processes for humanoid-robot companies over valuation and commercialisation concerns.",
+          "impact": "The intervention limits speculative capital and signals a more selective phase in financing strategic sectors.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1214,8 +1214,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Population & Labor",
-          "development": "16–24 yaş öğrenci dışı genç işsizliği Ağustos'ta %18,9 ile bir yıllık zirveye ulaştı.",
-          "impact": "Genç yeteneğin iş piyasasına entegrasyonundaki sorun tüketim ve uzun vadeli insan sermayesi açısından baskı oluşturuyor.",
+          "development": "Youth unemployment for non-students aged 16–24 reached a one-year high of 18.9% in August.",
+          "impact": "Difficulties integrating young talent into the labour market pressure consumption and long-term human capital.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1227,8 +1227,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Cost of Living & Housing",
-          "development": "Yeni konut fiyatları Ağustos'ta yıllık %3 düşerken gayrimenkul yatırımları %19,9 geriledi.",
-          "impact": "Daha ucuz konut erişimi bazı alıcıları desteklese de servet etkisi ve tüketici güveni açısından emlak krizi baskın kalıyor.",
+          "development": "New-home prices fell 3% year on year in August while property investment declined 19.9%.",
+          "impact": "Cheaper housing helps some buyers, but the property crisis still dominates wealth effects and consumer confidence.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1240,8 +1240,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Social Climate & Talent Attraction",
-          "development": "Zayıf perakende talebine genç işsizliğinin %18,9'a yükselmesi eşlik ediyor.",
-          "impact": "Genç iş gücü ile ekonomik fırsatlar arasındaki uyumsuzluğun devam etmesi toplumsal ve ekonomik baskıyı artırabilir.",
+          "development": "Weak retail demand is being accompanied by youth unemployment of 18.9%.",
+          "impact": "Persistent mismatch between young workers and economic opportunities could increase social and economic pressure.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1255,14 +1255,14 @@
     },
     {
       "id": "germany",
-      "name": "Almanya",
+      "name": "Germany",
       "flag": "🇩🇪",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Growth & Economy",
-          "development": "IW 2026 büyüme tahminini %0,4'ten %1,2'ye yükseltti ancak ikinci yarıda ivmenin azalmasını bekliyor.",
-          "impact": "Kamu harcamaları ve ihracat toparlanma sağlasa da kalıcı özel sektör büyümesi henüz oluşmuş değil.",
+          "development": "IW raised its 2026 growth forecast from 0.4% to 1.2%, but expects momentum to slow in the second half.",
+          "impact": "Public spending and exports are supporting a recovery, but durable private-sector growth has not yet emerged.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1274,8 +1274,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "External Dependencies",
-          "development": "Ağustos enflasyonu enerji fiyatlarının etkisiyle %2,9'a yükseldi.",
-          "impact": "Enerji fiyatlarının yeniden ekonomik baskı yaratması Almanya'nın temel sanayi kırılganlığının devam ettiğini gösteriyor.",
+          "development": "August inflation rose to 2.9%, influenced by energy prices.",
+          "impact": "Renewed pressure from energy prices shows that Germany's core industrial vulnerability remains.",
           "status": "negative",
           "source": {
             "name": "Destatis",
@@ -1287,8 +1287,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Exports & Foreign Trade",
-          "development": "IW ihracatın 2026'da %2,8 büyümesini beklerken Çin rekabeti ve korumacılığı temel riskler arasında gösteriyor.",
-          "impact": "İhracat toparlanıyor fakat dış ticaret modeli yapısal olarak daha zor bir küresel ortamla karşılaşıyor.",
+          "development": "IW expects exports to grow 2.8% in 2026, while citing Chinese competition and protectionism as key risks.",
+          "impact": "Exports are recovering, but the external-trade model faces a structurally harder global environment.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1300,8 +1300,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sector Transformation",
-          "development": "Volkswagen kâr beklentisini sert düşürürken Çin talebi, Asyalı rakipler ve EV geçişi yeniden yapılanmayı hızlandırıyor.",
-          "impact": "Otomotiv sektöründeki dönüşüm baskısı Almanya'nın en kritik sanayi ekosistemini zorlamaya devam ediyor.",
+          "development": "Volkswagen sharply cut its profit outlook as Chinese demand, Asian competitors and the EV transition accelerate restructuring.",
+          "impact": "Transformation pressure in automotive continues to challenge Germany's most critical industrial ecosystem.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1313,8 +1313,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investment & Capital",
-          "development": "IW özel yatırımların zayıf kaldığını ve yüksek enerji maliyetlerinin yatırım iştahını baskıladığını bildiriyor.",
-          "impact": "Özel sermayenin güçlü biçimde geri dönmemesi yeni büyüme modelinin kurulmasını geciktiriyor.",
+          "development": "IW says private investment remains weak and high energy costs are weighing on investment appetite.",
+          "impact": "The absence of a strong return in private capital delays formation of a new growth model.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1326,8 +1326,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Public Finances & Infrastructure",
-          "development": "2026 büyümesindeki yukarı revizyonun önemli bölümü artan kamu harcamalarından geliyor.",
-          "impact": "Mali genişlemenin ekonomiye aktarılması yıllarca süren yatırım eksikliğini azaltma kapasitesini artırıyor.",
+          "development": "A significant part of the upward revision to 2026 growth comes from higher public spending.",
+          "impact": "Transmission of fiscal expansion into the economy increases the capacity to reduce years of underinvestment.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -1339,8 +1339,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Governance & Execution",
-          "development": "Temmuz sanayi siparişleri %2,5 artarken büyük siparişler çıkarıldığında %1,4 geriledi ve üretim %1,1 düştü.",
-          "impact": "Yeni talebin üretime geniş tabanlı şekilde dönüşmemesi adaptasyonun henüz tamamlanmadığını gösteriyor.",
+          "development": "Industrial orders rose 2.5% in July, but fell 1.4% excluding large orders, while production declined 1.1%.",
+          "impact": "New demand not translating broadly into production shows that adaptation is not yet complete.",
           "status": "negative",
           "source": {
             "name": "Destatis",
@@ -1352,8 +1352,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Population & Labor",
-          "development": "Almanya'da hâlâ 157 meslekte nitelikli çalışan açığı bulunurken yabancı çalışanların payı 2014'ten beri ikiye katlandı.",
-          "impact": "Göç iş gücü açığını azaltıyor fakat yaşlanan nüfus nedeniyle dış yeteneğe yapısal ihtiyaç büyüyor.",
+          "development": "Germany still has skilled-worker shortages in 157 occupations, while the share of foreign workers has doubled since 2014.",
+          "impact": "Migration helps reduce labour shortages, but an ageing population is increasing structural reliance on external talent.",
           "status": "neutral",
           "source": {
             "name": "Bundesagentur für Arbeit",
@@ -1365,8 +1365,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Cost of Living & Housing",
-          "development": "Enerji kaynaklı enflasyon %2,9'a yükselirken konut maliyetleri özellikle Berlin gibi büyük şehirlerde temel ekonomik gündem olmaya devam ediyor.",
-          "impact": "Konut ve enerji maliyetleri büyük şehirlerde yaşam maliyeti avantajını azaltıyor.",
+          "development": "Energy-driven inflation rose to 2.9%, while housing costs remain a major economic issue, especially in large cities such as Berlin.",
+          "impact": "Housing and energy costs are eroding the cost-of-living advantage in major cities.",
           "status": "negative",
           "source": {
             "name": "Destatis",
@@ -1378,8 +1378,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Social Climate & Talent Attraction",
-          "development": "Eylül eyalet seçimleri ekonomik kaygılar, yaşam maliyetleri ve göç tartışmaları eşliğinde geleneksel merkez partilerden farklı partilere oy kaymasını gösterdi.",
-          "impact": "Artan siyasi parçalanma büyük ekonomik reformlarda koalisyon ve uygulama süreçlerini daha karmaşık hale getirebilir.",
+          "development": "September state elections showed votes shifting away from traditional centrist parties amid concerns over the economy, living costs and migration.",
+          "impact": "Greater political fragmentation could make coalition-building and implementation of major economic reforms more complex.",
           "status": "negative",
           "source": {
             "name": "Reuters",
