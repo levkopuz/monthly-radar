@@ -111,9 +111,12 @@
       line-height:1.75;
     }
     .meta{
-      position:relative;z-index:3;
-      display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;
-      margin-top:52px
+      position:absolute;z-index:4;
+      top:22px;right:176px;
+      height:42px;
+      display:flex;gap:8px;flex-wrap:nowrap;justify-content:flex-end;align-items:center;
+      margin:0;
+      white-space:nowrap
     }
     .language-switch{
       position:absolute;z-index:5;top:22px;right:42px;
@@ -429,7 +432,7 @@
       .brand{max-width:64%;padding-top:64px}
       .brand h1{font-size:clamp(68px,9vw,92px);line-height:.82}
       .brand p{max-width:520px;margin-top:28px;font-size:15px;line-height:1.7}
-      .meta{max-width:220px}
+      .meta{top:20px;right:164px;max-width:none;height:42px}
       .language-switch{top:20px;right:30px}
       .hero-map{width:610px;height:340px;right:-185px;top:30px;opacity:.08}
 
@@ -501,7 +504,7 @@
       .brand:before{top:8px;max-width:170px;line-height:1.45}
       .brand h1{font-size:clamp(58px,17vw,74px);line-height:.84}
       .brand p{max-width:none;font-size:14px;line-height:1.65;margin-top:24px}
-      .meta{justify-content:flex-start;margin-top:20px;gap:6px}
+      .meta{position:relative;top:auto;right:auto;height:auto;justify-content:flex-start;margin-top:20px;gap:6px;white-space:normal}
       .language-switch{top:18px;right:20px}
       .language-select{min-width:110px;font-size:12px;padding-top:8px;padding-bottom:8px}
       .meta-stat{font-size:12px}
