@@ -908,9 +908,9 @@ const durumKisa={positive:"P",neutral:"N",negative:"−"};
 const tasinmaSinyalleri=new Set([
   "fiscal_infrastructure_capacity","execution_adaptability","demography_labour","household_relocation","social_political_talent"
 ]);
-const queryDil=new URLSearchParams(location.search).get("lang");
 const kayitliDil=localStorage.getItem("countryRadarLanguage");
-let dil=["tr","en","de"].includes(queryDil)?queryDil:(["tr","en","de"].includes(kayitliDil)?kayitliDil:"tr");
+let dil=["tr","en","de"].includes(kayitliDil)?kayitliDil:"tr";
+if(location.search||location.hash)history.replaceState(null,"",location.pathname);
 let aylikIndeks=null,veri=null,oncekiVeri=null,seciliUlke=null,mod="all",gorunum="list";
 let haritaTopo=null,haritaPromise=null;
 const arsivCache=new Map();
@@ -1252,7 +1252,7 @@ document.getElementById("languageSelect").addEventListener("change",async e=>{
   if(!["tr","en","de"].includes(yeni)||yeni===dil)return;
   dil=yeni;
   localStorage.setItem("countryRadarLanguage",dil);
-  const url=new URL(location.href);url.searchParams.set("lang",dil);history.replaceState(null,"",url);
+  if(location.search||location.hash)history.replaceState(null,"",location.pathname);
   arsivCache.clear();
   statikMetinleriGuncelle();
   aySecenekleriniGuncelle();
