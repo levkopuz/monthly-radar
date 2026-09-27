@@ -271,8 +271,9 @@
     .map-panel svg{display:block;width:100%;height:auto;max-height:none}
     .map-loading{min-height:300px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px}
     .country-map-path{vector-effect:non-scaling-stroke}
-    .country-map-path.tracked{cursor:pointer;transition:opacity .15s ease,filter .15s ease}
+    .country-map-path.tracked{cursor:pointer;transition:opacity .15s ease,filter .15s ease;outline:none}
     .country-map-path.tracked:hover{filter:brightness(.92)}
+    .country-map-path.tracked:focus,.country-map-path.tracked:focus-visible{outline:none}
     .detail{
       position:relative;
       overflow:hidden;
