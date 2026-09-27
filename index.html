@@ -103,6 +103,15 @@
       content:".";
       font-style:italic;
     }
+    .brand-tagline{
+      display:block;
+      margin-top:18px;
+      color:#777169;
+      font-size:15px;
+      line-height:1.4;
+      font-weight:500;
+      letter-spacing:.01em;
+    }
     .brand p{
       max-width:565px;
       margin:34px 0 0;
@@ -432,6 +441,7 @@
       .brand{max-width:64%;padding-top:64px}
       .brand:before{top:-12px}
       .brand h1{font-size:clamp(68px,9vw,92px);line-height:.82}
+      .brand-tagline{margin-top:16px;font-size:14px}
       .brand p{max-width:520px;margin-top:28px;font-size:15px;line-height:1.7}
       .meta{top:20px;right:164px;max-width:none;height:42px}
       .language-switch{top:20px;right:30px}
@@ -511,6 +521,7 @@
         word-break:normal;
       }
       .brand h1{font-size:clamp(58px,17vw,74px);line-height:.84}
+      .brand-tagline{margin-top:14px;font-size:13px}
       .brand p{max-width:none;font-size:14px;line-height:1.65;margin-top:24px}
       .meta{position:relative;top:auto;right:auto;height:auto;justify-content:flex-start;margin-top:20px;gap:6px;white-space:normal}
       .language-switch{top:18px;right:20px}
@@ -713,6 +724,7 @@
     </label>
     <div class="brand" id="brandBlock" data-eyebrow="COUNTRY INTELLIGENCE · AYLIK ERKEN UYARI">
       <h1>Country Radar</h1>
+      <span class="brand-tagline" id="brandTagline">Bir sonraki ülkeni seç</span>
       <p id="brandDescription">Ülkelerde ekonomi, dışa bağımlılık, yönetim gücü ve yaşam koşullarının nasıl değiştiğini 10 temel göstergeyle her ay takip eden bir erken uyarı ekranı. Her ayın 1’inde otomatik güncellenir.</p>
     </div>
     <div class="meta">
@@ -836,6 +848,7 @@ const UI={
   tr:{
     locale:"tr-TR",
     eyebrow:"COUNTRY INTELLIGENCE · AYLIK ERKEN UYARI",
+    tagline:"Bir sonraki ülkeni seç",
     brandDescription:"Ülkelerde ekonomi, dışa bağımlılık, yönetim gücü ve yaşam koşullarının nasıl değiştiğini 10 temel göstergeyle her ay takip eden bir erken uyarı ekranı. Her ayın 1’inde otomatik güncellenir.",
     metaDescription:"Country Radar — ülkelerin ekonomik, kurumsal ve taşınma sinyallerini aylık izleyen erken uyarı panosu.",
     languageAria:"Dil seç",monthAria:"Ay seç",
@@ -862,6 +875,7 @@ const UI={
   en:{
     locale:"en-GB",
     eyebrow:"COUNTRY INTELLIGENCE · MONTHLY EARLY WARNING",
+    tagline:"Choose your next country",
     brandDescription:"A monthly early-warning view tracking how economies, external dependencies, governance strength and living conditions are changing across countries through 10 core indicators. Updated automatically on the 1st of every month.",
     metaDescription:"Country Radar — a monthly early-warning dashboard for economic, institutional and relocation signals across countries.",
     languageAria:"Select language",monthAria:"Select month",
@@ -888,6 +902,7 @@ const UI={
   de:{
     locale:"de-DE",
     eyebrow:"COUNTRY INTELLIGENCE · MONATLICHE FRÜHWARNUNG",
+    tagline:"Wähle dein nächstes Land",
     brandDescription:"Eine monatliche Frühwarnansicht, die anhand von 10 Kernindikatoren verfolgt, wie sich Wirtschaft, externe Abhängigkeiten, staatliche Handlungsfähigkeit und Lebensbedingungen in Ländern verändern. Automatische Aktualisierung jeweils am 1. des Monats.",
     metaDescription:"Country Radar — ein monatliches Frühwarn-Dashboard für wirtschaftliche, institutionelle und umzugsrelevante Signale von Ländern.",
     languageAria:"Sprache wählen",monthAria:"Monat wählen",
@@ -959,6 +974,7 @@ function statikMetinleriGuncelle(){
   const u=ui();
   document.documentElement.lang=dil;
   document.getElementById("brandBlock").dataset.eyebrow=u.eyebrow;
+  document.getElementById("brandTagline").textContent=u.tagline;
   document.getElementById("brandDescription").textContent=u.brandDescription;
   document.getElementById("languageSelect").setAttribute("aria-label",u.languageAria);
   document.getElementById("monthSelect").setAttribute("aria-label",u.monthAria);
