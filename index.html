@@ -918,8 +918,64 @@ const listeIkonu='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8
 
 async function jsonGetir(url){
   const r=await fetch(url,{cache:"no-store"});
-  if(!r.ok) throw new Error(`${url} yüklenemedi (${r.status})`);
+  if(!r.ok) throw new Error(`${url} (${r.status})`);
   return r.json();
+}
+function dilDosyasi(file,lang=dil){
+  if(lang==="tr")return file;
+  return file.replace(/\.json$/,`.${lang}.json`);
+}
+async function ayVerisiGetir(m){
+  const localized=`./data/${dilDosyasi(m.file)}`;
+  try{return await jsonGetir(localized);}
+  catch(e){
+    if(dil==="tr")throw e;
+    return await jsonGetir(`./data/${m.file}`);
+  }
+}
+function arsivAnahtari(id){return `${dil}:${id}`;}
+function tarihFormatla(iso,opts={day:"numeric",month:"long",year:"numeric"}){
+  if(!iso)return "";
+  const d=new Date(`${iso}T12:00:00Z`);
+  return new Intl.DateTimeFormat(ui().locale,opts).format(d);
+}
+function ayEtiketi(id,kisa=false){
+  const [y,m]=id.split("-").map(Number);
+  const d=new Date(Date.UTC(y,m-1,1,12));
+  return new Intl.DateTimeFormat(ui().locale,kisa?{month:"short",year:"2-digit"}:{month:"long",year:"numeric"}).format(d);
+}
+function statikMetinleriGuncelle(){
+  const u=ui();
+  document.documentElement.lang=dil;
+  document.getElementById("brandBlock").dataset.eyebrow=u.eyebrow;
+  document.getElementById("brandDescription").textContent=u.brandDescription;
+  document.getElementById("languageSelect").setAttribute("aria-label",u.languageAria);
+  document.getElementById("monthSelect").setAttribute("aria-label",u.monthAria);
+  document.querySelectorAll(".tab").forEach(b=>{b.textContent=u.tabs[b.dataset.mode];});
+  document.getElementById("legendPositive").lastChild.textContent=u.status.positive;
+  document.getElementById("legendNeutral").lastChild.textContent=u.status.neutral;
+  document.getElementById("legendNegative").lastChild.textContent=u.status.negative;
+  document.getElementById("signalCount").textContent=u.signals(veri?.meta?.signal_count||10);
+  document.getElementById("trendTitle").textContent=u.trendTitle;
+  document.getElementById("trendDescription").textContent=u.trendDescription;
+  document.getElementById("methodTitle").textContent=u.methodTitle;
+  document.getElementById("methodText").innerHTML=u.methodHtml;
+  document.getElementById("footerLabel").textContent=u.footer;
+  document.getElementById("signalPrev").setAttribute("aria-label",u.prevSignal);
+  document.getElementById("signalNext").setAttribute("aria-label",u.nextSignal);
+  document.getElementById("mapPanel").setAttribute("aria-label",u.mapPanelAria);
+  const desc=document.querySelector('meta[name="description"]');if(desc)desc.setAttribute("content",u.metaDescription);
+  if(!veri)document.getElementById("detailTitle").textContent=u.loading;
+}
+function aySecenekleriniGuncelle(){
+  if(!aylikIndeks)return;
+  const sel=document.getElementById("monthSelect");
+  const mevcut=sel.value||aylikIndeks.latest;
+  sel.innerHTML="";
+  aylikIndeks.months.slice().reverse().forEach(m=>{
+    const o=document.createElement("option");o.value=m.id;o.textContent=ayEtiketi(m.id);sel.appendChild(o);
+  });
+  sel.value=aylikIndeks.months.some(m=>m.id===mevcut)?mevcut:aylikIndeks.latest;
 }
 function ayUlkeListesi(v){
   return mod==="potential" ? (v.potential_countries||[]) : (v.countries||[]);
