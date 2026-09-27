@@ -86,7 +86,7 @@
     }
     .brand{position:relative;z-index:2;max-width:720px;padding-top:88px}
     .brand:before{
-      content:"COUNTRY INTELLIGENCE  ·  AYLIK ERKEN UYARI";
+      content:attr(data-eyebrow);
       position:absolute;top:10px;left:0;
       font-size:12px;font-weight:700;letter-spacing:.22em;color:var(--muted)
     }
@@ -112,8 +112,13 @@
     }
     .meta{
       position:relative;z-index:3;
-      display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end
+      display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;
+      margin-top:52px
     }
+    .language-switch{
+      position:absolute;z-index:5;top:22px;right:42px;
+    }
+    .language-select{min-width:116px;background-color:rgba(250,248,243,.92)}
     .meta-stat{
       color:var(--ink);
       font-size:13px;
@@ -425,6 +430,7 @@
       .brand h1{font-size:clamp(68px,9vw,92px);line-height:.82}
       .brand p{max-width:520px;margin-top:28px;font-size:15px;line-height:1.7}
       .meta{max-width:220px}
+      .language-switch{top:20px;right:30px}
       .hero-map{width:610px;height:340px;right:-185px;top:30px;opacity:.08}
 
       .toolbar{margin:0 10px;padding:13px 14px;gap:12px;flex-wrap:wrap}
@@ -492,10 +498,12 @@
       }
       header:after{inset:auto 20px 0 20px}
       .brand{max-width:none;padding-top:72px}
-      .brand:before{top:8px;max-width:240px;line-height:1.45}
+      .brand:before{top:8px;max-width:170px;line-height:1.45}
       .brand h1{font-size:clamp(58px,17vw,74px);line-height:.84}
       .brand p{max-width:none;font-size:14px;line-height:1.65;margin-top:24px}
       .meta{justify-content:flex-start;margin-top:20px;gap:6px}
+      .language-switch{top:18px;right:20px}
+      .language-select{min-width:110px;font-size:12px;padding-top:8px;padding-bottom:8px}
       .meta-stat{font-size:12px}
       .hero-map{width:470px;height:280px;right:-235px;top:46px;opacity:.07}
 
@@ -685,13 +693,20 @@
   </g>
 </svg>
 </div>
-    <div class="brand">
+    <label class="language-switch">
+      <select class="select language-select" id="languageSelect" aria-label="Dil seç">
+        <option value="tr">Türkçe</option>
+        <option value="en">English</option>
+        <option value="de">Deutsch</option>
+      </select>
+    </label>
+    <div class="brand" id="brandBlock" data-eyebrow="COUNTRY INTELLIGENCE · AYLIK ERKEN UYARI">
       <h1>Country Radar</h1>
-      <p>Ülkelerde ekonomi, dışa bağımlılık, yönetim gücü ve yaşam koşullarının nasıl değiştiğini 10 temel göstergeyle her ay takip eden bir erken uyarı ekranı. Her ayın 1’inde otomatik güncellenir.</p>
+      <p id="brandDescription">Ülkelerde ekonomi, dışa bağımlılık, yönetim gücü ve yaşam koşullarının nasıl değiştiğini 10 temel göstergeyle her ay takip eden bir erken uyarı ekranı. Her ayın 1’inde otomatik güncellenir.</p>
     </div>
     <div class="meta">
       <span class="meta-stat" id="countryCount">20 takip edilen ülke</span>
-      <span class="meta-stat">10 sinyal</span>
+      <span class="meta-stat" id="signalCount">10 sinyal</span>
     </div>
   </header>
 
@@ -706,9 +721,9 @@
         <select class="select" id="monthSelect" aria-label="Ay seç"></select>
       </label>
       <div class="legend">
-        <span><i class="dot positive"></i>Pozitif</span>
-        <span><i class="dot neutral"></i>Nötr</span>
-        <span><i class="dot negative"></i>Negatif</span>
+        <span id="legendPositive"><i class="dot positive"></i>Pozitif</span>
+        <span id="legendNeutral"><i class="dot neutral"></i>Nötr</span>
+        <span id="legendNegative"><i class="dot negative"></i>Negatif</span>
       </div>
     </div>
   </div>
@@ -766,8 +781,8 @@
     <div class="trend-section">
       <div class="trend-title">
         <div>
-          <h3>Aylık Sinyal Haritası</h3>
-          <p>Y ekseni sinyalleri, X ekseni ayları gösterir. Boş hücre, o ay için kayıt bulunmadığı anlamına gelir.</p>
+          <h3 id="trendTitle">Aylık Sinyal Haritası</h3>
+          <p id="trendDescription">Y ekseni sinyalleri, X ekseni ayları gösterir. Boş hücre, o ay için kayıt bulunmadığı anlamına gelir.</p>
         </div>
       </div>
       <div class="trend-wrap"><div id="trendChart" class="loading">Aylık geçmiş yükleniyor…</div></div>
@@ -792,13 +807,13 @@
   </g>
 </svg>
 </div>
-    <h3>Nasıl çalışıyor?</h3>
-    <p><strong>Erken Uyarı = Maruziyet × Yapısal Kırılganlık × Dış Tetikleyici ÷ Yanıt Kapasitesi.</strong><br><br>
-    Radar tek bir olayı tahmin etmeye çalışmaz. Bir ülkenin hangi şoklara açık olduğunu, kırılganlıkların birikip birikmediğini ve sistemin bu şoklara ne kadar hızlı cevap verebildiğini izler. Taşınma Radar’ı; altyapı ve uygulama kapasitesi, iş gücü, yaşam maliyeti ve uluslararası yetenek açıklığına odaklanır. Potansiyel Radar ise her ay mevcut ana listenin dışından beş ülkeyi aynı sinyal ailesiyle tarayarak gözden kaçabilecek yeni dönüşüm alanlarını keşfetmeye çalışır.</p>
+    <h3 id="methodTitle">Nasıl çalışıyor?</h3>
+    <p id="methodText"><strong>Erken Uyarı = Maruziyet × Yapısal Kırılganlık × Dış Tetikleyici ÷ Yanıt Kapasitesi.</strong><br><br>
+    Radar tek bir olayı tahmin etmeye çalışmaz. Bir ülkenin hangi şoklara açık olduğunu, kırılganlıkların birikip birikmediğini ve sistemin bu şoklara ne kadar hızlı cevap verebildiğini izler. Taşınma Radarı; altyapı ve uygulama kapasitesi, iş gücü, yaşam maliyeti ve uluslararası yetenek açıklığına odaklanır. Potansiyel Radar ise her ay mevcut ana listenin dışından beş ülkeyi aynı sinyal ailesiyle tarayarak gözden kaçabilecek yeni dönüşüm alanlarını keşfetmeye çalışır.</p>
   </section>
 
   <footer>
-    <span>Country Radar · Aylık erken uyarı panosu</span>
+    <span id="footerLabel">Country Radar · Aylık erken uyarı panosu</span>
     <span id="updated"></span>
   </footer>
 </div>
