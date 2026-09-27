@@ -703,14 +703,14 @@
     },
     {
       "id": "france",
-      "name": "Fransa",
+      "name": "Frankreich",
       "flag": "🇫🇷",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Banque de France 2026 büyüme tahminini %0,5'ten %0,4'e indirirken ikinci çeyrek büyümesi sıfır oldu.",
-          "impact": "İç talep ve yatırımın zayıflaması büyüme motorunun belirgin biçimde ivme kaybettiğini gösteriyor.",
+          "development": "Die Banque de France senkte ihre Wachstumsprognose für 2026 von 0,5 % auf 0,4 %, während das Wachstum im zweiten Quartal bei null lag.",
+          "impact": "Schwache Binnennachfrage und Investitionen zeigen einen deutlichen Verlust an Wachstumsdynamik.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -722,8 +722,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "İran savaşı kaynaklı petrol ve gaz fiyat artışları hükümeti G7 enerji müdahalesi görüşmelerine yöneltti.",
-          "impact": "Enerji fiyatlarına maruziyet tüketim, sanayi ve kamu maliyesini aynı anda baskılıyor.",
+          "development": "Öl- und Gaspreisanstiege infolge des Iran-Krieges führten zu G7-Gesprächen der Regierung über Eingriffe am Energiemarkt.",
+          "impact": "Die Abhängigkeit von Energiepreisen belastet Konsum, Industrie und Staatsfinanzen gleichzeitig.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -735,8 +735,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "Banque de France zayıf iç talebe rağmen uluslararası ticaretin ihracatı desteklemeye devam ettiğini bildiriyor.",
-          "impact": "İhracat ekonomideki iç talep zayıflığını kısmen tamponluyor.",
+          "development": "Die Banque de France berichtet, dass der internationale Handel die Exporte trotz schwacher Binnennachfrage weiter stützt.",
+          "impact": "Exporte gleichen die Schwäche der Binnennachfrage teilweise aus.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -748,8 +748,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "Osez l'IA programı bir yılda 35 binden fazla şirkete ulaşarak 615 AI elçisi oluşturdu.",
-          "impact": "AI adaptasyonunun KOBİ ve şirket tabanına yayılması orta vadeli üretkenlik kapasitesini güçlendirebilir.",
+          "development": "Das Programm Osez l'IA erreichte binnen eines Jahres mehr als 35.000 Unternehmen und schuf 615 KI-Botschafter.",
+          "impact": "Eine breitere KI-Nutzung in KMU und Unternehmen kann die mittelfristige Produktivität stärken.",
           "status": "positive",
           "source": {
             "name": "French Ministry of Economy",
@@ -761,8 +761,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "Merkez bankası yüksek faiz ve belirsizlik nedeniyle şirket yatırımlarının temkinli kaldığını bildiriyor.",
-          "impact": "Özel yatırım iştahının düşük kalması gelecekteki kapasite ve verimlilik artışını sınırlıyor.",
+          "development": "Die Zentralbank berichtet, dass Unternehmensinvestitionen wegen hoher Zinsen und Unsicherheit vorsichtig bleiben.",
+          "impact": "Die geringe private Investitionsbereitschaft begrenzt künftige Kapazität und Produktivitätswachstum.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -774,8 +774,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "Maliye Bakanlığı kamu borcunun 2026'da GSYH'nin %119,3'üne ulaşmasını bekliyor.",
-          "impact": "Artan borç ve faiz yükü altyapı ve dönüşüm harcamaları için mali hareket alanını daraltıyor.",
+          "development": "Das Finanzministerium erwartet 2026 eine Staatsverschuldung von 119,3 % des BIP.",
+          "impact": "Steigende Schulden- und Zinskosten verengen den fiskalischen Spielraum für Infrastruktur und Transformation.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -787,8 +787,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "2027 bütçesinde €54 milyarlık tasarruf planının parçalı parlamentodan geçirilmesi konusunda belirsizlik devam ediyor.",
-          "impact": "Reformların uygulanma hızındaki siyasi belirsizlik ekonomik müdahale kapasitesini düşürebilir.",
+          "development": "Die Unsicherheit über die Verabschiedung von Einsparungen über 54 Mrd. € im Haushalt 2027 durch das fragmentierte Parlament hält an.",
+          "impact": "Politische Unsicherheit über die Umsetzungsgeschwindigkeit kann die wirtschaftliche Reaktionsfähigkeit schwächen.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -800,8 +800,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "İşsizlik ikinci çeyrekte 0,2 puan artarak %8,3'e ve 2019 sonrası en yüksek seviyelerden birine çıktı.",
-          "impact": "İş gücü talebindeki zayıflama ekonomik yavaşlamanın istihdama taşındığını gösteriyor.",
+          "development": "Die Arbeitslosigkeit stieg im zweiten Quartal um 0,2 Prozentpunkte auf 8,3 % und damit auf einen der höchsten Werte seit 2019.",
+          "impact": "Schwächere Arbeitskräftenachfrage zeigt, dass die Konjunkturabkühlung den Arbeitsmarkt erreicht.",
           "status": "negative",
           "source": {
             "name": "INSEE",
@@ -813,8 +813,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "Ağustos enflasyonu %2,4 olurken hane güveni 86 seviyesinde kaldı ve satın alma gücü baskı altında.",
-          "impact": "Reel gelir baskısı günlük yaşam ekonomisini ve tüketici güvenini zayıflatıyor.",
+          "development": "Die Inflation lag im August bei 2,4 %, das Haushaltsvertrauen blieb bei 86 und die Kaufkraft unter Druck.",
+          "impact": "Druck auf Realeinkommen schwächt den Alltag der Haushalte und das Verbrauchervertrauen.",
           "status": "negative",
           "source": {
             "name": "INSEE",
@@ -826,8 +826,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "Bütçe ve yaşam maliyetleri nedeniyle Eylül'de enerji, ulaşım ve diğer sektörlerde geniş çaplı grevler gerçekleşti.",
-          "impact": "Yoğun toplumsal pazarlık ve parlamenter bölünme kısa vadeli politika öngörülebilirliğini azaltıyor.",
+          "development": "Im September kam es wegen Haushalt und Lebenshaltungskosten zu breiten Streiks in Energie, Verkehr und weiteren Branchen.",
+          "impact": "Intensive gesellschaftliche Aushandlung und parlamentarische Zersplitterung verringern die kurzfristige Planbarkeit.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -841,14 +841,14 @@
     },
     {
       "id": "india",
-      "name": "Hindistan",
+      "name": "Indien",
       "flag": "🇮🇳",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Ekonomi Nisan–Haziran döneminde %7,8 büyürken Moody's FY2027 tahminini %7'ye yükseltti.",
-          "impact": "Yatırım ve imalat kaynaklı yüksek büyüme ekonomik motorun güçlü kaldığını gösteriyor.",
+          "development": "Die Wirtschaft wuchs von April bis Juni um 7,8 %, während Moody's die Prognose für FY2027 auf 7 % anhob.",
+          "impact": "Investitions- und industriegetriebenes Wachstum zeigt einen weiterhin starken Wirtschaftsmotor.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -860,8 +860,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "Ağustos ham petrol ithalat faturası yıllık %25,8 artarak $16,69 milyara çıktı.",
-          "impact": "Yüksek petrol fiyatları cari denge, rupi ve enflasyon üzerinde doğrudan baskı oluşturuyor.",
+          "development": "Die Rechnung für Rohölimporte stieg im August um 25,8 % gegenüber dem Vorjahr auf 16,69 Mrd. US-Dollar.",
+          "impact": "Hohe Ölpreise belasten Leistungsbilanz, Rupie und Inflation direkt.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -873,8 +873,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "Mal ve hizmet ihracatı Ağustos'ta yıllık %25,4 artarak $82,68 milyara ulaştı.",
-          "impact": "Elektronik, mühendislik, otomotiv ve hizmet ihracatındaki genişleme dış talep tabanını güçlendiriyor.",
+          "development": "Die Exporte von Waren und Dienstleistungen stiegen im August um 25,4 % auf 82,68 Mrd. US-Dollar.",
+          "impact": "Wachstum bei Elektronik, Maschinenbau, Automobilen und Dienstleistungen verbreitert die Auslandsnachfrage.",
           "status": "positive",
           "source": {
             "name": "India Ministry of Commerce",
@@ -886,8 +886,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "Wipro AI uygulamalarıyla 20 bin çalışan eşdeğerinde kapasite açarken 100 binden fazla çalışanını ileri AI becerilerinde eğitti.",
-          "impact": "Büyük IT sektörünün AI'a aktif geçişi mevcut hizmet modelinin teknolojik adaptasyonunu güçlendiriyor.",
+          "development": "Wipro setzte durch KI-Anwendungen Kapazität im Umfang von 20.000 Beschäftigten frei und schulte mehr als 100.000 Mitarbeitende in fortgeschrittenen KI-Fähigkeiten.",
+          "impact": "Die aktive KI-Transformation des großen IT-Sektors stärkt die technologische Anpassung des Dienstleistungsmodells.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -899,8 +899,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "Güçlü yatırımlar ve imalat faaliyeti ikinci çeyrekte %7,8'lik büyümenin ana kaynakları arasında yer aldı.",
-          "impact": "Sermaye oluşumunun büyümeye katkısı uzun vadeli kapasite açısından destekleyici.",
+          "development": "Starke Investitionen und Industrieaktivität gehörten zu den Haupttreibern des Wachstums von 7,8 % im zweiten Quartal.",
+          "impact": "Der Beitrag der Kapitalbildung zum Wachstum unterstützt die langfristige Kapazität.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -912,8 +912,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "Moody's artan savunma ve altyapı harcamalarının mali konsolidasyonu yavaşlatabileceğini belirtiyor.",
-          "impact": "Altyapı yatırımı büyümeyi desteklerken enerji ve savunma harcamaları bütçe alanını daraltabilir.",
+          "development": "Moody's weist darauf hin, dass steigende Verteidigungs- und Infrastrukturausgaben die Haushaltskonsolidierung verlangsamen könnten.",
+          "impact": "Infrastruktur stützt das Wachstum, während Energie- und Verteidigungsausgaben den Budgetspielraum verengen können.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -925,8 +925,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "RBI fazla likiditeyi çekmek için tahvil satışlarını artırırken piyasalar olası faiz artışını fiyatlıyor.",
-          "impact": "Politika tepkisi finansal istikrarı destekleyebilir ancak finansman koşullarını sıkılaştırıyor.",
+          "development": "Die RBI erhöhte ihre Anleiheverkäufe, um überschüssige Liquidität abzuschöpfen; die Märkte preisen eine mögliche Zinserhöhung ein.",
+          "impact": "Die Reaktion kann die Finanzstabilität stützen, verschärft aber die Finanzierungsbedingungen.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -938,8 +938,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "Ağustos işsizliği altı aylık dip olan %5'e inerken iş gücüne katılım %55,6'ya yükseldi.",
-          "impact": "Daha fazla kişinin iş gücüne katılırken işsizliğin düşmesi çalışma piyasası açısından destekleyici.",
+          "development": "Die Arbeitslosigkeit sank im August auf ein Sechsmonatstief von 5 %, während die Erwerbsquote auf 55,6 % stieg.",
+          "impact": "Sinkende Arbeitslosigkeit bei höherer Erwerbsbeteiligung ist positiv für den Arbeitsmarkt.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -951,8 +951,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "Ağustos enflasyonu %4,82'ye yükselerek yeni serinin en yüksek seviyesine ulaştı.",
-          "impact": "Enerji ve daha geniş fiyat artışları reel hane gelirleri üzerinde yeni baskı yaratıyor.",
+          "development": "Die Inflation stieg im August auf 4,82 % und damit auf den höchsten Wert der neuen Reihe.",
+          "impact": "Energie- und breitere Preissteigerungen erzeugen neuen Druck auf reale Haushaltseinkommen.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -964,8 +964,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "ABD'nin H‑1B maliyet artışı Alphabet gibi büyük şirketlerin bazı operasyonlarını Hindistan'da büyütmesine yol açıyor.",
-          "impact": "Küresel teknoloji işlerinin Hindistan'a kayması yüksek nitelikli çalışanlar için yerel fırsat havuzunu genişletebilir.",
+          "development": "Höhere H-1B-Kosten in den USA veranlassen große Unternehmen wie Alphabet, Teile ihrer Aktivitäten in Indien auszubauen.",
+          "impact": "Die Verlagerung globaler Technologiearbeit nach Indien kann lokale Chancen für hochqualifizierte Fachkräfte vergrößern.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -979,14 +979,14 @@
     },
     {
       "id": "thailand",
-      "name": "Tayland",
+      "name": "Thailand",
       "flag": "🇹🇭",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "BOT 2026 büyümesini %2,3, 2027'yi %1,8 beklerken ekonominin potansiyeline dönmesinin birkaç yıl sürebileceğini belirtiyor.",
-          "impact": "Ekonomi büyümeye devam etse de ana büyüme motorunun yapısal olarak düşük hızda kalması risk oluşturuyor.",
+          "development": "Die BOT erwartet für 2026 ein Wachstum von 2,3 % und für 2027 von 1,8 %; die Rückkehr zum Potenzial könne mehrere Jahre dauern.",
+          "impact": "Die Wirtschaft wächst weiter, doch die strukturell niedrige Geschwindigkeit bleibt ein Risiko für den Wachstumsmotor.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -998,8 +998,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "Q2 büyümesi yüksek enerji maliyetleri ve Orta Doğu kaynaklı seyahat aksaklıklarından doğrudan etkilendi.",
-          "impact": "Enerji ithalatı ve uluslararası turizme bağımlılık dış jeopolitik şoklara hassasiyet yaratıyor.",
+          "development": "Das Wachstum im zweiten Quartal wurde direkt von hohen Energiekosten und Reiseunterbrechungen aus dem Nahen Osten beeinflusst.",
+          "impact": "Die Abhängigkeit von Energieimporten und internationalem Tourismus erhöht die Sensitivität gegenüber geopolitischen Schocks.",
           "status": "negative",
           "source": {
             "name": "Bank of Thailand",
@@ -1011,8 +1011,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "Temmuz ihracatı küresel elektronik ve AI döngüsünün etkisiyle büyümeye devam etti.",
-          "impact": "Teknoloji ihracatının güçlenmesi zayıf iç talebi dışarıdan destekliyor.",
+          "development": "Die Exporte wuchsen im Juli weiter, getragen vom globalen Elektronik- und KI-Zyklus.",
+          "impact": "Stärkere Technologieexporte stützen die Wirtschaft von außen gegen schwache Binnennachfrage.",
           "status": "positive",
           "source": {
             "name": "Bank of Thailand",
@@ -1024,8 +1024,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "Elektrikli ve hibrit araçlar yılın ilk yedi ayında yeni araç pazarının %55'ine ulaştı.",
-          "impact": "Tayland'ın geleneksel otomotiv üssünü EV dönemine taşıma kapasitesi belirgin biçimde güçleniyor.",
+          "development": "Elektro- und Hybridfahrzeuge erreichten in den ersten sieben Monaten 55 % des Neuwagenmarkts.",
+          "impact": "Thailands Fähigkeit, seine traditionelle Autoindustrie in das EV-Zeitalter zu überführen, nimmt deutlich zu.",
           "status": "positive",
           "source": {
             "name": "Thailand BOI",
@@ -1037,8 +1037,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "BOI'nin Eylül gündeminde yeni yüksek teknoloji yatırımları ve $3,66 milyarlık hızlandırılmış sanayi proje hattı bulunuyor.",
-          "impact": "Yabancı ve yerli sermayenin teknoloji üretimine yönelmesi yeni büyüme motorları oluşturuyor.",
+          "development": "Auf der September-Agenda der BOI stehen neue Hochtechnologieinvestitionen und eine beschleunigte Industrieprojekt-Pipeline von 3,66 Mrd. US-Dollar.",
+          "impact": "In- und ausländisches Kapital in Technologieproduktion schafft neue Wachstumsmotoren.",
           "status": "positive",
           "source": {
             "name": "Thailand BOI",
@@ -1050,8 +1050,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "Hükümet sanayi projelerini hızlandırırken kamu harcamaları Temmuz'da merkezi yönetim ve kamu şirketlerinde arttı.",
-          "impact": "Kamu desteği ve altyapı yatırımları özel sektör dönüşümünü tamamlayıcı rol oynuyor.",
+          "development": "Die öffentlichen Ausgaben von Zentralregierung und Staatsunternehmen stiegen im Juli, während Industrieprojekte beschleunigt wurden.",
+          "impact": "Öffentliche Unterstützung und Infrastrukturinvestitionen ergänzen die Transformation des Privatsektors.",
           "status": "positive",
           "source": {
             "name": "Bank of Thailand",
@@ -1063,8 +1063,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "EV vergi sistemi yerel içerik, yatırım ve tedarikçi geliştirmeyi doğrudan teşvik edecek şekilde yeniden tasarlandı.",
-          "impact": "Regülasyonun sektör dönüşümüne hızla uyarlanması üretim üssünün rekabet gücünü destekliyor.",
+          "development": "Das EV-Steuersystem wurde so umgestaltet, dass lokale Wertschöpfung, Investitionen und Lieferantenentwicklung direkt gefördert werden.",
+          "impact": "Schnelle regulatorische Anpassung an den Sektorwandel stärkt die Wettbewerbsfähigkeit des Produktionsstandorts.",
           "status": "positive",
           "source": {
             "name": "Thailand BOI",
@@ -1076,8 +1076,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "BOT iş gücü piyasasını genel olarak istikrarlı, imalat istihdamını ise yakından izlenmesi gereken alan olarak tanımlıyor.",
-          "impact": "Bugünkü istihdam dengesi korunuyor ancak imalat dönüşümünün iş gücüne etkisi henüz netleşmiş değil.",
+          "development": "Die BOT bezeichnet den Arbeitsmarkt als insgesamt stabil und die Beschäftigung im verarbeitenden Gewerbe als besonders beobachtungsbedürftig.",
+          "impact": "Die heutige Beschäftigungslage ist stabil, die Arbeitsmarktwirkung des Industriewandels aber noch unklar.",
           "status": "neutral",
           "source": {
             "name": "Bank of Thailand",
@@ -1089,8 +1089,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "BOT yüksek hane borcu ve artan yaşam maliyetlerinin iç tüketimi baskıladığını bildiriyor.",
-          "impact": "Borçlu hanelerin yüksek maliyetlere duyarlılığı yaşam standardı ve iç talep için önemli kırılganlık oluşturuyor.",
+          "development": "Die BOT berichtet, dass hohe Haushaltsschulden und steigende Lebenshaltungskosten den Binnenkonsum belasten.",
+          "impact": "Die Kostensensitivität hoch verschuldeter Haushalte ist eine wichtige Schwachstelle für Lebensstandard und Binnennachfrage.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1102,8 +1102,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "Tayland 93 ülke vatandaşına tanınan vizesiz turist kalış süresini 60 günden 30 güne düşürme kararı aldı.",
-          "impact": "Düzenleme turist statüsünde uzun süreli kalış kolaylığını azaltırken diğer çalışma ve oturum yollarını doğrudan değiştirmiyor.",
+          "development": "Thailand beschloss, die visumfreie touristische Aufenthaltsdauer für Bürger aus 93 Ländern von 60 auf 30 Tage zu verkürzen.",
+          "impact": "Die Regelung erschwert längere Aufenthalte im Touristenstatus, verändert andere Arbeits- und Aufenthaltswege jedoch nicht direkt.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1117,14 +1117,14 @@
     },
     {
       "id": "china",
-      "name": "Çin",
+      "name": "China",
       "flag": "🇨🇳",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Ağustos sanayi üretimi %5,2 büyürken perakende satış artışı yalnızca %0,4'te kaldı.",
-          "impact": "Üretim güçlü kalmasına rağmen zayıf tüketim ekonomik modeldeki iç talep dengesizliğini sürdürüyor.",
+          "development": "Die Industrieproduktion wuchs im August um 5,2 %, während die Einzelhandelsumsätze nur um 0,4 % zunahmen.",
+          "impact": "Starke Produktion bei schwachem Konsum hält das Ungleichgewicht der Binnennachfrage im Wirtschaftsmodell aufrecht.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1136,8 +1136,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "Zayıf tüketim ve gayrimenkul yatırımı ekonomiyi dış talep ve ihracata daha bağımlı hale getiriyor.",
-          "impact": "Küresel ticaret geriliminin artması durumunda iç talebin ihracat kaybını telafi kapasitesi sınırlı kalabilir.",
+          "development": "Schwacher Konsum und geringe Immobilieninvestitionen machen die Wirtschaft abhängiger von Auslandsnachfrage und Exporten.",
+          "impact": "Bei steigenden globalen Handelsspannungen könnte die Binnennachfrage Exportverluste nur begrenzt ausgleichen.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1149,8 +1149,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "Ağustos ihracatı yıllık %18,6, toplam dış ticaret ise %19,8 büyüdü.",
-          "impact": "Güçlü ihracat mevcut büyüme modelinin en önemli tamponlarından biri olmaya devam ediyor.",
+          "development": "Die Exporte stiegen im August um 18,6 % gegenüber dem Vorjahr, der gesamte Außenhandel um 19,8 %.",
+          "impact": "Starke Exporte bleiben einer der wichtigsten Puffer des aktuellen Wachstumsmodells.",
           "status": "positive",
           "source": {
             "name": "NBS China",
@@ -1162,8 +1162,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "High-tech imalat %16,7 büyürken batarya üretimi %57,2 ve endüstriyel robot üretimi %34,6 arttı.",
-          "impact": "Yeni nesil sanayi kapasitesinin hızlı büyümesi teknoloji rekabetindeki pozisyonu güçlendiriyor.",
+          "development": "Die Hightech-Produktion wuchs um 16,7 %, Batterieproduktion um 57,2 % und Industrieroboter um 34,6 %.",
+          "impact": "Der schnelle Ausbau der nächsten Industriegeneration stärkt Chinas Position im Technologiewettbewerb.",
           "status": "positive",
           "source": {
             "name": "NBS China",
@@ -1175,8 +1175,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "İlk sekiz ayda sabit sermaye yatırımı %7,2, özel yatırım %10,1 ve gayrimenkul yatırımı %19,9 geriledi.",
-          "impact": "Özel sermaye iştahındaki geniş tabanlı zayıflık gelecekteki iç büyüme kapasitesini sınırlıyor.",
+          "development": "Die Anlageinvestitionen sanken in den ersten acht Monaten um 7,2 %, private Investitionen um 10,1 % und Immobilieninvestitionen um 19,9 %.",
+          "impact": "Die breite Schwäche der privaten Investitionsbereitschaft begrenzt die künftige Binnenwachstumskapazität.",
           "status": "negative",
           "source": {
             "name": "NBS China",
@@ -1188,8 +1188,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "Kamu desteklerine rağmen altyapı yatırımı ilk sekiz ayda yıllık %4 geriledi.",
-          "impact": "Devlet desteğinin özel ve altyapı yatırımındaki düşüşü henüz tamamen tersine çevirememesi önemli bir erken sinyal.",
+          "development": "Die Infrastrukturinvestitionen sanken trotz staatlicher Unterstützung in den ersten acht Monaten um 4 % gegenüber dem Vorjahr.",
+          "impact": "Dass staatliche Unterstützung den Rückgang privater und infrastruktureller Investitionen noch nicht umkehrt, ist ein wichtiges Frühsignal.",
           "status": "negative",
           "source": {
             "name": "NBS China",
@@ -1201,8 +1201,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "Düzenleyiciler humanoid robot şirketlerinin IPO süreçlerini aşırı değerleme ve ticarileşme endişeleri nedeniyle sıkılaştırdı.",
-          "impact": "Müdahale spekülatif sermayeyi sınırlarken stratejik sektör finansmanında daha seçici bir döneme işaret ediyor.",
+          "development": "Die Aufsicht verschärfte IPO-Verfahren für Humanoid-Robotikunternehmen wegen Bewertungs- und Kommerzialisierungsrisiken.",
+          "impact": "Der Eingriff begrenzt spekulatives Kapital und signalisiert eine selektivere Finanzierung strategischer Sektoren.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1214,8 +1214,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "16–24 yaş öğrenci dışı genç işsizliği Ağustos'ta %18,9 ile bir yıllık zirveye ulaştı.",
-          "impact": "Genç yeteneğin iş piyasasına entegrasyonundaki sorun tüketim ve uzun vadeli insan sermayesi açısından baskı oluşturuyor.",
+          "development": "Die Arbeitslosigkeit unter 16- bis 24-Jährigen ohne Studierende erreichte im August mit 18,9 % ein Jahreshoch.",
+          "impact": "Probleme bei der Integration junger Talente in den Arbeitsmarkt belasten Konsum und langfristiges Humankapital.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1227,8 +1227,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "Yeni konut fiyatları Ağustos'ta yıllık %3 düşerken gayrimenkul yatırımları %19,9 geriledi.",
-          "impact": "Daha ucuz konut erişimi bazı alıcıları desteklese de servet etkisi ve tüketici güveni açısından emlak krizi baskın kalıyor.",
+          "development": "Die Preise neuer Wohnungen fielen im August um 3 % gegenüber dem Vorjahr, während Immobilieninvestitionen um 19,9 % sanken.",
+          "impact": "Günstigere Wohnungen helfen einzelnen Käufern, doch die Immobilienkrise dominiert weiter Vermögenseffekte und Verbrauchervertrauen.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1240,8 +1240,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "Zayıf perakende talebine genç işsizliğinin %18,9'a yükselmesi eşlik ediyor.",
-          "impact": "Genç iş gücü ile ekonomik fırsatlar arasındaki uyumsuzluğun devam etmesi toplumsal ve ekonomik baskıyı artırabilir.",
+          "development": "Schwache Einzelhandelsnachfrage geht mit einer Jugendarbeitslosigkeit von 18,9 % einher.",
+          "impact": "Die anhaltende Diskrepanz zwischen jungen Arbeitskräften und wirtschaftlichen Chancen kann sozialen und wirtschaftlichen Druck erhöhen.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1255,14 +1255,14 @@
     },
     {
       "id": "germany",
-      "name": "Almanya",
+      "name": "Deutschland",
       "flag": "🇩🇪",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "IW 2026 büyüme tahminini %0,4'ten %1,2'ye yükseltti ancak ikinci yarıda ivmenin azalmasını bekliyor.",
-          "impact": "Kamu harcamaları ve ihracat toparlanma sağlasa da kalıcı özel sektör büyümesi henüz oluşmuş değil.",
+          "development": "Das IW erhöhte seine Wachstumsprognose für 2026 von 0,4 % auf 1,2 %, erwartet aber im zweiten Halbjahr weniger Dynamik.",
+          "impact": "Staatsausgaben und Exporte stützen die Erholung, dauerhaftes Wachstum des Privatsektors ist jedoch noch nicht entstanden.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1274,8 +1274,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "Ağustos enflasyonu enerji fiyatlarının etkisiyle %2,9'a yükseldi.",
-          "impact": "Enerji fiyatlarının yeniden ekonomik baskı yaratması Almanya'nın temel sanayi kırılganlığının devam ettiğini gösteriyor.",
+          "development": "Die Inflation stieg im August unter dem Einfluss der Energiepreise auf 2,9 %.",
+          "impact": "Erneuter Preisdruck bei Energie zeigt, dass Deutschlands zentrale industrielle Verwundbarkeit fortbesteht.",
           "status": "negative",
           "source": {
             "name": "Destatis",
@@ -1287,8 +1287,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "IW ihracatın 2026'da %2,8 büyümesini beklerken Çin rekabeti ve korumacılığı temel riskler arasında gösteriyor.",
-          "impact": "İhracat toparlanıyor fakat dış ticaret modeli yapısal olarak daha zor bir küresel ortamla karşılaşıyor.",
+          "development": "Das IW erwartet 2026 ein Exportwachstum von 2,8 % und nennt chinesischen Wettbewerb sowie Protektionismus als zentrale Risiken.",
+          "impact": "Die Exporte erholen sich, doch das Außenhandelsmodell trifft auf ein strukturell schwierigeres globales Umfeld.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1300,8 +1300,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "Volkswagen kâr beklentisini sert düşürürken Çin talebi, Asyalı rakipler ve EV geçişi yeniden yapılanmayı hızlandırıyor.",
-          "impact": "Otomotiv sektöründeki dönüşüm baskısı Almanya'nın en kritik sanayi ekosistemini zorlamaya devam ediyor.",
+          "development": "Volkswagen senkte seine Gewinnerwartung deutlich, während China-Nachfrage, asiatische Wettbewerber und EV-Transformation den Umbau beschleunigen.",
+          "impact": "Der Transformationsdruck in der Autoindustrie belastet Deutschlands wichtigstes Industrieökosystem weiter.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1313,8 +1313,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "IW özel yatırımların zayıf kaldığını ve yüksek enerji maliyetlerinin yatırım iştahını baskıladığını bildiriyor.",
-          "impact": "Özel sermayenin güçlü biçimde geri dönmemesi yeni büyüme modelinin kurulmasını geciktiriyor.",
+          "development": "Das IW berichtet von schwachen privaten Investitionen; hohe Energiekosten belasten die Investitionsbereitschaft.",
+          "impact": "Die ausbleibende kräftige Rückkehr privaten Kapitals verzögert den Aufbau eines neuen Wachstumsmodells.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1326,8 +1326,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "2026 büyümesindeki yukarı revizyonun önemli bölümü artan kamu harcamalarından geliyor.",
-          "impact": "Mali genişlemenin ekonomiye aktarılması yıllarca süren yatırım eksikliğini azaltma kapasitesini artırıyor.",
+          "development": "Ein wesentlicher Teil der höheren Wachstumsprognose 2026 kommt aus steigenden Staatsausgaben.",
+          "impact": "Dass fiskalische Expansion in die Wirtschaft gelangt, erhöht die Fähigkeit, jahrelange Investitionsdefizite abzubauen.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -1339,8 +1339,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "Temmuz sanayi siparişleri %2,5 artarken büyük siparişler çıkarıldığında %1,4 geriledi ve üretim %1,1 düştü.",
-          "impact": "Yeni talebin üretime geniş tabanlı şekilde dönüşmemesi adaptasyonun henüz tamamlanmadığını gösteriyor.",
+          "development": "Die Industrieaufträge stiegen im Juli um 2,5 %, sanken ohne Großaufträge jedoch um 1,4 %; die Produktion fiel um 1,1 %.",
+          "impact": "Dass neue Nachfrage nicht breit in Produktion übergeht, zeigt eine noch nicht abgeschlossene Anpassung.",
           "status": "negative",
           "source": {
             "name": "Destatis",
@@ -1352,8 +1352,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "Almanya'da hâlâ 157 meslekte nitelikli çalışan açığı bulunurken yabancı çalışanların payı 2014'ten beri ikiye katlandı.",
-          "impact": "Göç iş gücü açığını azaltıyor fakat yaşlanan nüfus nedeniyle dış yeteneğe yapısal ihtiyaç büyüyor.",
+          "development": "In Deutschland fehlen weiterhin Fachkräfte in 157 Berufen; der Anteil ausländischer Beschäftigter hat sich seit 2014 verdoppelt.",
+          "impact": "Migration lindert Engpässe, doch die alternde Bevölkerung erhöht den strukturellen Bedarf an externen Talenten.",
           "status": "neutral",
           "source": {
             "name": "Bundesagentur für Arbeit",
@@ -1365,8 +1365,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "Enerji kaynaklı enflasyon %2,9'a yükselirken konut maliyetleri özellikle Berlin gibi büyük şehirlerde temel ekonomik gündem olmaya devam ediyor.",
-          "impact": "Konut ve enerji maliyetleri büyük şehirlerde yaşam maliyeti avantajını azaltıyor.",
+          "development": "Die energiegetriebene Inflation stieg auf 2,9 %, während Wohnkosten besonders in Großstädten wie Berlin ein zentrales Thema bleiben.",
+          "impact": "Wohn- und Energiekosten verringern den Kostenvorteil des Lebens in großen Städten.",
           "status": "negative",
           "source": {
             "name": "Destatis",
@@ -1378,8 +1378,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "Eylül eyalet seçimleri ekonomik kaygılar, yaşam maliyetleri ve göç tartışmaları eşliğinde geleneksel merkez partilerden farklı partilere oy kaymasını gösterdi.",
-          "impact": "Artan siyasi parçalanma büyük ekonomik reformlarda koalisyon ve uygulama süreçlerini daha karmaşık hale getirebilir.",
+          "development": "Die Landtagswahlen im September zeigten angesichts von Sorgen über Wirtschaft, Lebenshaltungskosten und Migration Stimmenverluste traditioneller Mitteparteien.",
+          "impact": "Mehr politische Fragmentierung kann Koalitionsbildung und Umsetzung großer Wirtschaftsreformen komplexer machen.",
           "status": "negative",
           "source": {
             "name": "Reuters",
