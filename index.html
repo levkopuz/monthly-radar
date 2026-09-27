@@ -994,22 +994,21 @@ function oncekiDurum(countryId,signalId){
 function degisimMetni(countryId,item){
   const prev=oncekiDurum(countryId,item.signal_id);
   if(!prev)return "";
-  if(prev===item.status)return "Önceki aya göre aynı";
-  return `${durumEtiketi[prev]} → ${durumEtiketi[item.status]}`;
+  if(prev===item.status)return ui().previousSame;
+  return `${durumEtiketi(prev)} → ${durumEtiketi(item.status)}`;
 }
 function basliklariGuncelle(){
-  const title=document.getElementById("overviewTitle"),text=document.getElementById("overviewText");
+  const u=ui(),title=document.getElementById("overviewTitle"),text=document.getElementById("overviewText");
   if(mod==="potential"){
-    title.textContent="Potansiyel Radar";
-    text.textContent="Bu ay ana listedeki 20 ülkenin dışında erken gelişim sinyallerinin kümelendiği 5 ülke. Liste her ay yeniden seçilir.";
-    document.getElementById("countryCount").textContent=`${(veri.potential_countries||[]).length} potansiyel ülke`;
+    title.textContent=u.overview.potentialTitle;
+    text.textContent=u.overview.potentialText((veri.countries||[]).length,(veri.potential_countries||[]).length);
+    document.getElementById("countryCount").textContent=u.potentialCountries((veri.potential_countries||[]).length);
   }else{
-    title.textContent=mod==="relocation"?"Taşınma Genel Bakışı":"Küresel Genel Bakış";
-    text.textContent=mod==="relocation"
-      ?"İş gücü, yaşam maliyeti, altyapı, uygulama kapasitesi ve uluslararası yetenek açıklığına odaklanan taşınma görünümü."
-      :"Bir ülke seç. Renkler her sinyalin o ülkenin dayanıklılığı üzerindeki yönünü gösterir; toplam ülke puanı üretilmez.";
-    document.getElementById("countryCount").textContent=`${(veri.countries||[]).length} takip edilen ülke`;
+    title.textContent=mod==="relocation"?u.overview.relocationTitle:u.overview.allTitle;
+    text.textContent=mod==="relocation"?u.overview.relocationText:u.overview.allText;
+    document.getElementById("countryCount").textContent=u.trackedCountries((veri.countries||[]).length);
   }
+  document.getElementById("signalCount").textContent=u.signals(veri.meta.signal_count||10);
 }
 function ulkeSec(id){
   seciliUlke=id;
