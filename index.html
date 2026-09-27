@@ -316,6 +316,28 @@
       font-size:13px;line-height:1.65;color:#5e5851;
     }
     .reason.show{display:block}.reason strong{font-weight:700;color:var(--ink)}
+    .signal-slider-shell{position:relative;z-index:2}
+    .signal-nav{
+      display:none;
+      position:absolute;
+      top:50%;
+      transform:translateY(-50%);
+      width:42px;height:42px;
+      align-items:center;justify-content:center;
+      border:1px solid var(--line);
+      border-radius:50%;
+      background:#11110f;
+      color:#f5f0e8;
+      cursor:pointer;
+      z-index:5;
+      box-shadow:0 8px 22px rgba(20,18,15,.18);
+      transition:opacity .15s ease,transform .15s ease;
+    }
+    .signal-nav:hover{transform:translateY(-50%) scale(1.04)}
+    .signal-nav:disabled{opacity:.28;cursor:default;transform:translateY(-50%)}
+    .signal-nav svg{width:20px;height:20px;display:block}
+    .signal-nav-prev{left:12px}
+    .signal-nav-next{right:12px}
     .signal-table{position:relative;z-index:2;display:grid;gap:0;border-top:1px solid var(--line)}
     .signal-dots{display:none}
     .signal-dot{
@@ -412,6 +434,10 @@
       display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;text-transform:uppercase
     }
     .error{padding:16px;border:1px solid rgba(150,74,67,.28);background:#f4e7e2;border-radius:14px;color:#8a4941;font-size:13px}
+    @media(min-width:1101px){
+      .detail.map-view-active .signal-nav{display:flex}
+    }
+
     /* Tablet */
     @media(min-width:761px) and (max-width:1100px){
       .shell{padding:16px 16px 56px}
@@ -748,7 +774,15 @@
       </div>
     </div>
     <div id="reason" class="reason"></div>
-    <div id="signalTable" class="signal-table"><div class="loading">Radar verisi yükleniyor…</div></div>
+    <div class="signal-slider-shell">
+      <button class="signal-nav signal-nav-prev" id="signalPrev" type="button" aria-label="Önceki sinyale git">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div id="signalTable" class="signal-table"><div class="loading">Radar verisi yükleniyor…</div></div>
+      <button class="signal-nav signal-nav-next" id="signalNext" type="button" aria-label="Sonraki sinyale git">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
     <div id="signalDots" class="signal-dots" aria-hidden="true"></div>
 
     <div class="trend-section">
@@ -940,12 +974,30 @@ function ulkeleriCiz(){
   });
   gorunumuGuncelle();
 }
+function sinyalYonButonlariniGuncelle(){
+  const slider=document.getElementById("signalTable");
+  const prev=document.getElementById("signalPrev");
+  const next=document.getElementById("signalNext");
+  if(!slider||!prev||!next)return;
+  const max=Math.max(0,slider.scrollWidth-slider.clientWidth);
+  prev.disabled=slider.scrollLeft<=4;
+  next.disabled=slider.scrollLeft>=max-4;
+}
+function sinyalKaydir(yon){
+  const slider=document.getElementById("signalTable");
+  const card=slider?.querySelector(".signal-row");
+  if(!slider||!card)return;
+  const gap=parseFloat(getComputedStyle(slider).gap)||0;
+  const miktar=card.getBoundingClientRect().width+gap;
+  slider.scrollBy({left:yon*miktar,behavior:"smooth"});
+}
 function sinyalNoktalariKur(){
   const slider=document.getElementById("signalTable");
   const dotsRoot=document.getElementById("signalDots");
   const cards=[...slider.querySelectorAll(".signal-row")];
   dotsRoot.innerHTML=cards.map((_,i)=>`<span class="signal-dot${i===0?" active":""}"></span>`).join("");
   slider.scrollLeft=0;
+  sinyalYonButonlariniGuncelle();
   let frame=null;
   slider.onscroll=()=>{
     if(frame)cancelAnimationFrame(frame);
@@ -959,6 +1011,7 @@ function sinyalNoktalariKur(){
         if(distance<min){min=distance;active=i;}
       });
       [...dotsRoot.children].forEach((dot,i)=>dot.classList.toggle("active",i===active));
+      sinyalYonButonlariniGuncelle();
     });
   };
 }
@@ -1048,6 +1101,9 @@ async function baslat(){
     document.getElementById("signalTable").innerHTML=`<div class="error">Radar verisi yüklenemedi. ${e.message}</div>`;
   }
 }
+document.getElementById("signalPrev").addEventListener("click",()=>sinyalKaydir(-1));
+document.getElementById("signalNext").addEventListener("click",()=>sinyalKaydir(1));
+
 document.getElementById("viewToggle").addEventListener("click",()=>{
   gorunum=gorunum==="list"?"map":"list";
   gorunumuGuncelle();
