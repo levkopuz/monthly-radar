@@ -2775,15 +2775,15 @@
   "potential_countries": [
     {
       "id": "poland",
-      "name": "Polonya",
+      "name": "Polen",
       "flag": "🇵🇱",
-      "selection_reason": "Büyüme, AB fonları ve hızlanan yerli savunma üretimi aynı anda yeni kapasite oluşturuyor.",
+      "selection_reason": "Wachstum, EU-Mittel und eine beschleunigte heimische Verteidigungsproduktion schaffen gleichzeitig neue Kapazitäten.",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Polonya GSYH'si 2026 ikinci çeyreğinde yıllık %3,9 büyüdü.",
-          "impact": "Euro Bölgesi çevresindeki zayıflığa rağmen iç ekonomik momentumun güçlü kalması ülkeyi yakın dönem büyüme açısından izlenmeye değer kılıyor.",
+          "development": "Polens BIP wuchs im zweiten Quartal 2026 um 3,9 % gegenüber dem Vorjahr.",
+          "impact": "Starke Binnendynamik trotz Schwäche im Euroraum macht Polen für das kurzfristige Wachstum besonders beobachtenswert.",
           "status": "positive",
           "source": {
             "name": "Statistics Poland",
@@ -2795,8 +2795,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "Ağustos enflasyonu %3,4'e yükselirken ulaştırma fiyatları aylık %3,5 arttı ve hükümet petrol şirketlerine yeni windfall tax planladı.",
-          "impact": "Küresel enerji şokları hanelere ve mali politikaya hızlı yansıdığı için enerji maliyeti temel kırılganlık olmaya devam ediyor.",
+          "development": "Die Inflation stieg im August auf 3,4 %, Transportpreise monatlich um 3,5 %; die Regierung plante eine neue Übergewinnsteuer für Ölunternehmen.",
+          "impact": "Globale Energieschocks schlagen weiter schnell auf Haushalte und Fiskalpolitik durch, wodurch Energiekosten eine zentrale Verwundbarkeit bleiben.",
           "status": "negative",
           "source": {
             "name": "Statistics Poland",
@@ -2808,8 +2808,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "Karpat Sekizlisi girişiminde bölgesel ticaret, enerji ve lojistik için 1 milyar avronun üzerinde 50'den fazla anlaşma imzalandı.",
-          "impact": "Yeni bölgesel bağlantılar Polonya'nın Orta ve Doğu Avrupa ticaret koridorlarındaki rolünü güçlendirebilir.",
+          "development": "Im Rahmen der Karpathen-Acht wurden mehr als 50 Abkommen im Wert von über 1 Mrd. € zu Handel, Energie und Logistik unterzeichnet.",
+          "impact": "Neue regionale Verbindungen können Polens Rolle in mittel- und osteuropäischen Handelskorridoren stärken.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -2821,8 +2821,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "Polonya'nın yerli ve Orta Avrupa kaynaklı savunma tedariki 2022'den beri yaklaşık dört katına çıkarak 30,4 milyar zloty'e ulaştı.",
-          "impact": "Savunma harcamasının yerli üretime yönelmesi teknoloji transferi, üretim kapasitesi ve bölgesel tedarik zinciri oluşturuyor.",
+          "development": "Die Beschaffung aus Polen und Mitteleuropa für den Verteidigungssektor hat sich seit 2022 etwa vervierfacht und 30,4 Mrd. PLN erreicht.",
+          "impact": "Verteidigungsausgaben für lokale Produktion fördern Technologietransfer, Fertigungskapazität und regionale Lieferketten.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -2834,8 +2834,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "Polonya Haziran'da Ulusal Toparlanma Planı kapsamında yaklaşık 31 milyar zloty yeni AB kaynağı aldı.",
-          "impact": "Enerji, dijitalleşme, sağlık ve savunmaya yönelen AB sermayesi yatırım döngüsünü destekliyor.",
+          "development": "Polen erhielt im Juni rund 31 Mrd. PLN neue EU-Mittel aus dem nationalen Aufbauplan.",
+          "impact": "EU-Kapital für Energie, Digitalisierung, Gesundheit und Verteidigung stützt den Investitionszyklus.",
           "status": "positive",
           "source": {
             "name": "Polonya Kalkınma Fonları Bakanlığı",
@@ -2847,8 +2847,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "Yeni AB fonları enerji altyapısı, temiz ulaşım, su yönetimi ve dijital dönüşüm projelerine tahsis ediliyor.",
-          "impact": "Büyük ölçekli dış finansman altyapı modernizasyonu için mali alanı genişletiyor.",
+          "development": "Neue EU-Mittel fließen in Energieinfrastruktur, sauberen Verkehr, Wassermanagement und digitale Transformation.",
+          "impact": "Großvolumige externe Finanzierung erweitert den fiskalischen Spielraum für Infrastrukturmodernisierung.",
           "status": "positive",
           "source": {
             "name": "Polonya Kalkınma Fonları Bakanlığı",
@@ -2860,8 +2860,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "Yakıt fiyatlarını hafifletmek için planlanan windfall tax daha önce cumhurbaşkanlığı vetosuna takıldı ve hukuki süreç devam ediyor.",
-          "impact": "Ekonomik müdahale kapasitesi güçlü olsa da yürütme ile diğer kurumlar arasındaki sürtüşme uygulama hızını sınırlayabiliyor.",
+          "development": "Eine geplante Übergewinnsteuer zur Dämpfung der Kraftstoffpreise war zuvor am Präsidentenveto gescheitert; das Verfahren läuft weiter.",
+          "impact": "Die wirtschaftspolitische Eingriffsfähigkeit ist hoch, doch institutionelle Reibung kann die Umsetzung verlangsamen.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -2873,8 +2873,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "2026 ilk yarısında nüfus yıllık 159 bin azalırken net uluslararası göç pozitif kaldı; ikinci çeyrek LFS işsizliği %3,2 oldu.",
-          "impact": "Çok düşük işsizlik avantaj sağlarken doğal nüfus kaybı uzun vadeli iş gücü arzını baskılıyor.",
+          "development": "Die Bevölkerung sank im ersten Halbjahr 2026 um 159.000 gegenüber dem Vorjahr, während die Nettozuwanderung positiv blieb; die LFS-Arbeitslosigkeit lag im zweiten Quartal bei 3,2 %.",
+          "impact": "Sehr niedrige Arbeitslosigkeit ist ein Vorteil, während der natürliche Bevölkerungsrückgang das langfristige Arbeitskräfteangebot belastet.",
           "status": "neutral",
           "source": {
             "name": "Statistics Poland",
@@ -2886,8 +2886,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "Temmuzda reel şirket ücretleri yıllık %3,6 artarken Ocak-Temmuz'da tamamlanan konut sayısı %3,2 yükseldi.",
-          "impact": "Reel ücret artışı ve yeni konut arzı yaşam maliyeti baskısını kısmen dengeliyor.",
+          "development": "Reale Unternehmenslöhne stiegen im Juli um 3,6 %, die Zahl fertiggestellter Wohnungen von Januar bis Juli um 3,2 %.",
+          "impact": "Reallohnwachstum und neues Wohnungsangebot gleichen Lebenshaltungskostendruck teilweise aus.",
           "status": "positive",
           "source": {
             "name": "Statistics Poland",
@@ -2899,8 +2899,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "Nüfus küçülmesine rağmen 2026 ilk yarısında net uluslararası göç pozitif kaldı.",
-          "impact": "Göçün iş gücü açığını kısmen telafi etmesi uluslararası yetenek açısından yapısal bir ihtiyaç ve fırsat alanı yaratıyor.",
+          "development": "Trotz Bevölkerungsrückgang blieb die Nettozuwanderung im ersten Halbjahr 2026 positiv.",
+          "impact": "Migration gleicht Arbeitskräftelücken teilweise aus und schafft zugleich strukturellen Bedarf und Chancen für internationale Talente.",
           "status": "positive",
           "source": {
             "name": "Statistics Poland",
@@ -2916,13 +2916,13 @@
       "id": "vietnam",
       "name": "Vietnam",
       "flag": "🇻🇳",
-      "selection_reason": "Sanayi üretimi, FDI, ihracat ve sermaye piyasası erişimi aynı anda hızlanıyor.",
+      "selection_reason": "Industrieproduktion, Direktinvestitionen, Exporte und Kapitalmarktzugang beschleunigen sich gleichzeitig.",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Ağustos sanayi üretimi yıllık %14,4 ve ilk sekiz ayda %11,9 arttı.",
-          "impact": "Üretim ivmesinin geniş tabanlı olması ekonomik motorun güçlü çalıştığını gösteriyor.",
+          "development": "Die Industrieproduktion stieg im August um 14,4 % gegenüber dem Vorjahr und in den ersten acht Monaten um 11,9 %.",
+          "impact": "Die breite Produktionsdynamik zeigt einen starken Wirtschaftsmotor.",
           "status": "positive",
           "source": {
             "name": "Vietnam Ulusal İstatistik Ofisi",
@@ -2934,8 +2934,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "İlk sekiz ay ihracatının %80,1'i FDI şirketlerinden gelirken ABD en büyük ihracat, Çin en büyük ithalat pazarı oldu.",
-          "impact": "Büyüme modelinin yabancı sermaye ve iki büyük dış pazara yoğunlaşması ticaret şoklarına hassasiyet yaratıyor.",
+          "development": "FDI-Unternehmen stellten in den ersten acht Monaten 80,1 % der Exporte; die USA waren größter Export- und China größter Importmarkt.",
+          "impact": "Die Konzentration auf ausländisches Kapital und zwei große Märkte erhöht die Anfälligkeit für Handelsschocks.",
           "status": "negative",
           "source": {
             "name": "Vietnam Ulusal İstatistik Ofisi",
@@ -2947,8 +2947,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "İlk sekiz ay toplam mal ticareti yıllık %28,7 artarak 770,14 milyar dolara ulaştı; ihracat %22,4 büyüdü.",
-          "impact": "Küresel tedarik zincirindeki payın hızla genişlemesi dış talep motorunu güçlendiriyor.",
+          "development": "Der gesamte Warenhandel stieg in den ersten acht Monaten um 28,7 % auf 770,14 Mrd. US-Dollar; die Exporte legten um 22,4 % zu.",
+          "impact": "Die schnelle Ausweitung in globalen Lieferketten stärkt den Außenhandelsmotor.",
           "status": "positive",
           "source": {
             "name": "Vietnam Ulusal İstatistik Ofisi",
@@ -2960,8 +2960,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "İmal edilmiş ürünler ilk sekiz ay ihracatının %90,2'sini oluştururken sanayi üretimi çift haneli büyüdü.",
-          "impact": "Ekonominin daha yüksek katma değerli üretim merkezine dönüşmesi stratejik sektör kapasitesini artırıyor.",
+          "development": "Industrieprodukte machten 90,2 % der Exporte aus, während die Industrieproduktion zweistellig wuchs.",
+          "impact": "Der Übergang zu höherwertiger Produktion erweitert die strategische Industriekapazität.",
           "status": "positive",
           "source": {
             "name": "Vietnam Ulusal İstatistik Ofisi",
@@ -2973,8 +2973,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "Kayıtlı yabancı yatırım ilk sekiz ayda %55,4 artarak 40,63 milyar dolara, gerçekleşen FDI ise 17,25 milyar dolara çıktı.",
-          "impact": "Güçlü sermaye girişi yeni üretim ve hizmet kapasitesinin öncü göstergesi.",
+          "development": "Registrierte Auslandsinvestitionen stiegen in den ersten acht Monaten um 55,4 % auf 40,63 Mrd. US-Dollar; realisierte FDI erreichten 17,25 Mrd. US-Dollar.",
+          "impact": "Starke Kapitalzuflüsse sind ein Frühindikator für neue Produktions- und Dienstleistungskapazitäten.",
           "status": "positive",
           "source": {
             "name": "Vietnam Ulusal İstatistik Ofisi",
@@ -2986,8 +2986,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "Devlet bütçesinden gerçekleşen yatırım harcaması ilk sekiz ayda yıllık %18,5 arttı.",
-          "impact": "Kamu yatırımlarının hızlanması lojistik ve üretim altyapısındaki darboğazları azaltabilir.",
+          "development": "Die aus dem Staatshaushalt realisierten Investitionen stiegen in den ersten acht Monaten um 18,5 %.",
+          "impact": "Schnellere öffentliche Investitionen können Engpässe in Logistik und Produktionsinfrastruktur reduzieren.",
           "status": "positive",
           "source": {
             "name": "Vietnam Ulusal İstatistik Ofisi",
@@ -2999,8 +2999,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "Vietnam FTSE Russell gelişen piyasa endeksine alındı; MSCI erişimi için merkezi karşı taraf takas sistemi gibi reformlar sürüyor.",
-          "impact": "Sermaye piyasası reformlarının somut sonuç vermesi uygulama kapasitesini güçlendirirken kalan piyasa erişim kısıtları izlenmeli.",
+          "development": "Vietnam wurde in den FTSE-Russell-Index für Schwellenländer aufgenommen; Reformen wie ein zentraler Clearing-Kontrahent laufen für den MSCI-Zugang weiter.",
+          "impact": "Konkrete Kapitalmarktreformen stärken die Umsetzungskapazität, verbleibende Marktzugangshürden bleiben jedoch zu beobachten.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -3012,8 +3012,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "Sanayi işletmelerindeki çalışan sayısı 1 Ağustos itibarıyla yıllık %3,8 arttı.",
-          "impact": "Sanayi büyümesinin istihdama dönüşmesi iş gücü talebinin güçlü olduğunu gösteriyor.",
+          "development": "Die Beschäftigung in Industriebetrieben stieg zum 1. August um 3,8 % gegenüber dem Vorjahr.",
+          "impact": "Dass Industriewachstum in Beschäftigung übergeht, zeigt starke Arbeitskräftenachfrage.",
           "status": "positive",
           "source": {
             "name": "Vietnam Ulusal İstatistik Ofisi",
@@ -3025,8 +3025,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "Ağustos TÜFE'si yıllık %4,89'a yükselirken hanelerin %96,5'i gelirinin geçen yıla göre aynı kaldığını veya arttığını bildirdi.",
-          "impact": "Gelir görünümü dayanıklı olsa da hızlanan enflasyon yaşam maliyeti açısından yeni baskı oluşturuyor.",
+          "development": "Die Inflation stieg im August auf 4,89 %, während 96,5 % der Haushalte gleiches oder höheres Einkommen als im Vorjahr meldeten.",
+          "impact": "Die Einkommenslage bleibt robust, schnellere Inflation erzeugt aber neuen Lebenshaltungskostendruck.",
           "status": "neutral",
           "source": {
             "name": "Vietnam Ulusal İstatistik Ofisi",
@@ -3038,8 +3038,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "ABD ve Vietnam şirketleri enerji, teknoloji, havacılık ve finans alanlarında geniş bir yeni anlaşma paketi hazırlıyor.",
-          "impact": "Uluslararası şirket entegrasyonunun derinleşmesi nitelikli iş ve teknoloji transferi için olumlu bir yetenek sinyali oluşturuyor.",
+          "development": "US-amerikanische und vietnamesische Unternehmen bereiten ein breites Paket neuer Vereinbarungen in Energie, Technologie, Luftfahrt und Finanzen vor.",
+          "impact": "Tiefere internationale Unternehmensintegration ist ein positives Talentsignal für qualifizierte Jobs und Technologietransfer.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -3053,15 +3053,15 @@
     },
     {
       "id": "indonesia",
-      "name": "Endonezya",
+      "name": "Indonesien",
       "flag": "🇮🇩",
-      "selection_reason": "Büyük iç pazar ile nickel-batarya sanayi politikası güçlü; ancak mali ve kurumsal güven sinyalleri yakından izlenmeli.",
+      "selection_reason": "Der große Binnenmarkt und die Nickel-Batterie-Industriepolitik sind stark, fiskalische und institutionelle Vertrauenssignale müssen jedoch eng beobachtet werden.",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Bank Indonesia iç talep ve mali teşviklerin büyümeyi desteklediğini, Temmuz reel perakende satışlarının yıllık %0,9 büyümesinin beklendiğini bildirdi.",
-          "impact": "Büyük iç pazar dış şoklara karşı tampon sağlıyor ancak tüketim ivmesi henüz çok güçlü değil.",
+          "development": "Bank Indonesia berichtet, dass Binnennachfrage und fiskalische Impulse das Wachstum stützen; für Juli wird ein reales Einzelhandelswachstum von 0,9 % erwartet.",
+          "impact": "Der große Binnenmarkt puffert externe Schocks, auch wenn die Konsumdynamik noch nicht sehr stark ist.",
           "status": "neutral",
           "source": {
             "name": "Bank Indonesia",
@@ -3073,8 +3073,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "Yüksek küresel petrol fiyatları yakıt sübvansiyon maliyetlerini artırırken rupiah küresel volatiliteye karşı baskı altında kalıyor.",
-          "impact": "Enerji ithalatı ve kur hassasiyeti mali denge ile enflasyon için kritik dış bağımlılık oluşturuyor.",
+          "development": "Hohe globale Ölpreise erhöhen die Kosten der Kraftstoffsubventionen, während die Rupiah unter globaler Volatilität steht.",
+          "impact": "Energieimporte und Währungssensitivität sind zentrale externe Abhängigkeiten für Haushalt und Inflation.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -3086,8 +3086,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "Ocak-Haziran döneminde ticaret dengesi 3,58 milyar dolar fazla verirken Haziran tek başına 0,45 milyar dolar açık verdi.",
-          "impact": "Dış denge genel olarak destekleyici ancak aylık oynaklık emtia ve küresel talep bağımlılığını gösteriyor.",
+          "development": "Von Januar bis Juni wurde ein Handelsüberschuss von 3,58 Mrd. US-Dollar erzielt, während Juni allein ein Defizit von 0,45 Mrd. US-Dollar auswies.",
+          "impact": "Die Außenbilanz ist insgesamt stützend, monatliche Schwankungen zeigen aber Rohstoff- und Weltmarktabhängigkeit.",
           "status": "neutral",
           "source": {
             "name": "Bank Indonesia",
@@ -3099,8 +3099,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "Yeni nickel fiyat formülü düşük tenörlü cevheri HPAL batarya üreticileri için daha ekonomik hale getirdi.",
-          "impact": "Düzenleme Endonezya'nın ham madde ihracatından EV batarya değer zincirine geçişini destekliyor.",
+          "development": "Eine neue Nickelpreisformel macht niedriggradiges Erz für HPAL-Batterieproduzenten wirtschaftlicher.",
+          "impact": "Die Regulierung unterstützt Indonesiens Übergang vom Rohstoffexport zur EV-Batterie-Wertschöpfungskette.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -3112,8 +3112,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "2026 üçüncü çeyreğinde 14 Ağustos'a kadar portföy yatırımlarında 1,8 milyar dolar net giriş kaydedildi.",
-          "impact": "Yabancı sermaye girişinin sürmesi büyüme ve kur istikrarı için destekleyici, ancak politika güveni kritik kalıyor.",
+          "development": "Bis 14. August verzeichnete das dritte Quartal 2026 Nettozuflüsse bei Portfolioinvestitionen von 1,8 Mrd. US-Dollar.",
+          "impact": "Anhaltende Kapitalzuflüsse stützen Wachstum und Währungsstabilität; politisches Vertrauen bleibt jedoch entscheidend.",
           "status": "positive",
           "source": {
             "name": "Bank Indonesia",
@@ -3125,8 +3125,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "Yeni maliye bakanı 2026 bütçe açığı hedefini GSYH'nin %2,85'inde ve yasal %3 tavanının altında tutacağını açıkladı.",
-          "impact": "Mali disiplin taahhüdü büyük sosyal ve altyapı programlarına rağmen finansal dayanıklılığı destekliyor.",
+          "development": "Der neue Finanzminister kündigte an, das Haushaltsdefizit 2026 bei 2,85 % des BIP und damit unter der gesetzlichen 3-%-Grenze zu halten.",
+          "impact": "Das Bekenntnis zu Haushaltsdisziplin stützt finanzielle Widerstandsfähigkeit trotz großer Sozial- und Infrastrukturprogramme.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -3138,8 +3138,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "İki yıldan kısa sürede üçüncü maliye bakanının göreve gelmesinin ardından yeni yönetim politika sürekliliği ve öngörülebilirlik sözü verdi.",
-          "impact": "Teknokratik devamlılık güveni toparlayabilir ancak sık üst düzey değişiklik kurumsal öngörülebilirlik riskini canlı tutuyor.",
+          "development": "Nach dem dritten Finanzministerwechsel in weniger als zwei Jahren versprach die neue Führung politische Kontinuität und Planbarkeit.",
+          "impact": "Technokratische Kontinuität kann Vertrauen stärken, häufige Spitzenwechsel halten jedoch institutionelle Unsicherheit aufrecht.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -3151,8 +3151,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "Mayıs 2026'da iş gücü 155,41 milyona çıkarken işsizlik %4,65'e geriledi.",
-          "impact": "Geniş ve büyüyen iş gücü üretim ve hizmet ölçeklenmesi için önemli bir yapısal avantaj sağlıyor.",
+          "development": "Die Erwerbsbevölkerung erreichte im Mai 2026 155,41 Mio., während die Arbeitslosigkeit auf 4,65 % sank.",
+          "impact": "Eine große und wachsende Erwerbsbevölkerung ist ein struktureller Vorteil für die Skalierung von Industrie und Dienstleistungen.",
           "status": "positive",
           "source": {
             "name": "BPS Endonezya",
@@ -3164,8 +3164,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "2026'da uygun konuta erişen hane oranı %68,4'ten %70,3'e yükselirken Ağustos enflasyonu %3,19 oldu.",
-          "impact": "Konut erişimindeki iyileşme relocation açısından destekleyici olsa da bölgesel maliyet farkları önemini koruyor.",
+          "development": "Der Anteil der Haushalte mit angemessenem Wohnzugang stieg 2026 von 68,4 % auf 70,3 %; die Inflation lag im August bei 3,19 %.",
+          "impact": "Besserer Wohnzugang unterstützt Umzugsbedingungen, regionale Kostenunterschiede bleiben aber wichtig.",
           "status": "positive",
           "source": {
             "name": "BPS Endonezya",
@@ -3177,8 +3177,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "Yüksek nitelikli sanayi yatırımları artarken iş gücüne katılım %70,57'ye yükseldi.",
-          "impact": "Geniş iş gücü ve yeni sanayi projeleri yetenek piyasasını büyütüyor ancak yönetişim güveni yabancı profesyoneller için izlenmeli.",
+          "development": "Investitionen in hochqualifizierte Industrie nehmen zu, während die Erwerbsbeteiligung auf 70,57 % stieg.",
+          "impact": "Eine breite Arbeitskräftebasis und neue Industrieprojekte vergrößern den Talentmarkt; Governance-Vertrauen bleibt für ausländische Fachkräfte relevant.",
           "status": "neutral",
           "source": {
             "name": "BPS Endonezya",
@@ -3192,15 +3192,15 @@
     },
     {
       "id": "saudi",
-      "name": "Suudi Arabistan",
+      "name": "Saudi-Arabien",
       "flag": "🇸🇦",
-      "selection_reason": "Petrol dışı ekonomi ve Vision 2030 sermaye dönüşümü güçlü; aynı anda enerji ve bölgesel güvenlik kırılganlıkları stres testi yaratıyor.",
+      "selection_reason": "Die Nichtölwirtschaft und der Vision-2030-Kapitalumbau sind stark, während Energie- und regionale Sicherheitsrisiken einem Stresstest unterliegen.",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "IMF 2026'da petrol dışı büyümeyi %2,6 öngörürken S&P petrol dışı faaliyetlerin GSYH'nin yaklaşık %70'ine ulaştığını belirtiyor.",
-          "impact": "Petrol dışı tabanın büyümesi ekonomik çeşitlenmenin somutlaştığını gösteriyor.",
+          "development": "Der IWF erwartet 2026 ein Wachstum der Nichtölwirtschaft von 2,6 %; S&P sieht Nichtölaktivitäten bei rund 70 % des BIP.",
+          "impact": "Die größere Nichtölbasis zeigt eine zunehmend konkrete wirtschaftliche Diversifizierung.",
           "status": "positive",
           "source": {
             "name": "IMF",
@@ -3212,8 +3212,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "Houthi saldırıları East-West petrol boru hattını devre dışı bırakarak alternatif ihracat rotasının da kırılgan olduğunu gösterdi.",
-          "impact": "Petrol ve lojistik altyapısının bölgesel güvenlik şoklarına maruziyeti ülkenin en kritik bağımlılığı olmaya devam ediyor.",
+          "development": "Houthi-Angriffe legten die East-West-Ölpipeline lahm und zeigten, dass auch die alternative Exportroute verwundbar ist.",
+          "impact": "Die Exponierung von Öl- und Logistikinfrastruktur gegenüber regionalen Sicherheitsschocks bleibt die kritischste Abhängigkeit.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -3225,8 +3225,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "Eylül'de Suudi petrol sevkiyatları alternatif transfer ve Hürmüz rotaları kullanılarak toparlanmaya başladı.",
-          "impact": "İhracat akışının alternatif lojistik yöntemlerle korunabilmesi dış gelir dayanıklılığını artırıyor.",
+          "development": "Saudi-Arabiens Öllieferungen erholten sich im September über alternative Transfers und Routen durch Hormus.",
+          "impact": "Die Fähigkeit, Exporte über alternative Logistik aufrechtzuerhalten, stärkt die Widerstandsfähigkeit der Auslandseinnahmen.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -3238,8 +3238,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "PIF turizm ve konut geliştirmek için Al-Khafji kıyısında yeni bir şirket kurdu; yatırımlar petrol dışı sektörlere yönelmeye devam ediyor.",
-          "impact": "Turizm, konut ve hizmetlere sermaye aktarımı Vision 2030'un sektör çeşitlendirme eksenini güçlendiriyor.",
+          "development": "PIF gründete ein neues Unternehmen zur Entwicklung von Tourismus und Wohnen an der Al-Khafji-Küste; Kapital fließt weiter in Nichtölsektoren.",
+          "impact": "Investitionen in Tourismus, Wohnen und Dienstleistungen stärken die Diversifizierungsachse von Vision 2030.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -3251,8 +3251,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "S&P Vision 2030 yatırımlarının daha seçici kalibrasyonunu ve özel sektörün büyüyen rolünü mali dayanıklılık açısından olumlu değerlendiriyor.",
-          "impact": "Sermayenin daha seçici ve özel sektör ağırlıklı yönlendirilmesi yatırım verimliliğini artırabilir.",
+          "development": "S&P bewertet die selektivere Kalibrierung von Vision-2030-Investitionen und die größere Rolle des Privatsektors positiv für die fiskalische Widerstandsfähigkeit.",
+          "impact": "Selektivere und privatwirtschaftlichere Kapitalallokation kann die Investitionseffizienz erhöhen.",
           "status": "positive",
           "source": {
             "name": "Suudi Arabistan Maliye Bakanlığı",
@@ -3264,8 +3264,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "S&P ülkenin A+ notunu korurken güçlü kamu varlıkları ve harcama kalibrasyonunu mali tampon olarak vurguladı.",
-          "impact": "Yüksek kamu varlıkları büyük dönüşüm projelerini sürdürmek için önemli finansal kapasite sağlıyor.",
+          "development": "S&P bestätigte das A+-Rating und hob starke öffentliche Vermögenswerte sowie kalibrierte Ausgaben als fiskalische Puffer hervor.",
+          "impact": "Hohe öffentliche Vermögenswerte bieten erhebliche Finanzkapazität für die Fortsetzung großer Transformationsprojekte.",
           "status": "positive",
           "source": {
             "name": "Suudi Arabistan Maliye Bakanlığı",
@@ -3277,8 +3277,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "IMF savaş şokuna rağmen lojistik rotaların değiştirilmesi ve proje harcamalarının yeniden ayarlanmasını ekonomik çeviklik göstergesi olarak değerlendirdi.",
-          "impact": "Şoklara hızlı operasyonel yanıt verme kapasitesi yüksek görünse de güvenlik ortamı uygulama maliyetini artırıyor.",
+          "development": "Der IWF wertete umgeleitete Logistik und neu priorisierte Projektausgaben trotz Kriegsschock als Zeichen wirtschaftlicher Agilität.",
+          "impact": "Schnelle operative Reaktionsfähigkeit wirkt stark, das Sicherheitsumfeld erhöht jedoch die Umsetzungskosten.",
           "status": "positive",
           "source": {
             "name": "IMF",
@@ -3290,8 +3290,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "IMF Suudi işsizliğinin düşük seviyelerde kaldığını ve kadınların iş gücüne katılımındaki ilerlemeyi Vision 2030 kazanımları arasında saydı.",
-          "impact": "İş gücü tabanının çeşitlenmesi petrol dışı sektörlerin yerel yetenek kapasitesini güçlendiriyor.",
+          "development": "Der IWF berichtet von niedriger saudischer Arbeitslosigkeit und Fortschritten bei der Erwerbsbeteiligung von Frauen als Vision-2030-Erfolg.",
+          "impact": "Eine diversere Arbeitskräftebasis stärkt lokale Talentkapazität in Nichtölsektoren.",
           "status": "positive",
           "source": {
             "name": "IMF",
@@ -3303,8 +3303,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "Ağustos enflasyonu %1,8'de kalırken konut, su ve enerji grubu yıllık %3,9 arttı.",
-          "impact": "Genel enflasyon düşük olsa da konut maliyetleri özellikle hızlı büyüyen kentlerde relocation maliyetini artırıyor.",
+          "development": "Die Inflation blieb im August bei 1,8 %, während Wohnen, Wasser und Energie um 3,9 % gegenüber dem Vorjahr stiegen.",
+          "impact": "Die Gesamtinflation ist niedrig, Wohnkosten erhöhen jedoch besonders in schnell wachsenden Städten die Umzugskosten.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -3316,8 +3316,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "Yeni kolektif konut düzenlemesi yaklaşık bir milyon yabancı çalışanı kapsayan 1.360 lisanslı tesisi standartlara bağladı.",
-          "impact": "Yabancı çalışan yaşam koşullarının kurumsallaştırılması uluslararası iş gücü altyapısı açısından olumlu bir sinyal.",
+          "development": "Eine neue Regelung für Gemeinschaftsunterkünfte brachte 1.360 lizenzierte Einrichtungen für rund eine Million ausländische Beschäftigte unter formale Standards.",
+          "impact": "Die Institutionalisierung der Lebensbedingungen ausländischer Beschäftigter ist ein positives Signal für die internationale Arbeitskräfteinfrastruktur.",
           "status": "positive",
           "source": {
             "name": "Zawya/Refinitiv",
@@ -3331,15 +3331,15 @@
     },
     {
       "id": "malaysia",
-      "name": "Malezya",
+      "name": "Malaysia",
       "flag": "🇲🇾",
-      "selection_reason": "Yüksek büyüme, yarı iletken/AI altyapısı ve güçlü yabancı yatırım akışı aynı anda ölçekleniyor.",
+      "selection_reason": "Hohes Wachstum, Halbleiter-/KI-Infrastruktur und starke ausländische Investitionszuflüsse skalieren gleichzeitig.",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Malezya ekonomisi 2026 ikinci çeyreğinde yıllık %6,0 büyüdü; imalat %7,5 ve hizmetler güçlü seyretti.",
-          "impact": "Büyümenin hem hizmet hem üretim tabanında genişlemesi ekonomik motorun güçlü olduğunu gösteriyor.",
+          "development": "Malaysias Wirtschaft wuchs im zweiten Quartal 2026 um 6,0 % gegenüber dem Vorjahr; das verarbeitende Gewerbe um 7,5 %, Dienstleistungen ebenfalls stark.",
+          "impact": "Breites Wachstum in Dienstleistungen und Produktion zeigt einen starken Wirtschaftsmotor.",
           "status": "positive",
           "source": {
             "name": "Malezya İstatistik Kurumu",
@@ -3351,8 +3351,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "Yüksek petrol fiyatları ringgit üzerinde baskı yaratırken elektronik ticaret fazlası enerji ithalat maliyetini kısmen dengeliyor.",
-          "impact": "Enerji fiyatı ve dolar döngüsü temel dış kırılganlık, güçlü elektronik ihracatı ise önemli tampon oluşturuyor.",
+          "development": "Hohe Ölpreise belasten den Ringgit, während der Elektronik-Handelsüberschuss höhere Energieimportkosten teilweise ausgleicht.",
+          "impact": "Energiepreise und Dollarzyklus sind zentrale externe Risiken; starke Elektronikexporte bilden einen wichtigen Puffer.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -3364,8 +3364,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "Haziran ihracatı yıllık %45,4 artarken elektronik ve AI bağlantılı ürünler büyümenin ana dış talep motoru oldu.",
-          "impact": "Teknoloji ihracatındaki sıçrama Malezya'yı AI donanım tedarik zincirinde daha önemli hale getiriyor.",
+          "development": "Die Exporte stiegen im Juni um 45,4 % gegenüber dem Vorjahr, vor allem durch Elektronik und KI-nahe Produkte.",
+          "impact": "Der Technologieschub macht Malaysia wichtiger in der Lieferkette für KI-Hardware.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -3377,8 +3377,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "Nvidia destekli Firmus, Malezya'daki iki veri merkezinden OpenAI'a çok yıllı hesaplama kapasitesi sağlayacak anlaşma imzaladı.",
-          "impact": "AI veri merkezi ekosisteminin gerçek müşteri talebiyle ölçeklenmesi stratejik teknoloji dönüşümünü güçlendiriyor.",
+          "development": "Das von Nvidia unterstützte Unternehmen Firmus vereinbarte mehrjährig Rechenkapazität aus zwei malaysischen Rechenzentren für OpenAI.",
+          "impact": "Die Skalierung des KI-Rechenzentrumsökosystems mit realer Kundennachfrage stärkt die strategische Technologietransformation.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -3390,8 +3390,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "İlk yarıda onaylanan yatırımlar %11,7 artarak 218,5 milyar ringgite çıktı; yabancı yatırım %18,5 büyüdü.",
-          "impact": "Yüksek ve çeşitlenmiş sermaye girişi gelecekteki kapasite ve istihdam için güçlü öncü sinyal.",
+          "development": "Genehmigte Investitionen stiegen im ersten Halbjahr um 11,7 % auf 218,5 Mrd. MYR; ausländische Investitionen um 18,5 %.",
+          "impact": "Hohe und diversifizierte Kapitalzuflüsse sind ein starkes Frühindikator-Signal für künftige Kapazität und Beschäftigung.",
           "status": "positive",
           "source": {
             "name": "MIDA",
@@ -3403,8 +3403,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "İlk yarı yatırım projelerinin 99 binin üzerinde iş yaratması beklenirken Johor ve Selangor büyük yatırım merkezleri olarak öne çıktı.",
-          "impact": "Yatırım kümelerinin altyapı ve şehir kapasitesini hızla büyütmesi fırsat yaratırken enerji ve şebeke planlamasını kritik hale getiriyor.",
+          "development": "Die Investitionsprojekte des ersten Halbjahres sollen mehr als 99.000 Jobs schaffen; Johor und Selangor entwickeln sich zu großen Zentren.",
+          "impact": "Schnell wachsende Investitionscluster schaffen Chancen, machen Energie- und Netzplanung für urbane Kapazität aber kritisch.",
           "status": "positive",
           "source": {
             "name": "MIDA",
@@ -3416,8 +3416,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "MIDA veri merkezi politikasını yalnız yatırım çekmekten yerel KOBİ ve tedarik zinciri değerine geçiş üzerine yeniden konumlandırıyor.",
-          "impact": "Politikanın ikinci aşamaya geçmesi yatırımın yerel ekonomiye yayılması açısından adaptasyon kapasitesini gösteriyor.",
+          "development": "MIDA richtet die Rechenzentrumspolitik neu aus: weg vom reinen Anziehen von Investitionen, hin zu mehr Wert für lokale KMU und Lieferketten.",
+          "impact": "Die zweite Politikphase zeigt Anpassungsfähigkeit und soll Investitionsnutzen stärker in der lokalen Wirtschaft verankern.",
           "status": "positive",
           "source": {
             "name": "MIDA",
@@ -3429,8 +3429,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "İkinci çeyrekte istihdam yıllık %1,1 arttı, işsizlik %3,0'da kaldı ve emek verimliliği saat başına %5,5 yükseldi.",
-          "impact": "Düşük işsizlik ve yükselen verimlilik yeni yüksek katma değerli yatırımları destekliyor.",
+          "development": "Die Beschäftigung stieg im zweiten Quartal um 1,1 %, die Arbeitslosigkeit blieb bei 3,0 % und die Stundenproduktivität legte um 5,5 % zu.",
+          "impact": "Niedrige Arbeitslosigkeit und steigende Produktivität unterstützen neue hochwertige Investitionen.",
           "status": "positive",
           "source": {
             "name": "Malezya İstatistik Kurumu",
@@ -3442,8 +3442,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "İşsizlik %3,0'da ve enflasyon görece kontrollü kalırken hızlı veri merkezi ve yatırım büyümesi Johor gibi merkezlerde konut ve altyapı baskısı yaratabilir.",
-          "impact": "Genel hane görünümü dengeli olsa da yatırım kümelerinde yaşam maliyeti ve kapasite baskısının yakından izlenmesi gerekiyor.",
+          "development": "Die Arbeitslosigkeit liegt bei 3,0 % und die Inflation bleibt relativ kontrolliert, doch schnelles Rechenzentrums- und Investitionswachstum kann etwa in Johor Wohn- und Infrastrukturdruck erzeugen.",
+          "impact": "Die Haushaltslage ist insgesamt ausgeglichen, Kosten- und Kapazitätsdruck in Investitionsclustern muss aber beobachtet werden.",
           "status": "neutral",
           "source": {
             "name": "Malezya İstatistik Kurumu",
@@ -3455,8 +3455,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "İlk yarıda onaylanan projelerin yaklaşık 99 bin yeni iş yaratması bekleniyor ve önemli bölümü yüksek nitelikli imalat/hizmet alanlarında yoğunlaşıyor.",
-          "impact": "Yeni teknoloji yatırımları yerel ve uluslararası yetenek için fırsat havuzunu büyütüyor.",
+          "development": "Genehmigte Projekte des ersten Halbjahres sollen rund 99.000 neue Jobs schaffen, viele in qualifizierter Produktion und Dienstleistungen.",
+          "impact": "Neue Technologieinvestitionen erweitern den Chancenpool für lokale und internationale Talente.",
           "status": "positive",
           "source": {
             "name": "MIDA",
