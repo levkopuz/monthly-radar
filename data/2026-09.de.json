@@ -2083,14 +2083,14 @@
     },
     {
       "id": "argentina",
-      "name": "Arjantin",
+      "name": "Argentinien",
       "flag": "🇦🇷",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Haziran aylık ekonomik aktivitesi yıllık bazda %0,8 artarken 2027 bütçesi 2026 için yaklaşık %3 büyüme varsayıyor.",
-          "impact": "Ekonomi büyümeye dönmüş olsa da sanayi ve iş gücü verileri toparlanmanın dengesiz kaldığını gösteriyor.",
+          "development": "Die monatliche Wirtschaftsaktivität stieg im Juni um 0,8 % gegenüber dem Vorjahr; der Haushaltsentwurf 2027 unterstellt für 2026 rund 3 % Wachstum.",
+          "impact": "Die Wirtschaft wächst wieder, doch Industrie- und Arbeitsmarktdaten zeigen eine weiterhin unausgewogene Erholung.",
           "status": "neutral",
           "source": {
             "name": "INDEC",
@@ -2102,8 +2102,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "Enerji ve tarım ihracatı dış denge için kritik kalırken Vaca Muerta'yı LNG ihracat merkezine dönüştürmeye yönelik 51 milyar dolarlık proje RIGI kapsamına başvurdu.",
-          "impact": "Enerji ihracat kapasitesinin büyümesi dış döviz bağımlılığını azaltabilir ancak büyük proje uygulama riski yüksek kalıyor.",
+          "development": "Energie- und Agrarexporte bleiben für die Außenbilanz zentral; ein 51-Mrd.-US-Dollar-Projekt zur Entwicklung von Vaca Muerta zum LNG-Exportzentrum beantragte RIGI-Förderung.",
+          "impact": "Mehr Energieexportkapazität könnte die Devisenabhängigkeit reduzieren, doch das Umsetzungsrisiko des Großprojekts bleibt hoch.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -2115,8 +2115,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "Ağustos'ta ihracat 8,88 milyar dolar, ithalat 6,70 milyar dolar oldu ve dış ticaret 33. ay üst üste fazla verdi.",
-          "impact": "Sürekli dış ticaret fazlası rezerv birikimi ve döviz istikrarı için destekleyici.",
+          "development": "Die Exporte lagen im August bei 8,88 Mrd. US-Dollar, die Importe bei 6,70 Mrd.; damit gab es den 33. Monat in Folge einen Handelsüberschuss.",
+          "impact": "Anhaltende Handelsüberschüsse stützen Reserveaufbau und Währungsstabilität.",
           "status": "positive",
           "source": {
             "name": "INDEC",
@@ -2128,8 +2128,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "Temmuz imalat sanayi üretimi yıllık %5 gerilerken LNG ve enerji altyapısı yeni büyüme ekseni olarak öne çıkıyor.",
-          "impact": "Yeni enerji kapasitesi fırsat yaratırken imalattaki daralma ekonominin sektörler arası geçiş maliyetini artırıyor.",
+          "development": "Die Industrieproduktion sank im Juli um 5 % gegenüber dem Vorjahr, während LNG- und Energieinfrastruktur als neue Wachstumsachse hervortreten.",
+          "impact": "Neue Energiekapazität schafft Chancen, doch der Rückgang der Industrie erhöht die Übergangskosten zwischen Sektoren.",
           "status": "neutral",
           "source": {
             "name": "INDEC",
@@ -2141,8 +2141,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "51 milyar dolarlık Argentina LNG projesinin RIGI yatırım teşvik rejimine başvurması büyük ölçekli yabancı sermaye çekme hedefini güçlendirdi.",
-          "impact": "Projenin gerçekleşmesi halinde sermaye girişi ve ihracat kapasitesi belirgin şekilde artabilir ancak henüz yatırımın tamamı kesinleşmiş değil.",
+          "development": "Die Bewerbung des 51-Mrd.-US-Dollar-Projekts Argentina LNG für das RIGI-Regime stärkte das Ziel, großvolumiges ausländisches Kapital anzuziehen.",
+          "impact": "Bei Realisierung könnten Kapitalzuflüsse und Exportkapazität deutlich steigen, die Gesamtinvestition ist aber noch nicht gesichert.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -2154,8 +2154,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "2027 bütçe tasarısı mali disiplin çizgisini korurken 2026 enflasyonunu yaklaşık %29 ve büyümeyi %3 varsayıyor.",
-          "impact": "Denk bütçe odağı mali istikrarı destekleyebilir ancak altyapı ve sosyal harcamalar için alanı sınırlı tutuyor.",
+          "development": "Der Haushaltsentwurf 2027 hält an fiskalischer Disziplin fest und unterstellt für 2026 rund 29 % Inflation sowie 3 % Wachstum.",
+          "impact": "Der Fokus auf einen ausgeglichenen Haushalt kann Stabilität stützen, begrenzt aber den Spielraum für Infrastruktur und Soziales.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -2167,8 +2167,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "Merkez bankası rezerv alım programını sürdürürken Eylül'de döviz alım hızını piyasa dengesini korumak için azalttı.",
-          "impact": "Daha esnek rezerv yönetimi kur istikrarını korurken özel döviz talebine alan açıyor.",
+          "development": "Die Zentralbank setzte Reservekäufe fort, verringerte aber im September das Tempo, um das Marktgleichgewicht zu wahren.",
+          "impact": "Flexibleres Reservemanagement stützt die Währungsstabilität und lässt mehr Raum für private Devisennachfrage.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -2180,8 +2180,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "İkinci çeyrek işsizlik oranı %7,9 ve iş gücüne katılım %48,9 seviyesinde gerçekleşti.",
-          "impact": "İş gücü piyasasındaki gevşeklik hane gelirlerini baskılarken işletmeler için iş gücü arzını geniş tutuyor.",
+          "development": "Die Arbeitslosigkeit lag im zweiten Quartal bei 7,9 %, die Erwerbsquote bei 48,9 %.",
+          "impact": "Die Schwäche am Arbeitsmarkt belastet Haushaltseinkommen, hält das Arbeitskräfteangebot für Unternehmen aber breit.",
           "status": "negative",
           "source": {
             "name": "INDEC",
@@ -2193,8 +2193,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "Ağustos aylık tüketici enflasyonu %1,7'ye gerilemiş olsa da yıllık fiyat düzeyi ve gelir uyarlaması haneler için temel baskı olmaya devam ediyor.",
-          "impact": "Aylık enflasyondaki yavaşlama yaşam maliyeti açısından iyileşme sinyali verse de satın alma gücü henüz tam normalleşmiş değil.",
+          "development": "Die monatliche Verbraucherpreisinflation sank im August auf 1,7 %, doch das jährliche Preisniveau und Einkommensanpassungen bleiben zentrale Belastungen.",
+          "impact": "Die niedrigere Monatsinflation ist ein positives Lebenshaltungskostensignal, Kaufkraft ist aber noch nicht vollständig normalisiert.",
           "status": "neutral",
           "source": {
             "name": "INDEC",
@@ -2206,8 +2206,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "Ekonomik reformların devamı ve 2027 seçim takvimi yatırım ve göç kararlarında politika sürekliliğinin yakından izlenmesine neden oluyor.",
-          "impact": "Reformların kalıcılığı konusundaki belirsizlik uluslararası yetenek ve sermaye açısından kısa vadeli bekle-gör davranışı yaratabilir.",
+          "development": "Die Fortsetzung der Wirtschaftsreformen und der Wahlkalender 2027 machen politische Kontinuität zu einem wichtigen Faktor für Investitions- und Migrationsentscheidungen.",
+          "impact": "Unsicherheit über die Dauerhaftigkeit der Reformen kann bei internationalen Talenten und Kapital kurzfristig zu Abwarten führen.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -2221,14 +2221,14 @@
     },
     {
       "id": "portugal",
-      "name": "Portekiz",
+      "name": "Portugal",
       "flag": "🇵🇹",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "İkinci çeyrek GSYH'si çeyreklik %0,8 ve yıllık %2,5 büyüdü.",
-          "impact": "Büyümenin Euro Bölgesi ortalamasının üzerinde kalması ekonomik motorun güçlü olduğunu gösteriyor.",
+          "development": "Das BIP wuchs im zweiten Quartal um 0,8 % gegenüber dem Vorquartal und 2,5 % gegenüber dem Vorjahr.",
+          "impact": "Dass das Wachstum über dem Durchschnitt der Eurozone bleibt, spricht für einen starken Wirtschaftsmotor.",
           "status": "positive",
           "source": {
             "name": "INE Portugal",
@@ -2240,8 +2240,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "Ağustos enflasyonu %3,3'e yükselirken enerji fiyatları yıllık %12,2 arttı.",
-          "impact": "Enerji fiyatlarına duyarlılık hane tüketimi ve küçük işletme maliyetleri açısından önemli dış şok kanalı olmaya devam ediyor.",
+          "development": "Die Inflation stieg im August auf 3,3 %, während die Energiepreise um 12,2 % gegenüber dem Vorjahr zunahmen.",
+          "impact": "Die Energiepreissensitivität bleibt ein wichtiger externer Schockkanal für Haushalte und kleine Unternehmen.",
           "status": "negative",
           "source": {
             "name": "INE Portugal",
@@ -2253,8 +2253,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "İkinci çeyrek büyümesinde net dış talep pozitife döndü ve ihracat ithalattan daha hızlı arttı.",
-          "impact": "İhracat ve hizmet talebindeki güç iç talep yavaşlamasını dengeleyen önemli bir tampon sağlıyor.",
+          "development": "Die Nettoauslandsnachfrage wurde im zweiten Quartal positiv, da Exporte stärker als Importe wuchsen.",
+          "impact": "Starke Export- und Dienstleistungsnachfrage bildet einen wichtigen Puffer gegen schwächere Binnennachfrage.",
           "status": "positive",
           "source": {
             "name": "INE Portugal",
@@ -2266,8 +2266,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "Temmuz hizmet cirosu yıllık %2,1 artarken yeni konut izinleri ve tamamlanan konut sayısı yükseldi.",
-          "impact": "Hizmet ekonomisinin büyümesi ve konut arzının artmaya başlaması iki önemli yapısal ihtiyaca aynı anda destek veriyor.",
+          "development": "Der Dienstleistungsumsatz stieg im Juli um 2,1 %; neue Baugenehmigungen und fertiggestellte Wohnungen nahmen zu.",
+          "impact": "Wachsende Dienstleistungen und anziehendes Wohnungsangebot adressieren gleichzeitig zwei strukturelle Bedürfnisse.",
           "status": "positive",
           "source": {
             "name": "INE Portugal",
@@ -2279,8 +2279,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "İkinci çeyrekte iç talebin büyümeye katkısı yatırımın yavaşlaması nedeniyle belirgin biçimde azaldı.",
-          "impact": "Yatırım ivmesinin düşmesi AB fonları sonrası özel sermayenin büyümeyi devralıp devralamayacağı sorusunu güçlendiriyor.",
+          "development": "Der Beitrag der Binnennachfrage zum Wachstum sank im zweiten Quartal deutlich, weil die Investitionen nachließen.",
+          "impact": "Der Verlust an Investitionsdynamik verstärkt die Frage, ob privates Kapital nach EU-Mitteln den Wachstumsmotor übernehmen kann.",
           "status": "negative",
           "source": {
             "name": "INE Portugal",
@@ -2292,8 +2292,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "Hükümet 2030'a kadar 150 bin uygun fiyatlı konut için yaklaşık 9 milyar avroluk AB destekli program yürütüyor.",
-          "impact": "Büyük konut programı arz açığını azaltabilir ancak iş gücü ve uygulama kapasitesi programın hızını belirleyecek.",
+          "development": "Die Regierung setzt bis 2030 ein EU-gestütztes Programm von rund 9 Mrd. € für 150.000 bezahlbare Wohnungen um.",
+          "impact": "Das große Wohnungsprogramm kann die Angebotslücke verringern, doch Arbeitskräfte und Umsetzungskapazität bestimmen das Tempo.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -2305,8 +2305,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "Konut üretimini hızlandırmak için lisans süreçleri sadeleştirilirken inşaat sektöründe 80-120 bin kişilik iş gücü açığı tahmin ediliyor.",
-          "impact": "Regülasyon sadeleşse bile insan kaynağı eksikliği uygulamanın gerçek hızını sınırlayabilir.",
+          "development": "Genehmigungsverfahren werden vereinfacht, um Wohnungsbau zu beschleunigen; zugleich fehlen im Bau geschätzt 80.000–120.000 Arbeitskräfte.",
+          "impact": "Auch bei einfacherer Regulierung kann der Personalmangel die tatsächliche Umsetzungsgeschwindigkeit begrenzen.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -2318,8 +2318,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "İşsizlik Haziran'da %5,7 seviyesinde kalırken göç kısıtlarının inşaat gibi sektörlerde iş gücü açığını büyüttüğü bildiriliyor.",
-          "impact": "Düşük işsizlik olumlu olsa da göç akışındaki düşüş hızlı büyüyen sektörlerde kapasite darboğazı yaratıyor.",
+          "development": "Die Arbeitslosigkeit blieb im Juni bei 5,7 %; strengere Migrationsregeln vergrößern laut Berichten Arbeitskräftelücken etwa im Bau.",
+          "impact": "Niedrige Arbeitslosigkeit ist positiv, doch weniger Migration erzeugt Kapazitätsengpässe in schnell wachsenden Sektoren.",
           "status": "neutral",
           "source": {
             "name": "INE Portugal",
@@ -2331,8 +2331,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "Portekiz'de konut açığı yaklaşık 300 bin birim olarak tahmin edilirken Lizbon'da yeni kiralar ortalama gelir üzerinde çok yüksek yük oluşturuyor.",
-          "impact": "Konut arz açığı relocation açısından ülkenin en belirgin maliyet ve erişilebilirlik riski olmaya devam ediyor.",
+          "development": "Die Wohnungslücke wird auf rund 300.000 Einheiten geschätzt; neue Mieten in Lissabon belasten Durchschnittseinkommen sehr stark.",
+          "impact": "Die Angebotslücke bleibt das deutlichste Kosten- und Zugänglichkeitsrisiko für einen Umzug nach Portugal.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -2344,8 +2344,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "Göç kurallarındaki sıkılaşma net göçü azaltırken yabancı çalışanlara bağımlı sektörlerde personel açığı büyüyor.",
-          "impact": "Daha sıkı göç rejimi uluslararası yetenek erişimini ve özellikle inşaat gibi sektörlerin kapasitesini azaltıyor.",
+          "development": "Strengere Migrationsregeln reduzieren die Nettozuwanderung, während Personalengpässe in ausländisch geprägten Branchen wachsen.",
+          "impact": "Ein strengeres Regime reduziert internationalen Talentzugang und Kapazität, besonders im Bau.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -2359,14 +2359,14 @@
     },
     {
       "id": "netherlands",
-      "name": "Hollanda",
+      "name": "Niederlande",
       "flag": "🇳🇱",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Hollanda ekonomisi ikinci çeyrekte çeyreklik %0,4 ve yıllık %1,3 büyüdü; tüketim büyümeye en büyük katkıyı verdi.",
-          "impact": "Ilımlı fakat dengeli büyüme ekonomik dayanıklılığı destekliyor.",
+          "development": "Die niederländische Wirtschaft wuchs im zweiten Quartal um 0,4 % gegenüber dem Vorquartal und 1,3 % gegenüber dem Vorjahr; Konsum trug am meisten bei.",
+          "impact": "Moderates, aber ausgewogenes Wachstum stützt die wirtschaftliche Widerstandsfähigkeit.",
           "status": "positive",
           "source": {
             "name": "CBS",
@@ -2378,8 +2378,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "Ağustos enflasyonu %3,3'e yükseldi ve küresel enerji ile ulaşım maliyetleri fiyat görünümü için risk oluşturmaya devam ediyor.",
-          "impact": "Dış enerji ve ticaret şokları açık ekonomi üzerinden hane ve şirket maliyetlerine hızlı yansıyabilir.",
+          "development": "Die Inflation stieg im August auf 3,3 %; globale Energie- und Transportkosten bleiben Risiken für den Preisausblick.",
+          "impact": "Externe Energie- und Handelsschocks können sich in der offenen Wirtschaft schnell auf Haushalts- und Unternehmenskosten übertragen.",
           "status": "negative",
           "source": {
             "name": "CBS",
@@ -2391,8 +2391,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "İkinci çeyrekte ihracat %1,2 artarken ithalat %1,4 arttı ve net ticaret katkısı hafif negatif oldu.",
-          "impact": "İhracat büyümesi sürse de ithalatın daha hızlı artması dış ticaretin büyümeye katkısını sınırlıyor.",
+          "development": "Die Exporte stiegen im zweiten Quartal um 1,2 %, die Importe um 1,4 %, wodurch der Nettohandelsbeitrag leicht negativ wurde.",
+          "impact": "Exporte wachsen weiter, doch stärker steigende Importe begrenzen den Wachstumsbeitrag des Außenhandels.",
           "status": "neutral",
           "source": {
             "name": "CBS",
@@ -2404,8 +2404,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "Haziran imalat üretimi yıllık %4,6 artarken makine ve elektronik ihracatı büyüdü.",
-          "impact": "Yüksek katma değerli üretimin ve elektronik sektörünün güçlü kalması teknolojik dönüşüm kapasitesini destekliyor.",
+          "development": "Die Industrieproduktion stieg im Juni um 4,6 % gegenüber dem Vorjahr; Maschinen- und Elektronikexporte legten zu.",
+          "impact": "Stärke bei hochwertiger Produktion und Elektronik stützt die technologische Transformationsfähigkeit.",
           "status": "positive",
           "source": {
             "name": "CBS",
@@ -2417,8 +2417,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "Haziran sabit varlık yatırımları yıllık %2,7, ikinci çeyrekte toplam yatırımlar çeyreklik %0,5 arttı.",
-          "impact": "Yatırımın pozitif kalması şirketlerin gelecekteki kapasiteye güveninin sürdüğünü gösteriyor.",
+          "development": "Die Anlageinvestitionen stiegen im Juni um 2,7 % gegenüber dem Vorjahr; Gesamtinvestitionen nahmen im zweiten Quartal um 0,5 % zu.",
+          "impact": "Positive Investitionen zeigen anhaltendes Vertrauen der Unternehmen in künftige Kapazität.",
           "status": "positive",
           "source": {
             "name": "CBS",
@@ -2430,8 +2430,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "Kamu tüketimi ikinci çeyrekte %0,4 artarken büyümede sağlık ve kamu ücret harcamaları destekleyici oldu.",
-          "impact": "Kamu harcamaları büyümeyi destekliyor ancak konut ve şebeke darboğazlarının çözümü altyapı yatırımlarının hızına bağlı kalıyor.",
+          "development": "Der öffentliche Konsum stieg im zweiten Quartal um 0,4 %; Gesundheits- und öffentliche Lohnausgaben stützten das Wachstum.",
+          "impact": "Öffentliche Ausgaben stützen, doch die Lösung von Wohnungs- und Netzengpässen hängt weiter vom Tempo der Infrastrukturinvestitionen ab.",
           "status": "neutral",
           "source": {
             "name": "CBS",
@@ -2443,8 +2443,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "CBS iş çevrimi göstergesinde 13 göstergenin 9'u uzun dönem trendinin altında olsa da Ağustos'ta genel görünüm Temmuz'a göre iyileşti.",
-          "impact": "Sistem geniş tabanlı bir hızlanma göstermese de kötüleşmenin durması politika ve şirket adaptasyonu için zaman kazandırıyor.",
+          "development": "Obwohl 9 von 13 CBS-Konjunkturindikatoren unter ihrem langfristigen Trend lagen, verbesserte sich das Gesamtbild im August gegenüber Juli.",
+          "impact": "Auch ohne breite Beschleunigung verschafft das Ende der Verschlechterung Politik und Unternehmen Zeit zur Anpassung.",
           "status": "neutral",
           "source": {
             "name": "CBS",
@@ -2456,8 +2456,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "Ağustos işsizliği %4,0'da kalırken son üç ayda işsiz sayısı aylık ortalama 3 bin arttı.",
-          "impact": "İş gücü piyasası halen sıkı ancak kademeli soğuma yetenek kıtlığını bir miktar azaltabilir.",
+          "development": "Die Arbeitslosigkeit blieb im August bei 4,0 %, während die Zahl der Arbeitslosen in den letzten drei Monaten monatlich im Schnitt um 3.000 stieg.",
+          "impact": "Der Arbeitsmarkt bleibt angespannt, doch die schrittweise Abkühlung kann Fachkräfteengpässe etwas lindern.",
           "status": "neutral",
           "source": {
             "name": "CBS",
@@ -2469,8 +2469,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "Mevcut konut fiyatları Temmuz'da yıllık %3,9 arttı ve konut piyasasındaki arz baskısı sürüyor.",
-          "impact": "Fiyat artış hızının yavaşlaması olumlu olsa da yüksek konut maliyeti relocation açısından temel engellerden biri olmaya devam ediyor.",
+          "development": "Die Preise bestehender Wohnungen stiegen im Juli um 3,9 % gegenüber dem Vorjahr; der Angebotsdruck bleibt bestehen.",
+          "impact": "Langsamerer Preisanstieg ist positiv, doch hohe Wohnkosten bleiben ein wichtiges Umzugshindernis.",
           "status": "negative",
           "source": {
             "name": "CBS",
@@ -2482,8 +2482,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "Temmuz'da göç 23.148 kişi olurken göç çıkışı 24.524 kişiye ulaşarak aylık net göç hafif negatife döndü.",
-          "impact": "Net göçteki zayıflama nüfus ve iş gücü büyümesini sınırlayabilir ancak tek aylık veri kalıcı bir rejim değişimi göstermiyor.",
+          "development": "Im Juli wanderten 23.148 Menschen ein und 24.524 aus, wodurch die monatliche Nettozuwanderung leicht negativ wurde.",
+          "impact": "Schwächere Nettozuwanderung kann Bevölkerungs- und Arbeitskräftewachstum bremsen, ein einzelner Monat zeigt aber keinen dauerhaften Regimewechsel.",
           "status": "neutral",
           "source": {
             "name": "CBS",
@@ -2497,14 +2497,14 @@
     },
     {
       "id": "romania",
-      "name": "Romanya",
+      "name": "Rumänien",
       "flag": "🇷🇴",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Romanya ekonomisi 2026'nın ikinci çeyreğinde çeyreklik bazda yatay kaldı, yıllık bazda %0,4 daraldı ve yılın ilk yarısında GSYH %0,8 geriledi.",
-          "impact": "Zayıf büyüme ve iç talepteki baskı, kısa vadede ekonomik dayanıklılığı sınırlıyor.",
+          "development": "Rumäniens Wirtschaft stagnierte im zweiten Quartal 2026 gegenüber dem Vorquartal, schrumpfte um 0,4 % gegenüber dem Vorjahr und das BIP sank im ersten Halbjahr um 0,8 %.",
+          "impact": "Schwaches Wachstum und Druck auf die Binnennachfrage begrenzen kurzfristig die wirtschaftliche Widerstandsfähigkeit.",
           "status": "negative",
           "source": {
             "name": "AGERPRES / INS",
@@ -2516,8 +2516,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "Neptun Deep Karadeniz doğal gaz projesinde boru hattı inşası başladı ve 2027'de üretimin başlamasıyla ülkenin gaz üretiminin yaklaşık iki katına çıkması bekleniyor.",
-          "impact": "Yerli gaz kapasitesinin artması enerji ithalatına bağımlılığı ve dış arz şoklarına maruziyeti azaltabilir.",
+          "development": "Beim Gasprojekt Neptun Deep im Schwarzen Meer begann der Pipelinebau; mit Produktionsstart 2027 dürfte sich die nationale Gasförderung etwa verdoppeln.",
+          "impact": "Mehr heimische Gaskapazität kann die Abhängigkeit von Energieimporten und externen Angebotsschocks reduzieren.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -2529,8 +2529,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "Ocak-temmuz döneminde ihracat %3,1 ve ithalat %2,0 artarken ticaret açığı yıllık %1,1 azalarak 19,28 milyar euroya geriledi.",
-          "impact": "İhracatın daha hızlı büyümesi olumlu olsa da yüksek ticaret açığı dış denge üzerinde baskı yaratmaya devam ediyor.",
+          "development": "Von Januar bis Juli stiegen Exporte um 3,1 % und Importe um 2,0 %; das Handelsdefizit sank um 1,1 % auf 19,28 Mrd. €.",
+          "impact": "Schnelleres Exportwachstum ist positiv, doch das große Handelsdefizit belastet die Außenbilanz weiter.",
           "status": "neutral",
           "source": {
             "name": "AGERPRES / INS",
@@ -2542,8 +2542,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "Dacia ve Ford ağustos ayında elektrik arzı sıkıntısı nedeniyle üretime geçici ara vererek ülkenin ihracat odaklı otomotiv üretimindeki enerji altyapısı riskini görünür hale getirdi.",
-          "impact": "Sanayi dönüşümünün hızlanabilmesi için üretim kapasitesinin enerji şebekesi ve arz güvenliğiyle birlikte güçlenmesi gerekiyor.",
+          "development": "Dacia und Ford stoppten im August wegen Stromversorgungsproblemen vorübergehend die Produktion und machten das Energierisiko der exportorientierten Autoindustrie sichtbar.",
+          "impact": "Für schnellere industrielle Transformation müssen Produktionskapazität, Stromnetz und Versorgungssicherheit gemeinsam gestärkt werden.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -2555,8 +2555,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "Romanya'ya doğrudan yabancı yatırımlar ocak-temmuz 2026'da 1,13 milyar euroya gerilerken aynı dönem 2025'te 4,92 milyar euro seviyesindeydi.",
-          "impact": "Sermaye girişindeki sert düşüş yeni kapasite yatırımları ve büyümenin finansmanı açısından zayıf bir sinyal veriyor.",
+          "development": "Die ausländischen Direktinvestitionen nach Rumänien fielen von Januar bis Juli 2026 auf 1,13 Mrd. € nach 4,92 Mrd. € im Vorjahreszeitraum.",
+          "impact": "Der starke Rückgang der Kapitalzuflüsse ist ein schwaches Signal für neue Kapazitäten und Wachstumsfinanzierung.",
           "status": "negative",
           "source": {
             "name": "AGERPRES / BNR",
@@ -2568,8 +2568,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "Avrupa Komisyonu 2026 bütçe açığını GSYH'nin %6,2'si olarak öngörürken kamu yatırımlarının GSYH'nin yaklaşık %7'sine yükselmesini bekliyor.",
-          "impact": "Yüksek kamu yatırımı altyapıyı desteklerken büyük bütçe açığı mali hareket alanını sınırlıyor.",
+          "development": "Die Europäische Kommission erwartet 2026 ein Haushaltsdefizit von 6,2 % des BIP und öffentliche Investitionen von rund 7 % des BIP.",
+          "impact": "Hohe öffentliche Investitionen stützen Infrastruktur, das große Defizit begrenzt jedoch den fiskalischen Spielraum.",
           "status": "neutral",
           "source": {
             "name": "European Commission",
@@ -2581,8 +2581,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "Avrupa Komisyonu haziranda aşırı açık düzeltmesinde etkili adımlar atıldığını belirtirken kamu yönetiminin güçlendirilmesini ve yatırımların uygulanma kapasitesinin artırılmasını öncelik olarak korudu.",
-          "impact": "Reform yönü olumlu olsa da uygulama kapasitesindeki yapısal açıklar dönüşüm hızını sınırlayabilir.",
+          "development": "Die Europäische Kommission sah im Juni wirksame Schritte bei der Defizitkorrektur, während stärkere Verwaltung und Investitionsumsetzung Prioritäten blieben.",
+          "impact": "Die Reformrichtung ist positiv, strukturelle Umsetzungslücken können den Wandel jedoch bremsen.",
           "status": "neutral",
           "source": {
             "name": "European Commission",
@@ -2594,8 +2594,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "Eurostat'a göre işsizlik temmuzda %6,4 olurken genç işsizliği için son mevcut oran haziranda %30,8 seviyesinde kaldı.",
-          "impact": "Genç işsizliğinin yüksek seyretmesi iş gücü eşleşmesi ve uzun vadeli yetenek havuzu açısından baskı yaratıyor.",
+          "development": "Laut Eurostat lag die Arbeitslosigkeit im Juli bei 6,4 %, die zuletzt verfügbare Jugendarbeitslosigkeit im Juni bei 30,8 %.",
+          "impact": "Anhaltend hohe Jugendarbeitslosigkeit belastet Arbeitsmarkt-Matching und den langfristigen Talentpool.",
           "status": "negative",
           "source": {
             "name": "Eurostat",
@@ -2607,8 +2607,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "Romanya'da yıllık enflasyon ağustosta %6,3 ile Avrupa Birliği'ndeki en yüksek oran olarak ölçüldü.",
-          "impact": "Yüksek fiyat artışları hane bütçesini ve ülkeye taşınmayı düşünenler için günlük yaşam maliyetini yukarı çekiyor.",
+          "development": "Die jährliche Inflation lag im August bei 6,3 % und damit am höchsten in der Europäischen Union.",
+          "impact": "Hohe Preissteigerungen erhöhen Haushalts- und Alltagskosten für Menschen, die einen Umzug erwägen.",
           "status": "negative",
           "source": {
             "name": "Eurostat",
@@ -2620,8 +2620,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "Romanya ağustosta yabancı çalışanların işe alım süreçlerini tek platformda dijitalleştiren WorkinRomania sistemini devreye aldı ve yüksek nitelikli çalışanlar için D/AM1 kanalını kullanıma sundu.",
-          "impact": "Daha dijital ve merkezi süreçler uluslararası yetenek erişimini kolaylaştırarak iş gücü açığını kapatma kapasitesini artırabilir.",
+          "development": "Rumänien startete im August die Plattform WorkinRomania zur Digitalisierung der Anwerbung ausländischer Beschäftigter und führte den D/AM1-Weg für Hochqualifizierte ein.",
+          "impact": "Digitalere und zentralere Prozesse können internationalen Talentzugang verbessern und Arbeitskräftelücken verringern.",
           "status": "positive",
           "source": {
             "name": "Romania Ministry of Internal Affairs",
@@ -2641,8 +2641,8 @@
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Kanada ekonomisi 2026'nın ikinci çeyreğinde reel olarak %0,8 büyüdü; artışta ihracat, hane harcamaları ve işletme yatırımları etkili oldu.",
-          "impact": "Büyümenin yeniden hızlanması ekonomik dayanıklılığı destekliyor.",
+          "development": "Kanadas Wirtschaft wuchs im zweiten Quartal 2026 real um 0,8 %, getragen von Exporten, Haushaltsausgaben und Unternehmensinvestitionen.",
+          "impact": "Die erneute Wachstumsbeschleunigung stärkt die wirtschaftliche Widerstandsfähigkeit.",
           "status": "positive",
           "source": {
             "name": "Statistics Canada",
@@ -2654,8 +2654,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "Temmuzda Kanada'nın ABD'ye mal ihracatı %6,6 düşse de ABD yaklaşık 50,5 milyar Kanada dolarıyla toplam mal ihracatının yaklaşık üçte ikisini oluşturdu.",
-          "impact": "ABD pazarına yüksek bağımlılık, ticaret gerilimlerinin Kanada büyümesine ve sanayisine hızlı yansımasına neden olabilir.",
+          "development": "Die Warenexporte in die USA sanken im Juli um 6,6 %, dennoch entfielen mit rund 50,5 Mrd. C$ weiterhin etwa zwei Drittel der Gesamtexporte auf die USA.",
+          "impact": "Die hohe Abhängigkeit vom US-Markt lässt Handelsspannungen schnell auf Wachstum und Industrie durchschlagen.",
           "status": "negative",
           "source": {
             "name": "Statistics Canada",
@@ -2667,8 +2667,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "Temmuzda mal ihracatı %2,3 gerilerken ithalat %2,2 arttı ve mal ticaret fazlası 4,2 milyar Kanada dolarından 769 milyon dolara daraldı; ABD dışı ihracat ise rekor 25,6 milyar dolara çıktı.",
-          "impact": "Toplam dış ticaret ivmesi zayıflasa da pazar çeşitlenmesindeki ilerleme ABD kaynaklı riski kısmen dengeliyor.",
+          "development": "Die Warenexporte sanken im Juli um 2,3 %, die Importe stiegen um 2,2 %; der Handelsüberschuss schrumpfte von 4,2 Mrd. C$ auf 769 Mio. C$, während Exporte außerhalb der USA mit 25,6 Mrd. C$ einen Rekord erreichten.",
+          "impact": "Die Handelsdynamik schwächte sich insgesamt ab, doch Fortschritte bei der Marktdiversifizierung gleichen US-Risiken teilweise aus.",
           "status": "neutral",
           "source": {
             "name": "Statistics Canada",
@@ -2680,8 +2680,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "Bell'in Saskatchewan'daki AI altyapı yatırımı 1,2 GW kapasiteye ve 52,5 milyar Kanada dolarına kadar toplam sermaye yatırımına ulaşabilecek şekilde genişletiliyor.",
-          "impact": "Büyük ölçekli yapay zeka ve veri merkezi yatırımları Kanada'nın enerji, hesaplama ve dijital altyapı ekseninde yeni bir stratejik sektör kapasitesi oluşturuyor.",
+          "development": "Bells KI-Infrastrukturinvestition in Saskatchewan wird auf 1,2 GW Kapazität und bis zu 52,5 Mrd. C$ Gesamtinvestition ausgeweitet.",
+          "impact": "Große KI- und Rechenzentrumsinvestitionen schaffen neue strategische Kapazität in Energie, Rechenleistung und digitaler Infrastruktur.",
           "status": "positive",
           "source": {
             "name": "Innovation, Science and Economic Development Canada",
@@ -2693,8 +2693,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "Kanada'ya doğrudan yabancı yatırım ikinci çeyrekte 18,8 milyar Kanada dolarından 25,9 milyar dolara yükseldi ve girişlerin yarısından fazlası imalat ile finans-sigorta sektörlerine yöneldi.",
-          "impact": "Artan doğrudan yatırım, yeni kapasite ve üretkenlik yatırımları için sermaye tabanını güçlendiriyor.",
+          "development": "Die Direktinvestitionen nach Kanada stiegen im zweiten Quartal von 18,8 auf 25,9 Mrd. C$; mehr als die Hälfte floss in Produktion sowie Finanz- und Versicherungswesen.",
+          "impact": "Mehr Direktinvestitionen stärken die Kapitalbasis für neue Kapazitäten und Produktivitätsinvestitionen.",
           "status": "positive",
           "source": {
             "name": "Statistics Canada",
@@ -2706,8 +2706,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "Build Communities Strong Fund 2026-27'den başlayarak 10 yılda 51 milyar Kanada doları yeni kamu altyapı yatırımı sağlıyor.",
-          "impact": "Uzun vadeli altyapı finansmanı konut, ulaşım ve temel hizmet kapasitesini artırma potansiyeli taşıyor.",
+          "development": "Der Build Communities Strong Fund stellt ab 2026–27 über zehn Jahre 51 Mrd. C$ für neue öffentliche Infrastruktur bereit.",
+          "impact": "Langfristige Finanzierung kann Wohnungs-, Verkehrs- und Grundversorgungskapazitäten ausbauen.",
           "status": "positive",
           "source": {
             "name": "Housing, Infrastructure and Communities Canada",
@@ -2719,8 +2719,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "Major Projects Office kapsamında duyurulan 15 proje 125 milyar Kanada dolarının üzerinde sermaye yatırımını temsil ediyor ve federal inceleme süreçlerinin hızlandırılması hedefleniyor.",
-          "impact": "Proje onaylarını merkezileştiren yapı uygulama hızını artırabilir ancak etkinin kalıcı olması fiili teslimat performansına bağlı olacak.",
+          "development": "Fünfzehn Projekte des Major Projects Office stehen für mehr als 125 Mrd. C$ Kapitalinvestition; schnellere Bundesprüfungen sind vorgesehen.",
+          "impact": "Zentralere Projektgenehmigungen können die Umsetzung beschleunigen, die nachhaltige Wirkung hängt aber von tatsächlicher Lieferung ab.",
           "status": "neutral",
           "source": {
             "name": "Department of Finance Canada",
@@ -2732,8 +2732,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "Ağustosta istihdam aylık %0,2 azalırken işsizlik oranı %6,4 seviyesinde kaldı.",
-          "impact": "İstihdamdaki zayıflama iş gücü piyasasının büyümeyi destekleme kapasitesinin sınırlı kaldığını gösteriyor.",
+          "development": "Die Beschäftigung sank im August um 0,2 % gegenüber dem Vormonat, die Arbeitslosigkeit blieb bei 6,4 %.",
+          "impact": "Die Beschäftigungsschwäche zeigt, dass die Unterstützung des Wachstums durch den Arbeitsmarkt begrenzt bleibt.",
           "status": "negative",
           "source": {
             "name": "Statistics Canada",
@@ -2745,8 +2745,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "Ağustosta yıllık enflasyon %3,0 olurken kiralar ülke genelinde %2,8 arttı ve market fiyatları 2021'e göre %29 daha yüksek kaldı.",
-          "impact": "Fiyat ve kira baskısı hane bütçelerini ve Kanada'ya taşınmanın toplam yaşam maliyetini yüksek tutuyor.",
+          "development": "Die jährliche Inflation lag im August bei 3,0 %, Mieten stiegen landesweit um 2,8 % und Lebensmittelpreise lagen 29 % über 2021.",
+          "impact": "Preis- und Mietdruck hält Haushaltsbudgets und die Gesamtkosten eines Umzugs nach Kanada hoch.",
           "status": "negative",
           "source": {
             "name": "Statistics Canada",
@@ -2758,8 +2758,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "2026-2028 göç planı kalıcı oturum hedefini yılda 380 binde tutarken 2026 geçici oturum giriş hedefini 385 bine indiriyor ve ekonomik göçün payını artırıyor.",
-          "impact": "Kanada nitelikli yetenek çekmeye devam ederken öğrenci ve geçici çalışan kanallarında daha sıkı bir kapasite yönetimine geçiyor.",
+          "development": "Der Einwanderungsplan 2026–2028 hält das Ziel für Daueraufenthalte bei 380.000 pro Jahr, senkt das Ziel für temporäre Einreisen 2026 auf 385.000 und erhöht den Anteil wirtschaftlicher Migration.",
+          "impact": "Kanada zieht weiter Fachkräfte an, steuert Studenten- und temporäre Arbeitskräftekanäle aber strenger.",
           "status": "neutral",
           "source": {
             "name": "Immigration, Refugees and Citizenship Canada",
