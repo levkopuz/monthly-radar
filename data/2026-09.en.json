@@ -1393,14 +1393,14 @@
     },
     {
       "id": "south-korea",
-      "name": "Güney Kore",
+      "name": "South Korea",
       "flag": "🇰🇷",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Growth & Economy",
-          "development": "Ağustos ihracatı yıllık %68,7 artarak 98,25 milyar dolara çıktı ve artışın ana kaynağı yarı iletkenler oldu.",
-          "impact": "AI kaynaklı çip talebi büyüme motorunu güçlü tutuyor ancak ekonomiyi teknoloji döngüsüne daha bağımlı hale getiriyor.",
+          "development": "August exports rose 68.7% year on year to $98.25 billion, driven mainly by semiconductors.",
+          "impact": "AI-led chip demand is keeping the growth engine strong, while making the economy more dependent on the technology cycle.",
           "status": "positive",
           "source": {
             "name": "Yonhap",
@@ -1412,8 +1412,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "External Dependencies",
-          "development": "Ocak-Ağustos döneminde yarı iletkenler toplam ihracatın yaklaşık %41'ini oluşturdu.",
-          "impact": "İhracatın tek bir teknoloji döngüsünde yoğunlaşması küresel çip talebindeki olası düzeltmelere karşı kırılganlığı artırıyor.",
+          "development": "Semiconductors accounted for roughly 41% of total exports in January–August.",
+          "impact": "Concentration in one technology cycle increases vulnerability to a correction in global chip demand.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1425,8 +1425,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Exports & Foreign Trade",
-          "development": "Ocak-Ağustos ihracatı Çin'e %76, ABD'ye %57 arttı ve toplam ihracat geçen yılın tam yıl rekorunu şimdiden aştı.",
-          "impact": "İki büyük pazardaki güçlü talep dış ticareti destekliyor fakat ABD-Çin gerilimi aynı anda iki ana pazarı etkileyebilecek bir risk oluşturuyor.",
+          "development": "January–August exports rose 76% to China and 57% to the United States, with total exports already exceeding last year's full-year record.",
+          "impact": "Strong demand in two major markets supports trade, but US–China tensions create a risk that could affect both at once.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -1438,8 +1438,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sector Transformation",
-          "development": "Hükümet 5 trilyon wonluk yarı iletken fonu ve büyük ölçekli çip kümeleri için su, enerji ve Ar-Ge altyapısı planlarını hızlandırdı.",
-          "impact": "Üretim kapasitesinin AI ve ileri yarı iletkenlere kayması mevcut sanayi avantajının yeni teknoloji döngüsüne taşınmasını destekliyor.",
+          "development": "The government accelerated a KRW 5 trillion semiconductor fund and water, power and R&D infrastructure plans for large chip clusters.",
+          "impact": "Shifting capacity toward AI and advanced semiconductors helps carry the country's industrial advantage into the next technology cycle.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -1451,8 +1451,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investment & Capital",
-          "development": "Güney Kore ile ABD arasında 350 milyar dolarlık ABD yatırım taahhüdünün ilk projeleri için görüşmeler ilerliyor.",
-          "impact": "Küresel üretim ayak izinin genişlemesi pazar erişimini güçlendirebilir ancak sermayenin bir bölümünün ülke dışına yönelmesi iç yatırım açısından izlenmesi gereken bir denge yaratıyor.",
+          "development": "Talks are advancing on the first projects under South Korea's $350 billion US investment commitment.",
+          "impact": "A broader global production footprint can improve market access, but outward capital allocation creates a balance to watch for domestic investment.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1464,8 +1464,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Public Finances & Infrastructure",
-          "development": "Çip kümeleri için 2030'a kadar günlük 650 bin ton su ve 2041'e kadar 14,7 GW elektrik kapasitesi planlanıyor.",
-          "impact": "Kritik üretim altyapısının önceden ölçeklenmesi sanayi büyümesinin fiziksel darboğazlarını azaltıyor.",
+          "development": "Chip clusters are planned to receive 650,000 tonnes of water per day by 2030 and 14.7 GW of power capacity by 2041.",
+          "impact": "Scaling critical production infrastructure in advance reduces physical bottlenecks to industrial growth.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -1477,8 +1477,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Governance & Execution",
-          "development": "Hükümet çip kümelerindeki izin ve altyapı süreçlerini hızlandırmak için özel bölge mevzuatı hazırlıyor.",
-          "impact": "Kurumların stratejik sanayiye göre süreçleri sadeleştirmesi yatırımın uygulamaya dönüşme hızını artırabilir.",
+          "development": "The government is preparing special-zone legislation to accelerate permits and infrastructure for chip clusters.",
+          "impact": "Streamlining processes around strategic industry can speed the conversion of investment into execution.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -1490,8 +1490,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Population & Labor",
-          "development": "Ağustos'ta istihdam yıllık 184 bin kişi arttı ancak gençlerin istihdam koşulları zayıf kalmaya devam etti.",
-          "impact": "Toplam istihdam artışı dayanıklılık sağlarken genç iş gücünün ekonomiye entegrasyonundaki sorun uzun vadeli yetenek arzını sınırlayabilir.",
+          "development": "Employment rose by 184,000 year on year in August, while conditions for young workers remained weak.",
+          "impact": "Overall job growth adds resilience, but weak youth integration could constrain long-term talent supply.",
           "status": "neutral",
           "source": {
             "name": "Yonhap",
@@ -1503,8 +1503,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Cost of Living & Housing",
-          "development": "Konut erişilebilirliği ve sıkı kredi kuralları Eylül'de kamuoyundaki temel ekonomik memnuniyetsizlik başlıklarından biri oldu.",
-          "impact": "Seul başta olmak üzere konut erişiminin zorlaşması yerleşim maliyeti ve hane hareketliliği üzerinde baskı oluşturuyor.",
+          "development": "Housing affordability and tight credit rules became major sources of public economic dissatisfaction in September.",
+          "impact": "Difficult housing access, especially in Seoul, raises settlement costs and constrains household mobility.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1516,8 +1516,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Social Climate & Talent Attraction",
-          "development": "Konut politikaları ve yaşam maliyetine ilişkin memnuniyetsizlik kamuoyu baskısını artırırken nitelikli iş gücü açısından yeni büyük bir açılım veya kapanma sinyali görülmedi.",
-          "impact": "Toplumsal baskı ekonomi politikalarının yönünü etkileyebilir ancak yetenek açıklığı açısından şimdilik belirgin bir rejim değişimi yok.",
+          "development": "Public pressure over housing and living costs increased, while no major new opening or restriction appeared for skilled international labour.",
+          "impact": "Social pressure may shape economic policy, but there is no clear regime shift in talent openness for now.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1531,14 +1531,14 @@
     },
     {
       "id": "brazil",
-      "name": "Brezilya",
+      "name": "Brazil",
       "flag": "🇧🇷",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Growth & Economy",
-          "development": "Brezilya ekonomisi ikinci çeyrekte çeyreklik %0,5 ve yıllık %2,0 büyüdü ancak ilk çeyreğe göre belirgin şekilde yavaşladı.",
-          "impact": "Büyümenin devam etmesi destekleyici olsa da yüksek faizlerin tüketim ve sanayi üzerindeki baskısı ivmeyi azaltıyor.",
+          "development": "Brazil's economy grew 0.5% quarter on quarter and 2.0% year on year in the second quarter, but slowed clearly from the first quarter.",
+          "impact": "Continued growth is supportive, although high interest rates are reducing momentum in consumption and industry.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1550,8 +1550,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "External Dependencies",
-          "development": "Eylülün ilk iki haftasında madencilik ihracatı %70,5, ham petrol ihracatı ise yıllık %126,2 arttı.",
-          "impact": "Emtia gelirlerindeki güç dış dengeyi desteklerken büyümenin emtia fiyatlarına duyarlılığını yüksek tutuyor.",
+          "development": "Mining exports rose 70.5% and crude-oil exports 126.2% year on year in the first two weeks of September.",
+          "impact": "Strong commodity revenues support the external balance while keeping growth sensitive to commodity prices.",
           "status": "neutral",
           "source": {
             "name": "Brazil Ministry of Development",
@@ -1563,8 +1563,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Exports & Foreign Trade",
-          "development": "Eylülün ilk iki haftasında ihracat yıllık %28,5 artarken dış ticaret fazlası 3,36 milyar dolara ulaştı.",
-          "impact": "Güçlü dış talep yavaşlayan iç ekonomiye önemli bir tampon sağlıyor.",
+          "development": "Exports rose 28.5% year on year in the first two weeks of September and the trade surplus reached $3.36 billion.",
+          "impact": "Strong external demand provides an important buffer for a slowing domestic economy.",
           "status": "positive",
           "source": {
             "name": "Brazil Ministry of Development",
@@ -1576,8 +1576,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sector Transformation",
-          "development": "İkinci çeyrekte sanayi ve hizmetlerde momentum zayıflarken ihracatta imalat ürünleri Eylülün ilk iki haftasında %17 büyüdü.",
-          "impact": "İmalat ihracatındaki artış olumlu olsa da iç sanayi ivmesinin zayıflığı dönüşüm kapasitesini sınırlıyor.",
+          "development": "Industrial and services momentum weakened in the second quarter, while manufactured exports rose 17% in the first two weeks of September.",
+          "impact": "Stronger manufactured exports are positive, but weak domestic industrial momentum limits transformation capacity.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1589,8 +1589,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investment & Capital",
-          "development": "Yüksek borçlanma maliyetleri şirket ve hane harcamalarını baskılarken Temmuz ekonomik aktivitesi aylık %0,2 geriledi.",
-          "impact": "Sermaye maliyetinin yüksek kalması özel yatırımın hızlanmasını zorlaştırıyor.",
+          "development": "High borrowing costs are weighing on companies and households, while economic activity fell 0.2% month on month in July.",
+          "impact": "Persistently high capital costs make it harder for private investment to accelerate.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1602,8 +1602,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Public Finances & Infrastructure",
-          "development": "Yüksek faizlerle birlikte geniş kamu açığı borç servis maliyetlerini yüksek tutmaya devam ediyor.",
-          "impact": "Mali alanın dar olması büyük altyapı ve dönüşüm harcamalarının finansmanını daha pahalı hale getiriyor.",
+          "development": "A wide fiscal deficit combined with high interest rates is keeping debt-servicing costs elevated.",
+          "impact": "Limited fiscal space makes financing large infrastructure and transformation programmes more expensive.",
           "status": "negative",
           "source": {
             "name": "WSJ",
@@ -1615,8 +1615,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Governance & Execution",
-          "development": "Enflasyonun Ağustos'ta %4,22'ye gerilemesi sonrasında merkez bankası sıkı para politikasını kademeli olarak gevşetmeye başladı.",
-          "impact": "Enflasyonla mücadele ile büyüme arasındaki dengeyi kademeli kurma yaklaşımı kısa vadeli finansal istikrarı destekliyor.",
+          "development": "After inflation eased to 4.22% in August, the central bank began gradually loosening tight monetary policy.",
+          "impact": "A gradual balance between inflation control and growth supports near-term financial stability.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1628,8 +1628,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Population & Labor",
-          "development": "İkinci çeyrekte işsizlik %5,4'e gerilerken nüfus 214,2 milyona ulaştı.",
-          "impact": "Düşük işsizlik iç talep ve vergi tabanını destekliyor ancak ücret baskıları hizmet enflasyonunu canlı tutabilir.",
+          "development": "Unemployment fell to 5.4% in the second quarter, while the population reached 214.2 million.",
+          "impact": "Low unemployment supports domestic demand and the tax base, though wage pressure may keep services inflation firm.",
           "status": "positive",
           "source": {
             "name": "IBGE",
@@ -1641,8 +1641,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Cost of Living & Housing",
-          "development": "Hane tüketimi ikinci çeyrekte %0,4 gerilerken yüksek kredi maliyetleri harcamaları sınırladı.",
-          "impact": "Borçlanma maliyetinin yüksek kalması orta sınıf hanelerin tüketim ve konut erişimini baskılıyor.",
+          "development": "Household consumption fell 0.4% in the second quarter as high credit costs constrained spending.",
+          "impact": "High borrowing costs pressure middle-class consumption and access to housing.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1654,8 +1654,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Social Climate & Talent Attraction",
-          "development": "Ekim seçimleri öncesinde maliye ve büyüme politikaları kamu gündeminin merkezinde kalırken nitelikli yabancı çalışan rejiminde büyük bir aylık değişiklik görülmedi.",
-          "impact": "Seçim dönemi kısa vadeli politika belirsizliğini artırsa da yetenek erişiminde belirgin bir rejim değişimi sinyali yok.",
+          "development": "Fiscal and growth policies remain central to the public agenda ahead of the October elections, while no major monthly change occurred in the skilled foreign-worker regime.",
+          "impact": "The election period raises short-term policy uncertainty, but there is no clear regime shift in talent access.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1669,14 +1669,14 @@
     },
     {
       "id": "russia",
-      "name": "Rusya",
+      "name": "Russia",
       "flag": "🇷🇺",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Growth & Economy",
-          "development": "Resmi beklentiler 2026 büyümesini yaklaşık %1 civarında gösterirken savunma harcamaları ekonomide önemli bir destek olmaya devam ediyor.",
-          "impact": "Devlet harcamaları kısa vadeli aktiviteyi korusa da sivil ekonomideki durgunluk büyümenin kalitesini zayıflatıyor.",
+          "development": "Official expectations point to growth of around 1% in 2026, with defence spending still providing major support.",
+          "impact": "State spending preserves short-term activity, but stagnation in the civilian economy weakens the quality of growth.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1688,8 +1688,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "External Dependencies",
-          "development": "2026 petrol üretim tahmini savaşın etkileriyle 17 yılın en düşük seviyesine, yaklaşık 9,88 milyon varil/güne indirildi.",
-          "impact": "Kamu gelirleri ve dış denge için kritik olan enerji üretiminin gerilemesi ekonomik tamponu zayıflatıyor.",
+          "development": "The 2026 oil-production forecast was cut to a 17-year low of about 9.88 million barrels per day amid the effects of the war.",
+          "impact": "Declining energy production weakens a key buffer for public revenues and the external balance.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1701,8 +1701,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Exports & Foreign Trade",
-          "development": "AB yasakları ve rafineri kesintileri Rus enerji akışını giderek Çin ve Hindistan gibi pazarlara yöneltiyor.",
-          "impact": "Pazar çeşitliliğinin daralması fiyatlama gücünü ve dış ticaret esnekliğini azaltıyor.",
+          "development": "EU bans and refinery disruptions are increasingly redirecting Russian energy flows toward markets such as China and India.",
+          "impact": "A narrower set of markets reduces pricing power and external-trade flexibility.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1714,8 +1714,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sector Transformation",
-          "development": "Yaptırımlar ve teknoloji erişimindeki kısıtlar sivil üretim kapasitesi ve teknolojik rekabet gücü üzerinde uzun vadeli aşınma yaratıyor.",
-          "impact": "Kritik teknoloji ve sermaye mallarına erişim zayıfladıkça yeni sanayi dönüşümünün maliyeti artıyor.",
+          "development": "Sanctions and restricted technology access are causing long-term erosion in civilian production capacity and technological competitiveness.",
+          "impact": "Weaker access to critical technology and capital goods raises the cost of future industrial transformation.",
           "status": "negative",
           "source": {
             "name": "AP",
@@ -1727,8 +1727,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investment & Capital",
-          "development": "Yüksek faizler, savaş kaynaklı belirsizlik ve güven kaybı özel yatırım iştahını zayıflatıyor.",
-          "impact": "Sermayenin savunma ve devlet bağlantılı alanlarda yoğunlaşması sivil ekonominin gelecekteki kapasitesini sınırlıyor.",
+          "development": "High interest rates, war-related uncertainty and loss of confidence are weakening private-investment appetite.",
+          "impact": "Capital concentrating in defence and state-linked sectors limits future capacity in the civilian economy.",
           "status": "negative",
           "source": {
             "name": "AP",
@@ -1740,8 +1740,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Public Finances & Infrastructure",
-          "development": "Bütçe açığı yaklaşık GSYH'nin %2,8'ine çıkarken rezerv fonları ve yüksek askeri harcamalar mali alanı daraltıyor.",
-          "impact": "Artan savaş maliyeti altyapı ve sivil kamu harcamaları için kullanılabilecek kaynakları baskılıyor.",
+          "development": "The budget deficit has risen to roughly 2.8% of GDP, while reserve funds and high military spending narrow fiscal room.",
+          "impact": "Rising war costs squeeze resources available for infrastructure and civilian public spending.",
           "status": "negative",
           "source": {
             "name": "AP",
@@ -1753,8 +1753,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Governance & Execution",
-          "development": "Rafineri saldırıları ve yakıt açığı sonrasında hükümet benzin, dizel ve jet yakıtı ihracatına geçici kısıtlamalar getirdi.",
-          "impact": "Hızlı arz yönetimi iç piyasayı kısa vadede koruyabilir ancak sorun üretim kapasitesindeki yapısal hasarı çözmüyor.",
+          "development": "After refinery attacks and fuel shortages, the government imposed temporary restrictions on exports of gasoline, diesel and jet fuel.",
+          "impact": "Rapid supply management can protect the domestic market in the short term, but does not repair structural damage to production capacity.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -1766,8 +1766,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Population & Labor",
-          "development": "İşsizlik yaklaşık %2 seviyesinde kalırken şirketler savaş, göç ve demografik daralma nedeniyle nitelikli iş gücü bulmakta zorlanıyor.",
-          "impact": "Çok düşük işsizlik sağlıklı bir fazladan çok iş gücü kıtlığına işaret ederek üretim kapasitesini sınırlıyor.",
+          "development": "Unemployment remains around 2%, while companies struggle to find skilled labour because of war, migration and demographic contraction.",
+          "impact": "Very low unemployment signals labour scarcity rather than healthy slack, constraining production capacity.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1779,8 +1779,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Cost of Living & Housing",
-          "development": "Enflasyon %6'nın üzerinde kalırken yakıt ve temel tüketim maliyetleri ile yüksek kredi faizleri hane harcamalarını baskılıyor.",
-          "impact": "Reel yaşam maliyetindeki baskı tüketimi ve yerleşim cazibesini zayıflatıyor.",
+          "development": "Inflation remains above 6%, while fuel and basic consumer costs and high credit rates weigh on household spending.",
+          "impact": "Pressure on real living costs weakens consumption and settlement appeal.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -1792,8 +1792,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Social Climate & Talent Attraction",
-          "development": "Savaş kaynaklı göç, yaptırımlar ve ekonomik izolasyon uluslararası yetenek ve sermaye hareketliliğini sınırlamaya devam ediyor.",
-          "impact": "Yetenek havuzunun daralması ve uluslararası bağlantıların zayıflaması uzun vadeli inovasyon kapasitesini azaltıyor.",
+          "development": "War-driven migration, sanctions and economic isolation continue to restrict international talent and capital mobility.",
+          "impact": "A smaller talent pool and weaker international links reduce long-term innovation capacity.",
           "status": "negative",
           "source": {
             "name": "AP",
@@ -1807,14 +1807,14 @@
     },
     {
       "id": "egypt",
-      "name": "Mısır",
+      "name": "Egypt",
       "flag": "🇪🇬",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Growth & Economy",
-          "development": "IMF 2026 mali yılı büyümesini %4,6 olarak öngörürken bölgesel savaşın etkisinin 2026-27 döneminde daha belirginleşmesini bekliyor.",
-          "impact": "Ekonomi kısa vadede dirençli kalıyor ancak bölgesel şoklar yeni büyüme dönemini yavaşlatabilir.",
+          "development": "The IMF expects 4.6% growth in fiscal year 2026 and sees the impact of the regional war becoming more visible in 2026–27.",
+          "impact": "The economy remains resilient in the short term, but regional shocks could slow the new growth phase.",
           "status": "positive",
           "source": {
             "name": "IMF",
@@ -1826,8 +1826,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "External Dependencies",
-          "development": "Orta Doğu çatışmaları enerji maliyetleri, turizm, lojistik ve dış finansman kanallarını aynı anda etkiliyor.",
-          "impact": "Bölgesel jeopolitik riskin birden fazla gelir ve maliyet kanalına temas etmesi Mısır'ın dış şok duyarlılığını yüksek tutuyor.",
+          "development": "Middle East conflicts are affecting energy costs, tourism, logistics and external financing at the same time.",
+          "impact": "Geopolitical risk hitting several income and cost channels keeps Egypt highly exposed to external shocks.",
           "status": "negative",
           "source": {
             "name": "IMF",
@@ -1839,8 +1839,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Exports & Foreign Trade",
-          "development": "Maersk ve Hapag-Lloyd Eylül'de dört ek konteyner hattını Süveyş Kanalı'na geri döndürme kararı aldı.",
-          "impact": "Kanal trafiğinin kademeli geri dönmesi döviz gelirleri ve lojistik aktivite için olumlu bir normalleşme sinyali veriyor.",
+          "development": "Maersk and Hapag-Lloyd decided in September to return four additional container services to the Suez Canal.",
+          "impact": "A gradual return of canal traffic is a positive normalisation signal for foreign-currency revenues and logistics activity.",
           "status": "positive",
           "source": {
             "name": "Reuters",
@@ -1852,8 +1852,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sector Transformation",
-          "development": "Hükümet devlet şirketlerindeki pay satışlarını ve özel sektörün ekonomideki rolünü artırma programını sürdürdüğünü açıkladı.",
-          "impact": "Devlet ağırlığının azaltılması özel sektör yatırımı ve rekabet için alan açabilir ancak uygulama hızı belirleyici olacak.",
+          "development": "The government said it is continuing a programme of state-company stake sales and a larger private-sector role in the economy.",
+          "impact": "Reducing the state's weight could create more room for private investment and competition, but execution speed will be decisive.",
           "status": "neutral",
           "source": {
             "name": "Reuters/Zawya",
@@ -1865,8 +1865,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investment & Capital",
-          "development": "IMF bölgesel savaşın 2026-27 döneminde daha zayıf yatırım ve daha yüksek finansman maliyeti yaratmasını bekliyor.",
-          "impact": "Özel sermaye yatırımlarının yavaşlaması büyümenin daha kalıcı hale gelmesini zorlaştırabilir.",
+          "development": "The IMF expects the regional war to result in weaker investment and higher financing costs in 2026–27.",
+          "impact": "Slower private-capital investment could make it harder to turn growth into a durable cycle.",
           "status": "negative",
           "source": {
             "name": "IMF",
@@ -1878,8 +1878,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Public Finances & Infrastructure",
-          "development": "IMF'nin yedinci incelemeyi tamamlaması yaklaşık 1,8 milyar dolarlık yeni finansmana erişim sağladı.",
-          "impact": "Dış finansman ve mali disiplin kısa vadeli tampon yaratıyor ancak borç ve sübvansiyon reformu baskısı sürüyor.",
+          "development": "Completion of the IMF's seventh review opened access to about $1.8 billion of new financing.",
+          "impact": "External financing and fiscal discipline provide a short-term buffer, while debt and subsidy-reform pressures remain.",
           "status": "neutral",
           "source": {
             "name": "IMF",
@@ -1891,8 +1891,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Governance & Execution",
-          "development": "IMF kur esnekliği, yakıt fiyat ayarlamaları ve harcama kontrolünü bölgesel şoka verilen hızlı politika tepkileri arasında gösterdi.",
-          "impact": "Şoklara hızlı politika cevabı makro istikrarı destekliyor ancak reformların sosyal maliyeti ve sürekliliği izlenmeli.",
+          "development": "The IMF cited exchange-rate flexibility, fuel-price adjustments and spending control among rapid policy responses to the regional shock.",
+          "impact": "Fast policy response supports macro stability, but the social cost and durability of reforms need monitoring.",
           "status": "positive",
           "source": {
             "name": "IMF",
@@ -1904,8 +1904,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Population & Labor",
-          "development": "Nüfus artışı güçlü kalırken genç iş gücüne yeterli verimli istihdam yaratma ihtiyacı ekonominin temel yapısal baskılarından biri olmaya devam ediyor.",
-          "impact": "Geniş iş gücü potansiyel bir avantaj olsa da istihdam üretimi büyümenin kapsayıcılığı açısından kritik kalıyor.",
+          "development": "Population growth remains strong, while creating enough productive jobs for a young workforce is still a core structural challenge.",
+          "impact": "A large labour pool is a potential advantage, but job creation remains critical for inclusive growth.",
           "status": "neutral",
           "source": {
             "name": "IMF",
@@ -1917,8 +1917,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Cost of Living & Housing",
-          "development": "Ağustos'ta yıllık kentsel enflasyon %14,5 olurken konut, su, elektrik, gaz ve yakıt grubundaki yıllık artış %33'e ulaştı.",
-          "impact": "Yüksek temel yaşam maliyetleri hane bütçesini ve reel alım gücünü belirgin biçimde baskılıyor.",
+          "development": "Annual urban inflation was 14.5% in August, while housing, water, electricity, gas and fuel rose 33% year on year.",
+          "impact": "High basic living costs are putting strong pressure on household budgets and real purchasing power.",
           "status": "negative",
           "source": {
             "name": "Central Bank of Egypt",
@@ -1930,8 +1930,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Social Climate & Talent Attraction",
-          "development": "Turizmde 2026 için yaklaşık 20,2 milyon ziyaretçi ve daha yüksek gelir beklentisi uluslararası erişimin güçlü kalacağına işaret ediyor.",
-          "impact": "Turizm ve hizmetlerde dışa açıklık istihdam ve döviz gelirini desteklerken nitelikli yetenek politikalarında belirgin bir aylık değişim görülmedi.",
+          "development": "Tourism expectations of roughly 20.2 million visitors and higher revenues in 2026 point to continued strong international access.",
+          "impact": "Openness in tourism and services supports jobs and foreign-currency earnings, while no major monthly change appeared in skilled-talent policy.",
           "status": "positive",
           "source": {
             "name": "Egypt State Information Service",
@@ -1945,14 +1945,14 @@
     },
     {
       "id": "italy",
-      "name": "İtalya",
+      "name": "Italy",
       "flag": "🇮🇹",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Growth & Economy",
-          "development": "İkinci çeyrek GSYH'si çeyreklik %0,2 büyüdü ve ISTAT 2026 büyümesini yaklaşık %0,8 seviyesinde öngörüyor.",
-          "impact": "Büyüme pozitif ancak düşük hızda olduğu için dış şoklara karşı tampon sınırlı kalıyor.",
+          "development": "Second-quarter GDP grew 0.2% quarter on quarter, and ISTAT expects 2026 growth of around 0.8%.",
+          "impact": "Growth is positive but slow, leaving a limited buffer against external shocks.",
           "status": "neutral",
           "source": {
             "name": "ISTAT",
@@ -1964,8 +1964,8 @@
         {
           "signal_id": "critical_dependencies",
           "signal": "External Dependencies",
-          "development": "Ağustos enflasyonu enerji fiyatlarındaki güçlü artışla yıllık %3,3'e yükseldi.",
-          "impact": "Enerji fiyatlarının yeniden belirleyici hale gelmesi sanayi ve hane bütçeleri açısından dış şok kırılganlığını artırıyor.",
+          "development": "August inflation rose to 3.3% year on year, driven by a strong increase in energy prices.",
+          "impact": "Energy becoming a major driver again raises vulnerability to external shocks for industry and households.",
           "status": "negative",
           "source": {
             "name": "ISTAT",
@@ -1977,8 +1977,8 @@
         {
           "signal_id": "external_demand_trade",
           "signal": "Exports & Foreign Trade",
-          "development": "Küresel tedarik zinciri belirsizliği sürerken İtalya'nın büyümesi ikinci çeyrekte daha çok tüketim ve yatırım tarafından desteklendi.",
-          "impact": "Dış talebe aşırı yüklenmeyen büyüme bileşimi kısa vadede tampon sağlasa da ihracatçı sanayi için küresel riskler sürüyor.",
+          "development": "With global supply-chain uncertainty continuing, second-quarter growth was supported more by consumption and investment.",
+          "impact": "A growth mix less dependent on external demand provides a near-term buffer, though global risks remain for export-oriented industry.",
           "status": "neutral",
           "source": {
             "name": "ISTAT",
@@ -1990,8 +1990,8 @@
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sector Transformation",
-          "development": "Temmuz sanayi üretimi iki aylık düşüşün ardından aylık %0,7 arttı ve enerji dışındaki ana sanayi gruplarında toparlanma görüldü.",
-          "impact": "Sanayi üretiminin yeniden artması dönüşüm kapasitesi için olumlu ancak tek aylık veri kalıcı trend teyidi vermiyor.",
+          "development": "Industrial production rose 0.7% month on month in July after two months of decline, with recovery across major non-energy groups.",
+          "impact": "A return to industrial growth is positive for transformation capacity, but one month does not confirm a lasting trend.",
           "status": "positive",
           "source": {
             "name": "ISTAT",
@@ -2003,8 +2003,8 @@
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investment & Capital",
-          "development": "İkinci çeyrek büyümesinde özel yatırımlar pozitif katkı sağladı.",
-          "impact": "Yatırımın büyümeye katkı vermesi üretim kapasitesi açısından destekleyici bir sinyal oluşturuyor.",
+          "development": "Private investment made a positive contribution to second-quarter growth.",
+          "impact": "Investment supporting growth is a constructive signal for production capacity.",
           "status": "positive",
           "source": {
             "name": "ISTAT",
@@ -2016,8 +2016,8 @@
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Public Finances & Infrastructure",
-          "development": "Kamu borcunun 2026'da GSYH'nin yaklaşık %139'una çıkması beklenirken borç servis maliyetleri hızla yükseliyor.",
-          "impact": "Yüksek borç ve faiz yükü altyapı ve dönüşüm yatırımları için mali hareket alanını daraltıyor.",
+          "development": "Public debt is expected to rise to about 139% of GDP in 2026 as debt-servicing costs increase quickly.",
+          "impact": "High debt and interest costs narrow fiscal room for infrastructure and transformation investment.",
           "status": "negative",
           "source": {
             "name": "Reuters",
@@ -2029,8 +2029,8 @@
         {
           "signal_id": "execution_adaptability",
           "signal": "Governance & Execution",
-          "development": "Hükümet uzun süreli siyasi istikrar vurgusu yaparken kamu yönetimi, sağlık ve eğitim reformlarında ilerleme tartışmalı kalıyor.",
-          "impact": "Siyasi süreklilik karar alma açısından avantaj sağlasa da yapısal reformların uygulama hızı temel takip konusu olmaya devam ediyor.",
+          "development": "The government emphasises long-term political stability, while progress on public administration, health and education reforms remains contested.",
+          "impact": "Political continuity supports decision-making, but the pace of structural-reform implementation remains a key watchpoint.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
@@ -2042,8 +2042,8 @@
         {
           "signal_id": "demography_labour",
           "signal": "Population & Labor",
-          "development": "Temmuz işsizliği %5,8'e gerilerken istihdam artışının önemli bölümü 50-64 yaş grubunda yoğunlaşıyor.",
-          "impact": "Düşük işsizlik olumlu fakat yaşlanan iş gücü uzun vadede demografik kapasiteyi sınırlıyor.",
+          "development": "July unemployment fell to 5.8%, while much of employment growth is concentrated among people aged 50–64.",
+          "impact": "Low unemployment is positive, but an ageing workforce limits long-term demographic capacity.",
           "status": "neutral",
           "source": {
             "name": "ISTAT",
@@ -2055,8 +2055,8 @@
         {
           "signal_id": "household_relocation",
           "signal": "Cost of Living & Housing",
-          "development": "Ağustos tüketici enflasyonu %3,3'e yükseldi ve artışın ana kaynağı enerji oldu.",
-          "impact": "Enerji kaynaklı fiyat baskısı hanelerin reel gelirini ve yaşam maliyetini olumsuz etkiliyor.",
+          "development": "Consumer inflation rose to 3.3% in August, with energy the main driver.",
+          "impact": "Energy-led price pressure hurts real household incomes and living costs.",
           "status": "negative",
           "source": {
             "name": "ISTAT",
@@ -2068,8 +2068,8 @@
         {
           "signal_id": "social_political_talent",
           "signal": "Social Climate & Talent Attraction",
-          "development": "Göç ve entegrasyon tartışmaları Eylül'de eğitim ve sınır politikaları üzerinden yeniden yoğunlaştı.",
-          "impact": "Göç rejimindeki sıkılaşma tartışmaları yabancı çalışanlar için politika öngörülebilirliğini azaltabilir ancak nihai düzenlemeler henüz tamamlanmış değil.",
+          "development": "Debate over migration and integration intensified again in September around education and border policy.",
+          "impact": "Discussion of a tighter migration regime may reduce policy predictability for foreign workers, although final rules are not yet settled.",
           "status": "neutral",
           "source": {
             "name": "Reuters",
