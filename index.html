@@ -205,8 +205,14 @@
     section{position:relative}
     .overview-title{
       position:relative;z-index:2;
-      display:flex;justify-content:space-between;align-items:flex-end;gap:22px;
+      display:block;
       margin:52px 18px 18px;
+    }
+    .overview-heading-row{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:20px;
     }
     .overview-title h2,.detail-head h2,.trend-title h3,.method h3{
       font-family:var(--serif);
@@ -239,35 +245,34 @@
     .country-chip .flag{font-size:17px;line-height:1}
     .view-toggle{
       position:relative;z-index:3;
-      width:44px;height:44px;flex:0 0 44px;
+      width:32px;height:32px;flex:0 0 32px;
       display:inline-flex;align-items:center;justify-content:center;
-      border:1px solid var(--line);
-      border-radius:50%;
-      background:rgba(249,246,240,.78);
+      border:0;
+      padding:0;
+      background:transparent;
       color:var(--ink);
       cursor:pointer;
-      transition:background .15s ease,transform .15s ease,border-color .15s ease;
+      transition:opacity .15s ease,transform .15s ease;
     }
-    .view-toggle:hover{background:#fffdf8;transform:translateY(-1px);border-color:rgba(25,23,19,.24)}
-    .view-toggle svg{width:20px;height:20px;display:block}
+    .view-toggle:hover{opacity:.62;transform:translateY(-1px)}
+    .view-toggle svg{width:24px;height:24px;display:block}
     .map-panel{
       display:none;
       position:relative;z-index:2;
       margin:0 18px 18px;
-      padding:16px;
-      min-height:390px;
-      background:rgba(249,246,240,.66);
-      border:1px solid var(--line);
-      border-radius:24px;
-      overflow:hidden;
+      padding:0;
+      min-height:0;
+      background:transparent;
+      border:0;
+      border-radius:0;
+      overflow:visible;
     }
     .map-panel.show{display:block}
-    .map-panel svg{display:block;width:100%;height:auto;max-height:540px}
-    .map-loading{min-height:350px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px}
+    .map-panel svg{display:block;width:100%;height:auto;max-height:none}
+    .map-loading{min-height:300px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px}
     .country-map-path{vector-effect:non-scaling-stroke}
     .country-map-path.tracked{cursor:pointer;transition:opacity .15s ease,filter .15s ease}
     .country-map-path.tracked:hover{filter:brightness(.92)}
-    .country-map-marker{cursor:pointer;vector-effect:non-scaling-stroke;transition:r .15s ease,opacity .15s ease}
     .detail.map-view-active .signal-table{
       display:flex;gap:12px;overflow-x:auto;padding:2px 2px 10px;border-top:0;
       scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch;
@@ -528,10 +533,11 @@
       .overview-title h2{font-size:38px}
       .overview-title p{font-size:13px;line-height:1.6}
       .overview-map{width:380px;height:200px;right:-140px;top:-18px}
-      .view-toggle{width:40px;height:40px;flex-basis:40px}
-      .map-panel{margin:0 8px 16px;padding:8px;min-height:250px;border-radius:18px}
-      .map-loading{min-height:235px}
-      .map-panel svg{max-height:340px}
+      .view-toggle{width:30px;height:30px;flex-basis:30px}
+      .view-toggle svg{width:23px;height:23px}
+      .map-panel{margin:0 8px 16px;padding:0;min-height:0;border-radius:0}
+      .map-loading{min-height:220px}
+      .map-panel svg{max-height:none}
 
       .country-grid{
         margin:0 8px;
@@ -706,10 +712,12 @@
   <section>
     <div class="overview-title">
       <div>
-        <h2 id="overviewTitle">Küresel Genel Bakış</h2>
+        <div class="overview-heading-row">
+          <h2 id="overviewTitle">Küresel Genel Bakış</h2>
+          <button class="view-toggle" id="viewToggle" type="button" aria-label="Harita görünümüne geç" aria-pressed="false"></button>
+        </div>
         <p id="overviewText">Bir ülke seç. Renkler her sinyalin o ülkenin dayanıklılığı ve taşınma koşulları üzerindeki yönünü gösterir; toplam ülke puanı üretilmez.</p>
       </div>
-      <button class="view-toggle" id="viewToggle" type="button" aria-label="Harita görünümüne geç" aria-pressed="false"></button>
     </div>
     <div class="country-grid" id="countryGrid"></div>
     <div class="map-panel" id="mapPanel" aria-label="Etkileşimli ülke haritası"></div>
@@ -880,7 +888,7 @@ async function haritayiCiz(){
       .attr("fill",d=>{
         const c=byMapId.get(String(d.id).padStart(3,"0"));
         if(!c)return "#e9e3da";
-        return c.id===seciliUlke?"#11110f":renk.get(c.id);
+        return c.id===seciliUlke?"#ff0000":renk.get(c.id);
       })
       .attr("stroke",d=>byMapId.has(String(d.id).padStart(3,"0"))?"#f7f4ee":"#d7d0c6")
       .attr("stroke-width",d=>byMapId.has(String(d.id).padStart(3,"0"))?1.1:.55)
@@ -900,30 +908,6 @@ async function haritayiCiz(){
       .append("title")
       .text(d=>byMapId.get(String(d.id).padStart(3,"0"))?.name||"");
 
-    const tracked=features.filter(d=>byMapId.has(String(d.id).padStart(3,"0")));
-    svg.append("g").selectAll("circle")
-      .data(tracked)
-      .join("circle")
-      .attr("class","country-map-marker")
-      .attr("cx",d=>path.centroid(d)[0])
-      .attr("cy",d=>path.centroid(d)[1])
-      .attr("r",d=>{
-        const c=byMapId.get(String(d.id).padStart(3,"0"));
-        return c?.id===seciliUlke?5.5:3.8;
-      })
-      .attr("fill",d=>{
-        const c=byMapId.get(String(d.id).padStart(3,"0"));
-        return c?.id===seciliUlke?"#11110f":renk.get(c.id);
-      })
-      .attr("stroke","#fff")
-      .attr("stroke-width",1.5)
-      .on("click",(e,d)=>{
-        e.stopPropagation();
-        const c=byMapId.get(String(d.id).padStart(3,"0"));
-        if(c)ulkeSec(c.id);
-      })
-      .append("title")
-      .text(d=>byMapId.get(String(d.id).padStart(3,"0"))?.name||"");
   }catch(e){
     root.innerHTML=`<div class="map-loading">${e.message}</div>`;
   }
