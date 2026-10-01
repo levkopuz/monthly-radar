@@ -402,6 +402,19 @@
     .trend-title{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:12px}
     .trend-title h3{font-size:34px;line-height:1;margin:0}
     .trend-title p{margin:7px 0 0;color:var(--muted);font-size:12px}
+    .trend-country{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      flex:0 0 auto;
+      white-space:nowrap;
+      color:var(--ink);
+      font-size:15px;
+      line-height:1.2;
+      font-weight:700;
+      padding-bottom:2px;
+    }
+    .trend-country .flag{font-size:20px;line-height:1}
     .trend-wrap{
       position:relative;overflow:auto;
       background:#11110f;
@@ -675,6 +688,8 @@
       .trend-title{align-items:flex-start}
       .trend-title h3{font-size:31px}
       .trend-title p{font-size:11px;line-height:1.5}
+      .trend-country{font-size:13px;gap:6px;padding-top:3px;padding-bottom:0}
+      .trend-country .flag{font-size:18px}
       .trend-wrap{
         padding:14px;
         border-radius:18px;
@@ -712,6 +727,8 @@
       .overview-title h2{font-size:35px}
       .detail-head h2{font-size:38px}
       .trend-title h3{font-size:29px}
+      .trend-country{font-size:12px}
+      .trend-country .flag{font-size:17px}
       .tab{padding:8px 10px}
       .country-chip{font-size:11px}
     }
@@ -829,6 +846,7 @@
           <h3 id="trendTitle">Aylık Sinyal Haritası</h3>
           <p id="trendDescription">Y ekseni sinyalleri, X ekseni ayları gösterir. Boş hücre, o ay için kayıt bulunmadığı anlamına gelir.</p>
         </div>
+        <div class="trend-country" id="trendCountry" aria-live="polite"></div>
       </div>
       <div class="trend-wrap"><div id="trendChart" class="loading">Aylık geçmiş yükleniyor…</div></div>
     </div>
@@ -1253,6 +1271,7 @@ function detayiCiz(){
   seciliUlke=c.id;
   const items=gorunenMaddeler(c);
   document.getElementById("detailTitle").textContent=`${c.flag} ${c.name}`;
+  document.getElementById("trendCountry").innerHTML=`<span class="flag">${c.flag}</span><span>${c.name}</span>`;
   const ek=mod==="relocation"?` · ${u.modeSuffix.relocation}`:mod==="potential"?` · ${u.modeSuffix.potential}`:"";
   document.getElementById("detailSubtitle").textContent=`${ayEtiketi(veri.meta.month_id)} · ${u.signals(items.length)}${ek}`;
   const reason=document.getElementById("reason");
