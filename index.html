@@ -1196,6 +1196,7 @@ function ulkeleriCiz(){
   kitaSirasi.forEach(kita=>{
     const ulkeler=gruplar.get(kita);
     if(!ulkeler?.length)return;
+    ulkeler.sort((a,b)=>a.name.localeCompare(b.name,ui().locale,{sensitivity:"base"}));
 
     const group=document.createElement("section");
     group.className="country-continent";
