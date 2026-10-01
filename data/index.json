@@ -1,11 +1,7 @@
 {
-  "latest": "2026-09",
+  "latest": "2026-10",
   "months": [
-    {
-      "id": "2026-09",
-      "label": "Eylül 2026",
-      "file": "2026-09.json",
-      "updated": "2026-09-21"
-    }
+    {"id":"2026-10","label":"Ekim 2026","file":"2026-10.json","updated":"2026-10-01"},
+    {"id":"2026-09","label":"Eylül 2026","file":"2026-09.json","updated":"2026-09-21"}
   ]
 }
