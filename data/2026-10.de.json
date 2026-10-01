@@ -1,0 +1,3472 @@
+{
+  "meta": {
+    "name": "Country Radar",
+    "month_id": "2026-10",
+    "month": "October 2026",
+    "updated": "1. Oktober 2026",
+    "checked_date": "2026-10-01",
+    "country_count": 20,
+    "signal_count": 10,
+    "method": "10 feste Signalfamilien; wesentliche Änderungen der letzten 30 Tage werden priorisiert, andernfalls werden die jüngsten strukturellen Daten erneut geprüft.",
+    "potential_country_count": 5
+  },
+  "countries": [
+    {
+      "id": "uk",
+      "name": "Vereinigtes Königreich",
+      "flag": "🇬🇧",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Die OECD erwartet für das Vereinigte Königreich 2026 ein Wachstum von 1,1 % und 2027 von 1,0 %.",
+          "impact": "Das Wachstum bleibt positiv, aber schwach und begrenzt damit den Puffer gegen neue Schocks.",
+          "status": "neutral",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en/full-report.html",
+            "date": "2026-09-23"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die Inflation stieg im August aufgrund höherer Energie- und Kraftstoffkosten auf 3,1 %.",
+          "impact": "Globale Energieschocks setzen Haushaltsbudgets und Geldpolitik erneut unter Druck.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/uk/uk-inflation-speeds-up-31-august-2026-09-16/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die Warenexporte verbessern sich, während Dienstleistungsexporte unter dem Normalniveau liegen und Unternehmen US-Zölle sowie chinesischen Wettbewerb als Risiken sehen.",
+          "impact": "Die Auslandsnachfrage stützt, doch Veränderungen im Handelsregime erhöhen das Risiko für das Exportmodell.",
+          "status": "neutral",
+          "source": {
+            "name": "Bank of England",
+            "url": "https://www.bankofengland.co.uk/agents-summary/2026/september-2026",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Unternehmensinvestitionen verlagern sich auf Automatisierung, KI, Rechenzentren sowie Energie- und Verteidigungsinfrastruktur.",
+          "impact": "Kapital in neue Technologien und Infrastruktur stärkt die Anpassungsfähigkeit der Wirtschaft.",
+          "status": "positive",
+          "source": {
+            "name": "Bank of England",
+            "url": "https://www.bankofengland.co.uk/agents-summary/2026/september-2026",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Die Investitionsabsichten haben sich von niedrigem Niveau leicht ins Positive gedreht, während Finanzierungskosten weiter bremsen.",
+          "impact": "Der Wiederanstieg der Investitionen ist positiv, ein kräftiger Investitionszyklus hat sich aber noch nicht gebildet.",
+          "status": "neutral",
+          "source": {
+            "name": "Bank of England",
+            "url": "https://www.bankofengland.co.uk/agents-summary/2026/september-2026",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Die Regierung lockerte langfristige Projektbewertungsregeln, um Infrastrukturvorhaben leichter genehmigen zu können.",
+          "impact": "Wenn mehr Infrastrukturprojekte wirtschaftlich tragfähig werden, kann dies die Kapazität erhöhen.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/uk/britain-eases-infrastructure-approval-rules-boost-investment-2026-09-04/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Planungs- und Regulierungshürden erschweren die Umsetzung großer Infrastruktur- und Bauprojekte.",
+          "impact": "Selbst bei vorhandenem Kapital kann eine langsame Umsetzung den Wandel verzögern.",
+          "status": "negative",
+          "source": {
+            "name": "Bank of England",
+            "url": "https://www.bankofengland.co.uk/agents-summary/2026/september-2026",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Rekrutierungsprobleme haben insgesamt nachgelassen, doch in technischen und spezialisierten Rollen bestehen weiter Engpässe.",
+          "impact": "Die allgemeine Entspannung am Arbeitsmarkt hilft kurzfristig, strategische Fachkräftelücken bleiben jedoch bestehen.",
+          "status": "neutral",
+          "source": {
+            "name": "Bank of England",
+            "url": "https://www.bankofengland.co.uk/agents-summary/2026/september-2026",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die CPIH-Inflation stieg im August auf 3,3 %, die Arbeitslosigkeit lag von Mai bis Juli bei 4,9 %.",
+          "impact": "Der erneute Preisdruck belastet Realeinkommen und Lebenshaltungskosten.",
+          "status": "negative",
+          "source": {
+            "name": "ONS",
+            "url": "https://www.ons.gov.uk/visualisations/dvc368/dashboard/index.html",
+            "date": "2026-09-14"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Die Zahl der Arbeitsvisa sank im letzten Jahr um 18 %, die Kategorie Worker um 30 %; die Anträge gehen nach den politischen Änderungen weiter zurück.",
+          "impact": "Ein kleinerer Pool internationaler Fachkräfte kann den langfristigen Zugang zu Talenten erschweren.",
+          "status": "negative",
+          "source": {
+            "name": "UK Government",
+            "url": "https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-june-2026/why-do-people-come-to-the-uk-work",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "826"
+    },
+    {
+      "id": "spain",
+      "name": "Spanien",
+      "flag": "🇪🇸",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Die Ausgaben internationaler Touristen stiegen im Juli um 10,9 % gegenüber dem Vorjahr auf 18,2 Mrd. €.",
+          "impact": "Ein starker Dienstleistungs- und Tourismussektor stützt die wirtschaftliche Aktivität.",
+          "status": "positive",
+          "source": {
+            "name": "INE",
+            "url": "https://ine.es/dyngs/Prensa/en/EGATUR0726.htm",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die nationale Inflation stieg im August auf 4,3 %, die EU-harmonisierte Inflation auf 4,6 %.",
+          "impact": "Neue Energie- und externe Preisschocks könnten Realeinkommen und Konsum belasten.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/markets/us/spains-final-12-month-eu-harmonised-inflation-46-august-2026-09-15/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die Ausgaben ausländischer Touristen stiegen in den ersten sieben Monaten um 7,8 % auf über 82 Mrd. €.",
+          "impact": "Die starke internationale Nachfrage stützt weiterhin Dienstleistungsexporte und Beschäftigung.",
+          "status": "positive",
+          "source": {
+            "name": "INE",
+            "url": "https://ine.es/dyngs/Prensa/en/EGATUR0726.htm",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Spanien erhöhte die bis 2030 geplanten Investitionen in das Stromnetz um 30 % auf über 17 Mrd. €.",
+          "impact": "Der Ausbau von Elektrifizierung und erneuerbaren Energien stärkt die Energie-Resilienz.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/spain-ups-planned-power-grid-investment-over-17-bln-through-2030-2026-09-16/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Die Regierung kündigte rund 13 Mrd. € für Flughäfen und mehr als 1,2 Mrd. € für Forschung an.",
+          "impact": "Große Investitionen in Verkehr und Wissenschaft unterstützen die künftige Produktivität.",
+          "status": "positive",
+          "source": {
+            "name": "La Moncloa",
+            "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/councilministers/Paginas/2026/20260915-council-press-conference.aspx",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Das Flughafen-Investitionsprogramm 2027–2031 schafft rund 13 Mrd. € neue Kapazität.",
+          "impact": "Der Ausbau von Tourismus- und internationaler Verkehrsinfrastruktur stärkt den bestehenden Wachstumsmotor.",
+          "status": "positive",
+          "source": {
+            "name": "La Moncloa",
+            "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/councilministers/Paginas/2026/20260915-council-press-conference.aspx",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Die EU genehmigte Spaniens sechste NextGenerationEU-Zahlung teilweise, während einige Ziele weiter geprüft werden.",
+          "impact": "Der Großteil der Mittel kommt voran, verbleibende Meilensteine erfordern jedoch weiter Aufmerksamkeit für die Umsetzung.",
+          "status": "neutral",
+          "source": {
+            "name": "European Commission",
+            "url": "https://spain.representation.ec.europa.eu/noticias-eventos/noticias-0/la-comision-da-luz-verde-parcial-la-sexta-solicitud-de-pago-de-espana-por-valor-de-5-700-millones-2026-07-02_es?prefLang=en",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Spaniens Bevölkerung stieg zum 1. Juli auf 49,80 Mio. und damit binnen eines Jahres um rund 444.000 Menschen.",
+          "impact": "Migrationsgetriebenes Bevölkerungswachstum verbreitert die Arbeitskräftebasis trotz Alterung.",
+          "status": "positive",
+          "source": {
+            "name": "INE",
+            "url": "https://www.ine.es/consul/serie.do?L=1&d=true&nult=0&s=ECP320",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Eurostat meldete für August eine jährliche Inflation von 4,6 %.",
+          "impact": "Das Preisniveau bleibt ein zentraler kurzfristiger Druckfaktor für Haushalte und Umzugskosten.",
+          "status": "negative",
+          "source": {
+            "name": "Eurostat",
+            "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-17092026-ap",
+            "date": "2026-09-17"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Eine große Migrationswelle in Ceuta belastete die Unterbringungskapazität und rückte die Migrationspolitik wieder ins Zentrum der gesellschaftlich-politischen Debatte.",
+          "impact": "Spannungen im Migrationsmanagement können die politische Unsicherheit für ausländische Beschäftigte erhöhen.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/spanish-police-launch-operation-clear-ceuta-migrants-off-beach-2026-09-18/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "724"
+    },
+    {
+      "id": "turkiye",
+      "name": "Türkei",
+      "flag": "🇹🇷",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Das BIP wuchs im zweiten Quartal um 2,3 %, während die Industrieproduktion im Juli um 0,3 % sank und die Dienstleistungsproduktion um 3 % stieg.",
+          "impact": "Dienstleistungen stützen das Wachstum, doch die Schwäche der Industrie begrenzt eine ausgewogenere Expansion.",
+          "status": "neutral",
+          "source": {
+            "name": "TÜİK",
+            "url": "https://www.tuik.gov.tr/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die türkische Zentralbank beobachtet hohe und volatile globale Energiepreise als klares Aufwärtsrisiko für die Inflation.",
+          "impact": "Die Abhängigkeit von Energieimporten hält Inflation und Leistungsbilanz anfällig für externe geopolitische Schocks.",
+          "status": "negative",
+          "source": {
+            "name": "TCMB",
+            "url": "https://tcmb.gov.tr/wps/wcm/connect/TR/TCMB%2BTR/Main%2BMenu/Duyurular/Basin/2026/DUY2026-42",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die Exporte stiegen im August um 8,1 %, die Importe mit 10,5 % jedoch schneller.",
+          "impact": "Das Exportwachstum ist positiv, doch schneller steigende Importe begrenzen die Verbesserung der Außenbilanz.",
+          "status": "neutral",
+          "source": {
+            "name": "Ticaret Bakanlığı",
+            "url": "https://ticaret.gov.tr/haberler/2026-yili-agustos-ayi-dis-ticaret-verileri",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Die Industrieproduktion sank im Juli um 0,3 % gegenüber dem Vorjahr, die Bauproduktion um 4,7 %.",
+          "impact": "Die schwache reale Produktion kann neue Industriekapazitäten und Transformationsinvestitionen bremsen.",
+          "status": "negative",
+          "source": {
+            "name": "TÜİK",
+            "url": "https://www.tuik.gov.tr/Home/HaberBultenleriPartial",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Ein Liquiditätsengpass bei Investmentfonds betraf Vermögenswerte von 891 Mrd. TRY und löste einen starken Börsenverkauf aus.",
+          "impact": "Finanzmarktvolatilität kann die Risikowahrnehmung in- und ausländischen Kapitals erhöhen.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/turkey-steps-support-markets-after-fund-liquidity-crunch-sparks-selloff-2026-09-17/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Die Bauproduktion sank im Juli um 4,7 % gegenüber dem Vorjahr und deutet auf schwächere reale Investitionsaktivität hin.",
+          "impact": "Ein schwaches Tempo bei Infrastruktur- und Bauinvestitionen kann die Kapitalbasis des Wachstums begrenzen.",
+          "status": "negative",
+          "source": {
+            "name": "TÜİK",
+            "url": "https://www.tuik.gov.tr/Home/HaberBultenleriPartial",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Zentralbank und Aufseher erhöhten während der Fondskrise die Repo-Finanzierung auf 300 Mrd. TRY und stellten rasch Liquidität bereit.",
+          "impact": "Die schnelle Intervention scheint das kurzfristige systemische Ansteckungsrisiko reduziert zu haben.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/turkey-steps-support-markets-after-fund-liquidity-crunch-sparks-selloff-2026-09-17/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Arbeitslosigkeit lag bei 8,1 %, während die Zahl der Beschäftigten mit Lohnbezug im Juli um 1,7 % gegenüber dem Vorjahr stieg.",
+          "impact": "Die Beschäftigung wächst weiter, ein starkes Beschleunigungssignal am Arbeitsmarkt fehlt jedoch noch.",
+          "status": "neutral",
+          "source": {
+            "name": "TÜİK",
+            "url": "https://www.tuik.gov.tr/Home/GostergelerPartial",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die Verbraucherpreisinflation lag im August bei 31,51 %, während Wohnen und Energie jährlich um 39,77 % zulegten.",
+          "impact": "Hohe Lebenshaltungs- und Wohnkosten belasten reale Kaufkraft und Umzugsökonomie.",
+          "status": "negative",
+          "source": {
+            "name": "TÜİK",
+            "url": "https://veriportali.tuik.gov.tr/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Einsätze gegen LGBTQ+-Gruppen und Festnahmen von Demonstrierenden im September führten zu Kritik europäischer Institutionen und Menschenrechtsorganisationen.",
+          "impact": "Unsicherheit bei Rechten und Lebensstil kann die Attraktivität für einen Umzug für einige internationale Fachkräfte verringern.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/turkey-jails-8-lgbtq-activists-pending-trial-part-sweeping-investigation-2026-09-16/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "792"
+    },
+    {
+      "id": "usa",
+      "name": "USA",
+      "flag": "🇺🇸",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Für die USA werden 2026 2,2 % und 2027 2,1 % Wachstum erwartet.",
+          "impact": "Der jüngste OECD-Ausblick bestätigt die Wachstumsrichtung; Energie- und Preisschocks bleiben zentrale Abwärtsrisiken.",
+          "status": "neutral",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en/full-report.html",
+            "date": "2026-09-23"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die Verbraucherpreisinflation stieg im August auf 3,4 %, Energiepreise legten monatlich um 2,1 % und Benzin um 3,9 % zu.",
+          "impact": "Neue energiegetriebene Inflation erhöht das Risiko, dass die Zinsen länger hoch bleiben.",
+          "status": "negative",
+          "source": {
+            "name": "BLS",
+            "url": "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die USA und China sprechen vor dem Gipfel am 24. September über eine Verlängerung ihres fragilen Handelsstillstands.",
+          "impact": "Kontrollierte Spannungen reduzieren Handels- und Lieferkettenunsicherheit, eine dauerhafte Lösung gibt es jedoch noch nicht.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/aerospace-defense/how-trump-xi-went-tariff-war-trade-truce-2026-09-21/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Nach dem Rückbau von EV-Förderungen wurden einige Batterie- und Elektrofahrzeuginvestitionen gestrichen oder verschoben.",
+          "impact": "Eine langsamere Transformation der Autoindustrie könnte die Fertigungskapazität für Fahrzeuge der nächsten Generation gegenüber China schwächen.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/investigations/how-trumps-war-evs-derailed-americas-auto-factory-revival-2026-09-15/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Die Fed bezeichnete die Kapitalinvestitionen als stark, während Ausgaben für Technologie und Rechenzentren hoch bleiben.",
+          "impact": "Anhaltende Investitionsbereitschaft der Unternehmen stützt Produktivität und künftige Wachstumskapazität.",
+          "status": "positive",
+          "source": {
+            "name": "Federal Reserve",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Die Rendite zehnjähriger Staatsanleihen nähert sich 5 %, wobei die hohe Staatsverschuldung die Finanzierungskosten zusätzlich erhöht.",
+          "impact": "Teurere langfristige Finanzierung verteuert öffentliche und private Infrastrukturinvestitionen.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/us-homebuilder-sentiment-drops-12-month-low-september-2026-09-16/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Die Fed erhöhte den Leitzins wegen anhaltend hoher Inflation um 25 Basispunkte auf 3,75–4 %.",
+          "impact": "Die geldpolitische Reaktionsfähigkeit bleibt hoch, doch höhere Zinsen bremsen gleichzeitig das Wachstum.",
+          "status": "neutral",
+          "source": {
+            "name": "Federal Reserve",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Im August entstanden 162.000 neue Stellen, die Arbeitslosenquote blieb bei 4,1 %.",
+          "impact": "Der Arbeitsmarkt bleibt robust, wächst aber langsamer als in früheren Phasen.",
+          "status": "positive",
+          "source": {
+            "name": "BLS",
+            "url": "https://www.bls.gov/news.release/empsit.htm",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Hypothekenzinsen stiegen auf 6,76 %, während das Vertrauen der Wohnungsbauer auf ein 12-Monats-Tief von 32 fiel.",
+          "impact": "Finanzierungskosten erschweren Wohnbezahlbarkeit und Haushaltsmobilität deutlich.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/us-homebuilder-sentiment-drops-12-month-low-september-2026-09-16/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Die Gebühr von 100.000 US-Dollar für neue H-1B-Anträge wurde um ein weiteres Jahr verlängert; das Gerichtsverfahren läuft weiter.",
+          "impact": "Höhere Kosten für ausländische Fachkräfte könnten Technologieunternehmen dazu bewegen, Talentstrategien ins Ausland zu verlagern.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/trump-extends-restrictions-h-1b-non-immigrant-visa-program-by-another-year-2026-09-18/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "840"
+    },
+    {
+      "id": "uae",
+      "name": "VAE",
+      "flag": "🇦🇪",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Der PMI des privaten Nichtölsektors stieg im August von 52,7 auf 55,3.",
+          "impact": "Die Beschleunigung der Nichtölwirtschaft stützt das diversifizierte Wachstumsmodell.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/uae-shares-jump-pmi-shows-solid-growth-august-2026-09-04/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Der Schiffsverkehr durch die Straße von Hormus liegt wegen des Krieges weiterhin deutlich unter dem Normalniveau.",
+          "impact": "Die Abhängigkeit des Energie- und Logistikzentrums von einer kritischen Seepassage bleibt ein bedeutendes geopolitisches Risiko.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/vessels-trickle-through-strait-hormuz-mideast-tension-persists-2026-09-21/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Der Außenhandel außerhalb des Ölsektors wuchs im ersten Halbjahr um 13,1 % auf 1,94 Bio. AED.",
+          "impact": "Breitere Handelspartner und mehr Nichtölexporte stärken die Widerstandsfähigkeit der Auslandsnachfrage.",
+          "status": "positive",
+          "source": {
+            "name": "WAM",
+            "url": "https://www.wam.ae/en/article/c1atdtw-mohammed-bin-rashid-uae-non-oil-foreign-trade",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Kapital- und Staatsstrategien bauen KI, Hochtechnologie, Logistik und Infrastruktur als Prioritätssektoren aus.",
+          "impact": "Die Verlagerung des Wachstums von Kohlenwasserstoffen in höherwertige Sektoren unterstützt die strukturelle Diversifizierung.",
+          "status": "positive",
+          "source": {
+            "name": "WAM",
+            "url": "https://www.wam.ae/en/article/c256icj-aim-congress-charts-global-investment-shift",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Die VAE zogen 2025 Direktinvestitionen von 177,3 Mrd. AED an und verzeichneten damit das vierte Rekordjahr in Folge.",
+          "impact": "Starke ausländische Kapitalzuflüsse stützen die langfristige Rolle des Landes als Investitionszentrum.",
+          "status": "positive",
+          "source": {
+            "name": "WAM",
+            "url": "https://www.wam.ae/en/article/c149mcm-ranked-9th-globally-destination-for-inbound-fdi",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Dubai genehmigte 3,5 Mrd. AED für die erste Phase eines neuen 80 km langen Verkehrskorridors.",
+          "impact": "Der Ausbau der Verkehrskapazität parallel zu Bevölkerung und Wirtschaft verringert Infrastrukturengpässe.",
+          "status": "positive",
+          "source": {
+            "name": "WAM",
+            "url": "https://www.wam.ae/en/article/c29xzcn-hamdan-bin-mohammed-approves-new-fourth-corridor",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Ein neuer Schienengüterkorridor zwischen dem Hafen Fujairah und dem Industriegebiet Abu Dhabis wurde in Betrieb genommen.",
+          "impact": "Tatsächlich funktionierende alternative Logistikrouten stärken die Anpassungsfähigkeit gegenüber dem Hormus-Risiko.",
+          "status": "positive",
+          "source": {
+            "name": "WAM",
+            "url": "https://www.wam.ae/en/article/c2cbpew-etihad-rail-ports-group-launch-integrated-rail",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Regierung verknüpft Bildung, KI und Privatwirtschaftskarrieren zunehmend über nationale Talentprogramme.",
+          "impact": "Der Aufbau lokaler Fachkräfte kann die strukturelle Abhängigkeit von ausländischen Arbeitskräften langfristig reduzieren.",
+          "status": "positive",
+          "source": {
+            "name": "WAM",
+            "url": "https://www.wam.ae/en/article/c2b4tl3-hamdan-bin-mohammed-reviews-ministry-human",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die Zahl der Immobilientransaktionen in Dubai sank im August um 37 % gegenüber dem Vorjahr, der Transaktionswert um 44 %.",
+          "impact": "Die Abkühlung kann Preisdruck mindern, belegt aber noch keine deutliche Entlastung bei den Lebenshaltungskosten.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters/Zawya",
+            "url": "https://www.tradingview.com/news/reuters.com%2C2026-09-04%3Anewsml_Zaw6wxWM3%3A0-zawya-dubai-data-shows-august-property-deals-down-37-market-now-more-selective/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Green-, Golden- und Virtual-Work-Visa bieten Fach- und Remote-Arbeitskräften weiterhin langfristige Aufenthaltsoptionen ohne klassische Sponsorenbindung.",
+          "impact": "Flexible Langzeitaufenthalte halten den Zugang für internationale Talente attraktiv.",
+          "status": "positive",
+          "source": {
+            "name": "UAE Government",
+            "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-doing-business-in-the-uae",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "784"
+    },
+    {
+      "id": "france",
+      "name": "Frankreich",
+      "flag": "🇫🇷",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Die Banque de France senkte ihre Wachstumsprognose für 2026 von 0,5 % auf 0,4 %, während das Wachstum im zweiten Quartal bei null lag.",
+          "impact": "Schwache Binnennachfrage und Investitionen zeigen einen deutlichen Verlust an Wachstumsdynamik.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/french-central-bank-trims-growth-outlook-demand-softens-2026-09-15/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Öl- und Gaspreisanstiege infolge des Iran-Krieges führten zu G7-Gesprächen der Regierung über Eingriffe am Energiemarkt.",
+          "impact": "Die Abhängigkeit von Energiepreisen belastet Konsum, Industrie und Staatsfinanzen gleichzeitig.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/frances-macron-says-g7-will-meet-discuss-energy-crisis-coming-weeks-2026-09-18/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die Banque de France berichtet, dass der internationale Handel die Exporte trotz schwacher Binnennachfrage weiter stützt.",
+          "impact": "Exporte gleichen die Schwäche der Binnennachfrage teilweise aus.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/french-central-bank-trims-growth-outlook-demand-softens-2026-09-15/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Das Programm Osez l'IA erreichte binnen eines Jahres mehr als 35.000 Unternehmen und schuf 615 KI-Botschafter.",
+          "impact": "Eine breitere KI-Nutzung in KMU und Unternehmen kann die mittelfristige Produktivität stärken.",
+          "status": "positive",
+          "source": {
+            "name": "French Ministry of Economy",
+            "url": "https://presse.economie.gouv.fr/un-an-du-plan-osez-lia-un-premier-bilan-positif-et-une-nouvelle-etape-pour-accelerer-ladoption-de-lia-dans-les-entreprises/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Die Zentralbank berichtet, dass Unternehmensinvestitionen wegen hoher Zinsen und Unsicherheit vorsichtig bleiben.",
+          "impact": "Die geringe private Investitionsbereitschaft begrenzt künftige Kapazität und Produktivitätswachstum.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/french-central-bank-trims-growth-outlook-demand-softens-2026-09-15/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Das Finanzministerium erwartet 2026 eine Staatsverschuldung von 119,3 % des BIP.",
+          "impact": "Steigende Schulden- und Zinskosten verengen den fiskalischen Spielraum für Infrastruktur und Transformation.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/french-finance-ministry-expects-record-debt-2026-reaching-nearly-120-gdp-2026-09-19/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Die Unsicherheit über die Verabschiedung von Einsparungen über 54 Mrd. € im Haushalt 2027 durch das fragmentierte Parlament hält an.",
+          "impact": "Politische Unsicherheit über die Umsetzungsgeschwindigkeit kann die wirtschaftliche Reaktionsfähigkeit schwächen.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/french-fishermen-blockade-ports-budget-fight-looms-2026-09-17/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Arbeitslosigkeit stieg im zweiten Quartal um 0,2 Prozentpunkte auf 8,3 % und damit auf einen der höchsten Werte seit 2019.",
+          "impact": "Schwächere Arbeitskräftenachfrage zeigt, dass die Konjunkturabkühlung den Arbeitsmarkt erreicht.",
+          "status": "negative",
+          "source": {
+            "name": "INSEE",
+            "url": "https://www.insee.fr/fr/statistiques/9032359",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die Inflation lag im August bei 2,4 %, das Haushaltsvertrauen blieb bei 86 und die Kaufkraft unter Druck.",
+          "impact": "Druck auf Realeinkommen schwächt den Alltag der Haushalte und das Verbrauchervertrauen.",
+          "status": "negative",
+          "source": {
+            "name": "INSEE",
+            "url": "https://www.insee.fr/fr/statistiques/2107840",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Im September kam es wegen Haushalt und Lebenshaltungskosten zu breiten Streiks in Energie, Verkehr und weiteren Branchen.",
+          "impact": "Intensive gesellschaftliche Aushandlung und parlamentarische Zersplitterung verringern die kurzfristige Planbarkeit.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/world-at-work/french-labour-strike-reduces-delivery-capacity-dunkirk-lng-terminal-2026-09-15/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "250"
+    },
+    {
+      "id": "india",
+      "name": "Indien",
+      "flag": "🇮🇳",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Indien dürfte im GJ 2026/27 um 7,1 % wachsen und sich 2027/28 auf 6,5 % abschwächen.",
+          "impact": "Der jüngste OECD-Ausblick bestätigt die Wachstumsrichtung; Energie- und Preisschocks bleiben zentrale Abwärtsrisiken.",
+          "status": "positive",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en/full-report.html",
+            "date": "2026-09-23"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die Rechnung für Rohölimporte stieg im August um 25,8 % gegenüber dem Vorjahr auf 16,69 Mrd. US-Dollar.",
+          "impact": "Hohe Ölpreise belasten Leistungsbilanz, Rupie und Inflation direkt.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/india/indias-august-merchandise-trade-deficit-2686-billion-2026-09-15/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die Exporte von Waren und Dienstleistungen stiegen im August um 25,4 % auf 82,68 Mrd. US-Dollar.",
+          "impact": "Wachstum bei Elektronik, Maschinenbau, Automobilen und Dienstleistungen verbreitert die Auslandsnachfrage.",
+          "status": "positive",
+          "source": {
+            "name": "India Ministry of Commerce",
+            "url": "https://www.commerce.gov.in/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Wipro setzte durch KI-Anwendungen Kapazität im Umfang von 20.000 Beschäftigten frei und schulte mehr als 100.000 Mitarbeitende in fortgeschrittenen KI-Fähigkeiten.",
+          "impact": "Die aktive KI-Transformation des großen IT-Sektors stärkt die technologische Anpassung des Dienstleistungsmodells.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/india/wipros-ai-push-frees-capacity-equivalent-20000-workers-cto-says-2026-09-10/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Starke Investitionen und Industrieaktivität gehörten zu den Haupttreibern des Wachstums von 7,8 % im zweiten Quartal.",
+          "impact": "Der Beitrag der Kapitalbildung zum Wachstum unterstützt die langfristige Kapazität.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/india/moodys-raises-india-fy27-gdp-growth-forecast-7-middle-east-resilience-2026-09-18/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Moody's weist darauf hin, dass steigende Verteidigungs- und Infrastrukturausgaben die Haushaltskonsolidierung verlangsamen könnten.",
+          "impact": "Infrastruktur stützt das Wachstum, während Energie- und Verteidigungsausgaben den Budgetspielraum verengen können.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/india/moodys-raises-india-fy27-gdp-growth-forecast-7-middle-east-resilience-2026-09-18/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Die RBI erhöhte ihre Anleiheverkäufe, um überschüssige Liquidität abzuschöpfen; die Märkte preisen eine mögliche Zinserhöhung ein.",
+          "impact": "Die Reaktion kann die Finanzstabilität stützen, verschärft aber die Finanzierungsbedingungen.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/india/indian-rupee-eyes-portfolio-flows-oil-prices-bonds-face-liquidity-drain-2026-09-21/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Arbeitslosigkeit sank im August auf ein Sechsmonatstief von 5 %, während die Erwerbsquote auf 55,6 % stieg.",
+          "impact": "Sinkende Arbeitslosigkeit bei höherer Erwerbsbeteiligung ist positiv für den Arbeitsmarkt.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/india/indias-august-unemployment-rate-5-yy-2026-09-15/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die Inflation stieg im August auf 4,82 % und damit auf den höchsten Wert der neuen Reihe.",
+          "impact": "Energie- und breitere Preissteigerungen erzeugen neuen Druck auf reale Haushaltseinkommen.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/india/indias-august-retail-inflation-482-on-year-2026-09-14/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Höhere H-1B-Kosten in den USA veranlassen große Unternehmen wie Alphabet, Teile ihrer Aktivitäten in Indien auszubauen.",
+          "impact": "Die Verlagerung globaler Technologiearbeit nach Indien kann lokale Chancen für hochqualifizierte Fachkräfte vergrößern.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/us/trump-extends-restrictions-h-1b-non-immigrant-visa-program-by-another-year-2026-09-18/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "356"
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "flag": "🇹🇭",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Die BOT erwartet für 2026 ein Wachstum von 2,3 % und für 2027 von 1,8 %; die Rückkehr zum Potenzial könne mehrere Jahre dauern.",
+          "impact": "Die Wirtschaft wächst weiter, doch die strukturell niedrige Geschwindigkeit bleibt ein Risiko für den Wachstumsmotor.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/thai-monetary-policy-very-very-accommodative-no-change-growth-outlook-central-2026-09-17/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Das Wachstum im zweiten Quartal wurde direkt von hohen Energiekosten und Reiseunterbrechungen aus dem Nahen Osten beeinflusst.",
+          "impact": "Die Abhängigkeit von Energieimporten und internationalem Tourismus erhöht die Sensitivität gegenüber geopolitischen Schocks.",
+          "status": "negative",
+          "source": {
+            "name": "Bank of Thailand",
+            "url": "https://www.bot.or.th/en/news-and-media/news/news-20260731.html",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die Exporte wuchsen im Juli weiter, getragen vom globalen Elektronik- und KI-Zyklus.",
+          "impact": "Stärkere Technologieexporte stützen die Wirtschaft von außen gegen schwache Binnennachfrage.",
+          "status": "positive",
+          "source": {
+            "name": "Bank of Thailand",
+            "url": "https://www.bot.or.th/en/news-and-media/news/news-20260831.html",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Elektro- und Hybridfahrzeuge erreichten in den ersten sieben Monaten 55 % des Neuwagenmarkts.",
+          "impact": "Thailands Fähigkeit, seine traditionelle Autoindustrie in das EV-Zeitalter zu überführen, nimmt deutlich zu.",
+          "status": "positive",
+          "source": {
+            "name": "Thailand BOI",
+            "url": "https://www.boi.go.th/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Auf der September-Agenda der BOI stehen neue Hochtechnologieinvestitionen und eine beschleunigte Industrieprojekt-Pipeline von 3,66 Mrd. US-Dollar.",
+          "impact": "In- und ausländisches Kapital in Technologieproduktion schafft neue Wachstumsmotoren.",
+          "status": "positive",
+          "source": {
+            "name": "Thailand BOI",
+            "url": "https://www.boi.go.th/index.php?language=en&page=press_releases",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Die öffentlichen Ausgaben von Zentralregierung und Staatsunternehmen stiegen im Juli, während Industrieprojekte beschleunigt wurden.",
+          "impact": "Öffentliche Unterstützung und Infrastrukturinvestitionen ergänzen die Transformation des Privatsektors.",
+          "status": "positive",
+          "source": {
+            "name": "Bank of Thailand",
+            "url": "https://www.bot.or.th/en/news-and-media/news/news-20260831.html",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Das EV-Steuersystem wurde so umgestaltet, dass lokale Wertschöpfung, Investitionen und Lieferantenentwicklung direkt gefördert werden.",
+          "impact": "Schnelle regulatorische Anpassung an den Sektorwandel stärkt die Wettbewerbsfähigkeit des Produktionsstandorts.",
+          "status": "positive",
+          "source": {
+            "name": "Thailand BOI",
+            "url": "https://www.boi.go.th/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die BOT bezeichnet den Arbeitsmarkt als insgesamt stabil und die Beschäftigung im verarbeitenden Gewerbe als besonders beobachtungsbedürftig.",
+          "impact": "Die heutige Beschäftigungslage ist stabil, die Arbeitsmarktwirkung des Industriewandels aber noch unklar.",
+          "status": "neutral",
+          "source": {
+            "name": "Bank of Thailand",
+            "url": "https://www.bot.or.th/en/news-and-media/news/news-20260731.html",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die BOT berichtet, dass hohe Haushaltsschulden und steigende Lebenshaltungskosten den Binnenkonsum belasten.",
+          "impact": "Die Kostensensitivität hoch verschuldeter Haushalte ist eine wichtige Schwachstelle für Lebensstandard und Binnennachfrage.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/thai-monetary-policy-very-very-accommodative-no-change-growth-outlook-central-2026-09-17/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Thailand beschloss, die visumfreie touristische Aufenthaltsdauer für Bürger aus 93 Ländern von 60 auf 30 Tage zu verkürzen.",
+          "impact": "Die Regelung erschwert längere Aufenthalte im Touristenstatus, verändert andere Arbeits- und Aufenthaltswege jedoch nicht direkt.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/thailand-cut-visa-free-stay-30-days-tourists-93-countries-2026-05-13/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "764"
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "flag": "🇨🇳",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Chinas Wachstum dürfte sich 2026 auf 4,5 % und 2027 auf 4,2 % abschwächen.",
+          "impact": "Der jüngste OECD-Ausblick bestätigt die Wachstumsrichtung; Energie- und Preisschocks bleiben zentrale Abwärtsrisiken.",
+          "status": "neutral",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en/full-report.html",
+            "date": "2026-09-23"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Schwacher Konsum und geringe Immobilieninvestitionen machen die Wirtschaft abhängiger von Auslandsnachfrage und Exporten.",
+          "impact": "Bei steigenden globalen Handelsspannungen könnte die Binnennachfrage Exportverluste nur begrenzt ausgleichen.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/china-home-prices-keep-falling-property-slump-drags-2026-09-15/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die Exporte stiegen im August um 18,6 % gegenüber dem Vorjahr, der gesamte Außenhandel um 19,8 %.",
+          "impact": "Starke Exporte bleiben einer der wichtigsten Puffer des aktuellen Wachstumsmodells.",
+          "status": "positive",
+          "source": {
+            "name": "NBS China",
+            "url": "https://www.stats.gov.cn/english/PressRelease/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Die Hightech-Produktion wuchs um 16,7 %, Batterieproduktion um 57,2 % und Industrieroboter um 34,6 %.",
+          "impact": "Der schnelle Ausbau der nächsten Industriegeneration stärkt Chinas Position im Technologiewettbewerb.",
+          "status": "positive",
+          "source": {
+            "name": "NBS China",
+            "url": "https://www.stats.gov.cn/english/PressRelease/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Die Anlageinvestitionen sanken in den ersten acht Monaten um 7,2 %, private Investitionen um 10,1 % und Immobilieninvestitionen um 19,9 %.",
+          "impact": "Die breite Schwäche der privaten Investitionsbereitschaft begrenzt die künftige Binnenwachstumskapazität.",
+          "status": "negative",
+          "source": {
+            "name": "NBS China",
+            "url": "https://www.stats.gov.cn/english/PressRelease/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Die Infrastrukturinvestitionen sanken trotz staatlicher Unterstützung in den ersten acht Monaten um 4 % gegenüber dem Vorjahr.",
+          "impact": "Dass staatliche Unterstützung den Rückgang privater und infrastruktureller Investitionen noch nicht umkehrt, ist ein wichtiges Frühsignal.",
+          "status": "negative",
+          "source": {
+            "name": "NBS China",
+            "url": "https://www.stats.gov.cn/english/PressRelease/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Die Aufsicht verschärfte IPO-Verfahren für Humanoid-Robotikunternehmen wegen Bewertungs- und Kommerzialisierungsrisiken.",
+          "impact": "Der Eingriff begrenzt spekulatives Kapital und signalisiert eine selektivere Finanzierung strategischer Sektoren.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Arbeitslosigkeit unter 16- bis 24-Jährigen ohne Studierende erreichte im August mit 18,9 % ein Jahreshoch.",
+          "impact": "Probleme bei der Integration junger Talente in den Arbeitsmarkt belasten Konsum und langfristiges Humankapital.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/chinese-youth-jobless-rate-hits-one-year-high-august-2026-09-17/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die Preise neuer Wohnungen fielen im August um 3 % gegenüber dem Vorjahr, während Immobilieninvestitionen um 19,9 % sanken.",
+          "impact": "Günstigere Wohnungen helfen einzelnen Käufern, doch die Immobilienkrise dominiert weiter Vermögenseffekte und Verbrauchervertrauen.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/china-home-prices-keep-falling-property-slump-drags-2026-09-15/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Schwache Einzelhandelsnachfrage geht mit einer Jugendarbeitslosigkeit von 18,9 % einher.",
+          "impact": "Die anhaltende Diskrepanz zwischen jungen Arbeitskräften und wirtschaftlichen Chancen kann sozialen und wirtschaftlichen Druck erhöhen.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/chinas-factory-output-growth-quickens-in-august-retail-sales-slow-2026-09-15/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "156"
+    },
+    {
+      "id": "germany",
+      "name": "Deutschland",
+      "flag": "🇩🇪",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Das IW erhöhte seine Wachstumsprognose für 2026 von 0,4 % auf 1,2 %, erwartet aber im zweiten Halbjahr weniger Dynamik.",
+          "impact": "Staatsausgaben und Exporte stützen die Erholung, dauerhaftes Wachstum des Privatsektors ist jedoch noch nicht entstanden.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/markets/europe/germanys-iw-institute-triples-growth-forecast-2026-2026-09-20/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die Inflation stieg im August unter dem Einfluss der Energiepreise auf 2,9 %.",
+          "impact": "Erneuter Preisdruck bei Energie zeigt, dass Deutschlands zentrale industrielle Verwundbarkeit fortbesteht.",
+          "status": "negative",
+          "source": {
+            "name": "Destatis",
+            "url": "https://www.destatis.de/EN/Press/2026/09/PE26_320_611.html",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Das IW erwartet 2026 ein Exportwachstum von 2,8 % und nennt chinesischen Wettbewerb sowie Protektionismus als zentrale Risiken.",
+          "impact": "Die Exporte erholen sich, doch das Außenhandelsmodell trifft auf ein strukturell schwierigeres globales Umfeld.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/markets/europe/germanys-iw-institute-triples-growth-forecast-2026-2026-09-20/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Volkswagen senkte seine Gewinnerwartung deutlich, während China-Nachfrage, asiatische Wettbewerber und EV-Transformation den Umbau beschleunigen.",
+          "impact": "Der Transformationsdruck in der Autoindustrie belastet Deutschlands wichtigstes Industrieökosystem weiter.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/china/volkswagen-porsche-holding-cut-outlook-2026-09-18/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Das IW berichtet von schwachen privaten Investitionen; hohe Energiekosten belasten die Investitionsbereitschaft.",
+          "impact": "Die ausbleibende kräftige Rückkehr privaten Kapitals verzögert den Aufbau eines neuen Wachstumsmodells.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/markets/europe/germanys-iw-institute-triples-growth-forecast-2026-2026-09-20/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Ein wesentlicher Teil der höheren Wachstumsprognose 2026 kommt aus steigenden Staatsausgaben.",
+          "impact": "Dass fiskalische Expansion in die Wirtschaft gelangt, erhöht die Fähigkeit, jahrelange Investitionsdefizite abzubauen.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/markets/europe/germanys-iw-institute-triples-growth-forecast-2026-2026-09-20/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Die Industrieaufträge stiegen im Juli um 2,5 %, sanken ohne Großaufträge jedoch um 1,4 %; die Produktion fiel um 1,1 %.",
+          "impact": "Dass neue Nachfrage nicht breit in Produktion übergeht, zeigt eine noch nicht abgeschlossene Anpassung.",
+          "status": "negative",
+          "source": {
+            "name": "Destatis",
+            "url": "https://www.destatis.de/EN/Press/2026/09/PE26_313_421.html",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "In Deutschland fehlen weiterhin Fachkräfte in 157 Berufen; der Anteil ausländischer Beschäftigter hat sich seit 2014 verdoppelt.",
+          "impact": "Migration lindert Engpässe, doch die alternde Bevölkerung erhöht den strukturellen Bedarf an externen Talenten.",
+          "status": "neutral",
+          "source": {
+            "name": "Bundesagentur für Arbeit",
+            "url": "https://www.arbeitsagentur.de/en/press/2026-32-specialists-remain-in-short-supply-immigration-continues-to-grow-in-importance",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die energiegetriebene Inflation stieg auf 2,9 %, während Wohnkosten besonders in Großstädten wie Berlin ein zentrales Thema bleiben.",
+          "impact": "Wohn- und Energiekosten verringern den Kostenvorteil des Lebens in großen Städten.",
+          "status": "negative",
+          "source": {
+            "name": "Destatis",
+            "url": "https://www.destatis.de/EN/Press/2026/09/PE26_320_611.html",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Die Landtagswahlen im September zeigten angesichts von Sorgen über Wirtschaft, Lebenshaltungskosten und Migration Stimmenverluste traditioneller Mitteparteien.",
+          "impact": "Mehr politische Fragmentierung kann Koalitionsbildung und Umsetzung großer Wirtschaftsreformen komplexer machen.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/five-takeaways-germanys-regional-elections-2026-09-21/",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "276"
+    },
+    {
+      "id": "south-korea",
+      "name": "Südkorea",
+      "flag": "🇰🇷",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Südkorea dürfte 2026 dank starker Industrieproduktion und Exporte um 3,7 % wachsen.",
+          "impact": "Der jüngste OECD-Ausblick bestätigt die Wachstumsrichtung; Energie- und Preisschocks bleiben zentrale Abwärtsrisiken.",
+          "status": "positive",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en/full-report.html",
+            "date": "2026-09-23"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Halbleiter machten von Januar bis August rund 41 % der Gesamtexporte aus.",
+          "impact": "Die Konzentration auf einen Technologiezyklus erhöht die Anfälligkeit für eine Korrektur der globalen Chipnachfrage.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.investing.com/news/economic-indicators/south-korea-exports-surpass-fullyear-record-hit-7094-billion-ytd-4890167",
+            "date": "2026-09-05"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die Exporte stiegen von Januar bis August nach China um 76 % und in die USA um 57 %; insgesamt wurde bereits der Vorjahresrekord übertroffen.",
+          "impact": "Starke Nachfrage in zwei Kernmärkten stützt den Handel, doch US-China-Spannungen könnten beide zugleich treffen.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.investing.com/news/economic-indicators/south-korea-exports-surpass-fullyear-record-hit-7094-billion-ytd-4890167",
+            "date": "2026-09-05"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Die Regierung beschleunigte einen Halbleiterfonds über 5 Bio. Won sowie Wasser-, Energie- und F&E-Infrastruktur für große Chipcluster.",
+          "impact": "Die Verlagerung auf KI und fortgeschrittene Halbleiter überführt den bestehenden Industrievorteil in den nächsten Technologiezyklus.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-wants-military-airbase-relocated-by-mid-2028-chip-cluster-2026-08-10/",
+            "date": "2026-08-10"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Gespräche über erste Projekte im Rahmen der südkoreanischen Investitionszusage von 350 Mrd. US-Dollar in den USA kommen voran.",
+          "impact": "Ein breiterer globaler Produktionsfußabdruck kann Marktzugang stärken, doch Kapitalabfluss ins Ausland bleibt für inländische Investitionen zu beobachten.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/south-korea-government-brief-national-assembly-350-billion-us-investment-project-2026-09-20/",
+            "date": "2026-09-20"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Für Chipcluster sind bis 2030 täglich 650.000 Tonnen Wasser und bis 2041 14,7 GW Stromkapazität geplant.",
+          "impact": "Der vorgezogene Ausbau kritischer Infrastruktur reduziert physische Engpässe des Industriewachstums.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-wants-military-airbase-relocated-by-mid-2028-chip-cluster-2026-08-10/",
+            "date": "2026-08-10"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Die Regierung bereitet Sonderzonen-Gesetze vor, um Genehmigungen und Infrastruktur für Chipcluster zu beschleunigen.",
+          "impact": "Vereinfachte Verfahren für strategische Industrie können Investitionen schneller in Umsetzung bringen.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-wants-military-airbase-relocated-by-mid-2028-chip-cluster-2026-08-10/",
+            "date": "2026-08-10"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Beschäftigung stieg im August um 184.000 Personen gegenüber dem Vorjahr, während die Lage junger Beschäftigter schwach blieb.",
+          "impact": "Das Gesamtbeschäftigungswachstum stützt, doch Probleme bei der Integration junger Menschen können das langfristige Talentangebot begrenzen.",
+          "status": "neutral",
+          "source": {
+            "name": "Yonhap",
+            "url": "https://en.yna.co.kr/view/AEN20260909001552320",
+            "date": "2026-09-09"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Wohnbezahlbarkeit und strenge Kreditregeln wurden im September zu zentralen Quellen wirtschaftlicher Unzufriedenheit.",
+          "impact": "Schwieriger Wohnzugang, besonders in Seoul, erhöht Ansiedlungskosten und begrenzt Haushaltsmobilität.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-hits-new-approval-low-housing-discontent-grows-2026-09-14/",
+            "date": "2026-09-14"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Der öffentliche Druck wegen Wohnen und Lebenshaltungskosten nahm zu; bei qualifizierter internationaler Arbeit gab es weder große Öffnung noch Schließung.",
+          "impact": "Gesellschaftlicher Druck kann Wirtschaftspolitik beeinflussen, ein klarer Regimewechsel bei Talentoffenheit ist derzeit aber nicht erkennbar.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-hits-new-approval-low-housing-discontent-grows-2026-09-14/",
+            "date": "2026-09-14"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "410"
+    },
+    {
+      "id": "brazil",
+      "name": "Brasilien",
+      "flag": "🇧🇷",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Brasiliens Wirtschaft wuchs im zweiten Quartal um 0,5 % gegenüber dem Vorquartal und 2,0 % gegenüber dem Vorjahr, verlangsamte sich aber deutlich zum ersten Quartal.",
+          "impact": "Das anhaltende Wachstum stützt, doch hohe Zinsen bremsen Konsum und Industrie.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/americas/brazils-economic-growth-slows-q2-beats-forecasts-2026-09-01/",
+            "date": "2026-09-01"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die Bergbauexporte stiegen in den ersten beiden Septemberwochen um 70,5 %, Rohölexporte um 126,2 % gegenüber dem Vorjahr.",
+          "impact": "Starke Rohstofferlöse stützen die Außenbilanz, halten das Wachstum aber rohstoffpreisabhängig.",
+          "status": "neutral",
+          "source": {
+            "name": "Brazil Ministry of Development",
+            "url": "https://balanca.economia.gov.br/balanca/pg_principal_bc/principais_resultados.html",
+            "date": "2026-09-14"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die Exporte stiegen in den ersten beiden Septemberwochen um 28,5 %, der Handelsüberschuss erreichte 3,36 Mrd. US-Dollar.",
+          "impact": "Starke Auslandsnachfrage bietet einen wichtigen Puffer für die sich abschwächende Binnenwirtschaft.",
+          "status": "positive",
+          "source": {
+            "name": "Brazil Ministry of Development",
+            "url": "https://balanca.economia.gov.br/balanca/pg_principal_bc/principais_resultados.html",
+            "date": "2026-09-14"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Die Dynamik in Industrie und Dienstleistungen schwächte sich im zweiten Quartal ab, während Industrieexporte Anfang September um 17 % stiegen.",
+          "impact": "Mehr Industrieexporte sind positiv, doch schwache Binnendynamik begrenzt die Transformationsfähigkeit.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/americas/brazils-economic-growth-slows-q2-beats-forecasts-2026-09-01/",
+            "date": "2026-09-01"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Hohe Finanzierungskosten belasten Unternehmen und Haushalte; die Wirtschaftsaktivität sank im Juli um 0,2 % gegenüber dem Vormonat.",
+          "impact": "Dauerhaft hohe Kapitalkosten erschweren eine Beschleunigung privater Investitionen.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/americas/brazils-july-activity-falls-more-than-expected-ahead-rate-decision-2026-09-16/",
+            "date": "2026-09-16"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Ein breites Haushaltsdefizit und hohe Zinsen halten die Schuldendienstkosten hoch.",
+          "impact": "Der enge fiskalische Spielraum verteuert große Infrastruktur- und Transformationsausgaben.",
+          "status": "negative",
+          "source": {
+            "name": "WSJ",
+            "url": "https://www.wsj.com/economy/central-banking/brazils-central-bank-lowers-for-fifth-straight-meeting-as-inflation-cools-7977cc0c",
+            "date": "2026-09-17"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Nach dem Rückgang der Inflation auf 4,22 % im August begann die Zentralbank, die straffe Geldpolitik schrittweise zu lockern.",
+          "impact": "Der schrittweise Ausgleich zwischen Inflationsbekämpfung und Wachstum stützt kurzfristige Finanzstabilität.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/americas/cooling-inflation-strengthens-bets-another-brazil-rate-cut-2026-09-11/",
+            "date": "2026-09-11"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Arbeitslosigkeit sank im zweiten Quartal auf 5,4 %, die Bevölkerung erreichte 214,2 Mio.",
+          "impact": "Niedrige Arbeitslosigkeit stützt Binnennachfrage und Steuerbasis, kann aber den Lohndruck in Dienstleistungen hoch halten.",
+          "status": "positive",
+          "source": {
+            "name": "IBGE",
+            "url": "https://www.ibge.gov.br/en/prices-indices/ipca.html",
+            "date": "2026-09-21"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Der Haushaltskonsum sank im zweiten Quartal um 0,4 %, da hohe Kreditkosten die Ausgaben begrenzten.",
+          "impact": "Hohe Finanzierungskosten belasten Konsum und Wohnzugang der Mittelschicht.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/americas/brazils-economic-growth-slows-q2-beats-forecasts-2026-09-01/",
+            "date": "2026-09-01"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Vor den Wahlen im Oktober bleiben Finanz- und Wachstumspolitik zentrale öffentliche Themen; beim Regime für qualifizierte ausländische Arbeitskräfte gab es keine große monatliche Änderung.",
+          "impact": "Die Wahlphase erhöht kurzfristige politische Unsicherheit, ohne klaren Regimewechsel beim Talentzugang.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/americas/brazils-economic-growth-slows-q2-beats-forecasts-2026-09-01/",
+            "date": "2026-09-01"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "076"
+    },
+    {
+      "id": "russia",
+      "name": "Russland",
+      "flag": "🇷🇺",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Offizielle Erwartungen sehen das Wachstum 2026 bei rund 1 %, während Verteidigungsausgaben die Wirtschaft weiter stark stützen.",
+          "impact": "Staatsausgaben halten kurzfristige Aktivität aufrecht, doch die Stagnation der Zivilwirtschaft schwächt die Qualität des Wachstums.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reutersconnect.com/item/putin-says-russias-2027-budget-deficit-around-2-of-gdp/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBMzU0MDE3MDkyMDI2UlAx",
+            "date": "2026-09-17"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die Prognose für die Ölproduktion 2026 wurde kriegsbedingt auf ein 17-Jahres-Tief von etwa 9,88 Mio. Barrel pro Tag gesenkt.",
+          "impact": "Sinkende Energieproduktion schwächt einen zentralen Puffer für Staatseinnahmen und Außenbilanz.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/russia-cuts-expected-2026-oil-output-17-year-low-war-fallout-draft-forecasts-2026-09-01/",
+            "date": "2026-09-01"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "EU-Verbote und Raffinerieausfälle lenken russische Energieflüsse zunehmend nach China und Indien.",
+          "impact": "Eine engere Marktbasis reduziert Preissetzungsmacht und außenwirtschaftliche Flexibilität.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/russia-cuts-expected-2026-oil-output-17-year-low-war-fallout-draft-forecasts-2026-09-01/",
+            "date": "2026-09-01"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Sanktionen und eingeschränkter Technologiezugang führen langfristig zu Erosion ziviler Produktionskapazität und technologischer Wettbewerbsfähigkeit.",
+          "impact": "Schwächerer Zugang zu Schlüsseltechnologien und Investitionsgütern verteuert künftige industrielle Transformation.",
+          "status": "negative",
+          "source": {
+            "name": "AP",
+            "url": "https://apnews.com/article/79bf1c1abd5da48769ed8dab4a766de0",
+            "date": "2026-09-18"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Hohe Zinsen, kriegsbedingte Unsicherheit und Vertrauensverlust schwächen die private Investitionsbereitschaft.",
+          "impact": "Kapital konzentriert sich auf Verteidigung und staatsnahe Bereiche und begrenzt die künftige Kapazität der Zivilwirtschaft.",
+          "status": "negative",
+          "source": {
+            "name": "AP",
+            "url": "https://apnews.com/article/79bf1c1abd5da48769ed8dab4a766de0",
+            "date": "2026-09-18"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Das Haushaltsdefizit liegt bei rund 2,8 % des BIP; Reservefonds und hohe Militärausgaben verengen den fiskalischen Spielraum.",
+          "impact": "Steigende Kriegskosten drücken Ressourcen für Infrastruktur und zivile öffentliche Ausgaben.",
+          "status": "negative",
+          "source": {
+            "name": "AP",
+            "url": "https://apnews.com/article/79bf1c1abd5da48769ed8dab4a766de0",
+            "date": "2026-09-18"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Nach Angriffen auf Raffinerien und Kraftstoffknappheit beschränkte die Regierung vorübergehend Exporte von Benzin, Diesel und Kerosin.",
+          "impact": "Schnelles Angebotsmanagement schützt kurzfristig den Binnenmarkt, behebt aber keine strukturellen Produktionsschäden.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/russia-cuts-expected-2026-oil-output-17-year-low-war-fallout-draft-forecasts-2026-09-01/",
+            "date": "2026-09-01"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Arbeitslosigkeit liegt bei rund 2 %, während Unternehmen wegen Krieg, Migration und demografischem Rückgang Schwierigkeiten haben, Fachkräfte zu finden.",
+          "impact": "Extrem niedrige Arbeitslosigkeit signalisiert Fachkräftemangel statt gesunder Reserve und begrenzt Produktionskapazität.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/russians-make-best-struggling-economy-before-vote-2026-09-15/",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die Inflation bleibt über 6 %; Kraftstoff, Grundbedarf und hohe Kreditzinsen belasten Haushaltsausgaben.",
+          "impact": "Der Druck auf reale Lebenshaltungskosten schwächt Konsum und Attraktivität als Wohnstandort.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/russians-make-best-struggling-economy-before-vote-2026-09-15/",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Kriegsbedingte Migration, Sanktionen und wirtschaftliche Isolation begrenzen weiter internationale Talent- und Kapitalmobilität.",
+          "impact": "Ein kleinerer Talentpool und schwächere internationale Verbindungen reduzieren langfristige Innovationsfähigkeit.",
+          "status": "negative",
+          "source": {
+            "name": "AP",
+            "url": "https://apnews.com/article/79bf1c1abd5da48769ed8dab4a766de0",
+            "date": "2026-09-18"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "643"
+    },
+    {
+      "id": "egypt",
+      "name": "Ägypten",
+      "flag": "🇪🇬",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Der IWF erwartet für das Fiskaljahr 2026 ein Wachstum von 4,6 % und stärkere Auswirkungen des regionalen Krieges in 2026–27.",
+          "impact": "Kurzfristig bleibt die Wirtschaft robust, regionale Schocks könnten die neue Wachstumsphase aber bremsen.",
+          "status": "positive",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/07/08/tr070826-weo-press-briefing-transcript-july-8-2026",
+            "date": "2026-07-08"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Konflikte im Nahen Osten treffen gleichzeitig Energiekosten, Tourismus, Logistik und externe Finanzierung.",
+          "impact": "Dass geopolitische Risiken mehrere Einnahme- und Kostenkanäle zugleich treffen, hält Ägyptens externe Anfälligkeit hoch.",
+          "status": "negative",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/07/30/pr26271-egypt-imf-completes-the-7th-review-under-eff-and-2nd-review-under-the-rsf",
+            "date": "2026-07-30"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Maersk und Hapag-Lloyd beschlossen im September, vier weitere Containerdienste auf den Suezkanal zurückzuführen.",
+          "impact": "Die schrittweise Rückkehr des Kanalverkehrs ist ein positives Normalisierungssignal für Deviseneinnahmen und Logistik.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/maersk-hapag-lloyd-resume-further-services-through-suez-canal-2026-09-14/",
+            "date": "2026-09-14"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Die Regierung erklärte, das Programm zum Verkauf von Staatsbeteiligungen und zur stärkeren Rolle des Privatsektors fortzusetzen.",
+          "impact": "Weniger Staatsdominanz kann Raum für private Investitionen und Wettbewerb schaffen; entscheidend bleibt die Umsetzungsgeschwindigkeit.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters/Zawya",
+            "url": "https://www.tradingview.com/news/reuters.com%2C2026-09-08%3Anewsml_Zaw5cp4ws%3A0-zawya-egypt-to-continue-offering-stakes-in-state-owned-firms-to-boost-private-sector-pm-says/",
+            "date": "2026-09-08"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Der IWF erwartet, dass der regionale Krieg 2026–27 zu schwächeren Investitionen und höheren Finanzierungskosten führt.",
+          "impact": "Langsamere private Investitionen könnten es erschweren, Wachstum dauerhaft zu verankern.",
+          "status": "negative",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/07/08/tr070826-weo-press-briefing-transcript-july-8-2026",
+            "date": "2026-07-08"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Der Abschluss der siebten IWF-Überprüfung eröffnete Zugang zu rund 1,8 Mrd. US-Dollar neuer Finanzierung.",
+          "impact": "Externe Finanzierung und Haushaltsdisziplin schaffen kurzfristige Puffer, während Schulden- und Subventionsreformdruck bestehen bleiben.",
+          "status": "neutral",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/07/30/pr26271-egypt-imf-completes-the-7th-review-under-eff-and-2nd-review-under-the-rsf",
+            "date": "2026-07-30"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Der IWF nennt Wechselkursflexibilität, Kraftstoffpreisanpassungen und Ausgabenkontrolle als schnelle Reaktionen auf den regionalen Schock.",
+          "impact": "Schnelle Politikreaktion stützt die Makrostabilität, soziale Kosten und Reformdauerhaftigkeit bleiben aber zu beobachten.",
+          "status": "positive",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/07/30/pr26271-egypt-imf-completes-the-7th-review-under-eff-and-2nd-review-under-the-rsf",
+            "date": "2026-07-30"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Das Bevölkerungswachstum bleibt stark; genügend produktive Jobs für die junge Erwerbsbevölkerung zu schaffen, ist eine zentrale strukturelle Herausforderung.",
+          "impact": "Der große Arbeitskräftepool ist potenziell ein Vorteil, doch Beschäftigungsaufbau bleibt für inklusives Wachstum entscheidend.",
+          "status": "neutral",
+          "source": {
+            "name": "IMF",
+            "url": "https://dsbb.imf.org/sdds/country/EGY/advance-release-calendar-base",
+            "date": "2026-09-21"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die städtische Inflation lag im August bei 14,5 %, während Wohnen, Wasser, Strom, Gas und Kraftstoffe um 33 % zulegten.",
+          "impact": "Hohe Grundkosten belasten Haushaltsbudgets und reale Kaufkraft deutlich.",
+          "status": "negative",
+          "source": {
+            "name": "Central Bank of Egypt",
+            "url": "https://www.cbe.org.eg/en/news-publications/news/2026/09/10/12/29/cpi-press-release-august-2026",
+            "date": "2026-09-10"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Für 2026 werden rund 20,2 Mio. Touristen und höhere Einnahmen erwartet, was auf anhaltend starke internationale Zugänglichkeit hindeutet.",
+          "impact": "Offenheit in Tourismus und Dienstleistungen stützt Beschäftigung und Devisen, bei der Fachkräftepolitik gab es keine große monatliche Änderung.",
+          "status": "positive",
+          "source": {
+            "name": "Egypt State Information Service",
+            "url": "https://sis.gov.eg/en/media-center/news/idsc-egypt-targets-238-mln-tourists-and-212b-revenue-by-2030/",
+            "date": "2026-09-17"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "818"
+    },
+    {
+      "id": "italy",
+      "name": "Italien",
+      "flag": "🇮🇹",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Das BIP wuchs im zweiten Quartal um 0,2 % gegenüber dem Vorquartal; ISTAT erwartet für 2026 rund 0,8 % Wachstum.",
+          "impact": "Das Wachstum ist positiv, aber langsam, wodurch der Puffer gegen externe Schocks begrenzt bleibt.",
+          "status": "neutral",
+          "source": {
+            "name": "ISTAT",
+            "url": "https://www.istat.it/en/press-release/note-on-italian-economy-july-august-2026/",
+            "date": "2026-09-10"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die Inflation stieg im August aufgrund stark höherer Energiepreise auf 3,3 % gegenüber dem Vorjahr.",
+          "impact": "Dass Energie wieder wichtiger Preistreiber ist, erhöht die externe Schockanfälligkeit von Industrie und Haushalten.",
+          "status": "negative",
+          "source": {
+            "name": "ISTAT",
+            "url": "https://www.istat.it/en/press-release/consumer-prices-august-2026/",
+            "date": "2026-09-16"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Bei anhaltender Unsicherheit in globalen Lieferketten wurde das Wachstum im zweiten Quartal stärker von Konsum und Investitionen getragen.",
+          "impact": "Eine weniger außenabhängige Wachstumsstruktur bietet kurzfristig Puffer, globale Risiken für die Exportindustrie bleiben aber bestehen.",
+          "status": "neutral",
+          "source": {
+            "name": "ISTAT",
+            "url": "https://www.istat.it/en/press-release/note-on-italian-economy-july-august-2026/",
+            "date": "2026-09-10"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Die Industrieproduktion stieg im Juli nach zwei Rückgangsmonaten um 0,7 %; wichtige Nichtenergiegruppen erholten sich.",
+          "impact": "Die Rückkehr zu Industriewachstum ist positiv für den Wandel, ein einzelner Monat bestätigt jedoch noch keinen dauerhaften Trend.",
+          "status": "positive",
+          "source": {
+            "name": "ISTAT",
+            "url": "https://www.istat.it/en/press-release/note-on-italian-economy-july-august-2026/",
+            "date": "2026-09-10"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Private Investitionen leisteten einen positiven Beitrag zum Wachstum im zweiten Quartal.",
+          "impact": "Der Investitionsbeitrag ist ein konstruktives Signal für die Produktionskapazität.",
+          "status": "positive",
+          "source": {
+            "name": "ISTAT",
+            "url": "https://www.istat.it/en/press-release/note-on-italian-economy-july-august-2026/",
+            "date": "2026-09-10"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Die Staatsverschuldung dürfte 2026 auf rund 139 % des BIP steigen, während die Schuldendienstkosten rasch zunehmen.",
+          "impact": "Hohe Schulden und Zinsen verengen den fiskalischen Spielraum für Infrastruktur und Transformation.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/italys-debt-burden-rising-alarming-rate-economy-minister-says-2026-09-18/",
+            "date": "2026-09-18"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Die Regierung betont langfristige politische Stabilität; Fortschritte bei Reformen von Verwaltung, Gesundheit und Bildung bleiben umstritten.",
+          "impact": "Politische Kontinuität hilft der Entscheidungsfindung, doch die Umsetzungsgeschwindigkeit struktureller Reformen bleibt zentral.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/marking-record-tenure-meloni-hails-italys-turn-stability-2026-09-04/",
+            "date": "2026-09-04"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Arbeitslosigkeit sank im Juli auf 5,8 %, während ein großer Teil des Beschäftigungswachstums auf die Altersgruppe 50–64 entfällt.",
+          "impact": "Niedrige Arbeitslosigkeit ist positiv, doch eine alternde Erwerbsbevölkerung begrenzt langfristige demografische Kapazität.",
+          "status": "neutral",
+          "source": {
+            "name": "ISTAT",
+            "url": "https://www.istat.it/en/press-release/note-on-italian-economy-july-august-2026/",
+            "date": "2026-09-10"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Eurostat meldete für August eine jährliche Inflation von 3,2 %.",
+          "impact": "Das Preisniveau bleibt ein zentraler kurzfristiger Druckfaktor für Haushalte und Umzugskosten.",
+          "status": "negative",
+          "source": {
+            "name": "Eurostat",
+            "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-17092026-ap",
+            "date": "2026-09-17"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Die Debatte über Migration und Integration intensivierte sich im September erneut rund um Bildungs- und Grenzpolitik.",
+          "impact": "Diskussionen über ein strengeres Migrationsregime können die Planbarkeit für ausländische Arbeitskräfte reduzieren; endgültige Regeln stehen noch aus.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/italy-ban-veils-schools-limit-foreign-students-per-class-meloni-says-2026-09-20/",
+            "date": "2026-09-20"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "380"
+    },
+    {
+      "id": "argentina",
+      "name": "Argentinien",
+      "flag": "🇦🇷",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Die monatliche Wirtschaftsaktivität stieg im Juni um 0,8 % gegenüber dem Vorjahr; der Haushaltsentwurf 2027 unterstellt für 2026 rund 3 % Wachstum.",
+          "impact": "Die Wirtschaft wächst wieder, doch Industrie- und Arbeitsmarktdaten zeigen eine weiterhin unausgewogene Erholung.",
+          "status": "neutral",
+          "source": {
+            "name": "INDEC",
+            "url": "https://www.indec.gob.ar/indec/Portada",
+            "date": "2026-09-21"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Energie- und Agrarexporte bleiben für die Außenbilanz zentral; ein 51-Mrd.-US-Dollar-Projekt zur Entwicklung von Vaca Muerta zum LNG-Exportzentrum beantragte RIGI-Förderung.",
+          "impact": "Mehr Energieexportkapazität könnte die Devisenabhängigkeit reduzieren, doch das Umsetzungsrisiko des Großprojekts bleibt hoch.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/argentinas-ypf-seeks-rigi-investment-scheme-51-billion-lng-project-2026-08-13/",
+            "date": "2026-08-13"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die Exporte lagen im August bei 8,88 Mrd. US-Dollar, die Importe bei 6,70 Mrd.; damit gab es den 33. Monat in Folge einen Handelsüberschuss.",
+          "impact": "Anhaltende Handelsüberschüsse stützen Reserveaufbau und Währungsstabilität.",
+          "status": "positive",
+          "source": {
+            "name": "INDEC",
+            "url": "https://www.indec.gob.ar/indec/Portada",
+            "date": "2026-09-21"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Die Industrieproduktion sank im Juli um 5 % gegenüber dem Vorjahr, während LNG- und Energieinfrastruktur als neue Wachstumsachse hervortreten.",
+          "impact": "Neue Energiekapazität schafft Chancen, doch der Rückgang der Industrie erhöht die Übergangskosten zwischen Sektoren.",
+          "status": "neutral",
+          "source": {
+            "name": "INDEC",
+            "url": "https://www.indec.gob.ar/indec/Portada",
+            "date": "2026-09-21"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Die Bewerbung des 51-Mrd.-US-Dollar-Projekts Argentina LNG für das RIGI-Regime stärkte das Ziel, großvolumiges ausländisches Kapital anzuziehen.",
+          "impact": "Bei Realisierung könnten Kapitalzuflüsse und Exportkapazität deutlich steigen, die Gesamtinvestition ist aber noch nicht gesichert.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/argentinas-ypf-seeks-rigi-investment-scheme-51-billion-lng-project-2026-08-13/",
+            "date": "2026-08-13"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Der Haushaltsentwurf 2027 hält an fiskalischer Disziplin fest und unterstellt für 2026 rund 29 % Inflation sowie 3 % Wachstum.",
+          "impact": "Der Fokus auf einen ausgeglichenen Haushalt kann Stabilität stützen, begrenzt aber den Spielraum für Infrastruktur und Soziales.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/americas/argentina-submits-2027-budget-bill-congress-foresees-4-gdp-growth-2026-09-15/",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Die Zentralbank setzte Reservekäufe fort, verringerte aber im September das Tempo, um das Marktgleichgewicht zu wahren.",
+          "impact": "Flexibleres Reservemanagement stützt die Währungsstabilität und lässt mehr Raum für private Devisennachfrage.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://es-us.finanzas.yahoo.com/noticias/mercado-cambiario-argentino-equilibrado-banco-145249897.html",
+            "date": "2026-09-18"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Arbeitslosigkeit lag im zweiten Quartal bei 7,9 %, die Erwerbsquote bei 48,9 %.",
+          "impact": "Die Schwäche am Arbeitsmarkt belastet Haushaltseinkommen, hält das Arbeitskräfteangebot für Unternehmen aber breit.",
+          "status": "negative",
+          "source": {
+            "name": "INDEC",
+            "url": "https://www.indec.gob.ar/indec/Portada",
+            "date": "2026-09-21"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die monatliche Verbraucherpreisinflation sank im August auf 1,7 %, doch das jährliche Preisniveau und Einkommensanpassungen bleiben zentrale Belastungen.",
+          "impact": "Die niedrigere Monatsinflation ist ein positives Lebenshaltungskostensignal, Kaufkraft ist aber noch nicht vollständig normalisiert.",
+          "status": "neutral",
+          "source": {
+            "name": "INDEC",
+            "url": "https://www.indec.gob.ar/indec/Portada",
+            "date": "2026-09-21"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Die Fortsetzung der Wirtschaftsreformen und der Wahlkalender 2027 machen politische Kontinuität zu einem wichtigen Faktor für Investitions- und Migrationsentscheidungen.",
+          "impact": "Unsicherheit über die Dauerhaftigkeit der Reformen kann bei internationalen Talenten und Kapital kurzfristig zu Abwarten führen.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/americas/argentina-submits-2027-budget-bill-congress-foresees-4-gdp-growth-2026-09-15/",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "032"
+    },
+    {
+      "id": "portugal",
+      "name": "Portugal",
+      "flag": "🇵🇹",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Das BIP wuchs im zweiten Quartal um 0,8 % gegenüber dem Vorquartal und 2,5 % gegenüber dem Vorjahr.",
+          "impact": "Dass das Wachstum über dem Durchschnitt der Eurozone bleibt, spricht für einen starken Wirtschaftsmotor.",
+          "status": "positive",
+          "source": {
+            "name": "INE Portugal",
+            "url": "https://webinq.ine.pt/home",
+            "date": "2026-08-31"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die Inflation stieg im August auf 3,3 %, während die Energiepreise um 12,2 % gegenüber dem Vorjahr zunahmen.",
+          "impact": "Die Energiepreissensitivität bleibt ein wichtiger externer Schockkanal für Haushalte und kleine Unternehmen.",
+          "status": "negative",
+          "source": {
+            "name": "INE Portugal",
+            "url": "https://webinq.ine.pt/home",
+            "date": "2026-09-10"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die Nettoauslandsnachfrage wurde im zweiten Quartal positiv, da Exporte stärker als Importe wuchsen.",
+          "impact": "Starke Export- und Dienstleistungsnachfrage bildet einen wichtigen Puffer gegen schwächere Binnennachfrage.",
+          "status": "positive",
+          "source": {
+            "name": "INE Portugal",
+            "url": "https://webinq.ine.pt/home",
+            "date": "2026-08-31"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Der Dienstleistungsumsatz stieg im Juli um 2,1 %; neue Baugenehmigungen und fertiggestellte Wohnungen nahmen zu.",
+          "impact": "Wachsende Dienstleistungen und anziehendes Wohnungsangebot adressieren gleichzeitig zwei strukturelle Bedürfnisse.",
+          "status": "positive",
+          "source": {
+            "name": "INE Portugal",
+            "url": "https://ine.pt/",
+            "date": "2026-09-11"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Der Beitrag der Binnennachfrage zum Wachstum sank im zweiten Quartal deutlich, weil die Investitionen nachließen.",
+          "impact": "Der Verlust an Investitionsdynamik verstärkt die Frage, ob privates Kapital nach EU-Mitteln den Wachstumsmotor übernehmen kann.",
+          "status": "negative",
+          "source": {
+            "name": "INE Portugal",
+            "url": "https://webinq.ine.pt/home",
+            "date": "2026-08-31"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Die Regierung setzt bis 2030 ein EU-gestütztes Programm von rund 9 Mrd. € für 150.000 bezahlbare Wohnungen um.",
+          "impact": "Das große Wohnungsprogramm kann die Angebotslücke verringern, doch Arbeitskräfte und Umsetzungskapazität bestimmen das Tempo.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/portugals-migrant-curbs-hit-construction-firms-working-solve-housing-crisis-2026-07-20/",
+            "date": "2026-07-20"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Genehmigungsverfahren werden vereinfacht, um Wohnungsbau zu beschleunigen; zugleich fehlen im Bau geschätzt 80.000–120.000 Arbeitskräfte.",
+          "impact": "Auch bei einfacherer Regulierung kann der Personalmangel die tatsächliche Umsetzungsgeschwindigkeit begrenzen.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/portugals-migrant-curbs-hit-construction-firms-working-solve-housing-crisis-2026-07-20/",
+            "date": "2026-07-20"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Arbeitslosigkeit blieb im Juni bei 5,7 %; strengere Migrationsregeln vergrößern laut Berichten Arbeitskräftelücken etwa im Bau.",
+          "impact": "Niedrige Arbeitslosigkeit ist positiv, doch weniger Migration erzeugt Kapazitätsengpässe in schnell wachsenden Sektoren.",
+          "status": "neutral",
+          "source": {
+            "name": "INE Portugal",
+            "url": "https://webinq.ine.pt/home",
+            "date": "2026-08-31"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Eurostat meldete für August eine jährliche Inflation von 3,6 %.",
+          "impact": "Das Preisniveau bleibt ein zentraler kurzfristiger Druckfaktor für Haushalte und Umzugskosten.",
+          "status": "negative",
+          "source": {
+            "name": "Eurostat",
+            "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-17092026-ap",
+            "date": "2026-09-17"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Strengere Migrationsregeln reduzieren die Nettozuwanderung, während Personalengpässe in ausländisch geprägten Branchen wachsen.",
+          "impact": "Ein strengeres Regime reduziert internationalen Talentzugang und Kapazität, besonders im Bau.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/portugals-migrant-curbs-hit-construction-firms-working-solve-housing-crisis-2026-07-20/",
+            "date": "2026-07-20"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "620"
+    },
+    {
+      "id": "netherlands",
+      "name": "Niederlande",
+      "flag": "🇳🇱",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Die niederländische Wirtschaft wuchs im zweiten Quartal um 0,4 % gegenüber dem Vorquartal und 1,3 % gegenüber dem Vorjahr; Konsum trug am meisten bei.",
+          "impact": "Moderates, aber ausgewogenes Wachstum stützt die wirtschaftliche Widerstandsfähigkeit.",
+          "status": "positive",
+          "source": {
+            "name": "CBS",
+            "url": "https://www.cbs.nl/en-gb/news/2026/31/dutch-economy-grew-by-0-4-percent-in-q2-2026",
+            "date": "2026-07-30"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die Inflation stieg im August auf 3,3 %; globale Energie- und Transportkosten bleiben Risiken für den Preisausblick.",
+          "impact": "Externe Energie- und Handelsschocks können sich in der offenen Wirtschaft schnell auf Haushalts- und Unternehmenskosten übertragen.",
+          "status": "negative",
+          "source": {
+            "name": "CBS",
+            "url": "https://www.cbs.nl/en-gb/news/2026/37/inflation-increases-to-3-3-percent-in-august",
+            "date": "2026-09-08"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die Exporte stiegen im zweiten Quartal um 1,2 %, die Importe um 1,4 %, wodurch der Nettohandelsbeitrag leicht negativ wurde.",
+          "impact": "Exporte wachsen weiter, doch stärker steigende Importe begrenzen den Wachstumsbeitrag des Außenhandels.",
+          "status": "neutral",
+          "source": {
+            "name": "CBS",
+            "url": "https://www.cbs.nl/en-gb/news/2026/31/dutch-economy-grew-by-0-4-percent-in-q2-2026",
+            "date": "2026-07-30"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Die Industrieproduktion stieg im Juni um 4,6 % gegenüber dem Vorjahr; Maschinen- und Elektronikexporte legten zu.",
+          "impact": "Stärke bei hochwertiger Produktion und Elektronik stützt die technologische Transformationsfähigkeit.",
+          "status": "positive",
+          "source": {
+            "name": "CBS",
+            "url": "https://www.cbs.nl/en-gb/news/2026/36/economic-picture-less-negative-in-august",
+            "date": "2026-08-31"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Die Anlageinvestitionen stiegen im Juni um 2,7 % gegenüber dem Vorjahr; Gesamtinvestitionen nahmen im zweiten Quartal um 0,5 % zu.",
+          "impact": "Positive Investitionen zeigen anhaltendes Vertrauen der Unternehmen in künftige Kapazität.",
+          "status": "positive",
+          "source": {
+            "name": "CBS",
+            "url": "https://www.cbs.nl/en-gb/news/2026/36/economic-picture-less-negative-in-august",
+            "date": "2026-08-31"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Der öffentliche Konsum stieg im zweiten Quartal um 0,4 %; Gesundheits- und öffentliche Lohnausgaben stützten das Wachstum.",
+          "impact": "Öffentliche Ausgaben stützen, doch die Lösung von Wohnungs- und Netzengpässen hängt weiter vom Tempo der Infrastrukturinvestitionen ab.",
+          "status": "neutral",
+          "source": {
+            "name": "CBS",
+            "url": "https://www.cbs.nl/en-gb/news/2026/31/dutch-economy-grew-by-0-4-percent-in-q2-2026",
+            "date": "2026-07-30"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Obwohl 9 von 13 CBS-Konjunkturindikatoren unter ihrem langfristigen Trend lagen, verbesserte sich das Gesamtbild im August gegenüber Juli.",
+          "impact": "Auch ohne breite Beschleunigung verschafft das Ende der Verschlechterung Politik und Unternehmen Zeit zur Anpassung.",
+          "status": "neutral",
+          "source": {
+            "name": "CBS",
+            "url": "https://www.cbs.nl/en-gb/news/2026/36/economic-picture-less-negative-in-august",
+            "date": "2026-08-31"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Arbeitslosigkeit blieb im August bei 4,0 %, während die Zahl der Arbeitslosen in den letzten drei Monaten monatlich im Schnitt um 3.000 stieg.",
+          "impact": "Der Arbeitsmarkt bleibt angespannt, doch die schrittweise Abkühlung kann Fachkräfteengpässe etwas lindern.",
+          "status": "neutral",
+          "source": {
+            "name": "CBS",
+            "url": "https://www.cbs.nl/en-gb/news/2026/38/unemployment-up-slightly-in-august",
+            "date": "2026-09-17"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Eurostat meldete für August eine jährliche Inflation von 2,8 %.",
+          "impact": "Das Preisniveau bleibt ein zentraler kurzfristiger Druckfaktor für Haushalte und Umzugskosten.",
+          "status": "neutral",
+          "source": {
+            "name": "Eurostat",
+            "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-17092026-ap",
+            "date": "2026-09-17"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Im Juli wanderten 23.148 Menschen ein und 24.524 aus, wodurch die monatliche Nettozuwanderung leicht negativ wurde.",
+          "impact": "Schwächere Nettozuwanderung kann Bevölkerungs- und Arbeitskräftewachstum bremsen, ein einzelner Monat zeigt aber keinen dauerhaften Regimewechsel.",
+          "status": "neutral",
+          "source": {
+            "name": "CBS",
+            "url": "https://www.cbs.nl/en-gb/figures/detail/83474ENG?q=immigration+and+emigration",
+            "date": "2026-08-31"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "528"
+    },
+    {
+      "id": "romania",
+      "name": "Rumänien",
+      "flag": "🇷🇴",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Rumäniens Wirtschaft stagnierte im zweiten Quartal 2026 gegenüber dem Vorquartal, schrumpfte um 0,4 % gegenüber dem Vorjahr und das BIP sank im ersten Halbjahr um 0,8 %.",
+          "impact": "Schwaches Wachstum und Druck auf die Binnennachfrage begrenzen kurzfristig die wirtschaftliche Widerstandsfähigkeit.",
+          "status": "negative",
+          "source": {
+            "name": "AGERPRES / INS",
+            "url": "https://agerpres.ro/english/2026/08/14/romania-s-gdp-remains-unchanged-in-q2-of-2026-and-falls-by-0-4-compared-with-q2-of-2025--1584826",
+            "date": "2026-08-14"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Beim Gasprojekt Neptun Deep im Schwarzen Meer begann der Pipelinebau; mit Produktionsstart 2027 dürfte sich die nationale Gasförderung etwa verdoppeln.",
+          "impact": "Mehr heimische Gaskapazität kann die Abhängigkeit von Energieimporten und externen Angebotsschocks reduzieren.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/pipeline-work-starts-romanias-biggest-black-sea-offshore-gas-project-2026-05-04/",
+            "date": "2026-05-04"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Von Januar bis Juli stiegen Exporte um 3,1 % und Importe um 2,0 %; das Handelsdefizit sank um 1,1 % auf 19,28 Mrd. €.",
+          "impact": "Schnelleres Exportwachstum ist positiv, doch das große Handelsdefizit belastet die Außenbilanz weiter.",
+          "status": "neutral",
+          "source": {
+            "name": "AGERPRES / INS",
+            "url": "https://agerpres.ro/economic/2026/09/09/deficitul-comercial-a-scazut-cu-1-1-la-19-28-miliarde-de-euro-in-primele-sapte-luni--1591871",
+            "date": "2026-09-09"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Dacia und Ford stoppten im August wegen Stromversorgungsproblemen vorübergehend die Produktion und machten das Energierisiko der exportorientierten Autoindustrie sichtbar.",
+          "impact": "Für schnellere industrielle Transformation müssen Produktionskapazität, Stromnetz und Versorgungssicherheit gemeinsam gestärkt werden.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/romanian-carmakers-dacia-ford-stop-production-until-aug-19-power-crisis-looms-pm-2026-08-03/",
+            "date": "2026-08-03"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Die ausländischen Direktinvestitionen nach Rumänien fielen von Januar bis Juli 2026 auf 1,13 Mrd. € nach 4,92 Mrd. € im Vorjahreszeitraum.",
+          "impact": "Der starke Rückgang der Kapitalzuflüsse ist ein schwaches Signal für neue Kapazitäten und Wachstumsfinanzierung.",
+          "status": "negative",
+          "source": {
+            "name": "AGERPRES / BNR",
+            "url": "https://agerpres.ro/economic/2026/09/15/contul-curent-al-balantei-de-plati-a-inregistrat-un-deficit-in-crestere-la-16-29-miliarde-euro-in-pr--1593637",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Die Europäische Kommission erwartet 2026 ein Haushaltsdefizit von 6,2 % des BIP und öffentliche Investitionen von rund 7 % des BIP.",
+          "impact": "Hohe öffentliche Investitionen stützen Infrastruktur, das große Defizit begrenzt jedoch den fiskalischen Spielraum.",
+          "status": "neutral",
+          "source": {
+            "name": "European Commission",
+            "url": "https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages-including-country-reports/romania/economic-forecast-romania_en",
+            "date": "2026-05-21"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Die Europäische Kommission sah im Juni wirksame Schritte bei der Defizitkorrektur, während stärkere Verwaltung und Investitionsumsetzung Prioritäten blieben.",
+          "impact": "Die Reformrichtung ist positiv, strukturelle Umsetzungslücken können den Wandel jedoch bremsen.",
+          "status": "neutral",
+          "source": {
+            "name": "European Commission",
+            "url": "https://reforms-investments.ec.europa.eu/european-semester-your-country/european-semester-documents-romania_en",
+            "date": "2026-06-03"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Laut Eurostat lag die Arbeitslosigkeit im Juli bei 6,4 %, die zuletzt verfügbare Jugendarbeitslosigkeit im Juni bei 30,8 %.",
+          "impact": "Anhaltend hohe Jugendarbeitslosigkeit belastet Arbeitsmarkt-Matching und den langfristigen Talentpool.",
+          "status": "negative",
+          "source": {
+            "name": "Eurostat",
+            "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-01092026-bp",
+            "date": "2026-09-01"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Eurostat meldete für August eine jährliche Inflation von 6,3 %.",
+          "impact": "Das Preisniveau bleibt ein zentraler kurzfristiger Druckfaktor für Haushalte und Umzugskosten.",
+          "status": "negative",
+          "source": {
+            "name": "Eurostat",
+            "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-17092026-ap",
+            "date": "2026-09-17"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Rumänien startete im August die Plattform WorkinRomania zur Digitalisierung der Anwerbung ausländischer Beschäftigter und führte den D/AM1-Weg für Hochqualifizierte ein.",
+          "impact": "Digitalere und zentralere Prozesse können internationalen Talentzugang verbessern und Arbeitskräftelücken verringern.",
+          "status": "positive",
+          "source": {
+            "name": "Romania Ministry of Internal Affairs",
+            "url": "https://www.mai.gov.ro/romania-digitalizeaza-angajarea-lucratorilor-straini-a-fost-lansata-platforma-unica-workinromania-gov-ro/",
+            "date": "2026-08-06"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "642"
+    },
+    {
+      "id": "canada",
+      "name": "Kanada",
+      "flag": "🇨🇦",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Kanadas Wachstum dürfte 2026 auf 0,9 % sinken und 2027 auf 1,3 % steigen.",
+          "impact": "Der jüngste OECD-Ausblick bestätigt die Wachstumsrichtung; Energie- und Preisschocks bleiben zentrale Abwärtsrisiken.",
+          "status": "negative",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en/full-report.html",
+            "date": "2026-09-23"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die Warenexporte in die USA sanken im Juli um 6,6 %, dennoch entfielen mit rund 50,5 Mrd. C$ weiterhin etwa zwei Drittel der Gesamtexporte auf die USA.",
+          "impact": "Die hohe Abhängigkeit vom US-Markt lässt Handelsspannungen schnell auf Wachstum und Industrie durchschlagen.",
+          "status": "negative",
+          "source": {
+            "name": "Statistics Canada",
+            "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260903/dq260903a-eng.htm",
+            "date": "2026-09-03"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die Warenexporte sanken im Juli um 2,3 %, die Importe stiegen um 2,2 %; der Handelsüberschuss schrumpfte von 4,2 Mrd. C$ auf 769 Mio. C$, während Exporte außerhalb der USA mit 25,6 Mrd. C$ einen Rekord erreichten.",
+          "impact": "Die Handelsdynamik schwächte sich insgesamt ab, doch Fortschritte bei der Marktdiversifizierung gleichen US-Risiken teilweise aus.",
+          "status": "neutral",
+          "source": {
+            "name": "Statistics Canada",
+            "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260903/dq260903a-eng.htm",
+            "date": "2026-09-03"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Bells KI-Infrastrukturinvestition in Saskatchewan wird auf 1,2 GW Kapazität und bis zu 52,5 Mrd. C$ Gesamtinvestition ausgeweitet.",
+          "impact": "Große KI- und Rechenzentrumsinvestitionen schaffen neue strategische Kapazität in Energie, Rechenleistung und digitaler Infrastruktur.",
+          "status": "positive",
+          "source": {
+            "name": "Innovation, Science and Economic Development Canada",
+            "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/09/government-of-canada-welcomes-major-new-investment-in-sovereign-ai-infrastructure-in-saskatchewan.html",
+            "date": "2026-09-14"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Die Direktinvestitionen nach Kanada stiegen im zweiten Quartal von 18,8 auf 25,9 Mrd. C$; mehr als die Hälfte floss in Produktion sowie Finanz- und Versicherungswesen.",
+          "impact": "Mehr Direktinvestitionen stärken die Kapitalbasis für neue Kapazitäten und Produktivitätsinvestitionen.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Canada",
+            "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260827/dq260827a-eng.htm",
+            "date": "2026-08-27"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Der Build Communities Strong Fund stellt ab 2026–27 über zehn Jahre 51 Mrd. C$ für neue öffentliche Infrastruktur bereit.",
+          "impact": "Langfristige Finanzierung kann Wohnungs-, Verkehrs- und Grundversorgungskapazitäten ausbauen.",
+          "status": "positive",
+          "source": {
+            "name": "Housing, Infrastructure and Communities Canada",
+            "url": "https://housing-infrastructure.canada.ca/bcsf-fbcf/index-eng.html",
+            "date": null
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Fünfzehn Projekte des Major Projects Office stehen für mehr als 125 Mrd. C$ Kapitalinvestition; schnellere Bundesprüfungen sind vorgesehen.",
+          "impact": "Zentralere Projektgenehmigungen können die Umsetzung beschleunigen, die nachhaltige Wirkung hängt aber von tatsächlicher Lieferung ab.",
+          "status": "neutral",
+          "source": {
+            "name": "Department of Finance Canada",
+            "url": "https://budget.canada.ca/update-miseajour/2026/report-rapport/chap1-en.html",
+            "date": "2026-05-19"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Beschäftigung sank im August um 0,2 % gegenüber dem Vormonat, die Arbeitslosigkeit blieb bei 6,4 %.",
+          "impact": "Die Beschäftigungsschwäche zeigt, dass die Unterstützung des Wachstums durch den Arbeitsmarkt begrenzt bleibt.",
+          "status": "negative",
+          "source": {
+            "name": "Statistics Canada",
+            "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260904/dq260904a-eng.htm",
+            "date": "2026-09-04"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die jährliche Inflation lag im August bei 3,0 %, Mieten stiegen landesweit um 2,8 % und Lebensmittelpreise lagen 29 % über 2021.",
+          "impact": "Preis- und Mietdruck hält Haushaltsbudgets und die Gesamtkosten eines Umzugs nach Kanada hoch.",
+          "status": "negative",
+          "source": {
+            "name": "Statistics Canada",
+            "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
+            "date": "2026-09-14"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Der Einwanderungsplan 2026–2028 hält das Ziel für Daueraufenthalte bei 380.000 pro Jahr, senkt das Ziel für temporäre Einreisen 2026 auf 385.000 und erhöht den Anteil wirtschaftlicher Migration.",
+          "impact": "Kanada zieht weiter Fachkräfte an, steuert Studenten- und temporäre Arbeitskräftekanäle aber strenger.",
+          "status": "neutral",
+          "source": {
+            "name": "Immigration, Refugees and Citizenship Canada",
+            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/corporate-initiatives/levels/supplementary-immigration-levels-2026-2028.html",
+            "date": "2025-11-04"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "124"
+    }
+  ],
+  "potential_countries": [
+    {
+      "id": "poland",
+      "name": "Polen",
+      "flag": "🇵🇱",
+      "selection_reason": "Wachstum, EU-Mittel und eine beschleunigte heimische Verteidigungsproduktion schaffen gleichzeitig neue Kapazitäten.",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Polens BIP wuchs im zweiten Quartal 2026 um 3,9 % gegenüber dem Vorjahr.",
+          "impact": "Starke Binnendynamik trotz Schwäche im Euroraum macht Polen für das kurzfristige Wachstum besonders beobachtenswert.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://stat.gov.pl/en/release-calendar/08-2026.html",
+            "date": "2026-08-31"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die Inflation stieg im August auf 3,4 %, Transportpreise monatlich um 3,5 %; die Regierung plante eine neue Übergewinnsteuer für Ölunternehmen.",
+          "impact": "Globale Energieschocks schlagen weiter schnell auf Haushalte und Fiskalpolitik durch, wodurch Energiekosten eine zentrale Verwundbarkeit bleiben.",
+          "status": "negative",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://stat.gov.pl/en/topics/prices-trade/price-indices/consumer-price-indices-in-august-2026%2C2%2C178.html",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Im Rahmen der Karpathen-Acht wurden mehr als 50 Abkommen im Wert von über 1 Mrd. € zu Handel, Energie und Logistik unterzeichnet.",
+          "impact": "Neue regionale Verbindungen können Polens Rolle in mittel- und osteuropäischen Handelskorridoren stärken.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/zelenskiy-launches-carpathian-eight-initiative-trade-security-2026-09-18/",
+            "date": "2026-09-18"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Die Beschaffung aus Polen und Mitteleuropa für den Verteidigungssektor hat sich seit 2022 etwa vervierfacht und 30,4 Mrd. PLN erreicht.",
+          "impact": "Verteidigungsausgaben für lokale Produktion fördern Technologietransfer, Fertigungskapazität und regionale Lieferketten.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/aerospace-defense/poland-pivots-home-grown-defence-production-it-builds-europes-biggest-army-2026-09-01/",
+            "date": "2026-09-01"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Polen erhielt im Juni rund 31 Mrd. PLN neue EU-Mittel aus dem nationalen Aufbauplan.",
+          "impact": "EU-Kapital für Energie, Digitalisierung, Gesundheit und Verteidigung stützt den Investitionszyklus.",
+          "status": "positive",
+          "source": {
+            "name": "Polonya Kalkınma Fonları Bakanlığı",
+            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
+            "date": "2026-06-02"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Neue EU-Mittel fließen in Energieinfrastruktur, sauberen Verkehr, Wassermanagement und digitale Transformation.",
+          "impact": "Großvolumige externe Finanzierung erweitert den fiskalischen Spielraum für Infrastrukturmodernisierung.",
+          "status": "positive",
+          "source": {
+            "name": "Polonya Kalkınma Fonları Bakanlığı",
+            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
+            "date": "2026-06-02"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Eine geplante Übergewinnsteuer zur Dämpfung der Kraftstoffpreise war zuvor am Präsidentenveto gescheitert; das Verfahren läuft weiter.",
+          "impact": "Die wirtschaftspolitische Eingriffsfähigkeit ist hoch, doch institutionelle Reibung kann die Umsetzung verlangsamen.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/poland-revive-windfall-tax-oil-firms-use-proceeds-fuel-price-relief-2026-09-15/",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Bevölkerung sank im ersten Halbjahr 2026 um 159.000 gegenüber dem Vorjahr, während die Nettozuwanderung positiv blieb; die LFS-Arbeitslosigkeit lag im zweiten Quartal bei 3,2 %.",
+          "impact": "Sehr niedrige Arbeitslosigkeit ist ein Vorteil, während der natürliche Bevölkerungsrückgang das langfristige Arbeitskräfteangebot belastet.",
+          "status": "neutral",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://ssgk.stat.gov.pl/index_en.html",
+            "date": "2026-08-25"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Reale Unternehmenslöhne stiegen im Juli um 3,6 %, die Zahl fertiggestellter Wohnungen von Januar bis Juli um 3,2 %.",
+          "impact": "Reallohnwachstum und neues Wohnungsangebot gleichen Lebenshaltungskostendruck teilweise aus.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://ssgk.stat.gov.pl/index_en.html",
+            "date": "2026-08-25"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Trotz Bevölkerungsrückgang blieb die Nettozuwanderung im ersten Halbjahr 2026 positiv.",
+          "impact": "Migration gleicht Arbeitskräftelücken teilweise aus und schafft zugleich strukturellen Bedarf und Chancen für internationale Talente.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://ssgk.stat.gov.pl/index_en.html",
+            "date": "2026-08-25"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "616"
+    },
+    {
+      "id": "vietnam",
+      "name": "Vietnam",
+      "flag": "🇻🇳",
+      "selection_reason": "FDI, Elektronikproduktion und Außenhandel beschleunigen sich gleichzeitig und signalisieren einen stärkeren Produktionsstandort.",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Die Industrieproduktion stieg im August um 14,4 % gegenüber dem Vorjahr und in den ersten acht Monaten um 11,9 %.",
+          "impact": "Die breite Produktionsdynamik zeigt einen starken Wirtschaftsmotor.",
+          "status": "positive",
+          "source": {
+            "name": "Vietnam Ulusal İstatistik Ofisi",
+            "url": "https://www.nso.gov.vn/en/data-and-statistics/2026/09/report-socio-economic-performance-in-august-and-8-months-of-2026/",
+            "date": "2026-09-06"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "FDI-Unternehmen stellten in den ersten acht Monaten 80,1 % der Exporte; die USA waren größter Export- und China größter Importmarkt.",
+          "impact": "Die Konzentration auf ausländisches Kapital und zwei große Märkte erhöht die Anfälligkeit für Handelsschocks.",
+          "status": "negative",
+          "source": {
+            "name": "Vietnam Ulusal İstatistik Ofisi",
+            "url": "https://www.nso.gov.vn/en/data-and-statistics/2026/09/report-socio-economic-performance-in-august-and-8-months-of-2026/",
+            "date": "2026-09-06"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Der Außenhandel überstieg bis 15. September 825 Mrd. USD; Exporte stiegen um 23,2 %, Importe jedoch schneller.",
+          "impact": "Elektronikexporte skalieren, das wachsende Handelsdefizit verlangt jedoch Aufmerksamkeit für Importabhängigkeiten.",
+          "status": "neutral",
+          "source": {
+            "name": "Vietnam Customs",
+            "url": "https://english.vov.vn/en/economy/vietnam-trade-tops-us825-billion-by-mid-september-trade-deficit-widens-post1334476.vov",
+            "date": "2026-09-21"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Industrieprodukte machten 90,2 % der Exporte aus, während die Industrieproduktion zweistellig wuchs.",
+          "impact": "Der Übergang zu höherwertiger Produktion erweitert die strategische Industriekapazität.",
+          "status": "positive",
+          "source": {
+            "name": "Vietnam Ulusal İstatistik Ofisi",
+            "url": "https://www.nso.gov.vn/en/data-and-statistics/2026/09/report-socio-economic-performance-in-august-and-8-months-of-2026/",
+            "date": "2026-09-06"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Vietnam zog in den ersten acht Monaten 40,63 Mrd. USD registrierte FDI an, 55,4 % mehr als im Vorjahr.",
+          "impact": "Der Sprung bei neuen Investitionen ist ein starkes Frühindikatorsignal für künftige Produktions- und Exportkapazität.",
+          "status": "positive",
+          "source": {
+            "name": "Vietnam Foreign Investment Agency",
+            "url": "https://en.vietstock.vn/2026/09/fdi-inflows-rise-554-per-cent-on-year-38-642520.htm",
+            "date": "2026-09-04"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Die aus dem Staatshaushalt realisierten Investitionen stiegen in den ersten acht Monaten um 18,5 %.",
+          "impact": "Schnellere öffentliche Investitionen können Engpässe in Logistik und Produktionsinfrastruktur reduzieren.",
+          "status": "positive",
+          "source": {
+            "name": "Vietnam Ulusal İstatistik Ofisi",
+            "url": "https://www.nso.gov.vn/en/data-and-statistics/2026/09/report-socio-economic-performance-in-august-and-8-months-of-2026/",
+            "date": "2026-09-06"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Vietnam wurde in den FTSE-Russell-Index für Schwellenländer aufgenommen; Reformen wie ein zentraler Clearing-Kontrahent laufen für den MSCI-Zugang weiter.",
+          "impact": "Konkrete Kapitalmarktreformen stärken die Umsetzungskapazität, verbleibende Marktzugangshürden bleiben jedoch zu beobachten.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/vietnam-joins-ftse-russell-emerging-market-benchmark-2026-09-21/",
+            "date": "2026-09-21"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Beschäftigung in Industriebetrieben stieg zum 1. August um 3,8 % gegenüber dem Vorjahr.",
+          "impact": "Dass Industriewachstum in Beschäftigung übergeht, zeigt starke Arbeitskräftenachfrage.",
+          "status": "positive",
+          "source": {
+            "name": "Vietnam Ulusal İstatistik Ofisi",
+            "url": "https://www.nso.gov.vn/en/data-and-statistics/2026/09/report-socio-economic-performance-in-august-and-8-months-of-2026/",
+            "date": "2026-09-06"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die Inflation stieg im August auf 4,89 %, während 96,5 % der Haushalte gleiches oder höheres Einkommen als im Vorjahr meldeten.",
+          "impact": "Die Einkommenslage bleibt robust, schnellere Inflation erzeugt aber neuen Lebenshaltungskostendruck.",
+          "status": "neutral",
+          "source": {
+            "name": "Vietnam Ulusal İstatistik Ofisi",
+            "url": "https://www.nso.gov.vn/en/data-and-statistics/2026/09/report-socio-economic-performance-in-august-and-8-months-of-2026/",
+            "date": "2026-09-06"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "US-amerikanische und vietnamesische Unternehmen bereiten ein breites Paket neuer Vereinbarungen in Energie, Technologie, Luftfahrt und Finanzen vor.",
+          "impact": "Tiefere internationale Unternehmensintegration ist ein positives Talentsignal für qualifizierte Jobs und Technologietransfer.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/us-vietnam-firms-sign-agreements-lam-travels-new-york-documents-show-2026-09-16/",
+            "date": "2026-09-16"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "704"
+    },
+    {
+      "id": "indonesia",
+      "name": "Indonesien",
+      "flag": "🇮🇩",
+      "selection_reason": "Der große Binnenmarkt und die Nickel-Batterie-Industriepolitik sind stark, fiskalische und institutionelle Vertrauenssignale müssen jedoch eng beobachtet werden.",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Bank Indonesia berichtet, dass Binnennachfrage und fiskalische Impulse das Wachstum stützen; für Juli wird ein reales Einzelhandelswachstum von 0,9 % erwartet.",
+          "impact": "Der große Binnenmarkt puffert externe Schocks, auch wenn die Konsumdynamik noch nicht sehr stark ist.",
+          "status": "neutral",
+          "source": {
+            "name": "Bank Indonesia",
+            "url": "https://www.bi.go.id/en/publikasi/laporan/Pages/TKM-Agustus-2026.aspx",
+            "date": "2026-08-24"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Hohe globale Ölpreise erhöhen die Kosten der Kraftstoffsubventionen, während die Rupiah unter globaler Volatilität steht.",
+          "impact": "Energieimporte und Währungssensitivität sind zentrale externe Abhängigkeiten für Haushalt und Inflation.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/indonesias-new-finance-minister-touts-policy-continuity-keeps-deficit-outlook-2026-09-18/",
+            "date": "2026-09-18"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Von Januar bis Juni wurde ein Handelsüberschuss von 3,58 Mrd. US-Dollar erzielt, während Juni allein ein Defizit von 0,45 Mrd. US-Dollar auswies.",
+          "impact": "Die Außenbilanz ist insgesamt stützend, monatliche Schwankungen zeigen aber Rohstoff- und Weltmarktabhängigkeit.",
+          "status": "neutral",
+          "source": {
+            "name": "Bank Indonesia",
+            "url": "https://www.bi.go.id/en/publikasi/laporan/Pages/TKM-Agustus-2026.aspx",
+            "date": "2026-08-24"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Eine neue Nickelpreisformel macht niedriggradiges Erz für HPAL-Batterieproduzenten wirtschaftlicher.",
+          "impact": "Die Regulierung unterstützt Indonesiens Übergang vom Rohstoffexport zur EV-Batterie-Wertschöpfungskette.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/indonesian-nickel-smelters-group-says-new-price-formula-provides-operational-2026-09-17/",
+            "date": "2026-09-17"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Bis 14. August verzeichnete das dritte Quartal 2026 Nettozuflüsse bei Portfolioinvestitionen von 1,8 Mrd. US-Dollar.",
+          "impact": "Anhaltende Kapitalzuflüsse stützen Wachstum und Währungsstabilität; politisches Vertrauen bleibt jedoch entscheidend.",
+          "status": "positive",
+          "source": {
+            "name": "Bank Indonesia",
+            "url": "https://www.bi.go.id/en/publikasi/laporan/Pages/TKM-Agustus-2026.aspx",
+            "date": "2026-08-24"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Der neue Finanzminister kündigte an, das Haushaltsdefizit 2026 bei 2,85 % des BIP und damit unter der gesetzlichen 3-%-Grenze zu halten.",
+          "impact": "Das Bekenntnis zu Haushaltsdisziplin stützt finanzielle Widerstandsfähigkeit trotz großer Sozial- und Infrastrukturprogramme.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/indonesias-new-finance-minister-touts-policy-continuity-keeps-deficit-outlook-2026-09-18/",
+            "date": "2026-09-18"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Nach dem dritten Finanzministerwechsel in weniger als zwei Jahren versprach die neue Führung politische Kontinuität und Planbarkeit.",
+          "impact": "Technokratische Kontinuität kann Vertrauen stärken, häufige Spitzenwechsel halten jedoch institutionelle Unsicherheit aufrecht.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/good-move-indonesias-finance-minister-switch-will-ease-investor-jitters-2026-09-14/",
+            "date": "2026-09-14"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Erwerbsbevölkerung erreichte im Mai 2026 155,41 Mio., während die Arbeitslosigkeit auf 4,65 % sank.",
+          "impact": "Eine große und wachsende Erwerbsbevölkerung ist ein struktureller Vorteil für die Skalierung von Industrie und Dienstleistungen.",
+          "status": "positive",
+          "source": {
+            "name": "BPS Endonezya",
+            "url": "https://www.bps.go.id/en/pressrelease/2026/08/05/2606/unemployment-rate-was-4-65-percent---the-average-wage-of-employees-was-3-39-million-rupiah-.html",
+            "date": "2026-08-05"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Der Anteil der Haushalte mit angemessenem Wohnzugang stieg 2026 von 68,4 % auf 70,3 %; die Inflation lag im August bei 3,19 %.",
+          "impact": "Besserer Wohnzugang unterstützt Umzugsbedingungen, regionale Kostenunterschiede bleiben aber wichtig.",
+          "status": "positive",
+          "source": {
+            "name": "BPS Endonezya",
+            "url": "https://www.bps.go.id/id/news/2026/08/22/937/bps-rilis-perdana-statistik-perumahan-2026--akses-rumah-layak-huni-meningkat.html",
+            "date": "2026-08-22"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Investitionen in hochqualifizierte Industrie nehmen zu, während die Erwerbsbeteiligung auf 70,57 % stieg.",
+          "impact": "Eine breite Arbeitskräftebasis und neue Industrieprojekte vergrößern den Talentmarkt; Governance-Vertrauen bleibt für ausländische Fachkräfte relevant.",
+          "status": "neutral",
+          "source": {
+            "name": "BPS Endonezya",
+            "url": "https://www.bps.go.id/en/pressrelease/2026/08/05/2606/unemployment-rate-was-4-65-percent---the-average-wage-of-employees-was-3-39-million-rupiah-.html",
+            "date": "2026-08-05"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "360"
+    },
+    {
+      "id": "saudi",
+      "name": "Saudi-Arabien",
+      "flag": "🇸🇦",
+      "selection_reason": "Der Nichtöl-Umbau setzt sich fort, während die Anpassung der Energielogistik an regionale Schocks zugleich Chance und Stresstest ist.",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Der IWF erwartet 2026 ein Wachstum der Nichtölwirtschaft von 2,6 %; S&P sieht Nichtölaktivitäten bei rund 70 % des BIP.",
+          "impact": "Die größere Nichtölbasis zeigt eine zunehmend konkrete wirtschaftliche Diversifizierung.",
+          "status": "positive",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/07/29/pr26267-saudi-arabia-imf-concludes-2026-aiv",
+            "date": "2026-07-29"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Houthi-Angriffe legten die East-West-Ölpipeline lahm und zeigten, dass auch die alternative Exportroute verwundbar ist.",
+          "impact": "Die Exponierung von Öl- und Logistikinfrastruktur gegenüber regionalen Sicherheitsschocks bleibt die kritischste Abhängigkeit.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/",
+            "date": "2026-09-13"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Saudi-Arabiens Öllieferungen erholten sich im September über alternative Transfers und Routen durch Hormus.",
+          "impact": "Die Fähigkeit, Exporte über alternative Logistik aufrechtzuerhalten, stärkt die Widerstandsfähigkeit der Auslandseinnahmen.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/",
+            "date": "2026-09-16"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "PIF gründete ein neues Unternehmen zur Entwicklung von Tourismus und Wohnen an der Al-Khafji-Küste; Kapital fließt weiter in Nichtölsektoren.",
+          "impact": "Investitionen in Tourismus, Wohnen und Dienstleistungen stärken die Diversifizierungsachse von Vision 2030.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/saudi-pif-launches-firm-develop-tourism-residential-area-gulf-coast-2026-09-07/",
+            "date": "2026-09-07"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "S&P bewertet die selektivere Kalibrierung von Vision-2030-Investitionen und die größere Rolle des Privatsektors positiv für die fiskalische Widerstandsfähigkeit.",
+          "impact": "Selektivere und privatwirtschaftlichere Kapitalallokation kann die Investitionseffizienz erhöhen.",
+          "status": "positive",
+          "source": {
+            "name": "Suudi Arabistan Maliye Bakanlığı",
+            "url": "https://mof.gov.sa/en/MediaCenter/news/Pages/News_12092026.aspx",
+            "date": "2026-09-12"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "S&P bestätigte das A+-Rating und hob starke öffentliche Vermögenswerte sowie kalibrierte Ausgaben als fiskalische Puffer hervor.",
+          "impact": "Hohe öffentliche Vermögenswerte bieten erhebliche Finanzkapazität für die Fortsetzung großer Transformationsprojekte.",
+          "status": "positive",
+          "source": {
+            "name": "Suudi Arabistan Maliye Bakanlığı",
+            "url": "https://mof.gov.sa/en/MediaCenter/news/Pages/News_12092026.aspx",
+            "date": "2026-09-12"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Der IWF wertete umgeleitete Logistik und neu priorisierte Projektausgaben trotz Kriegsschock als Zeichen wirtschaftlicher Agilität.",
+          "impact": "Schnelle operative Reaktionsfähigkeit wirkt stark, das Sicherheitsumfeld erhöht jedoch die Umsetzungskosten.",
+          "status": "positive",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/07/29/pr26267-saudi-arabia-imf-concludes-2026-aiv",
+            "date": "2026-07-29"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Der IWF berichtet von niedriger saudischer Arbeitslosigkeit und Fortschritten bei der Erwerbsbeteiligung von Frauen als Vision-2030-Erfolg.",
+          "impact": "Eine diversere Arbeitskräftebasis stärkt lokale Talentkapazität in Nichtölsektoren.",
+          "status": "positive",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/07/29/pr26267-saudi-arabia-imf-concludes-2026-aiv",
+            "date": "2026-07-29"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die Inflation blieb im August bei 1,8 %, während Wohnen, Wasser und Energie um 3,9 % gegenüber dem Vorjahr stiegen.",
+          "impact": "Die Gesamtinflation ist niedrig, Wohnkosten erhöhen jedoch besonders in schnell wachsenden Städten die Umzugskosten.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/middle-east/saudi-arabias-annual-inflation-rate-remains-18-aug-2026-09-15/",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Eine neue Regelung für Gemeinschaftsunterkünfte brachte 1.360 lizenzierte Einrichtungen für rund eine Million ausländische Beschäftigte unter formale Standards.",
+          "impact": "Die Institutionalisierung der Lebensbedingungen ausländischer Beschäftigter ist ein positives Signal für die internationale Arbeitskräfteinfrastruktur.",
+          "status": "positive",
+          "source": {
+            "name": "Zawya/Refinitiv",
+            "url": "https://www.tradingview.com/news/reuters.com%2C2026-09-04%3Anewsml_Zaw3kG6yb%3A0-zawya-zawya-sng-saudi-1-360-licenses-issued-for-collective-housing-for-one-million-foreign-workers/",
+            "date": "2026-09-04"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "682"
+    },
+    {
+      "id": "malaysia",
+      "name": "Malaysia",
+      "flag": "🇲🇾",
+      "selection_reason": "Halbleiterzyklus, Rechenzentrumsinvestitionen und angehobene Wachstumsprognosen senden gleichzeitig starke frühe Entwicklungssignale.",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Die ADB hob Malaysias Wachstumsprognose für 2026 auf 4,9 % an; Halbleiterzyklus und Rechenzentren stützen die Aktivität.",
+          "impact": "Die Übertragung der Technologieinvestitionen auf das reale Wachstum stärkt die Transformationsfähigkeit.",
+          "status": "positive",
+          "source": {
+            "name": "Asian Development Bank",
+            "url": "https://www.adb.org/outlook",
+            "date": "2026-09-23"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Hohe Ölpreise belasten den Ringgit, während der Elektronik-Handelsüberschuss höhere Energieimportkosten teilweise ausgleicht.",
+          "impact": "Energiepreise und Dollarzyklus sind zentrale externe Risiken; starke Elektronikexporte bilden einen wichtigen Puffer.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/dollars-allure-oil-surge-fan-bearish-bets-emerging-asian-currencies-2026-09-17/",
+            "date": "2026-09-17"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die Exporte stiegen im Juni um 45,4 % gegenüber dem Vorjahr, vor allem durch Elektronik und KI-nahe Produkte.",
+          "impact": "Der Technologieschub macht Malaysia wichtiger in der Lieferkette für KI-Hardware.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/malaysia-q2-growth-likely-accelerated-58-exports-resilient-demand-2026-08-12/",
+            "date": "2026-08-12"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Das von Nvidia unterstützte Unternehmen Firmus vereinbarte mehrjährig Rechenkapazität aus zwei malaysischen Rechenzentren für OpenAI.",
+          "impact": "Die Skalierung des KI-Rechenzentrumsökosystems mit realer Kundennachfrage stärkt die strategische Technologietransformation.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/nvidia-backed-firmus-signs-deal-with-openai-malaysia-data-centre-capacity-2026-09-08/",
+            "date": "2026-09-08"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Genehmigte Investitionen stiegen im ersten Halbjahr um 11,7 % auf 218,5 Mrd. MYR; ausländische Investitionen um 18,5 %.",
+          "impact": "Hohe und diversifizierte Kapitalzuflüsse sind ein starkes Frühindikator-Signal für künftige Kapazität und Beschäftigung.",
+          "status": "positive",
+          "source": {
+            "name": "MIDA",
+            "url": "https://www.mida.gov.my/media-release/malaysia-secures-rm218-5-billion-in-approved-investments-in-1h-2026-with-domestic-investment-in-manufacturing-up-23/",
+            "date": "2026-08-28"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Die Investitionsprojekte des ersten Halbjahres sollen mehr als 99.000 Jobs schaffen; Johor und Selangor entwickeln sich zu großen Zentren.",
+          "impact": "Schnell wachsende Investitionscluster schaffen Chancen, machen Energie- und Netzplanung für urbane Kapazität aber kritisch.",
+          "status": "positive",
+          "source": {
+            "name": "MIDA",
+            "url": "https://www.mida.gov.my/media-release/malaysia-secures-rm218-5-billion-in-approved-investments-in-1h-2026-with-domestic-investment-in-manufacturing-up-23/",
+            "date": "2026-08-28"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "MIDA richtet die Rechenzentrumspolitik neu aus: weg vom reinen Anziehen von Investitionen, hin zu mehr Wert für lokale KMU und Lieferketten.",
+          "impact": "Die zweite Politikphase zeigt Anpassungsfähigkeit und soll Investitionsnutzen stärker in der lokalen Wirtschaft verankern.",
+          "status": "positive",
+          "source": {
+            "name": "MIDA",
+            "url": "https://www.mida.gov.my/media-release/mida-charts-next-phase-for-malaysias-data-centre-sector-from-attracting-investment-to-building-value-for-smes-and-malaysians/",
+            "date": "2026-09-14"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Beschäftigung stieg im zweiten Quartal um 1,1 %, die Arbeitslosigkeit blieb bei 3,0 % und die Stundenproduktivität legte um 5,5 % zu.",
+          "impact": "Niedrige Arbeitslosigkeit und steigende Produktivität unterstützen neue hochwertige Investitionen.",
+          "status": "positive",
+          "source": {
+            "name": "Malezya İstatistik Kurumu",
+            "url": "https://www.dosm.gov.my/portal-main/release-content/labour-market-review-lmr-q22026",
+            "date": "2026-08-27"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die Arbeitslosigkeit liegt bei 3,0 % und die Inflation bleibt relativ kontrolliert, doch schnelles Rechenzentrums- und Investitionswachstum kann etwa in Johor Wohn- und Infrastrukturdruck erzeugen.",
+          "impact": "Die Haushaltslage ist insgesamt ausgeglichen, Kosten- und Kapazitätsdruck in Investitionsclustern muss aber beobachtet werden.",
+          "status": "neutral",
+          "source": {
+            "name": "Malezya İstatistik Kurumu",
+            "url": "https://www.dosm.gov.my/index.php/portal-main/home",
+            "date": "2026-09-21"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Genehmigte Projekte des ersten Halbjahres sollen rund 99.000 neue Jobs schaffen, viele in qualifizierter Produktion und Dienstleistungen.",
+          "impact": "Neue Technologieinvestitionen erweitern den Chancenpool für lokale und internationale Talente.",
+          "status": "positive",
+          "source": {
+            "name": "MIDA",
+            "url": "https://www.mida.gov.my/media-release/malaysia-secures-rm218-5-billion-in-approved-investments-in-1h-2026-with-domestic-investment-in-manufacturing-up-23/",
+            "date": "2026-08-28"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "458"
+    }
+  ]
+}
