@@ -281,15 +281,16 @@
       display:inline-flex;
       align-items:center;
       justify-content:center;
-      width:12px;
-      flex:0 0 12px;
-      font-size:13px;
+      width:13px;
+      flex:0 0 13px;
+      font-size:15px;
       line-height:1;
       font-weight:800;
+      transform-origin:center;
     }
-    .country-direction.positive{color:var(--positive)}
-    .country-direction.neutral{color:var(--neutral);font-size:10px}
-    .country-direction.negative{color:var(--negative)}
+    .country-direction.positive{color:var(--positive);transform:rotate(-45deg)}
+    .country-direction.neutral{color:var(--neutral);font-size:10px;transform:none}
+    .country-direction.negative{color:var(--negative);transform:rotate(45deg)}
     .view-toggle{
       position:relative;z-index:3;
       width:32px;height:32px;flex:0 0 32px;
@@ -1211,7 +1212,7 @@ function ulkeToplamYonu(countryId){
   return "neutral";
 }
 function ulkeYonIkonu(status){
-  return status==="positive"?"↑":status==="negative"?"↓":"●";
+  return status==="neutral"?"●":"→";
 }
 async function ulkeYonleriniGuncelle(){
   try{
@@ -1259,7 +1260,7 @@ function ulkeleriCiz(){
       b.className="country-chip"+(c.id===seciliUlke?" active":"");
       b.dataset.countryId=c.id;
       const initialStatus=ulkeToplamYonu(c.id);
-      b.innerHTML=`<span class="flag">${c.flag}</span><span class="country-direction ${initialStatus}" aria-hidden="true">${ulkeYonIkonu(initialStatus)}</span><span>${c.name}</span>`;
+      b.innerHTML=`<span class="flag">${c.flag}</span><span>${c.name}</span><span class="country-direction ${initialStatus}" aria-hidden="true">${ulkeYonIkonu(initialStatus)}</span>`;
       b.onclick=()=>ulkeSec(c.id);
       chips.appendChild(b);
     });
