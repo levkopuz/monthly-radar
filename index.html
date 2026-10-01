@@ -281,16 +281,23 @@
       display:inline-flex;
       align-items:center;
       justify-content:center;
-      width:13px;
-      flex:0 0 13px;
-      font-size:15px;
+      width:14px;
+      height:14px;
+      flex:0 0 14px;
       line-height:1;
-      font-weight:800;
-      transform-origin:center;
     }
-    .country-direction.positive{color:var(--positive);transform:rotate(-45deg)}
-    .country-direction.neutral{color:var(--neutral);font-size:10px;transform:none}
-    .country-direction.negative{color:var(--negative);transform:rotate(45deg)}
+    .country-direction svg{display:block;width:14px;height:14px;stroke:currentColor}
+    .country-direction.positive{color:#00C853}
+    .country-direction.negative{color:#FF0000}
+    .country-direction.neutral{color:#9E9E9E}
+    .country-direction.neutral::before{
+      content:"";
+      display:block;
+      width:7px;
+      height:7px;
+      border-radius:50%;
+      background:#9E9E9E;
+    }
     .view-toggle{
       position:relative;z-index:3;
       width:32px;height:32px;flex:0 0 32px;
@@ -1212,7 +1219,9 @@ function ulkeToplamYonu(countryId){
   return "neutral";
 }
 function ulkeYonIkonu(status){
-  return status==="neutral"?"●":"→";
+  if(status==="positive")return '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13L13 3M7 3h6v6" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  if(status==="negative")return '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3l10 10M7 13h6V7" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  return "";
 }
 async function ulkeYonleriniGuncelle(){
   try{
@@ -1222,7 +1231,7 @@ async function ulkeYonleriniGuncelle(){
       const indicator=chip.querySelector(".country-direction");
       if(!indicator)return;
       indicator.className=`country-direction ${status}`;
-      indicator.textContent=ulkeYonIkonu(status);
+      indicator.innerHTML=ulkeYonIkonu(status);
     });
   }catch(e){}
 }
