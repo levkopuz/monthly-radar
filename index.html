@@ -1078,7 +1078,13 @@ function ulkeSec(id){
   seciliUlke=id;
   ulkeleriCiz();
   detayiCiz();
-  document.getElementById("detail").scrollIntoView({behavior:"smooth",block:"start"});
+  requestAnimationFrame(()=>{
+    const detail=document.getElementById("detail");
+    const toolbar=document.querySelector(".toolbar");
+    const stickyTop=parseFloat(getComputedStyle(toolbar).top)||0;
+    const hedef=window.scrollY+detail.getBoundingClientRect().top-toolbar.getBoundingClientRect().height-stickyTop;
+    window.scrollTo({top:Math.max(0,hedef),behavior:"smooth"});
+  });
 }
 async function haritaVerisiniGetir(){
   if(haritaTopo)return haritaTopo;
