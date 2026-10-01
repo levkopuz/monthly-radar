@@ -277,6 +277,19 @@
     .country-chip:hover{transform:translateY(-1px);box-shadow:0 5px 14px rgba(57,48,37,.07);background:#fffdf8}
     .country-chip.active{background:#121210;color:#f5f0e8;border-color:#121210}
     .country-chip .flag{font-size:17px;line-height:1}
+    .country-direction{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      width:12px;
+      flex:0 0 12px;
+      font-size:13px;
+      line-height:1;
+      font-weight:800;
+    }
+    .country-direction.positive{color:var(--positive)}
+    .country-direction.neutral{color:var(--neutral);font-size:10px}
+    .country-direction.negative{color:var(--negative)}
     .view-toggle{
       position:relative;z-index:3;
       width:32px;height:32px;flex:0 0 32px;
@@ -1180,6 +1193,38 @@ function gorunumuGuncelle(){
   toggle.setAttribute("aria-pressed",mapMode?"true":"false");
   if(mapMode)haritayiCiz();
 }
+function ulkeToplamYonu(countryId){
+  let positive=0,negative=0;
+  const seciliAy=veri?.meta?.month_id||"9999-99";
+  aylikIndeks.months
+    .filter(m=>m.id<=seciliAy)
+    .forEach(m=>{
+      const mv=arsivCache.get(arsivAnahtari(m.id));
+      const c=mv?arsivdeUlke(mv,countryId):null;
+      c?.items?.forEach(item=>{
+        if(item.status==="positive")positive++;
+        else if(item.status==="negative")negative++;
+      });
+    });
+  if(positive>negative)return "positive";
+  if(negative>positive)return "negative";
+  return "neutral";
+}
+function ulkeYonIkonu(status){
+  return status==="positive"?"↑":status==="negative"?"↓":"●";
+}
+async function ulkeYonleriniGuncelle(){
+  try{
+    await tumArsiviYukle();
+    document.querySelectorAll(".country-chip[data-country-id]").forEach(chip=>{
+      const status=ulkeToplamYonu(chip.dataset.countryId);
+      const indicator=chip.querySelector(".country-direction");
+      if(!indicator)return;
+      indicator.className=`country-direction ${status}`;
+      indicator.textContent=ulkeYonIkonu(status);
+    });
+  }catch(e){}
+}
 function ulkeleriCiz(){
   basliklariGuncelle();
   const list=ayUlkeListesi(veri),root=document.getElementById("countryGrid");
@@ -1212,7 +1257,9 @@ function ulkeleriCiz(){
     ulkeler.forEach(c=>{
       const b=document.createElement("button");
       b.className="country-chip"+(c.id===seciliUlke?" active":"");
-      b.innerHTML=`<span class="flag">${c.flag}</span><span>${c.name}</span>`;
+      b.dataset.countryId=c.id;
+      const initialStatus=ulkeToplamYonu(c.id);
+      b.innerHTML=`<span class="flag">${c.flag}</span><span class="country-direction ${initialStatus}" aria-hidden="true">${ulkeYonIkonu(initialStatus)}</span><span>${c.name}</span>`;
       b.onclick=()=>ulkeSec(c.id);
       chips.appendChild(b);
     });
@@ -1221,6 +1268,7 @@ function ulkeleriCiz(){
     root.appendChild(group);
   });
   gorunumuGuncelle();
+  ulkeYonleriniGuncelle();
 }
 function sinyalYonButonlariniGuncelle(){
   const slider=document.getElementById("signalTable");
