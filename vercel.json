@@ -3,5 +3,18 @@
   "alias": [
     "country-radar.vercel.app",
     "monthly-radar.vercel.app"
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://country-radar.vercel.app/:path*",
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "monthly-radar.vercel.app"
+        }
+      ]
+    }
   ]
 }
