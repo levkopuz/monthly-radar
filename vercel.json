@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "alias": [
+    "country-radar.vercel.app",
+    "monthly-radar.vercel.app"
+  ]
+}
