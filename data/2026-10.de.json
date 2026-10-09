@@ -5,7 +5,7 @@
     "month": "October 2026",
     "updated": "1. Oktober 2026",
     "checked_date": "2026-10-01",
-    "country_count": 20,
+    "country_count": 22,
     "signal_count": 10,
     "method": "10 feste Signalfamilien; wesentliche Änderungen der letzten 30 Tage werden priorisiert, andernfalls werden die jüngsten strukturellen Daten erneut geprüft.",
     "potential_country_count": 5
@@ -2770,6 +2770,282 @@
         }
       ],
       "map_id": "124"
+    },
+    {
+      "id": "poland",
+      "name": "Polen",
+      "flag": "🇵🇱",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Polens BIP wuchs im zweiten Quartal 2026 um 3,9 % gegenüber dem Vorjahr.",
+          "impact": "Starke Binnendynamik trotz Schwäche im Euroraum macht Polen für das kurzfristige Wachstum besonders beobachtenswert.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://stat.gov.pl/en/release-calendar/08-2026.html",
+            "date": "2026-08-31"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die Inflation stieg im August auf 3,4 %, Transportpreise monatlich um 3,5 %; die Regierung plante eine neue Übergewinnsteuer für Ölunternehmen.",
+          "impact": "Globale Energieschocks schlagen weiter schnell auf Haushalte und Fiskalpolitik durch, wodurch Energiekosten eine zentrale Verwundbarkeit bleiben.",
+          "status": "negative",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://stat.gov.pl/en/topics/prices-trade/price-indices/consumer-price-indices-in-august-2026%2C2%2C178.html",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Im Rahmen der Karpathen-Acht wurden mehr als 50 Abkommen im Wert von über 1 Mrd. € zu Handel, Energie und Logistik unterzeichnet.",
+          "impact": "Neue regionale Verbindungen können Polens Rolle in mittel- und osteuropäischen Handelskorridoren stärken.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/zelenskiy-launches-carpathian-eight-initiative-trade-security-2026-09-18/",
+            "date": "2026-09-18"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Die Beschaffung aus Polen und Mitteleuropa für den Verteidigungssektor hat sich seit 2022 etwa vervierfacht und 30,4 Mrd. PLN erreicht.",
+          "impact": "Verteidigungsausgaben für lokale Produktion fördern Technologietransfer, Fertigungskapazität und regionale Lieferketten.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/aerospace-defense/poland-pivots-home-grown-defence-production-it-builds-europes-biggest-army-2026-09-01/",
+            "date": "2026-09-01"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Polen erhielt im Juni rund 31 Mrd. PLN neue EU-Mittel aus dem nationalen Aufbauplan.",
+          "impact": "EU-Kapital für Energie, Digitalisierung, Gesundheit und Verteidigung stützt den Investitionszyklus.",
+          "status": "positive",
+          "source": {
+            "name": "Polonya Kalkınma Fonları Bakanlığı",
+            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
+            "date": "2026-06-02"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Neue EU-Mittel fließen in Energieinfrastruktur, sauberen Verkehr, Wassermanagement und digitale Transformation.",
+          "impact": "Großvolumige externe Finanzierung erweitert den fiskalischen Spielraum für Infrastrukturmodernisierung.",
+          "status": "positive",
+          "source": {
+            "name": "Polonya Kalkınma Fonları Bakanlığı",
+            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
+            "date": "2026-06-02"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Eine geplante Übergewinnsteuer zur Dämpfung der Kraftstoffpreise war zuvor am Präsidentenveto gescheitert; das Verfahren läuft weiter.",
+          "impact": "Die wirtschaftspolitische Eingriffsfähigkeit ist hoch, doch institutionelle Reibung kann die Umsetzung verlangsamen.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/poland-revive-windfall-tax-oil-firms-use-proceeds-fuel-price-relief-2026-09-15/",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die Bevölkerung sank im ersten Halbjahr 2026 um 159.000 gegenüber dem Vorjahr, während die Nettozuwanderung positiv blieb; die LFS-Arbeitslosigkeit lag im zweiten Quartal bei 3,2 %.",
+          "impact": "Sehr niedrige Arbeitslosigkeit ist ein Vorteil, während der natürliche Bevölkerungsrückgang das langfristige Arbeitskräfteangebot belastet.",
+          "status": "neutral",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://ssgk.stat.gov.pl/index_en.html",
+            "date": "2026-08-25"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Reale Unternehmenslöhne stiegen im Juli um 3,6 %, die Zahl fertiggestellter Wohnungen von Januar bis Juli um 3,2 %.",
+          "impact": "Reallohnwachstum und neues Wohnungsangebot gleichen Lebenshaltungskostendruck teilweise aus.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://ssgk.stat.gov.pl/index_en.html",
+            "date": "2026-08-25"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Trotz Bevölkerungsrückgang blieb die Nettozuwanderung im ersten Halbjahr 2026 positiv.",
+          "impact": "Migration gleicht Arbeitskräftelücken teilweise aus und schafft zugleich strukturellen Bedarf und Chancen für internationale Talente.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://ssgk.stat.gov.pl/index_en.html",
+            "date": "2026-08-25"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "616"
+    },
+    {
+      "id": "sweden",
+      "name": "Schweden",
+      "flag": "🇸🇪",
+      "map_id": "752",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "status": "positive",
+          "development": "Das schwedische Konjunkturinstitut erwartet 2026 dank Konsum, Investitionen und Exporten 3 % Wachstum.",
+          "impact": "Eine breit angelegte Erholung stützt das Wachstum.",
+          "source": {
+            "name": "Konjunkturinstitutet",
+            "url": "https://www.konj.se/en/publications/swedish-economy-report/2026-09-30-swedish-economy-report-september-2026/",
+            "date": "2026-09-30"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "status": "negative",
+          "development": "Energiebezogene Erzeugerpreise stiegen im August um 25,2 %, Importpreise um 9,5 % gegenüber dem Vorjahr.",
+          "impact": "Energie und importierte Vorleistungen erhöhen die Anfälligkeit für externe Schocks.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/prices-and-economic-trends/price-statistics/producer-and-import-price-index/pong/statistical-news/producer-and-import-price-index-august-2026/",
+            "date": "2026-09-25"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "status": "neutral",
+          "development": "Von Januar bis August stiegen Warenexporte um 4 % und Importe um 8 %; das Defizit betrug 2,7 Mrd. SEK.",
+          "impact": "Stärker wachsende Importe belasten die Außenhandelsbilanz.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/business-activities-and-foreign-trade/foreign-trade/foreign-trade-in-goods/pong/statistical-news/exports-imports-and-net-trade-balance-august-2026-in-current-prices/",
+            "date": "2026-09-29"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "status": "positive",
+          "development": "Die Aufträge für Computer-, Elektronik- und Optikprodukte stiegen im August um 99,5 % gegenüber dem Vorjahr.",
+          "impact": "Die Hightech-Produktion unterstützt den industriellen Strukturwandel.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/business-activities-and-foreign-trade/business-production-sales-and-finances--short-term-statistics/orders-and-turnover-in-industry/pong/statistical-news/orders-and-turnover-in-industry-august-2026/",
+            "date": "2026-10-09"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "status": "positive",
+          "development": "Laut Konjunkturinstitut tragen öffentliche und private Investitionen 2026 zur Erholung bei.",
+          "impact": "Investitionen stärken mittelfristig die Produktionskapazität.",
+          "source": {
+            "name": "Konjunkturinstitutet",
+            "url": "https://www.konj.se/en/publications/swedish-economy-report/2026-09-30-swedish-economy-report-september-2026/",
+            "date": "2026-09-30"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "status": "positive",
+          "development": "Das Konjunkturinstitut schätzt den fiskalischen Spielraum für 2027–2030 auf etwa 120 Mrd. SEK.",
+          "impact": "Der Spielraum unterstützt Investitionen in Infrastruktur und öffentliche Dienste.",
+          "source": {
+            "name": "Konjunkturinstitutet",
+            "url": "https://www.konj.se/en/publications/swedish-economy-report/2026-09-30-swedish-economy-report-september-2026/",
+            "date": "2026-09-30"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "status": "neutral",
+          "development": "Die Riksbank beließ den Leitzins im September bei 1,75 %.",
+          "impact": "Die Politik bleibt stabil, doch Energieinflation kann künftige Entscheidungen erschweren.",
+          "source": {
+            "name": "Sveriges Riksbank",
+            "url": "https://www.riksbank.se/en-gb/monetary-policy/monetary-policy-report/2026/monetary-policy-decision-september-2026/",
+            "date": "2026-09-24"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "status": "negative",
+          "development": "Im August lag die bereinigte Arbeitslosenquote trotz 103.000 zusätzlicher Beschäftigter bei 8,7 %.",
+          "impact": "Die hohe Arbeitslosigkeit bremst die Erholung des Arbeitsmarkts.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/labour-market/labour-force-supply/labour-force-surveys-lfs/pong/statistical-news/labour-force-surveys-lfs-august-2026/",
+            "date": "2026-09-16"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "status": "neutral",
+          "development": "Die vorläufige Inflation betrug im September 1,1 % (VPI) und 1,5 % (KPIF).",
+          "impact": "Relativ niedrige Inflation stützt die Kaufkraft, doch Energiepreise bleiben ein Risiko.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/prices-and-economic-trends/price-statistics/consumer-price-index-cpi/pong/statistical-news/cpi-flash-estimate-september-2026/",
+            "date": "2026-10-07"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "status": "neutral",
+          "development": "Die Erwerbsquote erreichte im August 77,5 %, die Jugendarbeitslosigkeit lag bei 18,4 %.",
+          "impact": "Hohe Erwerbsbeteiligung ist positiv, doch der Berufseinstieg junger Menschen bleibt schwierig.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/labour-market/labour-force-supply/labour-force-surveys-lfs/pong/statistical-news/labour-force-surveys-lfs-august-2026/",
+            "date": "2026-09-16"
+          },
+          "checked_date": "2026-10-09"
+        }
+      ]
     }
   ],
   "potential_countries": [
