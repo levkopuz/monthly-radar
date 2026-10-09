@@ -5,7 +5,7 @@
     "month": "October 2026",
     "updated": "1 October 2026",
     "checked_date": "2026-10-01",
-    "country_count": 20,
+    "country_count": 22,
     "signal_count": 10,
     "method": "10 fixed signal families; material changes from the last 30 days are prioritised, otherwise the latest structural data are revalidated.",
     "potential_country_count": 5
@@ -2770,6 +2770,282 @@
         }
       ],
       "map_id": "124"
+    },
+    {
+      "id": "poland",
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Growth & Economy",
+          "development": "Poland's GDP grew 3.9% year on year in the second quarter of 2026.",
+          "impact": "Strong domestic momentum despite weakness around the euro area makes Poland worth watching for near-term growth.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://stat.gov.pl/en/release-calendar/08-2026.html",
+            "date": "2026-08-31"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "External Dependencies",
+          "development": "August inflation rose to 3.4%, transport prices increased 3.5% month on month and the government planned a new windfall tax on oil companies.",
+          "impact": "Global energy shocks still pass quickly into households and fiscal policy, keeping energy costs a core vulnerability.",
+          "status": "negative",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://stat.gov.pl/en/topics/prices-trade/price-indices/consumer-price-indices-in-august-2026%2C2%2C178.html",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Exports & Foreign Trade",
+          "development": "More than 50 agreements worth over €1 billion were signed under the Carpathian Eight initiative for regional trade, energy and logistics.",
+          "impact": "New regional links could strengthen Poland's role in Central and Eastern European trade corridors.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/zelenskiy-launches-carpathian-eight-initiative-trade-security-2026-09-18/",
+            "date": "2026-09-18"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sector Transformation",
+          "development": "Domestic and Central European defence procurement has roughly quadrupled since 2022 to PLN 30.4 billion.",
+          "impact": "Directing defence spending toward local production is building technology transfer, manufacturing capacity and regional supply chains.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/aerospace-defense/poland-pivots-home-grown-defence-production-it-builds-europes-biggest-army-2026-09-01/",
+            "date": "2026-09-01"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investment & Capital",
+          "development": "Poland received roughly PLN 31 billion of new EU funding in June under its National Recovery Plan.",
+          "impact": "EU capital directed to energy, digitalisation, health and defence supports the investment cycle.",
+          "status": "positive",
+          "source": {
+            "name": "Polonya Kalkınma Fonları Bakanlığı",
+            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
+            "date": "2026-06-02"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Public Finances & Infrastructure",
+          "development": "New EU funds are being allocated to energy infrastructure, clean transport, water management and digital-transformation projects.",
+          "impact": "Large-scale external funding expands fiscal capacity for infrastructure modernisation.",
+          "status": "positive",
+          "source": {
+            "name": "Polonya Kalkınma Fonları Bakanlığı",
+            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
+            "date": "2026-06-02"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Governance & Execution",
+          "development": "A planned windfall tax to soften fuel prices had previously faced a presidential veto and the legal process continues.",
+          "impact": "Economic intervention capacity is strong, but friction between institutions can slow execution.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/poland-revive-windfall-tax-oil-firms-use-proceeds-fuel-price-relief-2026-09-15/",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Population & Labor",
+          "development": "The population fell by 159,000 year on year in the first half of 2026, while net international migration remained positive; Q2 LFS unemployment was 3.2%.",
+          "impact": "Very low unemployment is an advantage, while natural population decline pressures long-term labour supply.",
+          "status": "neutral",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://ssgk.stat.gov.pl/index_en.html",
+            "date": "2026-08-25"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Cost of Living & Housing",
+          "development": "Real corporate wages rose 3.6% year on year in July, while completed housing units increased 3.2% in January–July.",
+          "impact": "Real wage growth and new housing supply partly offset cost-of-living pressure.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://ssgk.stat.gov.pl/index_en.html",
+            "date": "2026-08-25"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Social Climate & Talent Attraction",
+          "development": "Despite population decline, net international migration remained positive in the first half of 2026.",
+          "impact": "Migration partly offsets labour shortages, creating both a structural need and opportunity for international talent.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://ssgk.stat.gov.pl/index_en.html",
+            "date": "2026-08-25"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "616"
+    },
+    {
+      "id": "sweden",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "map_id": "752",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Growth & Economy",
+          "status": "positive",
+          "development": "The Swedish NIER forecasts 3% GDP growth in 2026, supported by consumption, investment and exports.",
+          "impact": "A broad-based recovery supports growth.",
+          "source": {
+            "name": "Konjunkturinstitutet",
+            "url": "https://www.konj.se/en/publications/swedish-economy-report/2026-09-30-swedish-economy-report-september-2026/",
+            "date": "2026-09-30"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "External Dependencies",
+          "status": "negative",
+          "development": "Energy-related producer prices rose 25.2% year on year in August, while import prices rose 9.5%.",
+          "impact": "Energy and imported inputs increase exposure to external shocks.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/prices-and-economic-trends/price-statistics/producer-and-import-price-index/pong/statistical-news/producer-and-import-price-index-august-2026/",
+            "date": "2026-09-25"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Exports & Foreign Trade",
+          "status": "neutral",
+          "development": "Goods exports rose 4% and imports 8% in January–August, leaving a SEK 2.7 billion trade deficit.",
+          "impact": "Faster import growth puts pressure on the external balance.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/business-activities-and-foreign-trade/foreign-trade/foreign-trade-in-goods/pong/statistical-news/exports-imports-and-net-trade-balance-august-2026-in-current-prices/",
+            "date": "2026-09-29"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sector Transformation",
+          "status": "positive",
+          "development": "Orders for computer, electronic and optical products increased 99.5% year on year in August.",
+          "impact": "High-tech manufacturing growth supports industrial upgrading.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/business-activities-and-foreign-trade/business-production-sales-and-finances--short-term-statistics/orders-and-turnover-in-industry/pong/statistical-news/orders-and-turnover-in-industry-august-2026/",
+            "date": "2026-10-09"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investment & Capital",
+          "status": "positive",
+          "development": "The NIER expects public and private investment to contribute to the 2026 recovery.",
+          "impact": "Investment supports medium-term productive capacity.",
+          "source": {
+            "name": "Konjunkturinstitutet",
+            "url": "https://www.konj.se/en/publications/swedish-economy-report/2026-09-30-swedish-economy-report-september-2026/",
+            "date": "2026-09-30"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Public Finances & Infrastructure",
+          "status": "positive",
+          "development": "The NIER estimates fiscal space of about SEK 120 billion for 2027–2030.",
+          "impact": "Fiscal room supports infrastructure and public-service investment.",
+          "source": {
+            "name": "Konjunkturinstitutet",
+            "url": "https://www.konj.se/en/publications/swedish-economy-report/2026-09-30-swedish-economy-report-september-2026/",
+            "date": "2026-09-30"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Governance & Execution",
+          "status": "neutral",
+          "development": "The Riksbank held its policy rate at 1.75% in September.",
+          "impact": "Policy stability remains, but energy inflation could complicate future decisions.",
+          "source": {
+            "name": "Sveriges Riksbank",
+            "url": "https://www.riksbank.se/en-gb/monetary-policy/monetary-policy-report/2026/monetary-policy-decision-september-2026/",
+            "date": "2026-09-24"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Population & Labor",
+          "status": "negative",
+          "development": "Seasonally adjusted unemployment was 8.7% in August despite 103,000 more people employed year on year.",
+          "impact": "High unemployment limits labour-market recovery despite employment gains.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/labour-market/labour-force-supply/labour-force-surveys-lfs/pong/statistical-news/labour-force-surveys-lfs-august-2026/",
+            "date": "2026-09-16"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Cost of Living & Housing",
+          "status": "neutral",
+          "development": "Flash September CPI inflation was 1.1%, while CPIF inflation was 1.5%.",
+          "impact": "Relatively low inflation supports purchasing power, but energy prices pose risks.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/prices-and-economic-trends/price-statistics/consumer-price-index-cpi/pong/statistical-news/cpi-flash-estimate-september-2026/",
+            "date": "2026-10-07"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Social Climate & Talent Attraction",
+          "status": "neutral",
+          "development": "Labour-force participation reached 77.5% in August while youth unemployment was 18.4%.",
+          "impact": "High participation is positive, but youth labour-market entry remains difficult.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/labour-market/labour-force-supply/labour-force-surveys-lfs/pong/statistical-news/labour-force-surveys-lfs-august-2026/",
+            "date": "2026-09-16"
+          },
+          "checked_date": "2026-10-09"
+        }
+      ]
     }
   ],
   "potential_countries": [
