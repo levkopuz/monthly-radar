@@ -5,7 +5,7 @@
     "month": "Ekim 2026",
     "updated": "1 Ekim 2026",
     "checked_date": "2026-10-01",
-    "country_count": 20,
+    "country_count": 22,
     "signal_count": 10,
     "method": "10 sabit sinyal ailesi; son 30 gündeki maddi değişiklikler önceliklendirilir, değişiklik yoksa en güncel yapısal veri yeniden doğrulanır.",
     "potential_country_count": 5
@@ -2770,6 +2770,282 @@
         }
       ],
       "map_id": "124"
+    },
+    {
+      "id": "poland",
+      "name": "Polonya",
+      "flag": "🇵🇱",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Büyüme ve Ekonomi",
+          "development": "Polonya GSYH'si 2026 ikinci çeyreğinde yıllık %3,9 büyüdü.",
+          "impact": "Euro Bölgesi çevresindeki zayıflığa rağmen iç ekonomik momentumun güçlü kalması ülkeyi yakın dönem büyüme açısından izlenmeye değer kılıyor.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://stat.gov.pl/en/release-calendar/08-2026.html",
+            "date": "2026-08-31"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Dışa Bağımlılık",
+          "development": "Ağustos enflasyonu %3,4'e yükselirken ulaştırma fiyatları aylık %3,5 arttı ve hükümet petrol şirketlerine yeni windfall tax planladı.",
+          "impact": "Küresel enerji şokları hanelere ve mali politikaya hızlı yansıdığı için enerji maliyeti temel kırılganlık olmaya devam ediyor.",
+          "status": "negative",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://stat.gov.pl/en/topics/prices-trade/price-indices/consumer-price-indices-in-august-2026%2C2%2C178.html",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "İhracat ve Dış Ticaret",
+          "development": "Karpat Sekizlisi girişiminde bölgesel ticaret, enerji ve lojistik için 1 milyar avronun üzerinde 50'den fazla anlaşma imzalandı.",
+          "impact": "Yeni bölgesel bağlantılar Polonya'nın Orta ve Doğu Avrupa ticaret koridorlarındaki rolünü güçlendirebilir.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/zelenskiy-launches-carpathian-eight-initiative-trade-security-2026-09-18/",
+            "date": "2026-09-18"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektörel Dönüşüm",
+          "development": "Polonya'nın yerli ve Orta Avrupa kaynaklı savunma tedariki 2022'den beri yaklaşık dört katına çıkarak 30,4 milyar zloty'e ulaştı.",
+          "impact": "Savunma harcamasının yerli üretime yönelmesi teknoloji transferi, üretim kapasitesi ve bölgesel tedarik zinciri oluşturuyor.",
+          "status": "positive",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/aerospace-defense/poland-pivots-home-grown-defence-production-it-builds-europes-biggest-army-2026-09-01/",
+            "date": "2026-09-01"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Yatırım ve Sermaye",
+          "development": "Polonya Haziran'da Ulusal Toparlanma Planı kapsamında yaklaşık 31 milyar zloty yeni AB kaynağı aldı.",
+          "impact": "Enerji, dijitalleşme, sağlık ve savunmaya yönelen AB sermayesi yatırım döngüsünü destekliyor.",
+          "status": "positive",
+          "source": {
+            "name": "Polonya Kalkınma Fonları Bakanlığı",
+            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
+            "date": "2026-06-02"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Kamu Maliyesi ve Altyapı",
+          "development": "Yeni AB fonları enerji altyapısı, temiz ulaşım, su yönetimi ve dijital dönüşüm projelerine tahsis ediliyor.",
+          "impact": "Büyük ölçekli dış finansman altyapı modernizasyonu için mali alanı genişletiyor.",
+          "status": "positive",
+          "source": {
+            "name": "Polonya Kalkınma Fonları Bakanlığı",
+            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
+            "date": "2026-06-02"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Yönetim ve Uygulama Gücü",
+          "development": "Yakıt fiyatlarını hafifletmek için planlanan windfall tax daha önce cumhurbaşkanlığı vetosuna takıldı ve hukuki süreç devam ediyor.",
+          "impact": "Ekonomik müdahale kapasitesi güçlü olsa da yürütme ile diğer kurumlar arasındaki sürtüşme uygulama hızını sınırlayabiliyor.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/poland-revive-windfall-tax-oil-firms-use-proceeds-fuel-price-relief-2026-09-15/",
+            "date": "2026-09-15"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Nüfus ve İş Gücü",
+          "development": "2026 ilk yarısında nüfus yıllık 159 bin azalırken net uluslararası göç pozitif kaldı; ikinci çeyrek LFS işsizliği %3,2 oldu.",
+          "impact": "Çok düşük işsizlik avantaj sağlarken doğal nüfus kaybı uzun vadeli iş gücü arzını baskılıyor.",
+          "status": "neutral",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://ssgk.stat.gov.pl/index_en.html",
+            "date": "2026-08-25"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Yaşam Maliyeti ve Konut",
+          "development": "Temmuzda reel şirket ücretleri yıllık %3,6 artarken Ocak-Temmuz'da tamamlanan konut sayısı %3,2 yükseldi.",
+          "impact": "Reel ücret artışı ve yeni konut arzı yaşam maliyeti baskısını kısmen dengeliyor.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://ssgk.stat.gov.pl/index_en.html",
+            "date": "2026-08-25"
+          },
+          "checked_date": "2026-10-01"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
+          "development": "Nüfus küçülmesine rağmen 2026 ilk yarısında net uluslararası göç pozitif kaldı.",
+          "impact": "Göçün iş gücü açığını kısmen telafi etmesi uluslararası yetenek açısından yapısal bir ihtiyaç ve fırsat alanı yaratıyor.",
+          "status": "positive",
+          "source": {
+            "name": "Statistics Poland",
+            "url": "https://ssgk.stat.gov.pl/index_en.html",
+            "date": "2026-08-25"
+          },
+          "checked_date": "2026-10-01"
+        }
+      ],
+      "map_id": "616"
+    },
+    {
+      "id": "sweden",
+      "name": "İsveç",
+      "flag": "🇸🇪",
+      "map_id": "752",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Büyüme ve Ekonomi",
+          "status": "positive",
+          "development": "İsveç Konjonktür Enstitüsü, tüketim, yatırım ve ihracatla 2026 büyümesini %3 öngörüyor.",
+          "impact": "Toparlanmanın farklı alanlara yayılması büyümeyi destekliyor.",
+          "source": {
+            "name": "Konjunkturinstitutet",
+            "url": "https://www.konj.se/en/publications/swedish-economy-report/2026-09-30-swedish-economy-report-september-2026/",
+            "date": "2026-09-30"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Dışa Bağımlılık",
+          "status": "negative",
+          "development": "Ağustosta enerji bağlantılı üretici fiyatları yıllık %25,2, ithalat fiyatları %9,5 arttı.",
+          "impact": "Enerji ve ithal girdi maliyetleri dış şoklara karşı kırılganlık yaratıyor.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/prices-and-economic-trends/price-statistics/producer-and-import-price-index/pong/statistical-news/producer-and-import-price-index-august-2026/",
+            "date": "2026-09-25"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "İhracat ve Dış Ticaret",
+          "status": "neutral",
+          "development": "Ocak–Ağustos mal ihracatı %4, ithalat %8 artarken ticaret açığı 2,7 milyar SEK oldu.",
+          "impact": "İthalatın daha hızlı büyümesi dış dengeyi baskılıyor.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/business-activities-and-foreign-trade/foreign-trade/foreign-trade-in-goods/pong/statistical-news/exports-imports-and-net-trade-balance-august-2026-in-current-prices/",
+            "date": "2026-09-29"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektörel Dönüşüm",
+          "status": "positive",
+          "development": "Ağustosta bilgisayar, elektronik ve optik ürünlerde sanayi siparişleri yıllık %99,5 arttı.",
+          "impact": "Yüksek teknoloji üretimindeki artış katma değerli dönüşümü destekliyor.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/business-activities-and-foreign-trade/business-production-sales-and-finances--short-term-statistics/orders-and-turnover-in-industry/pong/statistical-news/orders-and-turnover-in-industry-august-2026/",
+            "date": "2026-10-09"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Yatırım ve Sermaye",
+          "status": "positive",
+          "development": "Konjonktür Enstitüsü, özel ve kamu yatırımlarının 2026 toparlanmasına katkı sağlayacağını öngörüyor.",
+          "impact": "Yatırım artışı orta vadeli üretim kapasitesini destekliyor.",
+          "source": {
+            "name": "Konjunkturinstitutet",
+            "url": "https://www.konj.se/en/publications/swedish-economy-report/2026-09-30-swedish-economy-report-september-2026/",
+            "date": "2026-09-30"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Kamu Maliyesi ve Altyapı",
+          "status": "positive",
+          "development": "Konjonktür Enstitüsü, 2027–2030 için yaklaşık 120 milyar SEK mali alan hesaplıyor.",
+          "impact": "Mali alan altyapı ve kamu hizmetlerine yatırım kapasitesi sağlıyor.",
+          "source": {
+            "name": "Konjunkturinstitutet",
+            "url": "https://www.konj.se/en/publications/swedish-economy-report/2026-09-30-swedish-economy-report-september-2026/",
+            "date": "2026-09-30"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Yönetim ve Uygulama Gücü",
+          "status": "neutral",
+          "development": "Riksbank, eylülde politika faizini %1,75'te sabit tuttu.",
+          "impact": "Politika istikrarı korunurken enerji enflasyonu sonraki kararları zorlaştırabilir.",
+          "source": {
+            "name": "Sveriges Riksbank",
+            "url": "https://www.riksbank.se/en-gb/monetary-policy/monetary-policy-report/2026/monetary-policy-decision-september-2026/",
+            "date": "2026-09-24"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Nüfus ve İş Gücü",
+          "status": "negative",
+          "development": "Ağustosta mevsim etkisinden arındırılmış işsizlik %8,7 olurken istihdam yıllık 103 bin arttı.",
+          "impact": "İstihdam artışına rağmen yüksek işsizlik iş gücü toparlanmasını sınırlıyor.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/labour-market/labour-force-supply/labour-force-surveys-lfs/pong/statistical-news/labour-force-surveys-lfs-august-2026/",
+            "date": "2026-09-16"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Yaşam Maliyeti ve Konut",
+          "status": "neutral",
+          "development": "Eylül öncü TÜFE enflasyonu %1,1, CPIF enflasyonu %1,5 oldu.",
+          "impact": "Görece düşük enflasyon alım gücünü desteklerken enerji fiyatları risk yaratıyor.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/prices-and-economic-trends/price-statistics/consumer-price-index-cpi/pong/statistical-news/cpi-flash-estimate-september-2026/",
+            "date": "2026-10-07"
+          },
+          "checked_date": "2026-10-09"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
+          "status": "neutral",
+          "development": "Ağustosta iş gücüne katılım %77,5, genç işsizliği %18,4 oldu.",
+          "impact": "Yüksek katılım olumlu olsa da gençlerin iş piyasasına geçişi sorun olmaya devam ediyor.",
+          "source": {
+            "name": "Statistics Sweden",
+            "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/labour-market/labour-force-supply/labour-force-surveys-lfs/pong/statistical-news/labour-force-surveys-lfs-august-2026/",
+            "date": "2026-09-16"
+          },
+          "checked_date": "2026-10-09"
+        }
+      ]
     }
   ],
   "potential_countries": [
