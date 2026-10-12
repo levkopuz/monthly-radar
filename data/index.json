@@ -1,7 +1,221 @@
 {
   "latest": "2026-10",
   "months": [
-    {"id":"2026-10","label":"Ekim 2026","file":"2026-10.json","updated":"2026-10-01"},
-    {"id":"2026-09","label":"Eylül 2026","file":"2026-09.json","updated":"2026-09-21"}
+    {
+      "id": "2026-10",
+      "label": "Ekim 2026",
+      "file": "2026-10.json",
+      "updated": "2026-10-01"
+    },
+    {
+      "id": "2026-09",
+      "label": "Eylül 2026",
+      "file": "2026-09.json",
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2026-08",
+      "label": "Ağustos 2026",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2026-07",
+      "label": "Temmuz 2026",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2026-06",
+      "label": "Haziran 2026",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2026-05",
+      "label": "Mayıs 2026",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2026-04",
+      "label": "Nisan 2026",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2026-03",
+      "label": "Mart 2026",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2026-02",
+      "label": "Şubat 2026",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2026-01",
+      "label": "Ocak 2026",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2025-12",
+      "label": "Aralık 2025",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2025-11",
+      "label": "Kasım 2025",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2025-10",
+      "label": "Ekim 2025",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2025-09",
+      "label": "Eylül 2025",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2025-08",
+      "label": "Ağustos 2025",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2025-07",
+      "label": "Temmuz 2025",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2025-06",
+      "label": "Haziran 2025",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2025-05",
+      "label": "Mayıs 2025",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2025-04",
+      "label": "Nisan 2025",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2025-03",
+      "label": "Mart 2025",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2025-02",
+      "label": "Şubat 2025",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2025-01",
+      "label": "Ocak 2025",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2024-12",
+      "label": "Aralık 2024",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2024-11",
+      "label": "Kasım 2024",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2024-10",
+      "label": "Ekim 2024",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2024-09",
+      "label": "Eylül 2024",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2024-08",
+      "label": "Ağustos 2024",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2024-07",
+      "label": "Temmuz 2024",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2024-06",
+      "label": "Haziran 2024",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2024-05",
+      "label": "Mayıs 2024",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2024-04",
+      "label": "Nisan 2024",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2024-03",
+      "label": "Mart 2024",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2024-02",
+      "label": "Şubat 2024",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2024-01",
+      "label": "Ocak 2024",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2023-12",
+      "label": "Aralık 2023",
+      "historical": true,
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "2023-11",
+      "label": "Kasım 2023",
+      "historical": true,
+      "updated": "2026-10-12"
+    }
   ]
 }
