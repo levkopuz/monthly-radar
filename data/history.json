@@ -1,0 +1,547 @@
+{
+  "version": 1,
+  "reconstructed_on": "2026-10-12",
+  "range": {
+    "start": "2023-11",
+    "end": "2026-09"
+  },
+  "note": "Historical reconstruction. Each month uses only source vintages published on or before that month's end; statuses are a qualitative Country Radar synthesis, not contemporaneous scores originally published by the sources.",
+  "periods": [
+    {
+      "id": "A",
+      "start": "2023-11",
+      "end": "2024-03"
+    },
+    {
+      "id": "B",
+      "start": "2024-04",
+      "end": "2024-09"
+    },
+    {
+      "id": "C",
+      "start": "2024-10",
+      "end": "2025-03"
+    },
+    {
+      "id": "D",
+      "start": "2025-04",
+      "end": "2025-09"
+    },
+    {
+      "id": "E",
+      "start": "2025-10",
+      "end": "2026-03"
+    },
+    {
+      "id": "F",
+      "start": "2026-04",
+      "end": "2026-09"
+    }
+  ],
+  "sources": {
+    "weo": [
+      {
+        "date": "2023-10-10",
+        "name": "IMF · World Economic Outlook, October 2023",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2023/10/10/world-economic-outlook-october-2023"
+      },
+      {
+        "date": "2024-01-30",
+        "name": "IMF · World Economic Outlook Update, January 2024",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2024/01/30/world-economic-outlook-update-january-2024/"
+      },
+      {
+        "date": "2024-04-16",
+        "name": "IMF · World Economic Outlook, April 2024",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2024/04/16/world-economic-outlook-april-2024"
+      },
+      {
+        "date": "2024-07-16",
+        "name": "IMF · World Economic Outlook Update, July 2024",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2024/07/16/world-economic-outlook-update-july-2024"
+      },
+      {
+        "date": "2024-10-22",
+        "name": "IMF · World Economic Outlook, October 2024",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2024/10/22/world-economic-outlook-october-2024"
+      },
+      {
+        "date": "2025-01-17",
+        "name": "IMF · World Economic Outlook Update, January 2025",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2025/01/17/world-economic-outlook-update-january-2025"
+      },
+      {
+        "date": "2025-04-22",
+        "name": "IMF · World Economic Outlook, April 2025",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2025/04/22/world-economic-outlook-april-2025"
+      },
+      {
+        "date": "2025-07-29",
+        "name": "IMF · World Economic Outlook Update, July 2025",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2025/07/29/world-economic-outlook-update-july-2025"
+      },
+      {
+        "date": "2025-10-14",
+        "name": "IMF · World Economic Outlook, October 2025",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2025/10/14/world-economic-outlook-october-2025"
+      },
+      {
+        "date": "2026-01-19",
+        "name": "IMF · World Economic Outlook Update, January 2026",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/01/19/world-economic-outlook-update-january-2026"
+      },
+      {
+        "date": "2026-04-14",
+        "name": "IMF · World Economic Outlook, April 2026",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/04/14/world-economic-outlook-april-2026"
+      },
+      {
+        "date": "2026-07-08",
+        "name": "IMF · World Economic Outlook Update, July 2026",
+        "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+      }
+    ],
+    "wir": [
+      {
+        "date": "2023-07-05",
+        "name": "UNCTAD · World Investment Report 2023",
+        "url": "https://unctad.org/publication/world-investment-report-2023"
+      },
+      {
+        "date": "2024-06-20",
+        "name": "UNCTAD · World Investment Report 2024",
+        "url": "https://unctad.org/publication/world-investment-report-2024"
+      },
+      {
+        "date": "2025-06-19",
+        "name": "UNCTAD · World Investment Report 2025",
+        "url": "https://unctad.org/publication/world-investment-report-2025"
+      },
+      {
+        "date": "2026-07-07",
+        "name": "UNCTAD · World Investment Report 2026",
+        "url": "https://unctad.org/publication/world-investment-report-2026-international-investment-turbulent-era"
+      }
+    ],
+    "wgi": [
+      {
+        "date": "2023-10-02",
+        "name": "World Bank · Worldwide Governance Indicators 2023 Update",
+        "url": "https://reproducibility.worldbank.org/catalog/65"
+      },
+      {
+        "date": "2024-11-05",
+        "name": "World Bank · Worldwide Governance Indicators 2024 Update",
+        "url": "https://www.worldbank.org/content/dam/sites/govindicators/doc/wgisourcedatarevisions.pdf"
+      },
+      {
+        "date": "2025-12-15",
+        "name": "World Bank · Worldwide Governance Indicators 2025 Revision",
+        "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators"
+      },
+      {
+        "date": "2026-09-18",
+        "name": "World Bank · Worldwide Governance Indicators 2026 Update",
+        "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
+      }
+    ]
+  },
+  "countries": [
+    {
+      "id": "uk",
+      "names": {
+        "tr": "İngiltere",
+        "en": "United Kingdom",
+        "de": "Vereinigtes Königreich"
+      },
+      "flag": "🇬🇧",
+      "map_id": "826",
+      "periods": {
+        "A": "xxnnxnnnxn",
+        "B": "nnnnnnnnxn",
+        "C": "nnnpnxnnnn",
+        "D": "nnnpnxnnnn",
+        "E": "nnnpnxnnnx",
+        "F": "nxnpnnxnxx"
+      }
+    },
+    {
+      "id": "spain",
+      "names": {
+        "tr": "İspanya",
+        "en": "Spain",
+        "de": "Spanien"
+      },
+      "flag": "🇪🇸",
+      "map_id": "724",
+      "periods": {
+        "A": "pnpppnnpxn",
+        "B": "pnpppnnpxn",
+        "C": "pnpppnnpxn",
+        "D": "pnppppnpxn",
+        "E": "pnppppnpxn",
+        "F": "pxppppnpxx"
+      }
+    },
+    {
+      "id": "turkiye",
+      "names": {
+        "tr": "Türkiye",
+        "en": "Türkiye",
+        "de": "Türkei"
+      },
+      "flag": "🇹🇷",
+      "map_id": "792",
+      "periods": {
+        "A": "pxnnnxxnxx",
+        "B": "pxnnnxxnxx",
+        "C": "nxnnnnxnxx",
+        "D": "nxnnnnxnxx",
+        "E": "nxnnnnxnxx",
+        "F": "nxnxnnxnxx"
+      }
+    },
+    {
+      "id": "usa",
+      "names": {
+        "tr": "ABD",
+        "en": "United States",
+        "de": "USA"
+      },
+      "flag": "🇺🇸",
+      "map_id": "840",
+      "periods": {
+        "A": "ppxppxnpxn",
+        "B": "ppxppxnpxx",
+        "C": "ppxppxnnxx",
+        "D": "ppxppxxnnx",
+        "E": "ppxppxxnnx",
+        "F": "nnxppxxnnx"
+      }
+    },
+    {
+      "id": "uae",
+      "names": {
+        "tr": "BAE",
+        "en": "United Arab Emirates",
+        "de": "VAE"
+      },
+      "flag": "🇦🇪",
+      "map_id": "784",
+      "periods": {
+        "A": "pnppppppnp",
+        "B": "pnppppppnp",
+        "C": "pnppppppxp",
+        "D": "pnppppppxp",
+        "E": "pnppppppxp",
+        "F": "pnppppppxp"
+      }
+    },
+    {
+      "id": "france",
+      "names": {
+        "tr": "Fransa",
+        "en": "France",
+        "de": "Frankreich"
+      },
+      "flag": "🇫🇷",
+      "map_id": "250",
+      "periods": {
+        "A": "nnnpnxnnxn",
+        "B": "nnnpnxnnnn",
+        "C": "npnpnxxnnx",
+        "D": "npnpnxxnnx",
+        "E": "npnpnxxnnx",
+        "F": "nnnpnxxnnx"
+      }
+    },
+    {
+      "id": "india",
+      "names": {
+        "tr": "Hindistan",
+        "en": "India",
+        "de": "Indien"
+      },
+      "flag": "🇮🇳",
+      "map_id": "356",
+      "periods": {
+        "A": "pxnppnpnnn",
+        "B": "pxnppnpnnn",
+        "C": "pxnppnpnnn",
+        "D": "pxnppnpnnn",
+        "E": "pxnppnpnnn",
+        "F": "pxnppnpnxn"
+      }
+    },
+    {
+      "id": "thailand",
+      "names": {
+        "tr": "Tayland",
+        "en": "Thailand",
+        "de": "Thailand"
+      },
+      "flag": "🇹🇭",
+      "map_id": "764",
+      "periods": {
+        "A": "nxpppnnxnn",
+        "B": "nxpppnxxnx",
+        "C": "nxpppnxxnx",
+        "D": "nxpppnnxnn",
+        "E": "nxpppnnxnn",
+        "F": "nxpppnnxnn"
+      }
+    },
+    {
+      "id": "china",
+      "names": {
+        "tr": "Çin",
+        "en": "China",
+        "de": "China"
+      },
+      "flag": "🇨🇳",
+      "map_id": "156",
+      "periods": {
+        "A": "nnppxppxxn",
+        "B": "nnppxppxxn",
+        "C": "nnppxppxxn",
+        "D": "nnppxppxxx",
+        "E": "nnppnppxxx",
+        "F": "nnnpnnpxxx"
+      }
+    },
+    {
+      "id": "germany",
+      "names": {
+        "tr": "Almanya",
+        "en": "Germany",
+        "de": "Deutschland"
+      },
+      "flag": "🇩🇪",
+      "map_id": "276",
+      "periods": {
+        "A": "xxnxxnnxxp",
+        "B": "xxnxxnnxnp",
+        "C": "xnnxxxnxnn",
+        "D": "xnnxxxnxnn",
+        "E": "xnxnnxnxnn",
+        "F": "xxxnnxnxnn"
+      }
+    },
+    {
+      "id": "south-korea",
+      "names": {
+        "tr": "Güney Kore",
+        "en": "South Korea",
+        "de": "Südkorea"
+      },
+      "flag": "🇰🇷",
+      "map_id": "410",
+      "periods": {
+        "A": "nxpppppxnn",
+        "B": "pxpppppxnn",
+        "C": "pxpppppxxx",
+        "D": "pxppppnxxx",
+        "E": "nxppppnxnn",
+        "F": "nxppppnxnn"
+      }
+    },
+    {
+      "id": "brazil",
+      "names": {
+        "tr": "Brezilya",
+        "en": "Brazil",
+        "de": "Brasilien"
+      },
+      "flag": "🇧🇷",
+      "map_id": "076",
+      "periods": {
+        "A": "ppppnxnpnn",
+        "B": "ppppnxnpnn",
+        "C": "ppppnxnpnn",
+        "D": "npppnxnpnn",
+        "E": "npppnxnnnn",
+        "F": "npppnxnnnn"
+      }
+    },
+    {
+      "id": "russia",
+      "names": {
+        "tr": "Rusya",
+        "en": "Russia",
+        "de": "Russland"
+      },
+      "flag": "🇷🇺",
+      "map_id": "643",
+      "periods": {
+        "A": "nnxxxnxxxx",
+        "B": "pnxxxnxxxx",
+        "C": "pnxxxxxxxx",
+        "D": "nnxxxxxxxx",
+        "E": "nnxxxxxxxx",
+        "F": "xnxxxxxxxx"
+      }
+    },
+    {
+      "id": "egypt",
+      "names": {
+        "tr": "Mısır",
+        "en": "Egypt",
+        "de": "Ägypten"
+      },
+      "flag": "🇪🇬",
+      "map_id": "818",
+      "periods": {
+        "A": "xxxnxxnnxx",
+        "B": "xxxnpxnnxx",
+        "C": "xxxppxnnxx",
+        "D": "nxxppxnnxx",
+        "E": "nxxppxnnxx",
+        "F": "nxxppxnnxx"
+      }
+    },
+    {
+      "id": "italy",
+      "names": {
+        "tr": "İtalya",
+        "en": "Italy",
+        "de": "Italien"
+      },
+      "flag": "🇮🇹",
+      "map_id": "380",
+      "periods": {
+        "A": "nxpnpxnnnn",
+        "B": "nnpppxnnnn",
+        "C": "nnpppxnnnn",
+        "D": "nnpppxnnnn",
+        "E": "nnpppxnnnn",
+        "F": "nxpppxnnnn"
+      }
+    },
+    {
+      "id": "argentina",
+      "names": {
+        "tr": "Arjantin",
+        "en": "Argentina",
+        "de": "Argentinien"
+      },
+      "flag": "🇦🇷",
+      "map_id": "032",
+      "periods": {
+        "A": "xxnxxxxxxx",
+        "B": "xxpnnnnxxx",
+        "C": "xnpnnppxxx",
+        "D": "xnpppppxxx",
+        "E": "pnpppppnnn",
+        "F": "pnpppppnnn"
+      }
+    },
+    {
+      "id": "portugal",
+      "names": {
+        "tr": "Portekiz",
+        "en": "Portugal",
+        "de": "Portugal"
+      },
+      "flag": "🇵🇹",
+      "map_id": "620",
+      "periods": {
+        "A": "pnppppppxp",
+        "B": "pnppppppxp",
+        "C": "pnppppppxp",
+        "D": "pnppppppxp",
+        "E": "pnppppppxp",
+        "F": "pnppppppxp"
+      }
+    },
+    {
+      "id": "netherlands",
+      "names": {
+        "tr": "Hollanda",
+        "en": "Netherlands",
+        "de": "Niederlande"
+      },
+      "flag": "🇳🇱",
+      "map_id": "528",
+      "periods": {
+        "A": "nnppppppxp",
+        "B": "nnppppppxp",
+        "C": "nnpppppnxn",
+        "D": "nnpppppnxn",
+        "E": "nnpppppnxn",
+        "F": "nnpppppnxn"
+      }
+    },
+    {
+      "id": "romania",
+      "names": {
+        "tr": "Romanya",
+        "en": "Romania",
+        "de": "Rumänien"
+      },
+      "flag": "🇷🇴",
+      "map_id": "642",
+      "periods": {
+        "A": "pnxppxnxxn",
+        "B": "pnxppxnxxn",
+        "C": "nnxppxnxxn",
+        "D": "nnxppxnxxn",
+        "E": "nnxppxnxnn",
+        "F": "nnxppxnxnn"
+      }
+    },
+    {
+      "id": "canada",
+      "names": {
+        "tr": "Kanada",
+        "en": "Canada",
+        "de": "Kanada"
+      },
+      "flag": "🇨🇦",
+      "map_id": "124",
+      "periods": {
+        "A": "nnpppnppxp",
+        "B": "nnpppnppxp",
+        "C": "nnnppnpnxp",
+        "D": "nnnpnnpnxp",
+        "E": "xnnpnnpnxn",
+        "F": "xnnpnnpnxn"
+      }
+    },
+    {
+      "id": "poland",
+      "names": {
+        "tr": "Polonya",
+        "en": "Poland",
+        "de": "Polen"
+      },
+      "flag": "🇵🇱",
+      "map_id": "616",
+      "periods": {
+        "A": "nxpppnnxxn",
+        "B": "pxpppxpxnp",
+        "C": "pnpppxpxnp",
+        "D": "pnpppxpxnp",
+        "E": "pnpppxpxnp",
+        "F": "pnpppxpxnp"
+      }
+    },
+    {
+      "id": "sweden",
+      "names": {
+        "tr": "İsveç",
+        "en": "Sweden",
+        "de": "Schweden"
+      },
+      "flag": "🇸🇪",
+      "map_id": "752",
+      "periods": {
+        "A": "xpppnppnxp",
+        "B": "npppnppnxp",
+        "C": "nppppppnnp",
+        "D": "pppppppnnp",
+        "E": "pppppppnnp",
+        "F": "pppppppnnp"
+      }
+    }
+  ]
+}
