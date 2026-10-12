@@ -5,7 +5,7 @@
     "month": "September 2026",
     "updated": "21. September 2026",
     "checked_date": "2026-09-21",
-    "country_count": 20,
+    "country_count": 22,
     "signal_count": 10,
     "method": "10 feste Signalfamilien; länderspezifische aktuelle Entwicklung, Auswirkung und Richtungsindikator.",
     "potential_country_count": 5
@@ -2770,6 +2770,284 @@
         }
       ],
       "map_id": "124"
+    },
+    {
+      "id": "poland",
+      "name": "Polen",
+      "flag": "🇵🇱",
+      "map_id": "616",
+      "historical_reconstruction": true,
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Die damals verfügbare IWF-Prognose deutete für Polen auf vergleichsweise starke Wachstumsdynamik hin.",
+          "impact": "Robuste Aktivität stärkte die Fähigkeit der Wirtschaft, Schocks abzufedern.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die IWF-Prognose zeigte für Polen ein gemischtes Bild bei Energie, Außenfinanzierung und importierten Preisen.",
+          "impact": "Externe Risiken blieben bestehen, ohne klares einseitiges Verschlechterungssignal.",
+          "status": "neutral",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die IWF-Prognose zeigte, dass Auslandsnachfrage und Handel das Wachstum in Polen unterstützten.",
+          "impact": "Exporte und Auslandsnachfrage boten einen zusätzlichen Resilienzkanal.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Die damals verfügbare UNCTAD-Investitionslage zeigte für Polen eine unterstützende Richtung bei produktiven, digitalen oder Energiewende-Investitionen.",
+          "impact": "Die Investitionsrichtung stärkte die Transformations- und Anpassungsfähigkeit.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-07",
+            "name": "UNCTAD · World Investment Report 2026",
+            "url": "https://unctad.org/publication/world-investment-report-2026-international-investment-turbulent-era"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Die UNCTAD-Investitionslage wies für Polen auf ein vergleichsweise unterstützendes Kapital- und FDI-Umfeld hin.",
+          "impact": "Kapitalflüsse unterstützten Kapazitätsausbau und langfristige Investitionen.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-07",
+            "name": "UNCTAD · World Investment Report 2026",
+            "url": "https://unctad.org/publication/world-investment-report-2026-international-investment-turbulent-era"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Die IWF-Fiskallage wies für Polen auf durch Schulden, Defizit oder Finanzierung eingeschränkten Spielraum hin.",
+          "impact": "Begrenzter fiskalischer Spielraum schwächte Infrastruktur- und Krisenreaktionskapazität.",
+          "status": "negative",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Die damals verfügbare WGI-Ausgabe der Weltbank zeigte für Polen ein vergleichsweise starkes Profil bei Regierungseffektivität und Regulierungskapazität.",
+          "impact": "Stärkere Umsetzungskapazität erhöhte die Wahrscheinlichkeit, Reformen und Investitionsentscheidungen tatsächlich umzusetzen.",
+          "status": "positive",
+          "source": {
+            "date": "2026-09-18",
+            "name": "World Bank · Worldwide Governance Indicators 2026 Update",
+            "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die IWF-Prognose wies für Polen auf demografischen, Arbeitslosigkeits- oder Arbeitsangebotsdruck hin.",
+          "impact": "Arbeitsmarktdruck schuf Risiken für Wachstumskapazität und soziale Nachhaltigkeit.",
+          "status": "negative",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die IWF-Inflationsprognose zeigte, dass der Lebenshaltungskostendruck in Polen nachließ, aber noch spürbar war.",
+          "impact": "Der Druck auf Haushalte ließ nach, die Lebenshaltungskosten waren jedoch noch nicht vollständig normalisiert.",
+          "status": "neutral",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Die damals verfügbare WGI-Ausgabe der Weltbank deutete darauf hin, dass Stabilität und institutionelles Umfeld in Polen internationale Talente vergleichsweise unterstützten.",
+          "impact": "Ein berechenbareres gesellschaftliches und institutionelles Umfeld stärkte Talentgewinnung und -bindung.",
+          "status": "positive",
+          "source": {
+            "date": "2026-09-18",
+            "name": "World Bank · Worldwide Governance Indicators 2026 Update",
+            "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
+          },
+          "checked_date": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "sweden",
+      "name": "Schweden",
+      "flag": "🇸🇪",
+      "map_id": "752",
+      "historical_reconstruction": true,
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Die damals verfügbare IWF-Prognose deutete für Schweden auf vergleichsweise starke Wachstumsdynamik hin.",
+          "impact": "Robuste Aktivität stärkte die Fähigkeit der Wirtschaft, Schocks abzufedern.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Die damalige IWF-Prognose deutete für Schweden auf vergleichsweise beherrschbare externe und preisliche Belastungen hin.",
+          "impact": "Geringerer externer Schockdruck stärkte die wirtschaftliche Resilienz.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Die IWF-Prognose zeigte, dass Auslandsnachfrage und Handel das Wachstum in Schweden unterstützten.",
+          "impact": "Exporte und Auslandsnachfrage boten einen zusätzlichen Resilienzkanal.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Die damals verfügbare UNCTAD-Investitionslage zeigte für Schweden eine unterstützende Richtung bei produktiven, digitalen oder Energiewende-Investitionen.",
+          "impact": "Die Investitionsrichtung stärkte die Transformations- und Anpassungsfähigkeit.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-07",
+            "name": "UNCTAD · World Investment Report 2026",
+            "url": "https://unctad.org/publication/world-investment-report-2026-international-investment-turbulent-era"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Die UNCTAD-Investitionslage wies für Schweden auf ein vergleichsweise unterstützendes Kapital- und FDI-Umfeld hin.",
+          "impact": "Kapitalflüsse unterstützten Kapazitätsausbau und langfristige Investitionen.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-07",
+            "name": "UNCTAD · World Investment Report 2026",
+            "url": "https://unctad.org/publication/world-investment-report-2026-international-investment-turbulent-era"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Die damalige IWF-Fiskallage deutete darauf hin, dass Schweden vergleichsweise nutzbaren Spielraum für Schockreaktionen behielt.",
+          "impact": "Fiskalischer Spielraum stärkte Infrastruktur-, Unterstützungs- und Krisenkapazität.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Die damals verfügbare WGI-Ausgabe der Weltbank zeigte für Schweden ein vergleichsweise starkes Profil bei Regierungseffektivität und Regulierungskapazität.",
+          "impact": "Stärkere Umsetzungskapazität erhöhte die Wahrscheinlichkeit, Reformen und Investitionsentscheidungen tatsächlich umzusetzen.",
+          "status": "positive",
+          "source": {
+            "date": "2026-09-18",
+            "name": "World Bank · Worldwide Governance Indicators 2026 Update",
+            "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die IWF-Prognose zeigte für Schweden ein ausgeglichenes, aber richtungsloses Arbeitsmarktbild.",
+          "impact": "Arbeitsmarktbedingungen waren kurzfristig weder großer Vorteil noch große Verwundbarkeit.",
+          "status": "neutral",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die IWF-Inflationsprognose zeigte, dass der Lebenshaltungskostendruck in Schweden nachließ, aber noch spürbar war.",
+          "impact": "Der Druck auf Haushalte ließ nach, die Lebenshaltungskosten waren jedoch noch nicht vollständig normalisiert.",
+          "status": "neutral",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Die damals verfügbare WGI-Ausgabe der Weltbank deutete darauf hin, dass Stabilität und institutionelles Umfeld in Schweden internationale Talente vergleichsweise unterstützten.",
+          "impact": "Ein berechenbareres gesellschaftliches und institutionelles Umfeld stärkte Talentgewinnung und -bindung.",
+          "status": "positive",
+          "source": {
+            "date": "2026-09-18",
+            "name": "World Bank · Worldwide Governance Indicators 2026 Update",
+            "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
+          },
+          "checked_date": "2026-10-12"
+        }
+      ]
     }
   ],
   "potential_countries": [
