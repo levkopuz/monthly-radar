@@ -5,7 +5,7 @@
     "month": "September 2026",
     "updated": "21 September 2026",
     "checked_date": "2026-09-21",
-    "country_count": 20,
+    "country_count": 22,
     "signal_count": 10,
     "method": "10 fixed signal families; country-specific current development, impact and direction indicator.",
     "potential_country_count": 5
@@ -2770,6 +2770,284 @@
         }
       ],
       "map_id": "124"
+    },
+    {
+      "id": "poland",
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "map_id": "616",
+      "historical_reconstruction": true,
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Growth & Economy",
+          "development": "The IMF vintage available at the time pointed to relatively strong growth momentum for Poland.",
+          "impact": "Resilient activity supported the economy's capacity to absorb shocks.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "External Dependencies",
+          "development": "The IMF vintage showed a mixed picture for Poland across energy, external financing and imported-price risks.",
+          "impact": "Exposure to external shocks remained, without a clear one-direction deterioration signal.",
+          "status": "neutral",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Exports & Foreign Trade",
+          "development": "The IMF vintage indicated that external demand and trade were supporting growth in Poland.",
+          "impact": "Exports and external demand provided an additional channel of resilience.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sector Transformation",
+          "development": "The UNCTAD investment vintage available at the time showed a supportive direction for productive, digital or energy-transition investment in Poland.",
+          "impact": "The investment direction strengthened the economy's capacity to transform and adapt.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-07",
+            "name": "UNCTAD · World Investment Report 2026",
+            "url": "https://unctad.org/publication/world-investment-report-2026-international-investment-turbulent-era"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investment & Capital",
+          "development": "UNCTAD's investment vintage pointed to a relatively supportive capital and FDI environment for Poland.",
+          "impact": "Capital flows supported capacity expansion and longer-term investment.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-07",
+            "name": "UNCTAD · World Investment Report 2026",
+            "url": "https://unctad.org/publication/world-investment-report-2026-international-investment-turbulent-era"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Public Finances & Infrastructure",
+          "development": "The IMF fiscal vintage pointed to debt, deficit or financing conditions constraining policy space in Poland.",
+          "impact": "Limited fiscal room weakened infrastructure and crisis-response capacity.",
+          "status": "negative",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Governance & Execution",
+          "development": "The World Bank WGI vintage available at the time showed a relatively strong profile for government effectiveness and regulatory capacity in Poland.",
+          "impact": "Stronger execution capacity increased the likelihood that reforms and investment decisions could be implemented.",
+          "status": "positive",
+          "source": {
+            "date": "2026-09-18",
+            "name": "World Bank · Worldwide Governance Indicators 2026 Update",
+            "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Population & Labor",
+          "development": "The IMF vintage pointed to demographic, unemployment or labour-supply pressures in Poland.",
+          "impact": "Labour pressure created risks for growth capacity and social sustainability.",
+          "status": "negative",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Cost of Living & Housing",
+          "development": "The IMF inflation vintage showed cost-of-living pressure easing in Poland, but still material.",
+          "impact": "Pressure on households was easing, but living costs had not fully normalized.",
+          "status": "neutral",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Social Climate & Talent Attraction",
+          "development": "The World Bank WGI vintage available at the time suggested that stability and the institutional environment in Poland were relatively supportive for international talent.",
+          "impact": "A more predictable social and institutional environment supported talent attraction and retention.",
+          "status": "positive",
+          "source": {
+            "date": "2026-09-18",
+            "name": "World Bank · Worldwide Governance Indicators 2026 Update",
+            "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
+          },
+          "checked_date": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "sweden",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "map_id": "752",
+      "historical_reconstruction": true,
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Growth & Economy",
+          "development": "The IMF vintage available at the time pointed to relatively strong growth momentum for Sweden.",
+          "impact": "Resilient activity supported the economy's capacity to absorb shocks.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "External Dependencies",
+          "development": "The IMF vintage available at the time suggested that external-balance and price pressures were relatively manageable for Sweden.",
+          "impact": "Lower external-shock pressure supported economic resilience.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Exports & Foreign Trade",
+          "development": "The IMF vintage indicated that external demand and trade were supporting growth in Sweden.",
+          "impact": "Exports and external demand provided an additional channel of resilience.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sector Transformation",
+          "development": "The UNCTAD investment vintage available at the time showed a supportive direction for productive, digital or energy-transition investment in Sweden.",
+          "impact": "The investment direction strengthened the economy's capacity to transform and adapt.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-07",
+            "name": "UNCTAD · World Investment Report 2026",
+            "url": "https://unctad.org/publication/world-investment-report-2026-international-investment-turbulent-era"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investment & Capital",
+          "development": "UNCTAD's investment vintage pointed to a relatively supportive capital and FDI environment for Sweden.",
+          "impact": "Capital flows supported capacity expansion and longer-term investment.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-07",
+            "name": "UNCTAD · World Investment Report 2026",
+            "url": "https://unctad.org/publication/world-investment-report-2026-international-investment-turbulent-era"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Public Finances & Infrastructure",
+          "development": "The IMF fiscal vintage suggested that Sweden's public balance sheet retained relatively useful room to respond to shocks.",
+          "impact": "Fiscal room strengthened infrastructure, support and crisis-response capacity.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Governance & Execution",
+          "development": "The World Bank WGI vintage available at the time showed a relatively strong profile for government effectiveness and regulatory capacity in Sweden.",
+          "impact": "Stronger execution capacity increased the likelihood that reforms and investment decisions could be implemented.",
+          "status": "positive",
+          "source": {
+            "date": "2026-09-18",
+            "name": "World Bank · Worldwide Governance Indicators 2026 Update",
+            "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Population & Labor",
+          "development": "The IMF vintage showed a balanced but non-directional labour-market picture for Sweden.",
+          "impact": "Labour conditions were neither a major short-term advantage nor vulnerability.",
+          "status": "neutral",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Cost of Living & Housing",
+          "development": "The IMF inflation vintage showed cost-of-living pressure easing in Sweden, but still material.",
+          "impact": "Pressure on households was easing, but living costs had not fully normalized.",
+          "status": "neutral",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Social Climate & Talent Attraction",
+          "development": "The World Bank WGI vintage available at the time suggested that stability and the institutional environment in Sweden were relatively supportive for international talent.",
+          "impact": "A more predictable social and institutional environment supported talent attraction and retention.",
+          "status": "positive",
+          "source": {
+            "date": "2026-09-18",
+            "name": "World Bank · Worldwide Governance Indicators 2026 Update",
+            "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
+          },
+          "checked_date": "2026-10-12"
+        }
+      ]
     }
   ],
   "potential_countries": [
