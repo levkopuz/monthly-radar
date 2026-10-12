@@ -5,7 +5,7 @@
     "month": "Eylül 2026",
     "updated": "21 Eylül 2026",
     "checked_date": "2026-09-21",
-    "country_count": 20,
+    "country_count": 22,
     "signal_count": 10,
     "method": "10 sabit sinyal ailesi; ülkeye özgü güncel gelişme, etkisi ve yön göstergesi.",
     "potential_country_count": 5
@@ -2770,6 +2770,284 @@
         }
       ],
       "map_id": "124"
+    },
+    {
+      "id": "poland",
+      "name": "Polonya",
+      "flag": "🇵🇱",
+      "map_id": "616",
+      "historical_reconstruction": true,
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Büyüme ve Ekonomi",
+          "development": "O tarihte erişilebilir IMF görünümü, Polonya için büyüme momentumunun görece güçlü kaldığına işaret ediyordu.",
+          "impact": "Ekonomik aktivitenin dayanıklı kalması şokları karşılama kapasitesini destekliyordu.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Dışa Bağımlılık",
+          "development": "IMF'nin o tarihteki görünümü, Polonya için enerji, dış finansman ve ithal fiyat risklerinde karma bir tablo gösteriyordu.",
+          "impact": "Dış şoklara maruziyet vardı ancak belirgin bir tek yönlü bozulma sinyali oluşmamıştı.",
+          "status": "neutral",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "İhracat ve Dış Ticaret",
+          "development": "O tarihteki IMF görünümü, Polonya için dış talep ve ticaret kanalının büyümeyi desteklediğine işaret ediyordu.",
+          "impact": "İhracat ve dış talep ekonomiye ek bir dayanıklılık kanalı sağlıyordu.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektörel Dönüşüm",
+          "development": "O tarihte erişilebilir UNCTAD yatırım görünümü, Polonya için üretken, dijital veya enerji dönüşümü yatırımlarında destekleyici bir yön gösteriyordu.",
+          "impact": "Yeni yatırım yönü ekonomik modelin dönüşüm ve uyum kapasitesini güçlendiriyordu.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-07",
+            "name": "UNCTAD · World Investment Report 2026",
+            "url": "https://unctad.org/publication/world-investment-report-2026-international-investment-turbulent-era"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Yatırım ve Sermaye",
+          "development": "UNCTAD'ın o tarihteki yatırım verileri, Polonya için sermaye ve doğrudan yatırım ortamının görece destekleyici olduğuna işaret ediyordu.",
+          "impact": "Sermaye akışları kapasite artışı ve uzun vadeli yatırımlar için olumlu zemin sağlıyordu.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-07",
+            "name": "UNCTAD · World Investment Report 2026",
+            "url": "https://unctad.org/publication/world-investment-report-2026-international-investment-turbulent-era"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Kamu Maliyesi ve Altyapı",
+          "development": "IMF'nin o tarihteki mali görünümü, Polonya için borç, açık veya finansman koşullarının politika alanını daralttığına işaret ediyordu.",
+          "impact": "Sınırlı mali alan altyapı ve kriz yanıtı kapasitesini zayıflatıyordu.",
+          "status": "negative",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Yönetim ve Uygulama Gücü",
+          "development": "O tarihte erişilebilir Dünya Bankası WGI sürümü, Polonya için hükümet etkinliği ve düzenleyici kapasitede görece güçlü bir profil gösteriyordu.",
+          "impact": "Daha güçlü uygulama kapasitesi reform ve yatırım kararlarının hayata geçme olasılığını artırıyordu.",
+          "status": "positive",
+          "source": {
+            "date": "2026-09-18",
+            "name": "World Bank · Worldwide Governance Indicators 2026 Update",
+            "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Nüfus ve İş Gücü",
+          "development": "IMF'nin o tarihteki görünümü, Polonya için demografi, işsizlik veya iş gücü arzında baskılara işaret ediyordu.",
+          "impact": "İş gücü baskısı büyüme kapasitesi ve sosyal sürdürülebilirlik üzerinde risk yaratıyordu.",
+          "status": "negative",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Yaşam Maliyeti ve Konut",
+          "development": "IMF'nin o tarihteki enflasyon görünümü, Polonya için yaşam maliyeti baskısının azalmakla birlikte hâlâ hissedilir olduğunu gösteriyordu.",
+          "impact": "Haneler üzerindeki baskı gevşese de yaşam maliyeti tamamen normalleşmiş değildi.",
+          "status": "neutral",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
+          "development": "O tarihte erişilebilir Dünya Bankası WGI sürümü, Polonya için istikrar ve kurumsal ortamın uluslararası yetenek açısından görece destekleyici olduğuna işaret ediyordu.",
+          "impact": "Daha öngörülebilir toplumsal ve kurumsal ortam yetenek çekme ve tutma kapasitesini destekliyordu.",
+          "status": "positive",
+          "source": {
+            "date": "2026-09-18",
+            "name": "World Bank · Worldwide Governance Indicators 2026 Update",
+            "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
+          },
+          "checked_date": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "sweden",
+      "name": "İsveç",
+      "flag": "🇸🇪",
+      "map_id": "752",
+      "historical_reconstruction": true,
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Büyüme ve Ekonomi",
+          "development": "O tarihte erişilebilir IMF görünümü, İsveç için büyüme momentumunun görece güçlü kaldığına işaret ediyordu.",
+          "impact": "Ekonomik aktivitenin dayanıklı kalması şokları karşılama kapasitesini destekliyordu.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Dışa Bağımlılık",
+          "development": "IMF'nin o tarihteki dış denge ve fiyat görünümü, İsveç için dış şok baskısının görece yönetilebilir olduğuna işaret ediyordu.",
+          "impact": "Daha sınırlı dış bağımlılık baskısı ekonomik dayanıklılığı destekliyordu.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "İhracat ve Dış Ticaret",
+          "development": "O tarihteki IMF görünümü, İsveç için dış talep ve ticaret kanalının büyümeyi desteklediğine işaret ediyordu.",
+          "impact": "İhracat ve dış talep ekonomiye ek bir dayanıklılık kanalı sağlıyordu.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektörel Dönüşüm",
+          "development": "O tarihte erişilebilir UNCTAD yatırım görünümü, İsveç için üretken, dijital veya enerji dönüşümü yatırımlarında destekleyici bir yön gösteriyordu.",
+          "impact": "Yeni yatırım yönü ekonomik modelin dönüşüm ve uyum kapasitesini güçlendiriyordu.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-07",
+            "name": "UNCTAD · World Investment Report 2026",
+            "url": "https://unctad.org/publication/world-investment-report-2026-international-investment-turbulent-era"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Yatırım ve Sermaye",
+          "development": "UNCTAD'ın o tarihteki yatırım verileri, İsveç için sermaye ve doğrudan yatırım ortamının görece destekleyici olduğuna işaret ediyordu.",
+          "impact": "Sermaye akışları kapasite artışı ve uzun vadeli yatırımlar için olumlu zemin sağlıyordu.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-07",
+            "name": "UNCTAD · World Investment Report 2026",
+            "url": "https://unctad.org/publication/world-investment-report-2026-international-investment-turbulent-era"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Kamu Maliyesi ve Altyapı",
+          "development": "IMF'nin o tarihteki mali görünümü, İsveç için kamu bilançosunun şoklara yanıt verecek görece alan bıraktığına işaret ediyordu.",
+          "impact": "Mali alan altyapı, destek ve kriz yanıtı kapasitesini güçlendiriyordu.",
+          "status": "positive",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Yönetim ve Uygulama Gücü",
+          "development": "O tarihte erişilebilir Dünya Bankası WGI sürümü, İsveç için hükümet etkinliği ve düzenleyici kapasitede görece güçlü bir profil gösteriyordu.",
+          "impact": "Daha güçlü uygulama kapasitesi reform ve yatırım kararlarının hayata geçme olasılığını artırıyordu.",
+          "status": "positive",
+          "source": {
+            "date": "2026-09-18",
+            "name": "World Bank · Worldwide Governance Indicators 2026 Update",
+            "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Nüfus ve İş Gücü",
+          "development": "IMF'nin o tarihteki görünümü, İsveç için iş gücü piyasasında dengeli fakat belirgin olmayan bir yön gösteriyordu.",
+          "impact": "İş gücü koşulları kısa vadede büyük bir avantaj veya kırılganlık oluşturmuyordu.",
+          "status": "neutral",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Yaşam Maliyeti ve Konut",
+          "development": "IMF'nin o tarihteki enflasyon görünümü, İsveç için yaşam maliyeti baskısının azalmakla birlikte hâlâ hissedilir olduğunu gösteriyordu.",
+          "impact": "Haneler üzerindeki baskı gevşese de yaşam maliyeti tamamen normalleşmiş değildi.",
+          "status": "neutral",
+          "source": {
+            "date": "2026-07-08",
+            "name": "IMF · World Economic Outlook Update, July 2026",
+            "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+          },
+          "checked_date": "2026-10-12"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
+          "development": "O tarihte erişilebilir Dünya Bankası WGI sürümü, İsveç için istikrar ve kurumsal ortamın uluslararası yetenek açısından görece destekleyici olduğuna işaret ediyordu.",
+          "impact": "Daha öngörülebilir toplumsal ve kurumsal ortam yetenek çekme ve tutma kapasitesini destekliyordu.",
+          "status": "positive",
+          "source": {
+            "date": "2026-09-18",
+            "name": "World Bank · Worldwide Governance Indicators 2026 Update",
+            "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
+          },
+          "checked_date": "2026-10-12"
+        }
+      ]
     }
   ],
   "potential_countries": [
