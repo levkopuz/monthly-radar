@@ -797,6 +797,7 @@
     </div>
     <div class="controls">
       <label class="month-control">
+        <select class="select" id="yearSelect" aria-label="Yıl seç"></select>
         <select class="select" id="monthSelect" aria-label="Ay seç"></select>
       </label>
       <div class="legend">
@@ -908,7 +909,7 @@ const UI={
     tagline:"Bir sonraki ülkeni seç",
     brandDescription:"Ülkelerde ekonomi, dışa bağımlılık, yönetim gücü ve yaşam koşullarının nasıl değiştiğini 10 temel göstergeyle her ay takip eden bir erken uyarı ekranı. Her ayın 1’inde otomatik güncellenir.",
     metaDescription:"Country Radar — ülkelerin ekonomik, kurumsal ve taşınma sinyallerini aylık izleyen erken uyarı panosu.",
-    languageAria:"Dil seç",monthAria:"Ay seç",
+    languageAria:"Dil seç",yearAria:"Yıl seç",monthAria:"Ay seç",historicalLabel:"Tarihsel rekonstrüksiyon",historicalMethodHtml:"<strong>Tarihsel kayıt:</strong> Bu görünüm sonradan yeniden oluşturulmuştur. Yalnızca seçilen ayın sonuna kadar yayımlanmış IMF WEO, UNCTAD World Investment Report ve World Bank WGI vintajları kullanılır; sonraki bilgiler geriye taşınmaz.",
     tabs:{all:"Genel Radar",relocation:"Taşınma Radarı",potential:"Potansiyel Radar"},
     continents:{europe:"Avrupa",asia:"Asya",northAmerica:"Kuzey Amerika",southAmerica:"Güney Amerika",africa:"Afrika",oceania:"Okyanusya",other:"Diğer"},
     status:{positive:"Pozitif",neutral:"Nötr",negative:"Negatif"},
@@ -936,7 +937,7 @@ const UI={
     tagline:"Choose your next country",
     brandDescription:"A monthly early-warning view tracking how economies, external dependencies, governance strength and living conditions are changing across countries through 10 core indicators. Updated automatically on the 1st of every month.",
     metaDescription:"Country Radar — a monthly early-warning dashboard for economic, institutional and relocation signals across countries.",
-    languageAria:"Select language",monthAria:"Select month",
+    languageAria:"Select language",yearAria:"Select year",monthAria:"Select month",historicalLabel:"Historical reconstruction",historicalMethodHtml:"<strong>Historical record:</strong> This view was reconstructed later. It uses only IMF WEO, UNCTAD World Investment Report and World Bank WGI vintages published by the end of the selected month; later information is not back-cast.",
     tabs:{all:"Full Radar",relocation:"Relocation Radar",potential:"Potential Radar"},
     continents:{europe:"Europe",asia:"Asia",northAmerica:"North America",southAmerica:"South America",africa:"Africa",oceania:"Oceania",other:"Other"},
     status:{positive:"Positive",neutral:"Neutral",negative:"Negative"},
@@ -964,7 +965,7 @@ const UI={
     tagline:"Wähle dein nächstes Land",
     brandDescription:"Eine monatliche Frühwarnansicht, die anhand von 10 Kernindikatoren verfolgt, wie sich Wirtschaft, externe Abhängigkeiten, staatliche Handlungsfähigkeit und Lebensbedingungen in Ländern verändern. Automatische Aktualisierung jeweils am 1. des Monats.",
     metaDescription:"Country Radar — ein monatliches Frühwarn-Dashboard für wirtschaftliche, institutionelle und umzugsrelevante Signale von Ländern.",
-    languageAria:"Sprache wählen",monthAria:"Monat wählen",
+    languageAria:"Sprache wählen",yearAria:"Jahr wählen",monthAria:"Monat wählen",historicalLabel:"Historische Rekonstruktion",historicalMethodHtml:"<strong>Historischer Eintrag:</strong> Diese Ansicht wurde nachträglich rekonstruiert. Verwendet werden nur bis zum Ende des gewählten Monats veröffentlichte Ausgaben von IWF WEO, UNCTAD World Investment Report und World Bank WGI; spätere Informationen werden nicht rückwirkend eingebaut.",
     tabs:{all:"Gesamtradar",relocation:"Umzugsradar",potential:"Potenzialradar"},
     continents:{europe:"Europa",asia:"Asien",northAmerica:"Nordamerika",southAmerica:"Südamerika",africa:"Afrika",oceania:"Ozeanien",other:"Sonstige"},
     status:{positive:"Positiv",neutral:"Neutral",negative:"Negativ"},
@@ -1010,6 +1011,112 @@ const ulkeKitasi={
 const haritaIkonu='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5 8.8 4l6.3 2.5 5.4-2.5v13.5L15.2 20l-6.3-2.5-5.4 2.5V6.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8.8 4v13.5M15.2 6.5V20" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
 const listeIkonu='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="4" cy="6" r="1.2" fill="currentColor"/><circle cx="4" cy="12" r="1.2" fill="currentColor"/><circle cx="4" cy="18" r="1.2" fill="currentColor"/></svg>';
 
+
+const HIST_SIGNAL_IDS=[
+  "economic_engine","critical_dependencies","external_demand_trade","strategic_industry_transition","investment_capital_direction",
+  "fiscal_infrastructure_capacity","execution_adaptability","demography_labour","household_relocation","social_political_talent"
+];
+const HIST_FAMILY=["weo","weo","weo","wir","wir","weo","wgi","weo","weo","wgi"];
+const HIST_SIGNAL_NAMES={
+  tr:["Büyüme ve Ekonomi","Dışa Bağımlılık","İhracat ve Dış Ticaret","Sektörel Dönüşüm","Yatırım ve Sermaye","Kamu Maliyesi ve Altyapı","Yönetim ve Uygulama Gücü","Nüfus ve İş Gücü","Yaşam Maliyeti ve Konut","Toplumsal İklim ve Yetenek Çekimi"],
+  en:["Growth & Economy","External Dependencies","Exports & Foreign Trade","Sector Transformation","Investment & Capital","Public Finances & Infrastructure","Governance & Execution","Population & Labor","Cost of Living & Housing","Social Climate & Talent Attraction"],
+  de:["Wachstum & Wirtschaft","Externe Abhängigkeiten","Export & Außenhandel","Sektoraler Wandel","Investitionen & Kapital","Staatsfinanzen & Infrastruktur","Steuerung & Umsetzung","Bevölkerung & Arbeitsmarkt","Lebenshaltungskosten & Wohnen","Gesellschaftliches Klima & Talentgewinnung"]
+};
+const HIST_DEV={
+  tr:[
+    {p:"O tarihte erişilebilir IMF görünümü, {c} için büyüme momentumunun görece güçlü kaldığına işaret ediyordu.",n:"O tarihte erişilebilir IMF görünümü, {c} için ılımlı veya karma bir büyüme görünümüne işaret ediyordu.",x:"O tarihte erişilebilir IMF görünümü, {c} için zayıf büyüme ya da daralma riskinin öne çıktığına işaret ediyordu."},
+    {p:"IMF'nin o tarihteki görünümü, {c} için dış şok baskısının görece yönetilebilir olduğuna işaret ediyordu.",n:"IMF'nin o tarihteki görünümü, {c} için enerji, dış finansman ve ithal fiyat risklerinde karma bir tablo gösteriyordu.",x:"IMF'nin o tarihteki görünümü, {c} için enerji, emtia veya dış finansman şoklarına yüksek hassasiyete işaret ediyordu."},
+    {p:"O tarihteki IMF görünümü, {c} için dış talep ve ticaret kanalının büyümeyi desteklediğine işaret ediyordu.",n:"O tarihteki IMF görünümü, {c} için dış talep ve ticaret cephesinde karma bir yön gösteriyordu.",x:"O tarihteki IMF görünümü, {c} için dış talep, ticaret dengesi veya ticaret kısıtlarında aşağı yönlü risklere işaret ediyordu."},
+    {p:"O tarihte erişilebilir UNCTAD görünümü, {c} için üretken, dijital veya enerji dönüşümü yatırımlarında destekleyici bir yön gösteriyordu.",n:"O tarihte erişilebilir UNCTAD görünümü, {c} için sektörel dönüşüm yatırımlarında karma ve eşitsiz bir tablo gösteriyordu.",x:"O tarihte erişilebilir UNCTAD görünümü, {c} için üretken yatırım ve dönüşüm kapasitesinde zayıflığa işaret ediyordu."},
+    {p:"UNCTAD'ın o tarihteki yatırım görünümü, {c} için sermaye ve doğrudan yatırım ortamının görece destekleyici olduğuna işaret ediyordu.",n:"UNCTAD'ın o tarihteki yatırım görünümü, {c} için sermaye yönünde karma bir tablo gösteriyordu.",x:"UNCTAD'ın o tarihteki yatırım görünümü, {c} için finansman veya doğrudan yatırım zayıflığının öne çıktığına işaret ediyordu."},
+    {p:"IMF'nin o tarihteki mali görünümü, {c} için kamu bilançosunun şoklara yanıt verecek görece alan bıraktığına işaret ediyordu.",n:"IMF'nin o tarihteki mali görünümü, {c} için kamu maliyesinde sınırlı fakat yönetilebilir bir hareket alanı gösteriyordu.",x:"IMF'nin o tarihteki mali görünümü, {c} için borç, açık veya finansman koşullarının politika alanını daralttığına işaret ediyordu."},
+    {p:"O tarihte erişilebilir Dünya Bankası WGI sürümü, {c} için hükümet etkinliği ve düzenleyici kapasitede görece güçlü bir profil gösteriyordu.",n:"O tarihte erişilebilir WGI sürümü, {c} için yönetim ve uygulama kapasitesinde karma bir görünüm gösteriyordu.",x:"O tarihte erişilebilir WGI sürümü, {c} için uygulama veya kurumsal etkinlikte belirgin zayıflıklara işaret ediyordu."},
+    {p:"IMF'nin o tarihteki görünümü, {c} için iş gücü ve istihdam koşullarının ekonomik kapasiteyi desteklediğine işaret ediyordu.",n:"IMF'nin o tarihteki görünümü, {c} için iş gücü piyasasında dengeli fakat belirgin olmayan bir yön gösteriyordu.",x:"IMF'nin o tarihteki görünümü, {c} için demografi, işsizlik veya iş gücü arzında baskılara işaret ediyordu."},
+    {p:"IMF'nin o tarihteki enflasyon görünümü, {c} için hane fiyat baskılarının görece yönetilebilir olduğuna işaret ediyordu.",n:"IMF'nin o tarihteki enflasyon görünümü, {c} için yaşam maliyeti baskısının azalmakla birlikte hâlâ hissedilir olduğunu gösteriyordu.",x:"IMF'nin o tarihteki enflasyon görünümü, {c} için yaşam maliyeti baskısının yüksek kaldığına işaret ediyordu."},
+    {p:"O tarihte erişilebilir Dünya Bankası WGI sürümü, {c} için istikrar ve kurumsal ortamın uluslararası yetenek açısından görece destekleyici olduğuna işaret ediyordu.",n:"O tarihte erişilebilir WGI sürümü, {c} için toplumsal istikrar ve kurumsal ortamda karma bir tablo gösteriyordu.",x:"O tarihte erişilebilir WGI sürümü, {c} için kurumsal veya toplumsal istikrar risklerinin öne çıktığına işaret ediyordu."}
+  ],
+  en:[
+    {p:"The IMF vintage available at the time pointed to relatively strong growth momentum for {c}.",n:"The IMF vintage available at the time pointed to a moderate or mixed growth outlook for {c}.",x:"The IMF vintage available at the time pointed to weak growth or contraction risks for {c}."},
+    {p:"The IMF vintage available at the time suggested that external shock pressure was relatively manageable for {c}.",n:"The IMF vintage showed a mixed picture for {c} across energy, external financing and imported-price risks.",x:"The IMF vintage pointed to high sensitivity in {c} to energy, commodity or external-financing shocks."},
+    {p:"The IMF vintage indicated that external demand and trade were supporting growth in {c}.",n:"The IMF vintage showed a mixed direction for {c} in external demand and trade.",x:"The IMF vintage pointed to downside risks for {c} from external demand, trade balances or trade restrictions."},
+    {p:"The UNCTAD vintage available at the time showed a supportive direction for productive, digital or energy-transition investment in {c}.",n:"The UNCTAD vintage showed a mixed and uneven picture for sector-transformation investment in {c}.",x:"The UNCTAD vintage pointed to weak productive investment and transformation capacity in {c}."},
+    {p:"UNCTAD's investment vintage pointed to a relatively supportive capital and FDI environment for {c}.",n:"UNCTAD's investment vintage showed a mixed direction for capital formation in {c}.",x:"UNCTAD's investment vintage pointed to financing or FDI weakness in {c}."},
+    {p:"The IMF fiscal vintage suggested that {c}'s public balance sheet retained relatively useful room to respond to shocks.",n:"The IMF fiscal vintage showed limited but manageable policy space for {c}.",x:"The IMF fiscal vintage pointed to debt, deficit or financing conditions constraining policy space in {c}."},
+    {p:"The World Bank WGI vintage available at the time showed a relatively strong profile for government effectiveness and regulatory capacity in {c}.",n:"The WGI vintage showed a mixed governance and execution profile for {c}.",x:"The WGI vintage pointed to material weaknesses in execution or institutional effectiveness in {c}."},
+    {p:"The IMF vintage pointed to labour and employment conditions supporting economic capacity in {c}.",n:"The IMF vintage showed a balanced but non-directional labour-market picture for {c}.",x:"The IMF vintage pointed to demographic, unemployment or labour-supply pressures in {c}."},
+    {p:"The IMF inflation vintage pointed to relatively manageable household price pressure in {c}.",n:"The IMF inflation vintage showed cost-of-living pressure easing in {c}, but still material.",x:"The IMF inflation vintage pointed to persistently high cost-of-living pressure in {c}."},
+    {p:"The World Bank WGI vintage available at the time suggested that stability and the institutional environment in {c} were relatively supportive for international talent.",n:"The WGI vintage showed a mixed picture for social stability and the institutional environment in {c}.",x:"The WGI vintage pointed to institutional or social-stability risks in {c}."}
+  ],
+  de:[
+    {p:"Die damals verfügbare IWF-Prognose deutete für {c} auf vergleichsweise starke Wachstumsdynamik hin.",n:"Die damals verfügbare IWF-Prognose zeigte für {c} einen moderaten oder gemischten Wachstumsausblick.",x:"Die damals verfügbare IWF-Prognose wies für {c} auf schwaches Wachstum oder Kontraktionsrisiken hin."},
+    {p:"Die damalige IWF-Prognose deutete für {c} auf vergleichsweise beherrschbaren externen Schockdruck hin.",n:"Die IWF-Prognose zeigte für {c} ein gemischtes Bild bei Energie, Außenfinanzierung und importierten Preisen.",x:"Die IWF-Prognose wies für {c} auf hohe Empfindlichkeit gegenüber Energie-, Rohstoff- oder Außenfinanzierungsschocks hin."},
+    {p:"Die IWF-Prognose zeigte, dass Auslandsnachfrage und Handel das Wachstum in {c} unterstützten.",n:"Die IWF-Prognose zeigte für {c} eine gemischte Entwicklung bei Auslandsnachfrage und Handel.",x:"Die IWF-Prognose wies für {c} auf Abwärtsrisiken durch Auslandsnachfrage, Handelsbilanz oder Handelsbarrieren hin."},
+    {p:"Die damals verfügbare UNCTAD-Investitionslage zeigte für {c} eine unterstützende Richtung bei produktiven, digitalen oder Energiewende-Investitionen.",n:"Die UNCTAD-Lage zeigte für {c} ein gemischtes und uneinheitliches Bild bei Transformationsinvestitionen.",x:"Die UNCTAD-Lage deutete für {c} auf schwache produktive Investitionen und Transformationskapazität hin."},
+    {p:"Die UNCTAD-Investitionslage wies für {c} auf ein vergleichsweise unterstützendes Kapital- und FDI-Umfeld hin.",n:"Die UNCTAD-Investitionslage zeigte für {c} eine gemischte Kapitalentwicklung.",x:"Die UNCTAD-Investitionslage wies für {c} auf Finanzierungs- oder FDI-Schwäche hin."},
+    {p:"Die damalige IWF-Fiskallage deutete darauf hin, dass {c} vergleichsweise nutzbaren Spielraum für Schockreaktionen behielt.",n:"Die IWF-Fiskallage zeigte für {c} begrenzten, aber beherrschbaren politischen Spielraum.",x:"Die IWF-Fiskallage wies für {c} auf durch Schulden, Defizit oder Finanzierung eingeschränkten Spielraum hin."},
+    {p:"Die damals verfügbare WGI-Ausgabe der Weltbank zeigte für {c} ein vergleichsweise starkes Profil bei Regierungseffektivität und Regulierungskapazität.",n:"Die WGI-Ausgabe zeigte für {c} ein gemischtes Profil bei Steuerung und Umsetzung.",x:"Die WGI-Ausgabe wies für {c} auf deutliche Schwächen bei Umsetzung oder institutioneller Effektivität hin."},
+    {p:"Die IWF-Prognose deutete für {c} auf Arbeitsmarkt- und Beschäftigungsbedingungen hin, die die wirtschaftliche Kapazität stützten.",n:"Die IWF-Prognose zeigte für {c} ein ausgeglichenes, aber richtungsloses Arbeitsmarktbild.",x:"Die IWF-Prognose wies für {c} auf demografischen, Arbeitslosigkeits- oder Arbeitsangebotsdruck hin."},
+    {p:"Die damalige IWF-Inflationsprognose deutete für {c} auf vergleichsweise beherrschbaren Preisdruck für Haushalte hin.",n:"Die IWF-Inflationsprognose zeigte, dass der Lebenshaltungskostendruck in {c} nachließ, aber noch spürbar war.",x:"Die IWF-Inflationsprognose wies für {c} auf anhaltend hohen Lebenshaltungskostendruck hin."},
+    {p:"Die damals verfügbare WGI-Ausgabe der Weltbank deutete darauf hin, dass Stabilität und institutionelles Umfeld in {c} internationale Talente vergleichsweise unterstützten.",n:"Die WGI-Ausgabe zeigte für {c} ein gemischtes Bild bei gesellschaftlicher Stabilität und institutionellem Umfeld.",x:"Die WGI-Ausgabe wies für {c} auf institutionelle oder gesellschaftliche Stabilitätsrisiken hin."}
+  ]
+};
+const HIST_IMPACT={
+  tr:{p:"Sinyal, ülkenin ilgili alandaki dayanıklılığını destekliyordu.",n:"Sinyal, ilgili alanda belirgin bir güçlenme veya bozulma göstermiyordu.",x:"Sinyal, ülkenin ilgili alandaki kırılganlığını artırıyordu."},
+  en:{p:"The signal supported the country's resilience in this area.",n:"The signal showed no clear strengthening or deterioration in this area.",x:"The signal increased the country's vulnerability in this area."},
+  de:{p:"Das Signal unterstützte die Widerstandsfähigkeit des Landes in diesem Bereich.",n:"Das Signal zeigte in diesem Bereich weder eine klare Stärkung noch Verschlechterung.",x:"Das Signal erhöhte die Verwundbarkeit des Landes in diesem Bereich."}
+};
+const HIST_STATUS={p:"positive",n:"neutral",x:"negative"};
+let tarihselModel=null,tarihselPromise=null;
+async function tarihselModeliGetir(){
+  if(tarihselModel)return tarihselModel;
+  if(!tarihselPromise)tarihselPromise=jsonGetir("./data/history.json").then(v=>(tarihselModel=v));
+  return tarihselPromise;
+}
+function aySonu(id){
+  const [y,m]=id.split("-").map(Number);
+  return new Date(Date.UTC(y,m,0,12)).toISOString().slice(0,10);
+}
+function tarihselKaynak(model,family,id){
+  const cutoff=aySonu(id);
+  const uygun=(model.sources[family]||[]).filter(x=>x.date<=cutoff);
+  return uygun[uygun.length-1]||null;
+}
+async function tarihselAyOlustur(id){
+  const model=await tarihselModeliGetir();
+  const period=model.periods.find(p=>id>=p.start&&id<=p.end);
+  if(!period)throw new Error("Historical period is not available: "+id);
+  const countries=model.countries.map(c=>{
+    const code=c.periods[period.id];
+    const name=c.names[dil]||c.names.tr;
+    const items=HIST_SIGNAL_IDS.map((signal_id,i)=>{
+      const ch=code[i],source=tarihselKaynak(model,HIST_FAMILY[i],id);
+      return {
+        signal_id,
+        signal:HIST_SIGNAL_NAMES[dil][i],
+        development:HIST_DEV[dil][i][ch].replaceAll("{c}",name),
+        impact:HIST_IMPACT[dil][ch],
+        status:HIST_STATUS[ch],
+        source:source?{name:source.name,url:source.url,date:source.date}:{name:"",url:"#",date:null},
+        checked_date:model.reconstructed_on
+      };
+    });
+    return {id:c.id,name,flag:c.flag,map_id:c.map_id,historical_reconstruction:true,items};
+  });
+  return {
+    meta:{
+      name:"Country Radar",month_id:id,month:ayEtiketi(id),updated:model.reconstructed_on,checked_date:model.reconstructed_on,
+      cutoff_date:aySonu(id),country_count:countries.length,signal_count:10,potential_country_count:0,
+      historical_reconstruction:true,
+      method:dil==="tr"?"Tarihsel rekonstrüksiyon: yalnızca seçilen ay sonuna kadar yayımlanmış kaynak vintajları kullanılır."
+        :dil==="de"?"Historische Rekonstruktion: Es werden nur bis zum Monatsende veröffentlichte Quellenstände verwendet."
+        :"Historical reconstruction: only source vintages published by the end of the selected month are used."
+    },
+    countries,
+    potential_countries:[]
+  };
+}
+
+
 async function jsonGetir(url){
   const r=await fetch(url,{cache:"no-store"});
   if(!r.ok) throw new Error(`${url} (${r.status})`);
@@ -1020,6 +1127,7 @@ function dilDosyasi(file,lang=dil){
   return file.replace(/\.json$/,`.${lang}.json`);
 }
 async function ayVerisiGetir(m){
+  if(m.historical)return tarihselAyOlustur(m.id);
   const localized=`./data/${dilDosyasi(m.file)}`;
   try{return await jsonGetir(localized);}
   catch(e){
@@ -1045,6 +1153,7 @@ function statikMetinleriGuncelle(){
   document.getElementById("brandTagline").textContent=u.tagline;
   document.getElementById("brandDescription").textContent=u.brandDescription;
   document.getElementById("languageSelect").setAttribute("aria-label",u.languageAria);
+  document.getElementById("yearSelect").setAttribute("aria-label",u.yearAria);
   document.getElementById("monthSelect").setAttribute("aria-label",u.monthAria);
   document.querySelectorAll(".tab").forEach(b=>{b.textContent=u.tabs[b.dataset.mode];});
   document.getElementById("legendPositive").lastChild.textContent=u.status.positive;
@@ -1054,7 +1163,7 @@ function statikMetinleriGuncelle(){
   document.getElementById("trendTitle").textContent=u.trendTitle;
   document.getElementById("trendDescription").textContent=u.trendDescription;
   document.getElementById("methodTitle").textContent=u.methodTitle;
-  document.getElementById("methodText").innerHTML=u.methodHtml;
+  document.getElementById("methodText").innerHTML=u.methodHtml+(veri?.meta?.historical_reconstruction?`<br><br>${u.historicalMethodHtml}`:"");
   document.getElementById("footerLabel").textContent=u.footer;
   document.getElementById("signalPrev").setAttribute("aria-label",u.prevSignal);
   document.getElementById("signalNext").setAttribute("aria-label",u.nextSignal);
@@ -1066,15 +1175,25 @@ function statikMetinleriGuncelle(){
     const trendLoading=document.querySelector("#trendChart.loading");if(trendLoading)trendLoading.textContent=u.historyLoading;
   }
 }
-function aySecenekleriniGuncelle(){
+function ayAdi(id){
+  const [y,m]=id.split("-").map(Number);
+  const d=new Date(Date.UTC(y,m-1,1,12));
+  return new Intl.DateTimeFormat(ui().locale,{month:"long"}).format(d);
+}
+function yilAySecenekleriniGuncelle(tercih=null){
   if(!aylikIndeks)return;
-  const sel=document.getElementById("monthSelect");
-  const mevcut=sel.value||aylikIndeks.latest;
-  sel.innerHTML="";
-  aylikIndeks.months.slice().reverse().forEach(m=>{
-    const o=document.createElement("option");o.value=m.id;o.textContent=ayEtiketi(m.id);sel.appendChild(o);
-  });
-  sel.value=aylikIndeks.months.some(m=>m.id===mevcut)?mevcut:aylikIndeks.latest;
+  const yearSel=document.getElementById("yearSelect"),monthSel=document.getElementById("monthSelect");
+  const hedef=tercih||monthSel.value||aylikIndeks.latest;
+  const yillar=[...new Set(aylikIndeks.months.map(m=>m.id.slice(0,4)))].sort((a,b)=>b.localeCompare(a));
+  const latestYear=aylikIndeks.latest.slice(0,4);
+  const hedefYil=yillar.includes(hedef.slice(0,4))?hedef.slice(0,4):latestYear;
+  yearSel.innerHTML="";
+  yillar.forEach(y=>{const o=document.createElement("option");o.value=y;o.textContent=y;yearSel.appendChild(o);});
+  yearSel.value=hedefYil;
+  const aylar=aylikIndeks.months.filter(m=>m.id.startsWith(hedefYil+"-")).sort((a,b)=>b.id.localeCompare(a.id));
+  monthSel.innerHTML="";
+  aylar.forEach(m=>{const o=document.createElement("option");o.value=m.id;o.textContent=ayAdi(m.id);monthSel.appendChild(o);});
+  monthSel.value=aylar.some(m=>m.id===hedef)?hedef:(hedefYil===latestYear?aylikIndeks.latest:aylar[0]?.id||"");
 }
 function ayUlkeListesi(v){
   return mod==="potential" ? (v.potential_countries||[]) : (v.countries||[]);
@@ -1332,7 +1451,8 @@ function detayiCiz(){
   document.getElementById("detailTitle").textContent=`${c.flag} ${c.name}`;
   document.getElementById("trendCountry").innerHTML=`<span class="flag">${c.flag}</span><span>${c.name}</span>`;
   const ek=mod==="relocation"?` · ${u.modeSuffix.relocation}`:mod==="potential"?` · ${u.modeSuffix.potential}`:"";
-  document.getElementById("detailSubtitle").textContent=`${ayEtiketi(veri.meta.month_id)} · ${u.signals(items.length)}${ek}`;
+  const hist=veri.meta.historical_reconstruction?` · ${u.historicalLabel}`:"";
+  document.getElementById("detailSubtitle").textContent=`${ayEtiketi(veri.meta.month_id)} · ${u.signals(items.length)}${ek}${hist}`;
   const reason=document.getElementById("reason");
   if(mod==="potential"&&c.selection_reason){
     reason.className="reason show";reason.innerHTML=`<strong>${u.whyThisMonth}</strong> ${c.selection_reason}`;
@@ -1405,10 +1525,14 @@ async function baslat(){
     langSel.value=dil;
     statikMetinleriGuncelle();
     aylikIndeks=await jsonGetir("./data/index.json");
-    aySecenekleriniGuncelle();
-    const sel=document.getElementById("monthSelect");
-    sel.value=aylikIndeks.latest;
-    sel.onchange=()=>ayiYukle(sel.value);
+    yilAySecenekleriniGuncelle(aylikIndeks.latest);
+    const yearSel=document.getElementById("yearSelect"),monthSel=document.getElementById("monthSelect");
+    yearSel.onchange=()=>{
+      const first=aylikIndeks.months.filter(m=>m.id.startsWith(yearSel.value+"-")).sort((a,b)=>b.id.localeCompare(a.id))[0];
+      yilAySecenekleriniGuncelle(first?.id||aylikIndeks.latest);
+      if(monthSel.value)ayiYukle(monthSel.value);
+    };
+    monthSel.onchange=()=>ayiYukle(monthSel.value);
     await ayiYukle(aylikIndeks.latest);
   }catch(e){
     document.getElementById("signalTable").innerHTML=`<div class="error">${ui().dataError} ${e.message}</div>`;
@@ -1420,10 +1544,11 @@ document.getElementById("languageSelect").addEventListener("change",async e=>{
   dil=yeni;
   localStorage.setItem("countryRadarLanguage",dil);
   if(location.search||location.hash)history.replaceState(null,"",location.pathname);
+  const seciliAy=document.getElementById("monthSelect").value||aylikIndeks.latest;
   arsivCache.clear();
   statikMetinleriGuncelle();
-  aySecenekleriniGuncelle();
-  try{await ayiYukle(document.getElementById("monthSelect").value||aylikIndeks.latest);}
+  yilAySecenekleriniGuncelle(seciliAy);
+  try{await ayiYukle(seciliAy);}
   catch(err){document.getElementById("signalTable").innerHTML=`<div class="error">${ui().dataError} ${err.message}</div>`;}
 });
 
