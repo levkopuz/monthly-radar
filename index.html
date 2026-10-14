@@ -445,10 +445,10 @@
       position:absolute;right:20px;bottom:14px;
       font-family:var(--serif);font-style:italic;font-size:24px;color:rgba(255,255,255,.08);pointer-events:none
     }
-    .trend-grid{display:grid;align-items:center;gap:7px;min-width:max-content;position:relative;z-index:2}
-    .trend-head{font-size:11px;color:#c2bab0;text-align:center;font-weight:700;padding:5px 6px;letter-spacing:.08em}
-    .trend-axis{font-size:12px;font-weight:600;line-height:1.25;padding:8px 10px;color:#e4ddd4;max-width:210px}
-    .trend-cell{width:54px;height:28px;border-radius:8px;background:#33332f;border:1px solid rgba(255,255,255,.07);display:flex;align-items:center;justify-content:center}
+    .trend-grid{display:grid;align-items:stretch;column-gap:5px;row-gap:5px;width:max-content;min-width:100%;position:relative;z-index:2}
+    .trend-head{height:38px;min-width:0;display:flex;align-items:center;justify-content:center;font-size:10px;color:#c2bab0;text-align:center;font-weight:700;padding:4px 2px;letter-spacing:0;white-space:nowrap}
+    .trend-axis{position:sticky;left:0;z-index:3;display:flex;align-items:center;min-width:0;min-height:34px;font-size:12px;font-weight:600;line-height:1.3;padding:6px 12px 6px 0;color:#e4ddd4;background:#11110f}
+    .trend-cell{width:100%;height:34px;min-width:0;border-radius:6px;background:#33332f;border:1px solid rgba(255,255,255,.07);display:flex;align-items:center;justify-content:center;box-sizing:border-box}
     .trend-cell.positive{background:#00c853}
     .trend-cell.negative{background:#ff0000}
     .trend-cell.neutral{background:#9E9E9E}
@@ -712,8 +712,8 @@
         -webkit-overflow-scrolling:touch;
       }
       .trend-wrap:after{font-size:20px;right:14px;bottom:10px}
-      .trend-axis{max-width:160px;font-size:11px}
-      .trend-cell{width:48px;height:28px}
+      .trend-axis{font-size:11px;padding-right:8px}
+      .trend-cell{height:34px}
 
       .method{
         grid-template-columns:1fr;
@@ -1488,7 +1488,7 @@ async function trendCiz(c){
     await tumArsiviYukle();
     const months=aylikIndeks.months;
     const items=gorunenMaddeler(c);
-    const cols=`minmax(190px,220px) repeat(${months.length},54px)`;
+    const cols=`190px repeat(${months.length},46px)`;
     let out=`<div class="trend-grid" style="grid-template-columns:${cols}"><div class="trend-head" style="text-align:left">${u.signalAxis}</div>`;
     out+=months.map(m=>`<div class="trend-head">${ayEtiketi(m.id,true)}</div>`).join("");
     items.forEach(item=>{
