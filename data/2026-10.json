@@ -5,7 +5,7 @@
     "month": "Ekim 2026",
     "updated": "1 Ekim 2026",
     "checked_date": "2026-10-01",
-    "country_count": 22,
+    "country_count": 23,
     "signal_count": 10,
     "method": "10 sabit sinyal ailesi; son 30 gündeki maddi değişiklikler önceliklendirilir, değişiklik yoksa en güncel yapısal veri yeniden doğrulanır.",
     "potential_country_count": 5
@@ -3046,6 +3046,144 @@
           "checked_date": "2026-10-09"
         }
       ]
+    },
+    {
+      "id": "japan",
+      "name": "Japonya",
+      "flag": "🇯🇵",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Büyüme ve Ekonomi",
+          "development": "OECD, Japonya için 2026'da %0,6 ve 2027'de %0,8 büyüme öngörüyor.",
+          "impact": "İç talep büyümeyi korurken düşük ivme dış şoklara dayanıklılığı sınırlıyor.",
+          "status": "neutral",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-outlook-volume-2026-issue-1_2d1956f0-en/full-report/japan_d6df5896.html",
+            "date": "2026-06-01"
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Dışa Bağımlılık",
+          "development": "Enerji ve hammaddede ithalata bağımlılık, yüksek fiyatlar ve zayıf yen nedeniyle baskı yaratıyor.",
+          "impact": "Dış arz ve kur şokları enflasyon ile üretim maliyetlerini artırabilir.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/imf-expects-gradual-boj-rate-hike-towards-neutral-setting-2026-10-13/",
+            "date": "2026-10-13"
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "İhracat ve Dış Ticaret",
+          "development": "AI bağlantılı küresel mal ticareti büyürken uluslararası ticarette jeopolitik kırılganlıklar sürüyor.",
+          "impact": "Japonya'nın ileri teknoloji ihracatı fırsat kazanırken dış talep riski devam ediyor.",
+          "status": "neutral",
+          "source": {
+            "name": "WTO / Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/wto-upgrades-goods-trade-forecast-ai-boom-offsets-middle-east-disruption-2026-10-08/",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektörel Dönüşüm",
+          "development": "Japonya şirketleri verimlilik ve teknoloji yatırımlarını güçlü kârlar ile kamu teşvikleri sayesinde destekliyor.",
+          "impact": "Dijitalleşme ve üretimde modernizasyon, yaşlanan ekonominin verimlilik açığını daraltabilir.",
+          "status": "positive",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-japan-2026_54cc833d-en.html",
+            "date": null
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Yatırım ve Sermaye",
+          "development": "OECD, şirket kârları ve kamu desteklerinin 2026'da iş yatırımlarını artırmasını bekliyor.",
+          "impact": "Yeni sermaye harcamaları, enerji şokuna rağmen dönüşüm kapasitesini güçlendirebilir.",
+          "status": "positive",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-outlook-volume-2026-issue-1_2d1956f0-en/full-report/japan_d6df5896.html",
+            "date": null
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Kamu Maliyesi ve Altyapı",
+          "development": "Hükümet 201 özel amaçlı fonun kullanımını gözden geçirirken yüksek borç ve bütçe talepleri sürüyor.",
+          "impact": "Mali alan üzerindeki baskı, altyapı ve sanayi politikası finansmanını zorlaştırabilir.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/japan-reboots-doge-style-spending-review-hunt-funds-takaichi-pledges-2026-10-09/",
+            "date": "2026-10-09"
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Yönetim ve Uygulama Gücü",
+          "development": "Kamu fonlarının etkinliğini artırmak için yeni bir harcama incelemesi başlatıldı.",
+          "impact": "Uygulama başarısı, tasarrufların somut projelere aktarılmasına bağlı olacak.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/japan-reboots-doge-style-spending-review-hunt-funds-takaichi-pledges-2026-10-09/",
+            "date": "2026-10-09"
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Nüfus ve İş Gücü",
+          "development": "IMF, Japonya gibi gelişmiş Asya ekonomilerinde iş gücünün 2050'ye kadar önemli ölçüde daralabileceğine dikkat çekiyor.",
+          "impact": "Yaşlanma büyüme potansiyelini sınırlarken otomasyon ve AI ihtiyacını artırıyor.",
+          "status": "negative",
+          "source": {
+            "name": "IMF / Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/productivity-gains-ai-could-help-offset-asias-ageing-population-problem-imf-says-2026-10-12/",
+            "date": "2026-10-12"
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Yaşam Maliyeti ve Konut",
+          "development": "Yüksek enerji fiyatları ve zayıf yen, Japonya'da satın alma gücü üzerinde baskı oluşturuyor.",
+          "impact": "Hane maliyetlerindeki artış ücret kazanımlarının reel etkisini azaltabilir.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/imf-expects-gradual-boj-rate-hike-towards-neutral-setting-2026-10-13/",
+            "date": "2026-10-13"
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
+          "development": "Yaşlanan nüfus ve iş gücü kısıtları, nitelikli çalışanların verimli istihdamını daha önemli hale getiriyor.",
+          "impact": "Yetenek çekimi ve iş gücüne katılım politikaları uzun dönem rekabet gücünü belirleyecek.",
+          "status": "neutral",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-japan-2026_54cc833d-en.html",
+            "date": null
+          },
+          "checked_date": "2026-10-14"
+        }
+      ],
+      "map_id": "392"
     }
   ],
   "potential_countries": [
