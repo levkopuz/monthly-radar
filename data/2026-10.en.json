@@ -5,7 +5,7 @@
     "month": "October 2026",
     "updated": "1 October 2026",
     "checked_date": "2026-10-01",
-    "country_count": 22,
+    "country_count": 23,
     "signal_count": 10,
     "method": "10 fixed signal families; material changes from the last 30 days are prioritised, otherwise the latest structural data are revalidated.",
     "potential_country_count": 5
@@ -3046,6 +3046,144 @@
           "checked_date": "2026-10-09"
         }
       ]
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Growth & Economy",
+          "development": "The OECD projects Japanese growth of 0.6% in 2026 and 0.8% in 2027.",
+          "impact": "Domestic demand sustains growth, but weak momentum limits resilience to shocks.",
+          "status": "neutral",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-outlook-volume-2026-issue-1_2d1956f0-en/full-report/japan_d6df5896.html",
+            "date": "2026-06-01"
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "External Dependencies",
+          "development": "Reliance on imported energy and raw materials creates pressure amid high prices and a weak yen.",
+          "impact": "Supply and exchange-rate shocks may raise inflation and production costs.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/imf-expects-gradual-boj-rate-hike-towards-neutral-setting-2026-10-13/",
+            "date": "2026-10-13"
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Exports & Foreign Trade",
+          "development": "AI-linked global goods trade is expanding while geopolitical trade disruptions persist.",
+          "impact": "Japan's advanced-technology exports may benefit, but external-demand risks remain.",
+          "status": "neutral",
+          "source": {
+            "name": "WTO / Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/wto-upgrades-goods-trade-forecast-ai-boom-offsets-middle-east-disruption-2026-10-08/",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sector Transformation",
+          "development": "Japanese firms support productivity and technology investment with strong profits and public incentives.",
+          "impact": "Digitisation and industrial modernisation may help narrow productivity gaps.",
+          "status": "positive",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-japan-2026_54cc833d-en.html",
+            "date": null
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investment & Capital",
+          "development": "The OECD expects profits and public support to boost business investment in 2026.",
+          "impact": "Capital spending may strengthen transformation capacity despite energy-price shocks.",
+          "status": "positive",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-outlook-volume-2026-issue-1_2d1956f0-en/full-report/japan_d6df5896.html",
+            "date": null
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Public Finances & Infrastructure",
+          "development": "The government is reviewing 201 special-purpose funds amid high debt and spending requests.",
+          "impact": "Fiscal pressure could constrain infrastructure and industrial-policy financing.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/japan-reboots-doge-style-spending-review-hunt-funds-takaichi-pledges-2026-10-09/",
+            "date": "2026-10-09"
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Governance & Execution",
+          "development": "A renewed spending review aims to improve the use of public funds.",
+          "impact": "Execution will depend on whether savings translate into concrete projects.",
+          "status": "neutral",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/japan-reboots-doge-style-spending-review-hunt-funds-takaichi-pledges-2026-10-09/",
+            "date": "2026-10-09"
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Population & Labor",
+          "development": "The IMF highlights substantial long-term workforce contraction across advanced Asian economies including Japan.",
+          "impact": "Ageing limits growth potential and increases the need for automation and AI.",
+          "status": "negative",
+          "source": {
+            "name": "IMF / Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/productivity-gains-ai-could-help-offset-asias-ageing-population-problem-imf-says-2026-10-12/",
+            "date": "2026-10-12"
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Cost of Living & Housing",
+          "development": "High energy prices and a weak yen weigh on household purchasing power.",
+          "impact": "Higher living costs may erode the real benefits of wage growth.",
+          "status": "negative",
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/asia-pacific/imf-expects-gradual-boj-rate-hike-towards-neutral-setting-2026-10-13/",
+            "date": "2026-10-13"
+          },
+          "checked_date": "2026-10-14"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Social Climate & Talent Attraction",
+          "development": "Ageing and labour constraints make the effective use of skilled workers increasingly important.",
+          "impact": "Talent attraction and labour-force participation will shape long-term competitiveness.",
+          "status": "neutral",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-japan-2026_54cc833d-en.html",
+            "date": null
+          },
+          "checked_date": "2026-10-14"
+        }
+      ],
+      "map_id": "392"
     }
   ],
   "potential_countries": [
