@@ -3188,143 +3188,143 @@
   ],
   "potential_countries": [
     {
-      "id": "poland",
-      "name": "Poland",
-      "flag": "🇵🇱",
-      "selection_reason": "Growth, EU funding and accelerating domestic defence production are creating new capacity at the same time.",
+      "id": "singapore",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "map_id": "702",
+      "selection_reason": "AI-driven investment and manufacturing growth combine strong momentum with external cost risks.",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Growth & Economy",
-          "development": "Poland's GDP grew 3.9% year on year in the second quarter of 2026.",
-          "impact": "Strong domestic momentum despite weakness around the euro area makes Poland worth watching for near-term growth.",
+          "development": "Singapore's GDP rose 5.4% year-on-year in Q3 2026.",
+          "impact": "Technology demand supports growth, but momentum is expected to ease in 2027.",
           "status": "positive",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://stat.gov.pl/en/release-calendar/08-2026.html",
-            "date": "2026-08-31"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "critical_dependencies",
           "signal": "External Dependencies",
-          "development": "August inflation rose to 3.4%, transport prices increased 3.5% month on month and the government planned a new windfall tax on oil companies.",
-          "impact": "Global energy shocks still pass quickly into households and fiscal policy, keeping energy costs a core vulnerability.",
+          "development": "Higher imported energy and food costs are raising inflation.",
+          "impact": "Global supply disruptions could increase price pressures further.",
           "status": "negative",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://stat.gov.pl/en/topics/prices-trade/price-indices/consumer-price-indices-in-august-2026%2C2%2C178.html",
-            "date": "2026-09-15"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "external_demand_trade",
           "signal": "Exports & Foreign Trade",
-          "development": "More than 50 agreements worth over €1 billion were signed under the Carpathian Eight initiative for regional trade, energy and logistics.",
-          "impact": "New regional links could strengthen Poland's role in Central and Eastern European trade corridors.",
+          "development": "Global AI investment is supporting regional production and trade.",
+          "impact": "Singapore's technology-linked exports benefit from stronger demand.",
           "status": "positive",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/world/europe/zelenskiy-launches-carpathian-eight-initiative-trade-security-2026-09-18/",
-            "date": "2026-09-18"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sector Transformation",
-          "development": "Domestic and Central European defence procurement has roughly quadrupled since 2022 to PLN 30.4 billion.",
-          "impact": "Directing defence spending toward local production is building technology transfer, manufacturing capacity and regional supply chains.",
+          "development": "Order backlogs and capacity expansion are lifting AI-related production.",
+          "impact": "Higher-value manufacturing strengthens sector transformation.",
           "status": "positive",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/business/aerospace-defense/poland-pivots-home-grown-defence-production-it-builds-europes-biggest-army-2026-09-01/",
-            "date": "2026-09-01"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investment & Capital",
-          "development": "Poland received roughly PLN 31 billion of new EU funding in June under its National Recovery Plan.",
-          "impact": "EU capital directed to energy, digitalisation, health and defence supports the investment cycle.",
+          "development": "Global AI capital expenditure is driving demand for technology capacity.",
+          "impact": "The investment cycle is strong but sensitive to global technology spending.",
           "status": "positive",
           "source": {
-            "name": "Polonya Kalkınma Fonları Bakanlığı",
-            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
-            "date": "2026-06-02"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Public Finances & Infrastructure",
-          "development": "New EU funds are being allocated to energy infrastructure, clean transport, water management and digital-transformation projects.",
-          "impact": "Large-scale external funding expands fiscal capacity for infrastructure modernisation.",
-          "status": "positive",
+          "development": "Major infrastructure projects continue while subsidies for essential services are expanded.",
+          "impact": "Infrastructure supports capacity, although fiscal costs need monitoring.",
+          "status": "neutral",
           "source": {
-            "name": "Polonya Kalkınma Fonları Bakanlığı",
-            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
-            "date": "2026-06-02"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "execution_adaptability",
           "signal": "Governance & Execution",
-          "development": "A planned windfall tax to soften fuel prices had previously faced a presidential veto and the legal process continues.",
-          "impact": "Economic intervention capacity is strong, but friction between institutions can slow execution.",
-          "status": "neutral",
+          "development": "The central bank retained the current appreciation rate of its exchange-rate policy band in October.",
+          "impact": "Policy continuity aims to contain imported inflation.",
+          "status": "positive",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/business/energy/poland-revive-windfall-tax-oil-firms-use-proceeds-fuel-price-relief-2026-09-15/",
-            "date": "2026-09-15"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "demography_labour",
           "signal": "Population & Labor",
-          "development": "The population fell by 159,000 year on year in the first half of 2026, while net international migration remained positive; Q2 LFS unemployment was 3.2%.",
-          "impact": "Very low unemployment is an advantage, while natural population decline pressures long-term labour supply.",
+          "development": "Employment rose by 11,400 in Q2 2026; overall unemployment remained at 1.9%.",
+          "impact": "Employment expands, although resident-worker growth is more subdued.",
           "status": "neutral",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://ssgk.stat.gov.pl/index_en.html",
-            "date": "2026-08-25"
+            "name": "Singapore Ministry of Manpower",
+            "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0921-labour-market-report---second-quarter-2026",
+            "date": "2026-09-21"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "household_relocation",
           "signal": "Cost of Living & Housing",
-          "development": "Real corporate wages rose 3.6% year on year in July, while completed housing units increased 3.2% in January–July.",
-          "impact": "Real wage growth and new housing supply partly offset cost-of-living pressure.",
-          "status": "positive",
+          "development": "Core inflation reached 2.1% in July–August amid higher energy and food costs.",
+          "impact": "Cost-of-living pressures may persist in the near term.",
+          "status": "negative",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://ssgk.stat.gov.pl/index_en.html",
-            "date": "2026-08-25"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "social_political_talent",
           "signal": "Social Climate & Talent Attraction",
-          "development": "Despite population decline, net international migration remained positive in the first half of 2026.",
-          "impact": "Migration partly offsets labour shortages, creating both a structural need and opportunity for international talent.",
-          "status": "positive",
+          "development": "Much of employment growth came from non-resident workers in construction and manufacturing.",
+          "impact": "Access to foreign labour supports growth, while resident skills remain important.",
+          "status": "neutral",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://ssgk.stat.gov.pl/index_en.html",
-            "date": "2026-08-25"
+            "name": "Singapore Ministry of Manpower",
+            "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0921-labour-market-report---second-quarter-2026",
+            "date": "2026-09-21"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         }
-      ],
-      "map_id": "616"
+      ]
     },
     {
       "id": "vietnam",
