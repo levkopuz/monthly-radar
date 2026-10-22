@@ -3188,143 +3188,143 @@
   ],
   "potential_countries": [
     {
-      "id": "poland",
-      "name": "Polen",
-      "flag": "🇵🇱",
-      "selection_reason": "Wachstum, EU-Mittel und eine beschleunigte heimische Verteidigungsproduktion schaffen gleichzeitig neue Kapazitäten.",
+      "id": "singapore",
+      "name": "Singapur",
+      "flag": "🇸🇬",
+      "map_id": "702",
+      "selection_reason": "Der KI-getriebene Investitions- und Produktionszyklus verbindet starkes Wachstum mit externen Kostenrisiken.",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Polens BIP wuchs im zweiten Quartal 2026 um 3,9 % gegenüber dem Vorjahr.",
-          "impact": "Starke Binnendynamik trotz Schwäche im Euroraum macht Polen für das kurzfristige Wachstum besonders beobachtenswert.",
+          "development": "Singapurs BIP wuchs im dritten Quartal 2026 um 5,4 % gegenüber dem Vorjahr.",
+          "impact": "Technologienachfrage stützt das Wachstum; 2027 dürfte sich die Dynamik abschwächen.",
           "status": "positive",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://stat.gov.pl/en/release-calendar/08-2026.html",
-            "date": "2026-08-31"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "critical_dependencies",
           "signal": "Externe Abhängigkeiten",
-          "development": "Die Inflation stieg im August auf 3,4 %, Transportpreise monatlich um 3,5 %; die Regierung plante eine neue Übergewinnsteuer für Ölunternehmen.",
-          "impact": "Globale Energieschocks schlagen weiter schnell auf Haushalte und Fiskalpolitik durch, wodurch Energiekosten eine zentrale Verwundbarkeit bleiben.",
+          "development": "Höhere Importkosten für Energie und Lebensmittel treiben die Inflation.",
+          "impact": "Globale Lieferstörungen könnten den Preisdruck weiter erhöhen.",
           "status": "negative",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://stat.gov.pl/en/topics/prices-trade/price-indices/consumer-price-indices-in-august-2026%2C2%2C178.html",
-            "date": "2026-09-15"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "external_demand_trade",
           "signal": "Export & Außenhandel",
-          "development": "Im Rahmen der Karpathen-Acht wurden mehr als 50 Abkommen im Wert von über 1 Mrd. € zu Handel, Energie und Logistik unterzeichnet.",
-          "impact": "Neue regionale Verbindungen können Polens Rolle in mittel- und osteuropäischen Handelskorridoren stärken.",
+          "development": "Globale KI-Investitionen stärken Produktion und Handel in der Region.",
+          "impact": "Singapurs technologiebezogene Exporte profitieren von der Nachfrage.",
           "status": "positive",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/world/europe/zelenskiy-launches-carpathian-eight-initiative-trade-security-2026-09-18/",
-            "date": "2026-09-18"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektoraler Wandel",
-          "development": "Die Beschaffung aus Polen und Mitteleuropa für den Verteidigungssektor hat sich seit 2022 etwa vervierfacht und 30,4 Mrd. PLN erreicht.",
-          "impact": "Verteidigungsausgaben für lokale Produktion fördern Technologietransfer, Fertigungskapazität und regionale Lieferketten.",
+          "development": "Auftragsbestände und Kapazitätsausbau stärken die KI-nahe Produktion.",
+          "impact": "Wertschöpfungsintensive Fertigung fördert den Strukturwandel.",
           "status": "positive",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/business/aerospace-defense/poland-pivots-home-grown-defence-production-it-builds-europes-biggest-army-2026-09-01/",
-            "date": "2026-09-01"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investitionen & Kapital",
-          "development": "Polen erhielt im Juni rund 31 Mrd. PLN neue EU-Mittel aus dem nationalen Aufbauplan.",
-          "impact": "EU-Kapital für Energie, Digitalisierung, Gesundheit und Verteidigung stützt den Investitionszyklus.",
+          "development": "Globale KI-Investitionen treiben den Kapazitätsaufbau im Technologiesektor.",
+          "impact": "Der Investitionszyklus bleibt stark, reagiert aber auf globale Technologieausgaben.",
           "status": "positive",
           "source": {
-            "name": "Polonya Kalkınma Fonları Bakanlığı",
-            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
-            "date": "2026-06-02"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Staatsfinanzen & Infrastruktur",
-          "development": "Neue EU-Mittel fließen in Energieinfrastruktur, sauberen Verkehr, Wassermanagement und digitale Transformation.",
-          "impact": "Großvolumige externe Finanzierung erweitert den fiskalischen Spielraum für Infrastrukturmodernisierung.",
-          "status": "positive",
+          "development": "Große Infrastrukturprojekte laufen weiter; Zuschüsse für Grunddienste werden ausgeweitet.",
+          "impact": "Infrastruktur stärkt Kapazitäten, fiskalische Kosten bleiben zu beobachten.",
+          "status": "neutral",
           "source": {
-            "name": "Polonya Kalkınma Fonları Bakanlığı",
-            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
-            "date": "2026-06-02"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "execution_adaptability",
           "signal": "Steuerung & Umsetzung",
-          "development": "Eine geplante Übergewinnsteuer zur Dämpfung der Kraftstoffpreise war zuvor am Präsidentenveto gescheitert; das Verfahren läuft weiter.",
-          "impact": "Die wirtschaftspolitische Eingriffsfähigkeit ist hoch, doch institutionelle Reibung kann die Umsetzung verlangsamen.",
-          "status": "neutral",
+          "development": "Die Zentralbank hielt im Oktober am Aufwertungstempo ihres Wechselkursbandes fest.",
+          "impact": "Politische Kontinuität soll importierte Inflation begrenzen.",
+          "status": "positive",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/business/energy/poland-revive-windfall-tax-oil-firms-use-proceeds-fuel-price-relief-2026-09-15/",
-            "date": "2026-09-15"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "demography_labour",
           "signal": "Bevölkerung & Arbeitsmarkt",
-          "development": "Die Bevölkerung sank im ersten Halbjahr 2026 um 159.000 gegenüber dem Vorjahr, während die Nettozuwanderung positiv blieb; die LFS-Arbeitslosigkeit lag im zweiten Quartal bei 3,2 %.",
-          "impact": "Sehr niedrige Arbeitslosigkeit ist ein Vorteil, während der natürliche Bevölkerungsrückgang das langfristige Arbeitskräfteangebot belastet.",
+          "development": "Im zweiten Quartal 2026 stieg die Beschäftigung um 11.400; die Arbeitslosigkeit blieb bei 1,9 %.",
+          "impact": "Die Beschäftigung wächst, aber bei ansässigen Arbeitskräften langsamer.",
           "status": "neutral",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://ssgk.stat.gov.pl/index_en.html",
-            "date": "2026-08-25"
+            "name": "Singapore Ministry of Manpower",
+            "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0921-labour-market-report---second-quarter-2026",
+            "date": "2026-09-21"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "household_relocation",
           "signal": "Lebenshaltungskosten & Wohnen",
-          "development": "Reale Unternehmenslöhne stiegen im Juli um 3,6 %, die Zahl fertiggestellter Wohnungen von Januar bis Juli um 3,2 %.",
-          "impact": "Reallohnwachstum und neues Wohnungsangebot gleichen Lebenshaltungskostendruck teilweise aus.",
-          "status": "positive",
+          "development": "Die Kerninflation erreichte im Juli–August 2,1 % bei höheren Energie- und Lebensmittelkosten.",
+          "impact": "Der Druck auf die Lebenshaltungskosten dürfte kurzfristig anhalten.",
+          "status": "negative",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://ssgk.stat.gov.pl/index_en.html",
-            "date": "2026-08-25"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "social_political_talent",
           "signal": "Gesellschaftliches Klima & Talentgewinnung",
-          "development": "Trotz Bevölkerungsrückgang blieb die Nettozuwanderung im ersten Halbjahr 2026 positiv.",
-          "impact": "Migration gleicht Arbeitskräftelücken teilweise aus und schafft zugleich strukturellen Bedarf und Chancen für internationale Talente.",
-          "status": "positive",
+          "development": "Ein großer Teil des Beschäftigungswachstums entfiel auf ausländische Arbeitskräfte im Baugewerbe und der Fertigung.",
+          "impact": "Internationale Arbeitskräfte stützen das Wachstum; lokale Qualifikationen bleiben wichtig.",
+          "status": "neutral",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://ssgk.stat.gov.pl/index_en.html",
-            "date": "2026-08-25"
+            "name": "Singapore Ministry of Manpower",
+            "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0921-labour-market-report---second-quarter-2026",
+            "date": "2026-09-21"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         }
-      ],
-      "map_id": "616"
+      ]
     },
     {
       "id": "vietnam",
