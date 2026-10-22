@@ -3188,143 +3188,143 @@
   ],
   "potential_countries": [
     {
-      "id": "poland",
-      "name": "Polonya",
-      "flag": "🇵🇱",
-      "selection_reason": "Büyüme, AB fonları ve hızlanan yerli savunma üretimi aynı anda yeni kapasite oluşturuyor.",
+      "id": "singapore",
+      "name": "Singapur",
+      "flag": "🇸🇬",
+      "map_id": "702",
+      "selection_reason": "Yapay zekâ kaynaklı üretim ve yatırım döngüsü, güçlü büyüme ile dış maliyet risklerini aynı anda görünür kılıyor.",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Büyüme ve Ekonomi",
-          "development": "Polonya GSYH'si 2026 ikinci çeyreğinde yıllık %3,9 büyüdü.",
-          "impact": "Euro Bölgesi çevresindeki zayıflığa rağmen iç ekonomik momentumun güçlü kalması ülkeyi yakın dönem büyüme açısından izlenmeye değer kılıyor.",
+          "development": "Singapur ekonomisi 2026 üçüncü çeyrekte yıllık %5,4 büyüdü.",
+          "impact": "Güçlü teknoloji talebi büyümeyi destekliyor; 2027'de normalleşme bekleniyor.",
           "status": "positive",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://stat.gov.pl/en/release-calendar/08-2026.html",
-            "date": "2026-08-31"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "critical_dependencies",
           "signal": "Dışa Bağımlılık",
-          "development": "Ağustos enflasyonu %3,4'e yükselirken ulaştırma fiyatları aylık %3,5 arttı ve hükümet petrol şirketlerine yeni windfall tax planladı.",
-          "impact": "Küresel enerji şokları hanelere ve mali politikaya hızlı yansıdığı için enerji maliyeti temel kırılganlık olmaya devam ediyor.",
+          "development": "İthal enerji ve gıda maliyetleri enflasyonu yukarı çekiyor.",
+          "impact": "Küresel arz kesintileri fiyat baskısını yeniden artırabilir.",
           "status": "negative",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://stat.gov.pl/en/topics/prices-trade/price-indices/consumer-price-indices-in-august-2026%2C2%2C178.html",
-            "date": "2026-09-15"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "external_demand_trade",
           "signal": "İhracat ve Dış Ticaret",
-          "development": "Karpat Sekizlisi girişiminde bölgesel ticaret, enerji ve lojistik için 1 milyar avronun üzerinde 50'den fazla anlaşma imzalandı.",
-          "impact": "Yeni bölgesel bağlantılar Polonya'nın Orta ve Doğu Avrupa ticaret koridorlarındaki rolünü güçlendirebilir.",
+          "development": "Küresel AI yatırımları bölgesel sanayi üretimi ve ticareti destekliyor.",
+          "impact": "Singapur'un teknoloji bağlantılı dış ticareti talep artışından yararlanıyor.",
           "status": "positive",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/world/europe/zelenskiy-launches-carpathian-eight-initiative-trade-security-2026-09-18/",
-            "date": "2026-09-18"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektörel Dönüşüm",
-          "development": "Polonya'nın yerli ve Orta Avrupa kaynaklı savunma tedariki 2022'den beri yaklaşık dört katına çıkarak 30,4 milyar zloty'e ulaştı.",
-          "impact": "Savunma harcamasının yerli üretime yönelmesi teknoloji transferi, üretim kapasitesi ve bölgesel tedarik zinciri oluşturuyor.",
+          "development": "AI ürünlerine yönelik sipariş birikimi ve kapasite genişlemesi teknoloji üretimini büyütüyor.",
+          "impact": "Yüksek katma değerli üretim Singapur'un sektörel dönüşümünü hızlandırıyor.",
           "status": "positive",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/business/aerospace-defense/poland-pivots-home-grown-defence-production-it-builds-europes-biggest-army-2026-09-01/",
-            "date": "2026-09-01"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "investment_capital_direction",
           "signal": "Yatırım ve Sermaye",
-          "development": "Polonya Haziran'da Ulusal Toparlanma Planı kapsamında yaklaşık 31 milyar zloty yeni AB kaynağı aldı.",
-          "impact": "Enerji, dijitalleşme, sağlık ve savunmaya yönelen AB sermayesi yatırım döngüsünü destekliyor.",
+          "development": "Küresel AI sermaye harcamaları teknoloji üretimi ve kapasite yatırımlarına talep oluşturuyor.",
+          "impact": "Yatırım döngüsü güçlü ancak küresel teknoloji harcamalarına duyarlı.",
           "status": "positive",
           "source": {
-            "name": "Polonya Kalkınma Fonları Bakanlığı",
-            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
-            "date": "2026-06-02"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Kamu Maliyesi ve Altyapı",
-          "development": "Yeni AB fonları enerji altyapısı, temiz ulaşım, su yönetimi ve dijital dönüşüm projelerine tahsis ediliyor.",
-          "impact": "Büyük ölçekli dış finansman altyapı modernizasyonu için mali alanı genişletiyor.",
-          "status": "positive",
+          "development": "Büyük altyapı projelerinin inşası sürerken temel hizmet sübvansiyonları genişletiliyor.",
+          "impact": "Altyapı yatırımları kapasiteyi destekliyor; mali maliyetlerin izlenmesi gerekiyor.",
+          "status": "neutral",
           "source": {
-            "name": "Polonya Kalkınma Fonları Bakanlığı",
-            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
-            "date": "2026-06-02"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "execution_adaptability",
           "signal": "Yönetim ve Uygulama Gücü",
-          "development": "Yakıt fiyatlarını hafifletmek için planlanan windfall tax daha önce cumhurbaşkanlığı vetosuna takıldı ve hukuki süreç devam ediyor.",
-          "impact": "Ekonomik müdahale kapasitesi güçlü olsa da yürütme ile diğer kurumlar arasındaki sürtüşme uygulama hızını sınırlayabiliyor.",
-          "status": "neutral",
+          "development": "Para otoritesi Ekim'de döviz kuru politika bandının mevcut değerlenme hızını korudu.",
+          "impact": "Öngörülebilir politika uygulaması ithal enflasyonu sınırlamayı hedefliyor.",
+          "status": "positive",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/business/energy/poland-revive-windfall-tax-oil-firms-use-proceeds-fuel-price-relief-2026-09-15/",
-            "date": "2026-09-15"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "demography_labour",
           "signal": "Nüfus ve İş Gücü",
-          "development": "2026 ilk yarısında nüfus yıllık 159 bin azalırken net uluslararası göç pozitif kaldı; ikinci çeyrek LFS işsizliği %3,2 oldu.",
-          "impact": "Çok düşük işsizlik avantaj sağlarken doğal nüfus kaybı uzun vadeli iş gücü arzını baskılıyor.",
+          "development": "2026 ikinci çeyrekte istihdam 11.400 kişi arttı; genel işsizlik %1,9 seviyesinde kaldı.",
+          "impact": "İstihdam artışı sürerken yerleşik iş gücündeki artış daha sınırlı.",
           "status": "neutral",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://ssgk.stat.gov.pl/index_en.html",
-            "date": "2026-08-25"
+            "name": "Singapore Ministry of Manpower",
+            "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0921-labour-market-report---second-quarter-2026",
+            "date": "2026-09-21"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "household_relocation",
           "signal": "Yaşam Maliyeti ve Konut",
-          "development": "Temmuzda reel şirket ücretleri yıllık %3,6 artarken Ocak-Temmuz'da tamamlanan konut sayısı %3,2 yükseldi.",
-          "impact": "Reel ücret artışı ve yeni konut arzı yaşam maliyeti baskısını kısmen dengeliyor.",
-          "status": "positive",
+          "development": "Çekirdek enflasyon Temmuz-Ağustos döneminde %2,1'e yükseldi; enerji ve gıda maliyetleri baskı oluşturuyor.",
+          "impact": "Yaşam maliyeti üzerindeki baskı kısa vadede devam edebilir.",
+          "status": "negative",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://ssgk.stat.gov.pl/index_en.html",
-            "date": "2026-08-25"
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+            "date": "2026-10-14"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         },
         {
           "signal_id": "social_political_talent",
           "signal": "Toplumsal İklim ve Yetenek Çekimi",
-          "development": "Nüfus küçülmesine rağmen 2026 ilk yarısında net uluslararası göç pozitif kaldı.",
-          "impact": "Göçün iş gücü açığını kısmen telafi etmesi uluslararası yetenek açısından yapısal bir ihtiyaç ve fırsat alanı yaratıyor.",
-          "status": "positive",
+          "development": "İstihdam artışının önemli bölümü inşaat ve imalattaki yabancı iş gücünden geldi.",
+          "impact": "Uluslararası iş gücü erişimi büyümeyi destekliyor; yerleşik yetenek gelişimi de önemli.",
+          "status": "neutral",
           "source": {
-            "name": "Statistics Poland",
-            "url": "https://ssgk.stat.gov.pl/index_en.html",
-            "date": "2026-08-25"
+            "name": "Singapore Ministry of Manpower",
+            "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0921-labour-market-report---second-quarter-2026",
+            "date": "2026-09-21"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-10-22"
         }
-      ],
-      "map_id": "616"
+      ]
     },
     {
       "id": "vietnam",
