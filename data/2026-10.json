@@ -5,7 +5,7 @@
     "month": "Ekim 2026",
     "updated": "1 Ekim 2026",
     "checked_date": "2026-10-01",
-    "country_count": 23,
+    "country_count": 24,
     "signal_count": 10,
     "method": "10 sabit sinyal ailesi; son 30 gündeki maddi değişiklikler önceliklendirilir, değişiklik yoksa en güncel yapısal veri yeniden doğrulanır.",
     "potential_country_count": 5
@@ -3184,6 +3184,144 @@
         }
       ],
       "map_id": "392"
+    },
+    {
+      "id": "hungary",
+      "name": "Macaristan",
+      "flag": "🇭🇺",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Büyüme ve Ekonomi",
+          "development": "IMF, Macaristan ekonomisinin 2026'da yaklaşık %2 büyümesini bekliyor.",
+          "impact": "İç talep toparlanmayı desteklerken mali dengesizlikler büyümenin dayanıklılığını sınırlıyor.",
+          "status": "neutral",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Dışa Bağımlılık",
+          "development": "Yüksek enerji fiyatları Macaristan'ın dış dengesini baskılıyor.",
+          "impact": "Enerji ithalatına duyarlılık dış şoklara karşı kırılganlığı artırıyor.",
+          "status": "negative",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "İhracat ve Dış Ticaret",
+          "development": "IMF, Avrupa talebindeki zayıflığın ihracat odaklı üreticileri olumsuz etkileyebileceğini belirtiyor.",
+          "impact": "Avrupa pazarına bağlı ihracatın toparlanması dış talebe duyarlı kalıyor.",
+          "status": "neutral",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektörel Dönüşüm",
+          "development": "Yeni otomotiv ve batarya tesislerinin üretim kapasitesini artırması bekleniyor.",
+          "impact": "Yeni tesisler sanayi ihracatını güçlendirebilir; küresel talep önemli bir risk.",
+          "status": "positive",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Yatırım ve Sermaye",
+          "development": "IMF, bloke edilmiş yaklaşık 16 milyar euroluk AB kaynağının serbest kalmasının yatırımları destekleyebileceğini belirtiyor.",
+          "impact": "Sermaye görünümü fonların kullanımına ve yönetişim koşullarına bağlı.",
+          "status": "neutral",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Kamu Maliyesi ve Altyapı",
+          "development": "IMF, mevcut politikalarla 2026 bütçe açığının GSYH'nin %7–7,5'ine ulaşabileceğini öngörüyor.",
+          "impact": "Yüksek açık ve artan borç altyapı ve kamu yatırımlarında mali alanı daraltıyor.",
+          "status": "negative",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Yönetim ve Uygulama Gücü",
+          "development": "IMF, AB fonlarına erişimde daha güçlü yönetişim ve şeffaf ihale süreçlerinin önemini vurguluyor.",
+          "impact": "Uygulama kapasitesi ve kurumsal güven, yatırımların hayata geçirilmesini etkiliyor.",
+          "status": "negative",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Nüfus ve İş Gücü",
+          "development": "OECD, 2026 işsizlik oranını yaklaşık %4,5 öngörüyor.",
+          "impact": "İşgücü piyasası görece istikrarlı; verimlilik artışı rekabetçilik için kritik.",
+          "status": "neutral",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-hungary-2026_1d93d51d-en/full-report/macroeconomic-developments-and-policy-challenges_0372e726.html",
+            "date": "2026-07-01"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Yaşam Maliyeti ve Konut",
+          "development": "Avrupa Komisyonu, konut talebinin ve fiyatlarının destekleyici politikalarla yükseldiğini belirtiyor.",
+          "impact": "Artan konut maliyetleri hanehalkı erişilebilirliğini zayıflatabilir.",
+          "status": "negative",
+          "source": {
+            "name": "European Commission",
+            "url": "https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages-including-country-reports/hungary/economic-forecast-hungary_en",
+            "date": "2026-05-21"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
+          "development": "IMF, güçlü yönetişim ve beşerî sermaye yatırımlarının orta vadeli büyüme için önemli olduğunu vurguluyor.",
+          "impact": "Nitelikli iş gücü ve kurumsal öngörülebilirlik yetenek çekimini etkiliyor.",
+          "status": "neutral",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        }
+      ],
+      "map_id": "348"
     }
   ],
   "potential_countries": [
