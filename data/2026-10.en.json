@@ -5,7 +5,7 @@
     "month": "October 2026",
     "updated": "1 October 2026",
     "checked_date": "2026-10-01",
-    "country_count": 23,
+    "country_count": 24,
     "signal_count": 10,
     "method": "10 fixed signal families; material changes from the last 30 days are prioritised, otherwise the latest structural data are revalidated.",
     "potential_country_count": 5
@@ -3184,6 +3184,144 @@
         }
       ],
       "map_id": "392"
+    },
+    {
+      "id": "hungary",
+      "name": "Hungary",
+      "flag": "🇭🇺",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Growth & Economy",
+          "development": "The IMF expects Hungary's economy to grow by around 2% in 2026.",
+          "impact": "Domestic demand supports recovery, while fiscal imbalances limit resilience.",
+          "status": "neutral",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "External Dependencies",
+          "development": "Higher energy prices are weighing on Hungary's external balance.",
+          "impact": "Dependence on imported energy increases exposure to external shocks.",
+          "status": "negative",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Exports & Foreign Trade",
+          "development": "The IMF warns that weaker European demand could hurt export-oriented manufacturers.",
+          "impact": "Export recovery remains sensitive to demand in European markets.",
+          "status": "neutral",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sector Transformation",
+          "development": "New automotive and battery plants are expected to expand production capacity.",
+          "impact": "The plants could strengthen industrial exports, although global demand remains a risk.",
+          "status": "positive",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investment & Capital",
+          "development": "The IMF says access to about €16 billion in frozen EU funds could support investment.",
+          "impact": "Capital prospects depend on fund access and governance conditions.",
+          "status": "neutral",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Public Finances & Infrastructure",
+          "development": "The IMF estimates the 2026 deficit could reach 7–7.5% of GDP under current policies.",
+          "impact": "A high deficit and rising debt constrain fiscal space for infrastructure and investment.",
+          "status": "negative",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Governance & Execution",
+          "development": "The IMF stresses stronger governance and transparent procurement for effective use of EU funds.",
+          "impact": "Execution capacity and institutional confidence affect investment delivery.",
+          "status": "negative",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Population & Labor",
+          "development": "The OECD projects unemployment at about 4.5% in 2026.",
+          "impact": "The labour market is relatively stable, while productivity remains critical for competitiveness.",
+          "status": "neutral",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-hungary-2026_1d93d51d-en/full-report/macroeconomic-developments-and-policy-challenges_0372e726.html",
+            "date": "2026-07-01"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Cost of Living & Housing",
+          "development": "The European Commission notes rising housing demand and prices amid supportive policies.",
+          "impact": "Higher housing costs can weaken affordability for households.",
+          "status": "negative",
+          "source": {
+            "name": "European Commission",
+            "url": "https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages-including-country-reports/hungary/economic-forecast-hungary_en",
+            "date": "2026-05-21"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Social Climate & Talent Attraction",
+          "development": "The IMF highlights governance and human-capital investment as medium-term growth priorities.",
+          "impact": "Skills and institutional predictability influence talent attraction.",
+          "status": "neutral",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        }
+      ],
+      "map_id": "348"
     }
   ],
   "potential_countries": [
