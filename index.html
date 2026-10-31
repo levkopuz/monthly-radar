@@ -458,6 +458,20 @@
       padding:42px;background:rgba(249,246,240,.62);border:1px dashed var(--line);border-radius:14px;color:var(--muted);text-align:center;font-size:13px
     }
     .trend-wrap .loading{background:transparent;border-color:rgba(255,255,255,.16);color:#8e887f}
+    /* Monthly signal map: consistent reusable grid tokens and accessible status cells */
+    .trend-grid{--trend-axis-width:210px;--trend-month-width:52px;--trend-row-height:38px;--trend-gap:5px;grid-template-columns:var(--trend-axis-width) repeat(var(--trend-month-count),var(--trend-month-width));gap:var(--trend-gap);width:max-content;min-width:100%;align-items:stretch}
+    .trend-head{height:var(--trend-row-height);box-sizing:border-box;overflow:hidden;text-overflow:clip;font-variant-numeric:tabular-nums}
+    .trend-axis{min-height:var(--trend-row-height);height:auto;box-sizing:border-box;padding:7px 12px;white-space:normal;overflow-wrap:anywhere;border-right:1px solid rgba(255,255,255,.12)}
+    .trend-cell{height:var(--trend-row-height);border-radius:7px;transition:filter .15s ease,outline-color .15s ease}
+    .trend-cell.positive{background:#147d55}
+    .trend-cell.negative{background:#b94a45}
+    .trend-cell.neutral{background:#626a71}
+    .trend-cell.empty{background:#252724;border:1px dashed #555a54}
+    .trend-cell span{font-size:12px;font-weight:700}
+    .trend-cell:focus-visible{outline:3px solid #f3cf85;outline-offset:1px;position:relative;z-index:4}
+    @media(hover:hover){.trend-cell:hover{filter:brightness(1.22)}}
+    @media(max-width:700px){.trend-grid{--trend-axis-width:154px;--trend-month-width:48px;--trend-row-height:42px}.trend-axis{font-size:11px;line-height:1.35;padding:6px 8px}.trend-head{font-size:10px}.trend-cell{height:var(--trend-row-height)}}
+    @media(prefers-reduced-motion:reduce){.trend-cell{transition:none}}
     .method{
       position:relative;overflow:hidden;isolation:isolate;
       margin-top:24px;
@@ -1488,15 +1502,15 @@ async function trendCiz(c){
     await tumArsiviYukle();
     const months=aylikIndeks.months;
     const items=gorunenMaddeler(c);
-    const cols=`190px repeat(${months.length},46px)`;
-    let out=`<div class="trend-grid" style="grid-template-columns:${cols}"><div class="trend-head" style="text-align:left">${u.signalAxis}</div>`;
-    out+=months.map(m=>`<div class="trend-head">${ayEtiketi(m.id,true)}</div>`).join("");
+    const cols=months.length;
+    let out=`<div class="trend-grid" role="table" aria-label="${u.signalAxis}" style="--trend-month-count:${cols}"><div class="trend-head" role="columnheader" style="text-align:left">${u.signalAxis}</div>`;
+    out+=months.map(m=>`<div class="trend-head" role="columnheader">${ayEtiketi(m.id,true)}</div>`).join("");
     items.forEach(item=>{
-      out+=`<div class="trend-axis">${item.signal}</div>`;
+      out+=`<div class="trend-axis" role="rowheader">${item.signal}</div>`;
       months.forEach(m=>{
         const mv=arsivCache.get(arsivAnahtari(m.id)),mc=arsivdeUlke(mv,c.id),mi=mc?.items.find(x=>x.signal_id===item.signal_id);
-        if(mi)out+=`<div class="trend-cell ${mi.status}" title="${ayEtiketi(m.id)} · ${item.signal} · ${durumEtiketi(mi.status)}"><span>${durumKisa[mi.status]}</span></div>`;
-        else out+=`<div class="trend-cell empty" title="${ayEtiketi(m.id)} · ${u.noRecord}"><span>·</span></div>`;
+        if(mi)out+=`<div class="trend-cell ${mi.status}" role="cell" tabindex="0" aria-label="${ayEtiketi(m.id)} · ${item.signal} · ${durumEtiketi(mi.status)}" title="${ayEtiketi(m.id)} · ${item.signal} · ${durumEtiketi(mi.status)}"><span aria-hidden="true">${durumKisa[mi.status]}</span></div>`;
+        else out+=`<div class="trend-cell empty" role="cell" tabindex="0" aria-label="${ayEtiketi(m.id)} · ${item.signal} · ${u.noRecord}" title="${ayEtiketi(m.id)} · ${u.noRecord}"><span aria-hidden="true">·</span></div>`;
       });
     });
     out+="</div>";root.className="";root.innerHTML=out;
