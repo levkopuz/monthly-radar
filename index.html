@@ -473,9 +473,14 @@
     @media(max-width:700px){.trend-grid{--trend-axis-width:154px;--trend-month-width:48px;--trend-row-height:42px}.trend-axis{font-size:11px;line-height:1.35;padding:6px 8px}.trend-head{font-size:10px}.trend-cell{height:var(--trend-row-height)}}
     @media(prefers-reduced-motion:reduce){.trend-cell{transition:none}}
     /* Opaque pinned signal labels: never reveal scrolling status cells underneath. */
-    .trend-grid .trend-axis{background:#11110f!important;background-image:none!important;position:sticky;left:0;z-index:20;isolation:isolate;box-shadow:8px 0 0 #11110f}
+    .trend-grid .trend-axis{background:#11110f!important;background-image:none!important;position:sticky;left:0;z-index:20;isolation:isolate;box-shadow:8px 0 0 #11110f;clip-path:inset(0 -8px 0 0);overflow:hidden}
     .trend-grid .trend-head:first-child{position:sticky;left:0;z-index:21;background:#11110f;box-shadow:8px 0 0 #11110f}
     .trend-grid .trend-cell{position:relative;z-index:1}
+    /* Opaque sticky label rail: no heatmap colors may show through the left column. */
+    .trend-grid .trend-axis::before{content:"";position:absolute;inset:0;background:#11110f;z-index:-1;pointer-events:none}
+    .trend-grid .trend-axis{contain:paint}
+    .trend-grid .trend-head:first-child{isolation:isolate}
+    .trend-grid .trend-head:first-child::before{content:"";position:absolute;inset:0;background:#11110f;z-index:-1;pointer-events:none}
     .method{
       position:relative;overflow:hidden;isolation:isolate;
       margin-top:24px;
