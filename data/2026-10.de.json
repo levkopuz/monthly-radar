@@ -5,7 +5,7 @@
     "month": "October 2026",
     "updated": "1. Oktober 2026",
     "checked_date": "2026-10-01",
-    "country_count": 23,
+    "country_count": 24,
     "signal_count": 10,
     "method": "10 feste Signalfamilien; wesentliche Änderungen der letzten 30 Tage werden priorisiert, andernfalls werden die jüngsten strukturellen Daten erneut geprüft.",
     "potential_country_count": 5
@@ -3184,6 +3184,144 @@
         }
       ],
       "map_id": "392"
+    },
+    {
+      "id": "hungary",
+      "name": "Ungarn",
+      "flag": "🇭🇺",
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Der IWF erwartet für Ungarn 2026 ein Wirtschaftswachstum von rund 2 %.",
+          "impact": "Die Binnennachfrage stützt die Erholung, fiskalische Ungleichgewichte begrenzen die Widerstandsfähigkeit.",
+          "status": "neutral",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Höhere Energiepreise belasten Ungarns Außenbilanz.",
+          "impact": "Die Abhängigkeit von Energieimporten erhöht die Anfälligkeit für externe Schocks.",
+          "status": "negative",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Der IWF warnt vor Risiken schwächerer europäischer Nachfrage für exportorientierte Hersteller.",
+          "impact": "Die Exporterholung bleibt von der Nachfrage in Europa abhängig.",
+          "status": "neutral",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Neue Automobil- und Batteriewerke sollen die Produktionskapazität erweitern.",
+          "impact": "Die Anlagen könnten Industrieexporte stärken; die globale Nachfrage bleibt ein Risiko.",
+          "status": "positive",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Der IWF sieht in rund 16 Mrd. € eingefrorenen EU-Mitteln Potenzial für Investitionen.",
+          "impact": "Die Kapitalaussichten hängen vom Mittelzugang und den Governance-Bedingungen ab.",
+          "status": "neutral",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Der IWF schätzt das Defizit 2026 bei unveränderter Politik auf 7–7,5 % des BIP.",
+          "impact": "Hohes Defizit und steigende Schulden begrenzen den Spielraum für Infrastruktur und Investitionen.",
+          "status": "negative",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Der IWF betont stärkere Governance und transparente Vergabe für den Einsatz von EU-Mitteln.",
+          "impact": "Umsetzungsfähigkeit und institutionelles Vertrauen beeinflussen Investitionen.",
+          "status": "negative",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Die OECD prognostiziert für 2026 eine Arbeitslosenquote von rund 4,5 %.",
+          "impact": "Der Arbeitsmarkt ist relativ stabil; Produktivität bleibt entscheidend für die Wettbewerbsfähigkeit.",
+          "status": "neutral",
+          "source": {
+            "name": "OECD",
+            "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-hungary-2026_1d93d51d-en/full-report/macroeconomic-developments-and-policy-challenges_0372e726.html",
+            "date": "2026-07-01"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Die EU-Kommission verweist auf steigende Wohnungsnachfrage und Preise durch Fördermaßnahmen.",
+          "impact": "Höhere Wohnkosten können die Leistbarkeit für Haushalte verschlechtern.",
+          "status": "negative",
+          "source": {
+            "name": "European Commission",
+            "url": "https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages-including-country-reports/hungary/economic-forecast-hungary_en",
+            "date": "2026-05-21"
+          },
+          "checked_date": "2026-10-31"
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Der IWF hebt Governance und Humankapitalinvestitionen als mittelfristige Wachstumsfaktoren hervor.",
+          "impact": "Qualifikationen und institutionelle Planbarkeit beeinflussen die Attraktivität für Talente.",
+          "status": "neutral",
+          "source": {
+            "name": "IMF",
+            "url": "https://www.imf.org/en/news/articles/2026/10/07/cs-hungary-staff-concluding-statement-of-the-2026-article-iv-mission",
+            "date": "2026-10-08"
+          },
+          "checked_date": "2026-10-31"
+        }
+      ],
+      "map_id": "348"
     }
   ],
   "potential_countries": [
