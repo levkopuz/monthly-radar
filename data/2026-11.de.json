@@ -157,7 +157,7 @@
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Die Wirtschaft wuchs um 0,6 % im dritten Quartal 2026 gegenüber dem Vorquartal.",
+          "development": "Die Wirtschaft wuchs im dritten Quartal 2026 gegenüber dem Vorquartal um 0,6 %.",
           "impact": "Die Quartalsdynamik stützt die Wirtschaft.",
           "status": "positive",
           "source": {
@@ -709,7 +709,7 @@
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Die Wirtschaft schrumpfte um 0,1 % im dritten Quartal 2026 gegenüber dem Vorquartal.",
+          "development": "Die Wirtschaft schrumpfte im dritten Quartal 2026 gegenüber dem Vorquartal um 0,1 %.",
           "impact": "Der Rückgang schwächt die kurzfristige Widerstandsfähigkeit.",
           "status": "negative",
           "source": {
@@ -1261,7 +1261,7 @@
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Die Wirtschaft wuchs um 0,2 % im dritten Quartal 2026 gegenüber dem Vorquartal.",
+          "development": "Die Wirtschaft wuchs im dritten Quartal 2026 gegenüber dem Vorquartal um 0,2 %.",
           "impact": "Die geringe Quartalsdynamik begrenzt das Wachstumspotenzial.",
           "status": "neutral",
           "source": {
@@ -1951,7 +1951,7 @@
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Die Wirtschaft unverändert blieb im dritten Quartal 2026 gegenüber dem Vorquartal.",
+          "development": "Die Wirtschaft blieb im dritten Quartal 2026 gegenüber dem Vorquartal unverändert.",
           "impact": "Die geringe Quartalsdynamik begrenzt das Wachstumspotenzial.",
           "status": "neutral",
           "source": {
@@ -2227,7 +2227,7 @@
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Die Wirtschaft wuchs um 0,2 % im dritten Quartal 2026 gegenüber dem Vorquartal.",
+          "development": "Die Wirtschaft wuchs im dritten Quartal 2026 gegenüber dem Vorquartal um 0,2 %.",
           "impact": "Die geringe Quartalsdynamik begrenzt das Wachstumspotenzial.",
           "status": "neutral",
           "source": {
@@ -2365,7 +2365,7 @@
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Die Wirtschaft wuchs um 0,6 % im dritten Quartal 2026 gegenüber dem Vorquartal.",
+          "development": "Die Wirtschaft wuchs im dritten Quartal 2026 gegenüber dem Vorquartal um 0,6 %.",
           "impact": "Die Quartalsdynamik stützt die Wirtschaft.",
           "status": "positive",
           "source": {
@@ -2919,7 +2919,7 @@
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
           "status": "neutral",
-          "development": "Die Wirtschaft wuchs um 0,4 % im dritten Quartal 2026 gegenüber dem Vorquartal.",
+          "development": "Die Wirtschaft wuchs im dritten Quartal 2026 gegenüber dem Vorquartal um 0,4 %.",
           "impact": "Die geringe Quartalsdynamik begrenzt das Wachstumspotenzial.",
           "source": {
             "name": "Eurostat",
@@ -3193,7 +3193,7 @@
         {
           "signal_id": "economic_engine",
           "signal": "Wachstum & Wirtschaft",
-          "development": "Die Wirtschaft wuchs um 0,1 % im dritten Quartal 2026 gegenüber dem Vorquartal.",
+          "development": "Die Wirtschaft wuchs im dritten Quartal 2026 gegenüber dem Vorquartal um 0,1 %.",
           "impact": "Die geringe Quartalsdynamik begrenzt das Wachstumspotenzial.",
           "status": "neutral",
           "source": {
