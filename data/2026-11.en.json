@@ -3743,143 +3743,143 @@
       "map_id": "360"
     },
     {
-      "id": "saudi",
-      "name": "Saudi Arabia",
-      "flag": "🇸🇦",
-      "selection_reason": "Selected for structural signals in energy and infrastructure investment.",
+      "id": "paraguay",
+      "name": "Paraguay",
+      "flag": "🇵🇾",
+      "selection_reason": "Selected for above-regional growth, private investment and fiscal-stability signals.",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Growth & Economy",
-          "development": "The IMF expects 2.6% non-oil growth in 2026, while S&P says non-oil activity has reached roughly 70% of GDP.",
-          "impact": "A larger non-oil base shows economic diversification becoming more tangible.",
+          "development": "The World Bank projects 4.7% growth for Paraguay in 2026.",
+          "impact": "Above-regional growth creates room for transformation.",
           "status": "positive",
           "source": {
-            "name": "IMF",
-            "url": "https://www.imf.org/en/news/articles/2026/07/29/pr26267-saudi-arabia-imf-concludes-2026-aiv",
-            "date": "2026-07-29"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "critical_dependencies",
           "signal": "External Dependencies",
-          "development": "Houthi attacks disabled the East-West oil pipeline, showing that the alternative export route is also vulnerable.",
-          "impact": "Exposure of oil and logistics infrastructure to regional-security shocks remains the country's most critical dependency.",
+          "development": "The World Bank sees energy-price volatility as a Latin American external risk.",
+          "impact": "External shocks could raise production and transport costs.",
           "status": "negative",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/",
-            "date": "2026-09-13"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "external_demand_trade",
           "signal": "Exports & Foreign Trade",
-          "development": "Saudi oil shipments began to recover in September using alternative transfer methods and routes through Hormuz.",
-          "impact": "The ability to maintain exports through alternative logistics improves resilience of external revenues.",
-          "status": "neutral",
+          "development": "The World Bank warns that El Niño could disrupt regional agriculture and hydropower.",
+          "impact": "Paraguay's agricultural exports remain climate-sensitive.",
+          "status": "negative",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/",
-            "date": "2026-09-16"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sector Transformation",
-          "development": "PIF created a new company to develop tourism and housing on the Al-Khafji coast, while investment continues to shift toward non-oil sectors.",
-          "impact": "Capital moving into tourism, housing and services strengthens the sector-diversification axis of Vision 2030.",
-          "status": "positive",
+          "development": "The World Bank highlights AI's potential to improve regional productivity.",
+          "impact": "Technology adoption could accelerate Paraguay's sectoral upgrading.",
+          "status": "neutral",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/world/middle-east/saudi-pif-launches-firm-develop-tourism-residential-area-gulf-coast-2026-09-07/",
-            "date": "2026-09-07"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investment & Capital",
-          "development": "S&P views more selective calibration of Vision 2030 investment and a larger private-sector role positively for fiscal resilience.",
-          "impact": "More selective and private-sector-led capital allocation could improve investment efficiency.",
+          "development": "The World Bank reports robust private investment supporting Paraguay's growth.",
+          "impact": "Private capital can expand production and employment.",
           "status": "positive",
           "source": {
-            "name": "Suudi Arabistan Maliye Bakanlığı",
-            "url": "https://mof.gov.sa/en/MediaCenter/news/Pages/News_12092026.aspx",
-            "date": "2026-09-12"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Public Finances & Infrastructure",
-          "development": "S&P maintained the A+ rating and highlighted strong public assets and calibrated spending as fiscal buffers.",
-          "impact": "Large public assets provide significant financial capacity to continue major transformation projects.",
-          "status": "positive",
+          "development": "The World Bank says regional debt and interest burdens can constrain public investment.",
+          "impact": "Fiscal discipline can preserve room for infrastructure spending.",
+          "status": "neutral",
           "source": {
-            "name": "Suudi Arabistan Maliye Bakanlığı",
-            "url": "https://mof.gov.sa/en/MediaCenter/news/Pages/News_12092026.aspx",
-            "date": "2026-09-12"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "execution_adaptability",
           "signal": "Governance & Execution",
-          "development": "The IMF cited rerouted logistics and reprioritised project spending as signs of economic agility despite the war shock.",
-          "impact": "Fast operational response capacity appears strong, although the security environment raises execution costs.",
+          "development": "The World Bank links Paraguay's performance to fiscal consolidation and policy frameworks.",
+          "impact": "Predictable policies support investment.",
           "status": "positive",
           "source": {
-            "name": "IMF",
-            "url": "https://www.imf.org/en/news/articles/2026/07/29/pr26267-saudi-arabia-imf-concludes-2026-aiv",
-            "date": "2026-07-29"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "demography_labour",
           "signal": "Population & Labor",
-          "development": "The IMF says Saudi unemployment remains low and highlights progress in female labour-force participation as a Vision 2030 gain.",
-          "impact": "A more diverse labour base strengthens local talent capacity in non-oil sectors.",
-          "status": "positive",
+          "development": "The World Bank stresses regional productivity and quality-job needs.",
+          "impact": "Turning growth into income gains depends on workforce skills.",
+          "status": "neutral",
           "source": {
-            "name": "IMF",
-            "url": "https://www.imf.org/en/news/articles/2026/07/29/pr26267-saudi-arabia-imf-concludes-2026-aiv",
-            "date": "2026-07-29"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "household_relocation",
           "signal": "Cost of Living & Housing",
-          "development": "August inflation remained at 1.8%, while housing, water and energy rose 3.9% year on year.",
-          "impact": "Overall inflation is low, but housing costs increase relocation costs, especially in fast-growing cities.",
-          "status": "neutral",
+          "development": "The World Bank warns energy volatility could slow regional disinflation.",
+          "impact": "Price shocks could weaken household purchasing power.",
+          "status": "negative",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/world/middle-east/saudi-arabias-annual-inflation-rate-remains-18-aug-2026-09-15/",
-            "date": "2026-09-15"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "social_political_talent",
           "signal": "Social Climate & Talent Attraction",
-          "development": "A new collective-housing regulation brought 1,360 licensed facilities serving roughly one million foreign workers under formal standards.",
-          "impact": "Institutionalising foreign-worker living conditions is a positive signal for international-labour infrastructure.",
-          "status": "positive",
+          "development": "The World Bank highlights institutions and human capital as regional priorities.",
+          "impact": "Education and institutional confidence could support talent attraction.",
+          "status": "neutral",
           "source": {
-            "name": "Zawya/Refinitiv",
-            "url": "https://www.tradingview.com/news/reuters.com%2C2026-09-04%3Anewsml_Zaw3kG6yb%3A0-zawya-zawya-sng-saudi-1-360-licenses-issued-for-collective-housing-for-one-million-foreign-workers/",
-            "date": "2026-09-04"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         }
       ],
-      "map_id": "682"
+      "map_id": "600"
     },
     {
       "id": "malaysia",
