@@ -3326,141 +3326,141 @@
   ],
   "potential_countries": [
     {
-      "id": "singapore",
-      "name": "Singapore",
-      "flag": "🇸🇬",
-      "map_id": "702",
-      "selection_reason": "Selected for its integration into regional technology and logistics networks.",
+      "id": "uzbekistan",
+      "name": "Uzbekistan",
+      "flag": "🇺🇿",
+      "map_id": "860",
+      "selection_reason": "Selected for its 7.9% growth outlook and Central Asian investment and digitalisation signals.",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Growth & Economy",
-          "development": "Singapore's GDP rose 5.4% year-on-year in Q3 2026.",
-          "impact": "Technology demand supports growth, but momentum is expected to ease in 2027.",
+          "development": "The World Bank projects 7.9% growth for Uzbekistan in 2026.",
+          "impact": "Strong growth creates room for productive capacity.",
           "status": "positive",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "critical_dependencies",
           "signal": "External Dependencies",
-          "development": "Higher imported energy and food costs are raising inflation.",
-          "impact": "Global supply disruptions could increase price pressures further.",
+          "development": "The World Bank identifies energy and transport costs as regional external risks.",
+          "impact": "Imports and logistics remain exposed to external shocks.",
           "status": "negative",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "external_demand_trade",
           "signal": "Exports & Foreign Trade",
-          "development": "Global AI investment is supporting regional production and trade.",
-          "impact": "Singapore's technology-linked exports benefit from stronger demand.",
-          "status": "positive",
+          "development": "The World Bank highlights weak trading-partner demand across the region.",
+          "impact": "Export-market diversification could improve resilience.",
+          "status": "neutral",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sector Transformation",
-          "development": "Order backlogs and capacity expansion are lifting AI-related production.",
-          "impact": "Higher-value manufacturing strengthens sector transformation.",
+          "development": "The World Bank says AI could enable new sectors across the region.",
+          "impact": "Digital skills could support diversification.",
           "status": "positive",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "investment_capital_direction",
           "signal": "Investment & Capital",
-          "development": "Global AI capital expenditure is driving demand for technology capacity.",
-          "impact": "The investment cycle is strong but sensitive to global technology spending.",
+          "development": "The World Bank reports investment supporting growth in Central Asia.",
+          "impact": "Capital for productive projects could expand capacity.",
           "status": "positive",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Public Finances & Infrastructure",
-          "development": "Major infrastructure projects continue while subsidies for essential services are expanded.",
-          "impact": "Infrastructure supports capacity, although fiscal costs need monitoring.",
+          "development": "The World Bank says public investment supports regional growth.",
+          "impact": "Infrastructure benefits depend on execution and fiscal space.",
           "status": "neutral",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "execution_adaptability",
           "signal": "Governance & Execution",
-          "development": "The central bank retained the current appreciation rate of its exchange-rate policy band in October.",
-          "impact": "Policy continuity aims to contain imported inflation.",
-          "status": "positive",
+          "development": "The World Bank cites data interoperability as a regional implementation barrier.",
+          "impact": "Institutional coordination could accelerate digital transformation.",
+          "status": "neutral",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "demography_labour",
           "signal": "Population & Labor",
-          "development": "Employment rose by 11,400 in Q2 2026; overall unemployment remained at 1.9%.",
-          "impact": "Employment expands, although resident-worker growth is more subdued.",
+          "development": "The World Bank finds about one in five regional workers in AI-exposed jobs.",
+          "impact": "Reskilling could improve workforce adaptability.",
           "status": "neutral",
           "source": {
-            "name": "Singapore Ministry of Manpower",
-            "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0921-labour-market-report---second-quarter-2026",
-            "date": "2026-09-21"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "household_relocation",
           "signal": "Cost of Living & Housing",
-          "development": "Core inflation reached 2.1% in July–August amid higher energy and food costs.",
-          "impact": "Cost-of-living pressures may persist in the near term.",
+          "development": "The World Bank says energy relief can add fiscal pressure in some regional economies.",
+          "impact": "Sustainable household support depends on budget flexibility.",
           "status": "negative",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "social_political_talent",
           "signal": "Social Climate & Talent Attraction",
-          "development": "Much of employment growth came from non-resident workers in construction and manufacturing.",
-          "impact": "Access to foreign labour supports growth, while resident skills remain important.",
+          "development": "The World Bank notes technical talent strengths alongside skills and computing gaps.",
+          "impact": "Education and digital infrastructure may shape talent attraction.",
           "status": "neutral",
           "source": {
-            "name": "Singapore Ministry of Manpower",
-            "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0921-labour-market-report---second-quarter-2026",
-            "date": "2026-09-21"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         }
       ]
     },
