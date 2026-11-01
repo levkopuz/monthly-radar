@@ -1,6 +1,12 @@
 {
-  "latest": "2026-10",
+  "latest": "2026-11",
   "months": [
+    {
+      "id": "2026-11",
+      "label": "Kasım 2026",
+      "file": "2026-11.json",
+      "updated": "2026-11-01"
+    },
     {
       "id": "2026-10",
       "label": "Ekim 2026",
@@ -208,12 +214,6 @@
     {
       "id": "2023-12",
       "label": "Aralık 2023",
-      "historical": true,
-      "updated": "2026-10-12"
-    },
-    {
-      "id": "2023-11",
-      "label": "Kasım 2023",
       "historical": true,
       "updated": "2026-10-12"
     }
