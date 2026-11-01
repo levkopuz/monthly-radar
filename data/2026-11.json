@@ -3743,143 +3743,143 @@
       "map_id": "360"
     },
     {
-      "id": "saudi",
-      "name": "Suudi Arabistan",
-      "flag": "🇸🇦",
-      "selection_reason": "Enerji ve altyapı yatırımlarındaki dönüşüm sinyalleri nedeniyle izlendi.",
+      "id": "paraguay",
+      "name": "Paraguay",
+      "flag": "🇵🇾",
+      "selection_reason": "Bölge ortalamasını aşan büyüme, özel yatırım ve mali istikrar sinyalleri nedeniyle izlendi.",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Büyüme ve Ekonomi",
-          "development": "IMF 2026'da petrol dışı büyümeyi %2,6 öngörürken S&P petrol dışı faaliyetlerin GSYH'nin yaklaşık %70'ine ulaştığını belirtiyor.",
-          "impact": "Petrol dışı tabanın büyümesi ekonomik çeşitlenmenin somutlaştığını gösteriyor.",
+          "development": "Dünya Bankası Paraguay'ın 2026'da %4,7 büyümesini öngörüyor.",
+          "impact": "Bölge ortalamasının üzerindeki büyüme dönüşüm için alan açıyor.",
           "status": "positive",
           "source": {
-            "name": "IMF",
-            "url": "https://www.imf.org/en/news/articles/2026/07/29/pr26267-saudi-arabia-imf-concludes-2026-aiv",
-            "date": "2026-07-29"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "critical_dependencies",
           "signal": "Dışa Bağımlılık",
-          "development": "Houthi saldırıları East-West petrol boru hattını devre dışı bırakarak alternatif ihracat rotasının da kırılgan olduğunu gösterdi.",
-          "impact": "Petrol ve lojistik altyapısının bölgesel güvenlik şoklarına maruziyeti ülkenin en kritik bağımlılığı olmaya devam ediyor.",
+          "development": "Dünya Bankası enerji fiyat oynaklığını Latin Amerika için dış risk olarak görüyor.",
+          "impact": "Dış şoklar üretim ve taşımacılık maliyetlerini artırabilir.",
           "status": "negative",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/",
-            "date": "2026-09-13"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "external_demand_trade",
           "signal": "İhracat ve Dış Ticaret",
-          "development": "Eylül'de Suudi petrol sevkiyatları alternatif transfer ve Hürmüz rotaları kullanılarak toparlanmaya başladı.",
-          "impact": "İhracat akışının alternatif lojistik yöntemlerle korunabilmesi dış gelir dayanıklılığını artırıyor.",
-          "status": "neutral",
+          "development": "Dünya Bankası El Niño'nun bölgesel tarım ve hidroelektrik üretimini aksatabileceğini belirtiyor.",
+          "impact": "Paraguay'ın tarımsal ihracatı iklim koşullarına duyarlı kalıyor.",
+          "status": "negative",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/",
-            "date": "2026-09-16"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektörel Dönüşüm",
-          "development": "PIF turizm ve konut geliştirmek için Al-Khafji kıyısında yeni bir şirket kurdu; yatırımlar petrol dışı sektörlere yönelmeye devam ediyor.",
-          "impact": "Turizm, konut ve hizmetlere sermaye aktarımı Vision 2030'un sektör çeşitlendirme eksenini güçlendiriyor.",
-          "status": "positive",
+          "development": "Dünya Bankası yapay zekânın bölgesel verimliliği artırabileceğini vurguluyor.",
+          "impact": "Teknoloji yayılımı Paraguay'ın sektörel dönüşümünü hızlandırabilir.",
+          "status": "neutral",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/world/middle-east/saudi-pif-launches-firm-develop-tourism-residential-area-gulf-coast-2026-09-07/",
-            "date": "2026-09-07"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "investment_capital_direction",
           "signal": "Yatırım ve Sermaye",
-          "development": "S&P Vision 2030 yatırımlarının daha seçici kalibrasyonunu ve özel sektörün büyüyen rolünü mali dayanıklılık açısından olumlu değerlendiriyor.",
-          "impact": "Sermayenin daha seçici ve özel sektör ağırlıklı yönlendirilmesi yatırım verimliliğini artırabilir.",
+          "development": "Dünya Bankası Paraguay'da güçlü özel yatırımların büyümeyi desteklediğini bildiriyor.",
+          "impact": "Özel sermaye üretim ve istihdam kapasitesini genişletebilir.",
           "status": "positive",
           "source": {
-            "name": "Suudi Arabistan Maliye Bakanlığı",
-            "url": "https://mof.gov.sa/en/MediaCenter/news/Pages/News_12092026.aspx",
-            "date": "2026-09-12"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Kamu Maliyesi ve Altyapı",
-          "development": "S&P ülkenin A+ notunu korurken güçlü kamu varlıkları ve harcama kalibrasyonunu mali tampon olarak vurguladı.",
-          "impact": "Yüksek kamu varlıkları büyük dönüşüm projelerini sürdürmek için önemli finansal kapasite sağlıyor.",
-          "status": "positive",
+          "development": "Dünya Bankası bölgesel borç ve faiz yüklerinin kamu yatırımlarını sınırlayabildiğini belirtiyor.",
+          "impact": "Mali disiplin altyapı harcamaları için alanı koruyabilir.",
+          "status": "neutral",
           "source": {
-            "name": "Suudi Arabistan Maliye Bakanlığı",
-            "url": "https://mof.gov.sa/en/MediaCenter/news/Pages/News_12092026.aspx",
-            "date": "2026-09-12"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "execution_adaptability",
           "signal": "Yönetim ve Uygulama Gücü",
-          "development": "IMF savaş şokuna rağmen lojistik rotaların değiştirilmesi ve proje harcamalarının yeniden ayarlanmasını ekonomik çeviklik göstergesi olarak değerlendirdi.",
-          "impact": "Şoklara hızlı operasyonel yanıt verme kapasitesi yüksek görünse de güvenlik ortamı uygulama maliyetini artırıyor.",
+          "development": "Dünya Bankası Paraguay'ın performansını mali konsolidasyon ve kurumsal çerçeveyle ilişkilendiriyor.",
+          "impact": "Öngörülebilir politikalar yatırım ortamını destekliyor.",
           "status": "positive",
           "source": {
-            "name": "IMF",
-            "url": "https://www.imf.org/en/news/articles/2026/07/29/pr26267-saudi-arabia-imf-concludes-2026-aiv",
-            "date": "2026-07-29"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "demography_labour",
           "signal": "Nüfus ve İş Gücü",
-          "development": "IMF Suudi işsizliğinin düşük seviyelerde kaldığını ve kadınların iş gücüne katılımındaki ilerlemeyi Vision 2030 kazanımları arasında saydı.",
-          "impact": "İş gücü tabanının çeşitlenmesi petrol dışı sektörlerin yerel yetenek kapasitesini güçlendiriyor.",
-          "status": "positive",
+          "development": "Dünya Bankası bölgede verimlilik ve nitelikli iş yaratma ihtiyacını vurguluyor.",
+          "impact": "Büyümenin gelire dönüşmesi iş gücü becerilerine bağlı.",
+          "status": "neutral",
           "source": {
-            "name": "IMF",
-            "url": "https://www.imf.org/en/news/articles/2026/07/29/pr26267-saudi-arabia-imf-concludes-2026-aiv",
-            "date": "2026-07-29"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "household_relocation",
           "signal": "Yaşam Maliyeti ve Konut",
-          "development": "Ağustos enflasyonu %1,8'de kalırken konut, su ve enerji grubu yıllık %3,9 arttı.",
-          "impact": "Genel enflasyon düşük olsa da konut maliyetleri özellikle hızlı büyüyen kentlerde relocation maliyetini artırıyor.",
-          "status": "neutral",
+          "development": "Dünya Bankası enerji oynaklığının bölgesel dezenflasyonu yavaşlatabileceği uyarısında bulunuyor.",
+          "impact": "Fiyat şokları hanelerin satın alma gücünü zayıflatabilir.",
+          "status": "negative",
           "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/world/middle-east/saudi-arabias-annual-inflation-rate-remains-18-aug-2026-09-15/",
-            "date": "2026-09-15"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "social_political_talent",
           "signal": "Toplumsal İklim ve Yetenek Çekimi",
-          "development": "Yeni kolektif konut düzenlemesi yaklaşık bir milyon yabancı çalışanı kapsayan 1.360 lisanslı tesisi standartlara bağladı.",
-          "impact": "Yabancı çalışan yaşam koşullarının kurumsallaştırılması uluslararası iş gücü altyapısı açısından olumlu bir sinyal.",
-          "status": "positive",
+          "development": "Dünya Bankası kurumlar ve beşerî sermayenin bölgesel kalkınma için önemini vurguluyor.",
+          "impact": "Eğitim ve kurumsal güven yetenek çekimini destekleyebilir.",
+          "status": "neutral",
           "source": {
-            "name": "Zawya/Refinitiv",
-            "url": "https://www.tradingview.com/news/reuters.com%2C2026-09-04%3Anewsml_Zaw3kG6yb%3A0-zawya-zawya-sng-saudi-1-360-licenses-issued-for-collective-housing-for-one-million-foreign-workers/",
-            "date": "2026-09-04"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-01"
+          "checked_date": "2026-11-01"
         }
       ],
-      "map_id": "682"
+      "map_id": "600"
     },
     {
       "id": "malaysia",
