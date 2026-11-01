@@ -3326,141 +3326,141 @@
   ],
   "potential_countries": [
     {
-      "id": "singapore",
-      "name": "Singapur",
-      "flag": "🇸🇬",
-      "map_id": "702",
-      "selection_reason": "Bölgesel teknoloji ve lojistik ağlarına entegrasyonu nedeniyle izlendi.",
+      "id": "uzbekistan",
+      "name": "Özbekistan",
+      "flag": "🇺🇿",
+      "map_id": "860",
+      "selection_reason": "%7,9 büyüme görünümü ve Orta Asya'daki yatırım-dijitalleşme sinyalleri nedeniyle izlendi.",
       "items": [
         {
           "signal_id": "economic_engine",
           "signal": "Büyüme ve Ekonomi",
-          "development": "Singapur ekonomisi 2026 üçüncü çeyrekte yıllık %5,4 büyüdü.",
-          "impact": "Güçlü teknoloji talebi büyümeyi destekliyor; 2027'de normalleşme bekleniyor.",
+          "development": "Dünya Bankası Özbekistan için 2026 büyümesini %7,9 öngörüyor.",
+          "impact": "Yüksek büyüme yeni üretim kapasitesi için alan açıyor.",
           "status": "positive",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "critical_dependencies",
           "signal": "Dışa Bağımlılık",
-          "development": "İthal enerji ve gıda maliyetleri enflasyonu yukarı çekiyor.",
-          "impact": "Küresel arz kesintileri fiyat baskısını yeniden artırabilir.",
+          "development": "Dünya Bankası enerji ve taşımacılık maliyetlerini bölgesel dış risk olarak tanımlıyor.",
+          "impact": "İthalat ve lojistik kanalları dış şoklara açık kalıyor.",
           "status": "negative",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "external_demand_trade",
           "signal": "İhracat ve Dış Ticaret",
-          "development": "Küresel AI yatırımları bölgesel sanayi üretimi ve ticareti destekliyor.",
-          "impact": "Singapur'un teknoloji bağlantılı dış ticareti talep artışından yararlanıyor.",
-          "status": "positive",
+          "development": "Dünya Bankası bölgede zayıf ticaret ortağı talebine dikkat çekiyor.",
+          "impact": "İhracat pazarlarının çeşitlenmesi dayanıklılığı artırabilir.",
+          "status": "neutral",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "strategic_industry_transition",
           "signal": "Sektörel Dönüşüm",
-          "development": "AI ürünlerine yönelik sipariş birikimi ve kapasite genişlemesi teknoloji üretimini büyütüyor.",
-          "impact": "Yüksek katma değerli üretim Singapur'un sektörel dönüşümünü hızlandırıyor.",
+          "development": "Dünya Bankası yapay zekânın bölgede yeni sektörler oluşturabileceğini belirtiyor.",
+          "impact": "Dijital beceriler sektörel çeşitlenmeye katkı sağlayabilir.",
           "status": "positive",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "investment_capital_direction",
           "signal": "Yatırım ve Sermaye",
-          "development": "Küresel AI sermaye harcamaları teknoloji üretimi ve kapasite yatırımlarına talep oluşturuyor.",
-          "impact": "Yatırım döngüsü güçlü ancak küresel teknoloji harcamalarına duyarlı.",
+          "development": "Dünya Bankası Orta Asya'da yatırımların büyümeyi desteklediğini bildiriyor.",
+          "impact": "Üretken projelere sermaye akışı kapasiteyi genişletebilir.",
           "status": "positive",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "fiscal_infrastructure_capacity",
           "signal": "Kamu Maliyesi ve Altyapı",
-          "development": "Büyük altyapı projelerinin inşası sürerken temel hizmet sübvansiyonları genişletiliyor.",
-          "impact": "Altyapı yatırımları kapasiteyi destekliyor; mali maliyetlerin izlenmesi gerekiyor.",
+          "development": "Dünya Bankası kamu yatırımlarının bölgesel büyümeyi desteklediğini belirtiyor.",
+          "impact": "Altyapı kazanımları uygulama kalitesine ve mali alana bağlı.",
           "status": "neutral",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "execution_adaptability",
           "signal": "Yönetim ve Uygulama Gücü",
-          "development": "Para otoritesi Ekim'de döviz kuru politika bandının mevcut değerlenme hızını korudu.",
-          "impact": "Öngörülebilir politika uygulaması ithal enflasyonu sınırlamayı hedefliyor.",
-          "status": "positive",
+          "development": "Dünya Bankası veri birlikte çalışabilirliğini bölgesel uygulama engeli olarak gösteriyor.",
+          "impact": "Kurumlar arası koordinasyon dijital dönüşümü hızlandırabilir.",
+          "status": "neutral",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "demography_labour",
           "signal": "Nüfus ve İş Gücü",
-          "development": "2026 ikinci çeyrekte istihdam 11.400 kişi arttı; genel işsizlik %1,9 seviyesinde kaldı.",
-          "impact": "İstihdam artışı sürerken yerleşik iş gücündeki artış daha sınırlı.",
+          "development": "Dünya Bankası bölgede yaklaşık beş çalışandan birinin yapay zekâya maruz işlerde olduğunu belirtiyor.",
+          "impact": "Yeniden beceri kazandırma iş gücü uyumunu destekleyebilir.",
           "status": "neutral",
           "source": {
-            "name": "Singapore Ministry of Manpower",
-            "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0921-labour-market-report---second-quarter-2026",
-            "date": "2026-09-21"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "household_relocation",
           "signal": "Yaşam Maliyeti ve Konut",
-          "development": "Çekirdek enflasyon Temmuz-Ağustos döneminde %2,1'e yükseldi; enerji ve gıda maliyetleri baskı oluşturuyor.",
-          "impact": "Yaşam maliyeti üzerindeki baskı kısa vadede devam edebilir.",
+          "development": "Dünya Bankası enerji desteklerinin bazı ülkelerde mali baskı yaratabildiğini bildiriyor.",
+          "impact": "Hane desteklerinin sürdürülebilirliği bütçe esnekliğine bağlı.",
           "status": "negative",
           "source": {
-            "name": "Monetary Authority of Singapore",
-            "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
-            "date": "2026-10-14"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         },
         {
           "signal_id": "social_political_talent",
           "signal": "Toplumsal İklim ve Yetenek Çekimi",
-          "development": "İstihdam artışının önemli bölümü inşaat ve imalattaki yabancı iş gücünden geldi.",
-          "impact": "Uluslararası iş gücü erişimi büyümeyi destekliyor; yerleşik yetenek gelişimi de önemli.",
+          "development": "Dünya Bankası teknik yetenek avantajının yanında beceri ve bilgi işlem altyapısı açıklarına işaret ediyor.",
+          "impact": "Eğitim ve dijital altyapı yetenek çekimini etkileyebilir.",
           "status": "neutral",
           "source": {
-            "name": "Singapore Ministry of Manpower",
-            "url": "https://www.mom.gov.sg/newsroom/press-releases/2026/0921-labour-market-report---second-quarter-2026",
-            "date": "2026-09-21"
+            "name": "World Bank",
+            "url": "https://www.worldbank.org/en/news/press-release/2026/10/06/europe-and-central-asia-slower-growth-with-global-headwinds",
+            "date": "2026-10-06"
           },
-          "checked_date": "2026-10-22"
+          "checked_date": "2026-11-01"
         }
       ]
     },
