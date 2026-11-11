@@ -432,7 +432,7 @@
     }
     .trend-country .flag{font-size:20px;line-height:1}
     .trend-wrap{
-      position:relative;overflow:auto;
+      position:relative;overflow:hidden;
       background:#11110f;
       color:#f5f0e8;
       border:1px solid #11110f;
@@ -445,48 +445,31 @@
       position:absolute;right:20px;bottom:14px;
       font-family:var(--serif);font-style:italic;font-size:24px;color:rgba(255,255,255,.08);pointer-events:none
     }
-    .trend-grid{display:grid;align-items:stretch;column-gap:5px;row-gap:5px;width:max-content;min-width:100%;position:relative;z-index:2}
-    .trend-head{height:38px;min-width:0;display:flex;align-items:center;justify-content:center;font-size:10px;color:#c2bab0;text-align:center;font-weight:700;padding:4px 2px;letter-spacing:0;white-space:nowrap}
-    .trend-axis{position:sticky;left:0;z-index:3;display:flex;align-items:center;min-width:0;min-height:34px;font-size:12px;font-weight:600;line-height:1.3;padding:6px 12px 6px 0;color:#e4ddd4;background:#11110f}
-    .trend-cell{width:100%;height:34px;min-width:0;border-radius:6px;background:#33332f;border:1px solid rgba(255,255,255,.07);display:flex;align-items:center;justify-content:center;box-sizing:border-box}
-    .trend-cell.positive{background:#00c853}
-    .trend-cell.negative{background:#ff0000}
-    .trend-cell.neutral{background:#9E9E9E}
-    .trend-cell span{font-size:10px;color:#fff;font-weight:700}
-    .trend-cell.empty span{color:#817b74}
+    /* Separate fixed signal rail and independently scrolling monthly matrix. */
+    .trend-layout{--trend-rail-width:224px;--trend-month-width:58px;--trend-row-height:56px;--trend-gap:6px;display:grid;grid-template-columns:var(--trend-rail-width) minmax(0,1fr);align-items:start;width:100%;position:relative;z-index:2;background:#11110f}
+    .trend-rail{display:grid;grid-template-rows:repeat(var(--trend-row-count),var(--trend-row-height));row-gap:var(--trend-gap);min-width:0;position:relative;background:#11110f;border-right:1px solid rgba(255,255,255,.16);padding-right:var(--trend-gap);box-sizing:border-box}
+    .trend-month-scroll{min-width:0;max-width:100%;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#68645f #11110f;-webkit-overflow-scrolling:touch}
+    .trend-month-scroll:focus-visible{outline:2px solid #f3cf85;outline-offset:-2px;border-radius:6px}
+    .trend-month-grid{display:grid;grid-template-columns:repeat(var(--trend-month-count),var(--trend-month-width));grid-template-rows:repeat(var(--trend-row-count),var(--trend-row-height));column-gap:var(--trend-gap);row-gap:var(--trend-gap);width:max-content;min-width:100%;align-items:stretch}
+    .trend-rail-head,.trend-head{height:var(--trend-row-height);min-width:0;display:flex;align-items:center;justify-content:center;box-sizing:border-box;padding:4px 2px;color:#c2bab0;font-size:11px;font-weight:700;font-variant-numeric:tabular-nums;text-align:center;white-space:nowrap}
+    .trend-rail-head{justify-content:flex-start;padding:4px 10px;color:#d8d0c5}
+    .trend-axis{height:var(--trend-row-height);min-width:0;display:flex;align-items:center;box-sizing:border-box;padding:6px 12px 6px 10px;background:#11110f;color:#e4ddd4;font-size:12px;font-weight:600;line-height:1.3;overflow-wrap:anywhere;overflow:hidden}
+    .trend-month-grid .trend-cell{position:relative;z-index:0;width:100%;height:var(--trend-row-height);min-width:0;box-sizing:border-box;display:flex;align-items:center;justify-content:center;border-radius:8px;border:1px solid rgba(255,255,255,.12);background:#34383a;color:#fff;transition:filter .15s ease,outline-color .15s ease}
+    .trend-month-grid .trend-cell.positive{background:#147d55}
+    .trend-month-grid .trend-cell.negative{background:#b94a45}
+    .trend-month-grid .trend-cell.neutral{background:#626a71}
+    .trend-month-grid .trend-cell.empty{background:#292a28;border:1px dashed #585b57}
+    .trend-month-grid .trend-cell span{font-size:12px;font-weight:700;line-height:1}
+    .trend-month-grid .trend-cell.empty span{color:#a59e95}
+    .trend-month-grid .trend-cell:focus-visible{outline:3px solid #f3cf85;outline-offset:-3px;z-index:2}
+    @media(hover:hover){.trend-month-grid .trend-cell:hover{filter:brightness(1.2)}}
+    @media(max-width:700px){.trend-layout{--trend-rail-width:168px;--trend-month-width:52px;--trend-row-height:64px;--trend-gap:5px}.trend-axis{font-size:11px;padding:5px 9px;line-height:1.35}.trend-head{font-size:10px}.trend-rail-head{padding-left:9px}}
+    @media(max-width:360px){.trend-layout{--trend-rail-width:146px;--trend-month-width:48px}.trend-axis{font-size:10.5px}}
+    @media(prefers-reduced-motion:reduce){.trend-month-grid .trend-cell{transition:none}}
     .empty,.loading{
       padding:42px;background:rgba(249,246,240,.62);border:1px dashed var(--line);border-radius:14px;color:var(--muted);text-align:center;font-size:13px
     }
     .trend-wrap .loading{background:transparent;border-color:rgba(255,255,255,.16);color:#8e887f}
-    /* Monthly signal map: consistent reusable grid tokens and accessible status cells */
-    .trend-grid{--trend-axis-width:210px;--trend-month-width:52px;--trend-row-height:38px;--trend-gap:5px;grid-template-columns:var(--trend-axis-width) repeat(var(--trend-month-count),var(--trend-month-width));gap:var(--trend-gap);width:max-content;min-width:100%;align-items:stretch}
-    .trend-head{height:var(--trend-row-height);box-sizing:border-box;overflow:hidden;text-overflow:clip;font-variant-numeric:tabular-nums}
-    .trend-axis{min-height:var(--trend-row-height);height:auto;box-sizing:border-box;padding:7px 12px;white-space:normal;overflow-wrap:anywhere;border-right:1px solid rgba(255,255,255,.12)}
-    .trend-cell{height:var(--trend-row-height);border-radius:7px;transition:filter .15s ease,outline-color .15s ease}
-    .trend-cell.positive{background:#147d55}
-    .trend-cell.negative{background:#b94a45}
-    .trend-cell.neutral{background:#626a71}
-    .trend-cell.empty{background:#252724;border:1px dashed #555a54}
-    .trend-cell span{font-size:12px;font-weight:700}
-    .trend-cell:focus-visible{outline:3px solid #f3cf85;outline-offset:1px;position:relative;z-index:4}
-    @media(hover:hover){.trend-cell:hover{filter:brightness(1.22)}}
-    @media(max-width:700px){.trend-grid{--trend-axis-width:154px;--trend-month-width:48px;--trend-row-height:42px}.trend-axis{font-size:11px;line-height:1.35;padding:6px 8px}.trend-head{font-size:10px}.trend-cell{height:var(--trend-row-height)}}
-    @media(prefers-reduced-motion:reduce){.trend-cell{transition:none}}
-    /* Monthly signal heatmap: one opaque, fixed label rail across all countries and months. */
-    .trend-wrap{isolation:isolate;overscroll-behavior-x:contain}
-    .trend-grid{isolation:isolate}
-    .trend-grid .trend-axis,.trend-grid .trend-head:first-child{
-      position:sticky;left:0;z-index:10;background:#11110f;
-      background-image:none;box-shadow:var(--trend-gap) 0 0 #11110f;
-      overflow:hidden;box-sizing:border-box;
-    }
-    .trend-grid .trend-axis{padding-left:12px;padding-right:12px}
-    .trend-grid .trend-head:first-child{z-index:11}
-    .trend-grid .trend-cell{position:relative;z-index:0}
-    @media(max-width:700px){
-      .trend-grid .trend-axis{padding-left:8px;padding-right:8px}
-      .trend-grid{--trend-axis-width:168px;--trend-month-width:48px;--trend-row-height:42px}
-    }
     .method{
       position:relative;overflow:hidden;isolation:isolate;
       margin-top:24px;
@@ -1510,26 +1493,44 @@ async function tumArsiviYukle(){
     if(!arsivCache.has(key))arsivCache.set(key,await ayVerisiGetir(m));
   }));
 }
+let trendRenderToken=0;
 async function trendCiz(c){
-  const u=ui(),root=document.getElementById("trendChart");
+  const u=ui(),root=document.getElementById("trendChart"),token=++trendRenderToken;
   root.className="loading";root.textContent=u.historyLoading;
+  const safe=v=>String(v??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
   try{
     await tumArsiviYukle();
+    if(token!==trendRenderToken)return;
     const months=aylikIndeks.months;
     const items=gorunenMaddeler(c);
-    const cols=months.length;
-    let out=`<div class="trend-grid" role="table" aria-label="${u.signalAxis}" style="--trend-month-count:${cols}"><div class="trend-head" role="columnheader" style="text-align:left">${u.signalAxis}</div>`;
-    out+=months.map(m=>`<div class="trend-head" role="columnheader">${ayEtiketi(m.id,true)}</div>`).join("");
+    const rail='<div class="trend-rail"><div class="trend-rail-head">'+safe(u.signalAxis)+'</div>'+
+      items.map(item=>'<div class="trend-axis" title="'+safe(item.signal)+'">'+safe(item.signal)+'</div>').join('')+'</div>';
+    let matrix=months.map(m=>'<div class="trend-head">'+safe(ayEtiketi(m.id,true))+'</div>').join('');
     items.forEach(item=>{
-      out+=`<div class="trend-axis" role="rowheader">${item.signal}</div>`;
       months.forEach(m=>{
-        const mv=arsivCache.get(arsivAnahtari(m.id)),mc=arsivdeUlke(mv,c.id),mi=mc?.items.find(x=>x.signal_id===item.signal_id);
-        if(mi)out+=`<div class="trend-cell ${mi.status}" role="cell" tabindex="0" aria-label="${ayEtiketi(m.id)} · ${item.signal} · ${durumEtiketi(mi.status)}" title="${ayEtiketi(m.id)} · ${item.signal} · ${durumEtiketi(mi.status)}"><span aria-hidden="true">${durumKisa[mi.status]}</span></div>`;
-        else out+=`<div class="trend-cell empty" role="cell" tabindex="0" aria-label="${ayEtiketi(m.id)} · ${item.signal} · ${u.noRecord}" title="${ayEtiketi(m.id)} · ${u.noRecord}"><span aria-hidden="true">·</span></div>`;
+        const mv=arsivCache.get(arsivAnahtari(m.id)),mc=arsivdeUlke(mv,c.id);
+        const mi=mc?.items?.find(x=>x.signal_id===item.signal_id);
+        const status=mi&&["positive","negative","neutral"].includes(mi.status)?mi.status:null;
+        const label=ayEtiketi(m.id)+" · "+item.signal+" · "+(status?durumEtiketi(status):u.noRecord);
+        matrix+='<div class="trend-cell '+(status||"empty")+'" role="img" tabindex="-1" aria-label="'+safe(label)+'" title="'+safe(label)+'"><span aria-hidden="true">'+(status?durumKisa[status]:"·")+'</span></div>';
       });
     });
-    out+="</div>";root.className="";root.innerHTML=out;
-  }catch(e){root.className="error";root.textContent=`${u.historyError}: ${e.message}`;}
+    root.className="";
+    root.innerHTML='<div class="trend-layout" style="--trend-row-count:'+(items.length+1)+'">'+rail+
+      '<div class="trend-month-scroll" role="region" tabindex="0" aria-label="'+safe(u.trendTitle+" · "+c.name)+'">'+
+      '<div class="trend-month-grid" style="--trend-month-count:'+months.length+'">'+matrix+'</div></div></div>';
+    const scroll=root.querySelector(".trend-month-scroll");
+    const cells=[...root.querySelectorAll(".trend-month-grid .trend-cell")];
+    scroll.addEventListener("keydown",e=>{
+      if(!["ArrowRight","ArrowLeft","ArrowUp","ArrowDown"].includes(e.key))return;
+      const idx=cells.indexOf(document.activeElement);
+      const next=idx<0?0:e.key==="ArrowRight"?Math.min(idx+1,cells.length-1):
+        e.key==="ArrowLeft"?Math.max(idx-1,0):
+        e.key==="ArrowDown"?Math.min(idx+months.length,cells.length-1):Math.max(idx-months.length,0);
+      if(idx>=0)cells[idx].tabIndex=-1;
+      if(cells[next]){cells[next].tabIndex=0;cells[next].focus({preventScroll:true});cells[next].scrollIntoView({block:"nearest",inline:"nearest"});e.preventDefault();}
+    });
+  }catch(e){if(token===trendRenderToken){root.className="error";root.textContent=`${u.historyError}: ${e.message}`;}}
 }
 async function ayiYukle(id){
   const idx=aylikIndeks.months.findIndex(x=>x.id===id),m=aylikIndeks.months[idx];
