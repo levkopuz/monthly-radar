@@ -5,10 +5,11 @@
     "month": "Eylül 2026",
     "updated": "21 Eylül 2026",
     "checked_date": "2026-09-21",
-    "country_count": 22,
+    "country_count": 24,
     "signal_count": 10,
     "method": "10 sabit sinyal ailesi; ülkeye özgü güncel gelişme, etkisi ve yön göstergesi.",
-    "potential_country_count": 4
+    "potential_country_count": 4,
+    "historical_coverage_note": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor."
   },
   "countries": [
     {
@@ -3103,6 +3104,284 @@
             "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
           },
           "checked_date": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "name": "Japonya",
+      "flag": "🇯🇵",
+      "map_id": "392",
+      "historical_unavailable": true,
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Büyüme ve Ekonomi",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Dışa Bağımlılık",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "İhracat ve Dış Ticaret",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektörel Dönüşüm",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Yatırım ve Sermaye",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Kamu Maliyesi ve Altyapı",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Yönetim ve Uygulama Gücü",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Nüfus ve İş Gücü",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Yaşam Maliyeti ve Konut",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        }
+      ]
+    },
+    {
+      "id": "hungary",
+      "name": "Macaristan",
+      "flag": "🇭🇺",
+      "map_id": "348",
+      "historical_unavailable": true,
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Büyüme ve Ekonomi",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Dışa Bağımlılık",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "İhracat ve Dış Ticaret",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektörel Dönüşüm",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Yatırım ve Sermaye",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Kamu Maliyesi ve Altyapı",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Yönetim ve Uygulama Gücü",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Nüfus ve İş Gücü",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Yaşam Maliyeti ve Konut",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Toplumsal İklim ve Yetenek Çekimi",
+          "development": "Bu ay için bağımsız olarak doğrulanmış tarihsel sinyal kaydı bulunmuyor.",
+          "impact": "Doğrulanmış veri olmadığı için sinyalin yönü değerlendirilmemiştir.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
         }
       ]
     }
