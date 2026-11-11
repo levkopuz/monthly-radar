@@ -8,7 +8,7 @@
     "country_count": 22,
     "signal_count": 10,
     "method": "10 sabit sinyal ailesi; ülkeye özgü güncel gelişme, etkisi ve yön göstergesi.",
-    "potential_country_count": 5
+    "potential_country_count": 4
   },
   "countries": [
     {
@@ -38,7 +38,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/uk/uk-inflation-speeds-up-31-august-2026-09-16/",
-            "date": null
+            "date": "2026-09-16",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -90,7 +91,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/uk/britain-eases-infrastructure-approval-rules-boost-investment-2026-09-04/",
-            "date": null
+            "date": "2026-09-04",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -176,7 +178,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/markets/us/spains-final-12-month-eu-harmonised-inflation-46-august-2026-09-15/",
-            "date": null
+            "date": "2026-09-15",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -202,7 +205,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/business/energy/spain-ups-planned-power-grid-investment-over-17-bln-through-2030-2026-09-16/",
-            "date": null
+            "date": "2026-09-16",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -215,7 +219,8 @@
           "source": {
             "name": "La Moncloa",
             "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/councilministers/Paginas/2026/20260915-council-press-conference.aspx",
-            "date": null
+            "date": "2026-09-15",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -228,7 +233,8 @@
           "source": {
             "name": "La Moncloa",
             "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/councilministers/Paginas/2026/20260915-council-press-conference.aspx",
-            "date": null
+            "date": "2026-09-15",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -241,7 +247,8 @@
           "source": {
             "name": "European Commission",
             "url": "https://spain.representation.ec.europa.eu/noticias-eventos/noticias-0/la-comision-da-luz-verde-parcial-la-sexta-solicitud-de-pago-de-espana-por-valor-de-5-700-millones-2026-07-02_es?prefLang=en",
-            "date": null
+            "date": "2026-07-02",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -280,7 +287,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/spanish-police-launch-operation-clear-ceuta-migrants-off-beach-2026-09-18/",
-            "date": null
+            "date": "2026-09-18",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         }
@@ -353,7 +361,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/middle-east/turkey-steps-support-markets-after-fund-liquidity-crunch-sparks-selloff-2026-09-17/",
-            "date": null
+            "date": "2026-09-17",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -379,7 +388,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/middle-east/turkey-steps-support-markets-after-fund-liquidity-crunch-sparks-selloff-2026-09-17/",
-            "date": null
+            "date": "2026-09-17",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -418,7 +428,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/middle-east/turkey-jails-8-lgbtq-activists-pending-trial-part-sweeping-investigation-2026-09-16/",
-            "date": null
+            "date": "2026-09-16",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         }
@@ -439,7 +450,8 @@
           "source": {
             "name": "Federal Reserve",
             "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-            "date": null
+            "date": "2026-09-16",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -465,7 +477,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/business/aerospace-defense/how-trump-xi-went-tariff-war-trade-truce-2026-09-21/",
-            "date": null
+            "date": "2026-09-21",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -478,7 +491,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/investigations/how-trumps-war-evs-derailed-americas-auto-factory-revival-2026-09-15/",
-            "date": null
+            "date": "2026-09-15",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -491,7 +505,8 @@
           "source": {
             "name": "Federal Reserve",
             "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-            "date": null
+            "date": "2026-09-16",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -504,7 +519,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/business/us-homebuilder-sentiment-drops-12-month-low-september-2026-09-16/",
-            "date": null
+            "date": "2026-09-16",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -517,7 +533,8 @@
           "source": {
             "name": "Federal Reserve",
             "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-            "date": null
+            "date": "2026-09-16",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -543,7 +560,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/business/us-homebuilder-sentiment-drops-12-month-low-september-2026-09-16/",
-            "date": null
+            "date": "2026-09-16",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -556,7 +574,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/us/trump-extends-restrictions-h-1b-non-immigrant-visa-program-by-another-year-2026-09-18/",
-            "date": null
+            "date": "2026-09-18",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         }
@@ -577,7 +596,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/middle-east/uae-shares-jump-pmi-shows-solid-growth-august-2026-09-04/",
-            "date": null
+            "date": "2026-09-04",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -590,7 +610,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/middle-east/vessels-trickle-through-strait-hormuz-mideast-tension-persists-2026-09-21/",
-            "date": null
+            "date": "2026-09-21",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -681,7 +702,8 @@
           "source": {
             "name": "Reuters/Zawya",
             "url": "https://www.tradingview.com/news/reuters.com%2C2026-09-04%3Anewsml_Zaw6wxWM3%3A0-zawya-dubai-data-shows-august-property-deals-down-37-market-now-more-selective/",
-            "date": null
+            "date": "2026-09-04",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -715,7 +737,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/business/finance/french-central-bank-trims-growth-outlook-demand-softens-2026-09-15/",
-            "date": null
+            "date": "2026-09-15",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -728,7 +751,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/business/energy/frances-macron-says-g7-will-meet-discuss-energy-crisis-coming-weeks-2026-09-18/",
-            "date": null
+            "date": "2026-09-18",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -741,7 +765,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/business/finance/french-central-bank-trims-growth-outlook-demand-softens-2026-09-15/",
-            "date": null
+            "date": "2026-09-15",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -767,7 +792,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/business/finance/french-central-bank-trims-growth-outlook-demand-softens-2026-09-15/",
-            "date": null
+            "date": "2026-09-15",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -780,7 +806,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/business/french-finance-ministry-expects-record-debt-2026-reaching-nearly-120-gdp-2026-09-19/",
-            "date": null
+            "date": "2026-09-19",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -793,7 +820,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/business/french-fishermen-blockade-ports-budget-fight-looms-2026-09-17/",
-            "date": null
+            "date": "2026-09-17",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -832,7 +860,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/business/world-at-work/french-labour-strike-reduces-delivery-capacity-dunkirk-lng-terminal-2026-09-15/",
-            "date": null
+            "date": "2026-09-15",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         }
@@ -853,7 +882,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/india/moodys-raises-india-fy27-gdp-growth-forecast-7-middle-east-resilience-2026-09-18/",
-            "date": null
+            "date": "2026-09-18",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -866,7 +896,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/india/indias-august-merchandise-trade-deficit-2686-billion-2026-09-15/",
-            "date": null
+            "date": "2026-09-15",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -892,7 +923,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/india/wipros-ai-push-frees-capacity-equivalent-20000-workers-cto-says-2026-09-10/",
-            "date": null
+            "date": "2026-09-10",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -905,7 +937,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/india/moodys-raises-india-fy27-gdp-growth-forecast-7-middle-east-resilience-2026-09-18/",
-            "date": null
+            "date": "2026-09-18",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -918,7 +951,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/india/moodys-raises-india-fy27-gdp-growth-forecast-7-middle-east-resilience-2026-09-18/",
-            "date": null
+            "date": "2026-09-18",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -931,7 +965,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/india/indian-rupee-eyes-portfolio-flows-oil-prices-bonds-face-liquidity-drain-2026-09-21/",
-            "date": null
+            "date": "2026-09-21",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -944,7 +979,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/india/indias-august-unemployment-rate-5-yy-2026-09-15/",
-            "date": null
+            "date": "2026-09-15",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -957,7 +993,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/india/indias-august-retail-inflation-482-on-year-2026-09-14/",
-            "date": null
+            "date": "2026-09-14",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -970,7 +1007,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/us/trump-extends-restrictions-h-1b-non-immigrant-visa-program-by-another-year-2026-09-18/",
-            "date": null
+            "date": "2026-09-18",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         }
@@ -991,7 +1029,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/asia-pacific/thai-monetary-policy-very-very-accommodative-no-change-growth-outlook-central-2026-09-17/",
-            "date": null
+            "date": "2026-09-17",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1004,7 +1043,8 @@
           "source": {
             "name": "Bank of Thailand",
             "url": "https://www.bot.or.th/en/news-and-media/news/news-20260731.html",
-            "date": null
+            "date": "2026-07-31",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1017,7 +1057,8 @@
           "source": {
             "name": "Bank of Thailand",
             "url": "https://www.bot.or.th/en/news-and-media/news/news-20260831.html",
-            "date": null
+            "date": "2026-08-31",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1056,7 +1097,8 @@
           "source": {
             "name": "Bank of Thailand",
             "url": "https://www.bot.or.th/en/news-and-media/news/news-20260831.html",
-            "date": null
+            "date": "2026-08-31",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1082,7 +1124,8 @@
           "source": {
             "name": "Bank of Thailand",
             "url": "https://www.bot.or.th/en/news-and-media/news/news-20260731.html",
-            "date": null
+            "date": "2026-07-31",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1095,7 +1138,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/asia-pacific/thai-monetary-policy-very-very-accommodative-no-change-growth-outlook-central-2026-09-17/",
-            "date": null
+            "date": "2026-09-17",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1108,7 +1152,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/asia-pacific/thailand-cut-visa-free-stay-30-days-tourists-93-countries-2026-05-13/",
-            "date": null
+            "date": "2026-05-13",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         }
@@ -1129,7 +1174,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/china/chinas-factory-output-growth-quickens-in-august-retail-sales-slow-2026-09-15/",
-            "date": null
+            "date": "2026-09-15",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1142,7 +1188,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/china/china-home-prices-keep-falling-property-slump-drags-2026-09-15/",
-            "date": null
+            "date": "2026-09-15",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1207,7 +1254,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/business/finance/china-slows-humanoid-robot-ipo-rush-hype-outruns-reality-2026-09-21/",
-            "date": null
+            "date": "2026-09-21",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1220,7 +1268,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/asia-pacific/chinese-youth-jobless-rate-hits-one-year-high-august-2026-09-17/",
-            "date": null
+            "date": "2026-09-17",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1233,7 +1282,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/china/china-home-prices-keep-falling-property-slump-drags-2026-09-15/",
-            "date": null
+            "date": "2026-09-15",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1246,7 +1296,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/china/chinas-factory-output-growth-quickens-in-august-retail-sales-slow-2026-09-15/",
-            "date": null
+            "date": "2026-09-15",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         }
@@ -1267,7 +1318,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/markets/europe/germanys-iw-institute-triples-growth-forecast-2026-2026-09-20/",
-            "date": null
+            "date": "2026-09-20",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1293,7 +1345,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/markets/europe/germanys-iw-institute-triples-growth-forecast-2026-2026-09-20/",
-            "date": null
+            "date": "2026-09-20",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1306,7 +1359,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/china/volkswagen-porsche-holding-cut-outlook-2026-09-18/",
-            "date": null
+            "date": "2026-09-18",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1319,7 +1373,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/markets/europe/germanys-iw-institute-triples-growth-forecast-2026-2026-09-20/",
-            "date": null
+            "date": "2026-09-20",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1332,7 +1387,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/markets/europe/germanys-iw-institute-triples-growth-forecast-2026-2026-09-20/",
-            "date": null
+            "date": "2026-09-20",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         },
@@ -1384,7 +1440,8 @@
           "source": {
             "name": "Reuters",
             "url": "https://www.reuters.com/world/europe/five-takeaways-germanys-regional-elections-2026-09-21/",
-            "date": null
+            "date": "2026-09-21",
+            "date_origin": "url_path"
           },
           "checked_date": "2026-09-21"
         }
@@ -3051,145 +3108,6 @@
     }
   ],
   "potential_countries": [
-    {
-      "id": "poland",
-      "name": "Polonya",
-      "flag": "🇵🇱",
-      "selection_reason": "Büyüme, AB fonları ve hızlanan yerli savunma üretimi aynı anda yeni kapasite oluşturuyor.",
-      "items": [
-        {
-          "signal_id": "economic_engine",
-          "signal": "Büyüme ve Ekonomi",
-          "development": "Polonya GSYH'si 2026 ikinci çeyreğinde yıllık %3,9 büyüdü.",
-          "impact": "Euro Bölgesi çevresindeki zayıflığa rağmen iç ekonomik momentumun güçlü kalması ülkeyi yakın dönem büyüme açısından izlenmeye değer kılıyor.",
-          "status": "positive",
-          "source": {
-            "name": "Statistics Poland",
-            "url": "https://stat.gov.pl/en/release-calendar/08-2026.html",
-            "date": "2026-08-31"
-          },
-          "checked_date": "2026-09-21"
-        },
-        {
-          "signal_id": "critical_dependencies",
-          "signal": "Dışa Bağımlılık",
-          "development": "Ağustos enflasyonu %3,4'e yükselirken ulaştırma fiyatları aylık %3,5 arttı ve hükümet petrol şirketlerine yeni windfall tax planladı.",
-          "impact": "Küresel enerji şokları hanelere ve mali politikaya hızlı yansıdığı için enerji maliyeti temel kırılganlık olmaya devam ediyor.",
-          "status": "negative",
-          "source": {
-            "name": "Statistics Poland",
-            "url": "https://stat.gov.pl/en/topics/prices-trade/price-indices/consumer-price-indices-in-august-2026%2C2%2C178.html",
-            "date": "2026-09-15"
-          },
-          "checked_date": "2026-09-21"
-        },
-        {
-          "signal_id": "external_demand_trade",
-          "signal": "İhracat ve Dış Ticaret",
-          "development": "Karpat Sekizlisi girişiminde bölgesel ticaret, enerji ve lojistik için 1 milyar avronun üzerinde 50'den fazla anlaşma imzalandı.",
-          "impact": "Yeni bölgesel bağlantılar Polonya'nın Orta ve Doğu Avrupa ticaret koridorlarındaki rolünü güçlendirebilir.",
-          "status": "positive",
-          "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/world/europe/zelenskiy-launches-carpathian-eight-initiative-trade-security-2026-09-18/",
-            "date": "2026-09-18"
-          },
-          "checked_date": "2026-09-21"
-        },
-        {
-          "signal_id": "strategic_industry_transition",
-          "signal": "Sektörel Dönüşüm",
-          "development": "Polonya'nın yerli ve Orta Avrupa kaynaklı savunma tedariki 2022'den beri yaklaşık dört katına çıkarak 30,4 milyar zloty'e ulaştı.",
-          "impact": "Savunma harcamasının yerli üretime yönelmesi teknoloji transferi, üretim kapasitesi ve bölgesel tedarik zinciri oluşturuyor.",
-          "status": "positive",
-          "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/business/aerospace-defense/poland-pivots-home-grown-defence-production-it-builds-europes-biggest-army-2026-09-01/",
-            "date": "2026-09-01"
-          },
-          "checked_date": "2026-09-21"
-        },
-        {
-          "signal_id": "investment_capital_direction",
-          "signal": "Yatırım ve Sermaye",
-          "development": "Polonya Haziran'da Ulusal Toparlanma Planı kapsamında yaklaşık 31 milyar zloty yeni AB kaynağı aldı.",
-          "impact": "Enerji, dijitalleşme, sağlık ve savunmaya yönelen AB sermayesi yatırım döngüsünü destekliyor.",
-          "status": "positive",
-          "source": {
-            "name": "Polonya Kalkınma Fonları Bakanlığı",
-            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
-            "date": "2026-06-02"
-          },
-          "checked_date": "2026-09-21"
-        },
-        {
-          "signal_id": "fiscal_infrastructure_capacity",
-          "signal": "Kamu Maliyesi ve Altyapı",
-          "development": "Yeni AB fonları enerji altyapısı, temiz ulaşım, su yönetimi ve dijital dönüşüm projelerine tahsis ediliyor.",
-          "impact": "Büyük ölçekli dış finansman altyapı modernizasyonu için mali alanı genişletiyor.",
-          "status": "positive",
-          "source": {
-            "name": "Polonya Kalkınma Fonları Bakanlığı",
-            "url": "https://www.gov.pl/web/funds-regional-policy/poland-has-received-almost-pln-31-billion-from-the-nrp",
-            "date": "2026-06-02"
-          },
-          "checked_date": "2026-09-21"
-        },
-        {
-          "signal_id": "execution_adaptability",
-          "signal": "Yönetim ve Uygulama Gücü",
-          "development": "Yakıt fiyatlarını hafifletmek için planlanan windfall tax daha önce cumhurbaşkanlığı vetosuna takıldı ve hukuki süreç devam ediyor.",
-          "impact": "Ekonomik müdahale kapasitesi güçlü olsa da yürütme ile diğer kurumlar arasındaki sürtüşme uygulama hızını sınırlayabiliyor.",
-          "status": "neutral",
-          "source": {
-            "name": "Reuters",
-            "url": "https://www.reuters.com/business/energy/poland-revive-windfall-tax-oil-firms-use-proceeds-fuel-price-relief-2026-09-15/",
-            "date": "2026-09-15"
-          },
-          "checked_date": "2026-09-21"
-        },
-        {
-          "signal_id": "demography_labour",
-          "signal": "Nüfus ve İş Gücü",
-          "development": "2026 ilk yarısında nüfus yıllık 159 bin azalırken net uluslararası göç pozitif kaldı; ikinci çeyrek LFS işsizliği %3,2 oldu.",
-          "impact": "Çok düşük işsizlik avantaj sağlarken doğal nüfus kaybı uzun vadeli iş gücü arzını baskılıyor.",
-          "status": "neutral",
-          "source": {
-            "name": "Statistics Poland",
-            "url": "https://ssgk.stat.gov.pl/index_en.html",
-            "date": "2026-08-25"
-          },
-          "checked_date": "2026-09-21"
-        },
-        {
-          "signal_id": "household_relocation",
-          "signal": "Yaşam Maliyeti ve Konut",
-          "development": "Temmuzda reel şirket ücretleri yıllık %3,6 artarken Ocak-Temmuz'da tamamlanan konut sayısı %3,2 yükseldi.",
-          "impact": "Reel ücret artışı ve yeni konut arzı yaşam maliyeti baskısını kısmen dengeliyor.",
-          "status": "positive",
-          "source": {
-            "name": "Statistics Poland",
-            "url": "https://ssgk.stat.gov.pl/index_en.html",
-            "date": "2026-08-25"
-          },
-          "checked_date": "2026-09-21"
-        },
-        {
-          "signal_id": "social_political_talent",
-          "signal": "Toplumsal İklim ve Yetenek Çekimi",
-          "development": "Nüfus küçülmesine rağmen 2026 ilk yarısında net uluslararası göç pozitif kaldı.",
-          "impact": "Göçün iş gücü açığını kısmen telafi etmesi uluslararası yetenek açısından yapısal bir ihtiyaç ve fırsat alanı yaratıyor.",
-          "status": "positive",
-          "source": {
-            "name": "Statistics Poland",
-            "url": "https://ssgk.stat.gov.pl/index_en.html",
-            "date": "2026-08-25"
-          },
-          "checked_date": "2026-09-21"
-        }
-      ],
-      "map_id": "616"
-    },
     {
       "id": "vietnam",
       "name": "Vietnam",
