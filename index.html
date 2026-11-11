@@ -1536,15 +1536,19 @@ async function trendCiz(c){
     });
   }catch(e){if(token===trendRenderToken){root.className="error";root.textContent=`${u.historyError}: ${e.message}`;}}
 }
+let monthRequestToken=0;
 async function ayiYukle(id){
+  if(!aylikIndeks)return;
+  const token=++monthRequestToken;
   const idx=aylikIndeks.months.findIndex(x=>x.id===id),m=aylikIndeks.months[idx];
   if(!m)return;
-  veri=await ayVerisiGetir(m);arsivCache.set(arsivAnahtari(m.id),veri);
-  oncekiVeri=null;
-  if(idx>0){
-    const p=aylikIndeks.months[idx-1];
-    oncekiVeri=await ayVerisiGetir(p);arsivCache.set(arsivAnahtari(p.id),oncekiVeri);
-  }
+  const nextData=await ayVerisiGetir(m);
+  const previous=idx>0?aylikIndeks.months[idx-1]:null;
+  const previousData=previous?await ayVerisiGetir(previous):null;
+  if(token!==monthRequestToken)return;
+  veri=nextData;oncekiVeri=previousData;
+  arsivCache.set(arsivAnahtari(m.id),veri);
+  if(previous)arsivCache.set(arsivAnahtari(previous.id),previousData);
   const list=ayUlkeListesi(veri);
   if(!seciliUlke||!list.some(c=>c.id===seciliUlke))seciliUlke=list[0]?.id;
   statikMetinleriGuncelle();
@@ -1556,6 +1560,7 @@ async function baslat(){
   try{
     const langSel=document.getElementById("languageSelect");
     langSel.value=dil;
+    langSel.disabled=true;
     statikMetinleriGuncelle();
     aylikIndeks=await jsonGetir("./data/index.json");
     yilAySecenekleriniGuncelle(aylikIndeks.latest);
@@ -1569,7 +1574,7 @@ async function baslat(){
     await ayiYukle(aylikIndeks.latest);
   }catch(e){
     document.getElementById("signalTable").innerHTML=`<div class="error">${ui().dataError} ${e.message}</div>`;
-  }
+  }finally{document.getElementById("languageSelect").disabled=false;}
 }
 document.getElementById("languageSelect").addEventListener("change",async e=>{
   const yeni=e.target.value;
@@ -1577,6 +1582,7 @@ document.getElementById("languageSelect").addEventListener("change",async e=>{
   dil=yeni;
   localStorage.setItem("countryRadarLanguage",dil);
   if(location.search||location.hash)history.replaceState(null,"",location.pathname);
+  if(!aylikIndeks||!veri){statikMetinleriGuncelle();return;}
   const seciliAy=document.getElementById("monthSelect").value||aylikIndeks.latest;
   arsivCache.clear();
   statikMetinleriGuncelle();
@@ -1589,6 +1595,7 @@ document.getElementById("signalPrev").addEventListener("click",()=>sinyalKaydir(
 document.getElementById("signalNext").addEventListener("click",()=>sinyalKaydir(1));
 
 document.getElementById("viewToggle").addEventListener("click",()=>{
+  if(!veri)return;
   gorunum=gorunum==="list"?"map":"list";
   gorunumuGuncelle();
 });
@@ -1596,6 +1603,7 @@ gorunumuGuncelle();
 
 document.querySelectorAll(".tab").forEach(btn=>{
   btn.addEventListener("click",()=>{
+    if(!veri)return;
     document.querySelectorAll(".tab").forEach(b=>b.classList.remove("active"));
     btn.classList.add("active");mod=btn.dataset.mode;
     const list=ayUlkeListesi(veri);seciliUlke=list[0]?.id||null;
