@@ -8,7 +8,7 @@ on:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -16,3 +16,11 @@ jobs:
           node-version: "22"
       - name: Check data integrity and component contract
         run: node scripts/validate-radar.mjs
+      - name: Install browser test dependency
+        run: npm install --no-save --no-audit --no-fund playwright@1.65.0
+      - name: Install Chromium and runtime libraries
+        run: npx playwright install --with-deps chromium
+      - name: Verify mobile, desktop and languages in Chromium
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/radar-http.log 2>&1 &
+          RADAR_BASE_URL=http://127.0.0.1:8765 node scripts/smoke-ui.mjs
