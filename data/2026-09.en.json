@@ -5,10 +5,11 @@
     "month": "September 2026",
     "updated": "21 September 2026",
     "checked_date": "2026-09-21",
-    "country_count": 22,
+    "country_count": 24,
     "signal_count": 10,
     "method": "10 fixed signal families; country-specific current development, impact and direction indicator.",
-    "potential_country_count": 4
+    "potential_country_count": 4,
+    "historical_coverage_note": "No independently verified historical signal entry is available for this month."
   },
   "countries": [
     {
@@ -3103,6 +3104,284 @@
             "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
           },
           "checked_date": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "map_id": "392",
+      "historical_unavailable": true,
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Growth & Economy",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "External Dependencies",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Exports & Foreign Trade",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sector Transformation",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investment & Capital",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Public Finances & Infrastructure",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Governance & Execution",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Population & Labor",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Cost of Living & Housing",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Social Climate & Talent Attraction",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        }
+      ]
+    },
+    {
+      "id": "hungary",
+      "name": "Hungary",
+      "flag": "🇭🇺",
+      "map_id": "348",
+      "historical_unavailable": true,
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Growth & Economy",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "External Dependencies",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Exports & Foreign Trade",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sector Transformation",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investment & Capital",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Public Finances & Infrastructure",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Governance & Execution",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Population & Labor",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Cost of Living & Housing",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Social Climate & Talent Attraction",
+          "development": "No independently verified historical signal entry is available for this month.",
+          "impact": "The signal direction has not been assessed without verified evidence.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
         }
       ]
     }
