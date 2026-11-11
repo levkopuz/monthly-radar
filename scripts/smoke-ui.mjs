@@ -19,8 +19,12 @@ try {
       assert.equal(response.status(),200,"Website must respond 200");
       await page.locator(".trend-layout").waitFor({timeout:35000});
       await page.locator("#languageSelect").selectOption(lang);
-      await page.waitForFunction(v=>document.getElementById("languageSelect").value===v,lang);
-      await page.locator(".trend-month-grid .trend-cell").first().waitFor();
+      const countryName={tr:"İngiltere",en:"United Kingdom",de:"Vereinigtes Königreich"}[lang];
+      await page.waitForFunction(name=>
+        document.querySelector("#trendCountry")?.textContent.includes(name) &&
+        document.querySelectorAll(".trend-month-grid .trend-cell").length===360 &&
+        document.querySelectorAll(".country-chip[data-country-id]").length===24,
+        countryName,{timeout:35000});
       assert.equal(await page.locator(".country-chip[data-country-id]").count(),24,"Latest main-country count");
       assert.equal(await page.locator(".trend-month-grid .trend-cell").count(),360,"36 months × 10 signals");
 
