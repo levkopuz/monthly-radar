@@ -5,7 +5,7 @@
     "start": "2023-11",
     "end": "2026-09"
   },
-  "note": "Historical reconstruction. Each month uses only source vintages published on or before that month's end; statuses are a qualitative Country Radar synthesis, not contemporaneous scores originally published by the sources.",
+  "note": "Historical reconstruction. Each month uses only source vintages published on or before that month's end; statuses are a qualitative Country Radar synthesis, not contemporaneous scores originally published by the sources. Japan and Hungary are included as explicit unavailable records for earlier periods; these are not neutral assessments.",
   "periods": [
     {
       "id": "A",
@@ -542,6 +542,44 @@
         "E": "pppppppnnp",
         "F": "pppppppnnp"
       }
+    },
+    {
+      "id": "japan",
+      "names": {
+        "tr": "Japonya",
+        "en": "Japan",
+        "de": "Japan"
+      },
+      "flag": "🇯🇵",
+      "map_id": "392",
+      "periods": {
+        "A": "uuuuuuuuuu",
+        "B": "uuuuuuuuuu",
+        "C": "uuuuuuuuuu",
+        "D": "uuuuuuuuuu",
+        "E": "uuuuuuuuuu",
+        "F": "uuuuuuuuuu"
+      },
+      "coverage_note": "Historical signal status unavailable: no independently validated country-specific period records."
+    },
+    {
+      "id": "hungary",
+      "names": {
+        "tr": "Macaristan",
+        "en": "Hungary",
+        "de": "Ungarn"
+      },
+      "flag": "🇭🇺",
+      "map_id": "348",
+      "periods": {
+        "A": "uuuuuuuuuu",
+        "B": "uuuuuuuuuu",
+        "C": "uuuuuuuuuu",
+        "D": "uuuuuuuuuu",
+        "E": "uuuuuuuuuu",
+        "F": "uuuuuuuuuu"
+      },
+      "coverage_note": "Historical signal status unavailable: no independently validated country-specific period records."
     }
   ]
 }
