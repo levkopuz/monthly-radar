@@ -5,10 +5,11 @@
     "month": "September 2026",
     "updated": "21. September 2026",
     "checked_date": "2026-09-21",
-    "country_count": 22,
+    "country_count": 24,
     "signal_count": 10,
     "method": "10 feste Signalfamilien; länderspezifische aktuelle Entwicklung, Auswirkung und Richtungsindikator.",
-    "potential_country_count": 4
+    "potential_country_count": 4,
+    "historical_coverage_note": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor."
   },
   "countries": [
     {
@@ -3103,6 +3104,284 @@
             "url": "https://datacatalog.worldbank.org/search/dataset/0038026/worldwide-governance-indicators"
           },
           "checked_date": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "map_id": "392",
+      "historical_unavailable": true,
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        }
+      ]
+    },
+    {
+      "id": "hungary",
+      "name": "Ungarn",
+      "flag": "🇭🇺",
+      "map_id": "348",
+      "historical_unavailable": true,
+      "items": [
+        {
+          "signal_id": "economic_engine",
+          "signal": "Wachstum & Wirtschaft",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "critical_dependencies",
+          "signal": "Externe Abhängigkeiten",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "external_demand_trade",
+          "signal": "Export & Außenhandel",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "strategic_industry_transition",
+          "signal": "Sektoraler Wandel",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "investment_capital_direction",
+          "signal": "Investitionen & Kapital",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "fiscal_infrastructure_capacity",
+          "signal": "Staatsfinanzen & Infrastruktur",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "execution_adaptability",
+          "signal": "Steuerung & Umsetzung",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "demography_labour",
+          "signal": "Bevölkerung & Arbeitsmarkt",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "household_relocation",
+          "signal": "Lebenshaltungskosten & Wohnen",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
+        },
+        {
+          "signal_id": "social_political_talent",
+          "signal": "Gesellschaftliches Klima & Talentgewinnung",
+          "development": "Für diesen Monat liegt kein unabhängig verifizierter historischer Signaleintrag vor.",
+          "impact": "Ohne verifizierte Belege wurde die Signalrichtung nicht bewertet.",
+          "status": "unavailable",
+          "source": {
+            "name": "",
+            "url": "",
+            "date": null
+          },
+          "checked_date": null
         }
       ]
     }
